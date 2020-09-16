@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Getting Started </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Getting Started ">
+    <meta name="generator" content="docfx 2.45.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="getting-started">Getting Started</h1>
+
+<p>This document should describe what steps you need to follow, to fire up your own operator.
+This covers the basic installation of the operator sdk, further
+clarification / documentation is in the specific sections.</p>
+<p>The operator sdk is designed as an extension to the Generic Web Host of Microsoft.
+So you&#39;ll find method extensions for <code>IServiceCollection</code> and <code>IApplicationBuilder</code>
+that activate and start the operator as a web application.</p>
+<h2 id="terminology">Terminology</h2>
+<ul>
+<li><code>Entity</code>: A (C#) model - an entity - that is used in kubernetes. An entity defines the CRD.</li>
+<li><code>Resource</code>: An instance of an entity.</li>
+<li><code>Controller</code> or <code>ResourceController</code>: An instance of a resource manager
+that is responsible for the reconciliation of an entity.</li>
+<li><code>Finalizer</code>: A special resource manager that is attached to the entity
+via identifier. The finalizers are called when an entity is deleted
+on kubernetes.</li>
+<li><code>CRD</code>: CustomResourceDefinition of kubernetes.</li>
+</ul>
+<h2 id="how-to-start">How To Start</h2>
+<p>Using this sdk is pretty simple:</p>
+<ul>
+<li>Create a new asp.net core application</li>
+<li>Install the package</li>
+<li>Replace the <code>Run</code> function in <code>Program.ch</code></li>
+<li>Add the operator to <code>Startup.cs</code></li>
+<li>Write entities / controllers / finalizers</li>
+<li>Go.</li>
+</ul>
+<h3 id="install-the-package">Install the package</h3>
+<pre><code class="lang-bash">dotnet add package KubeOps
+</code></pre><p>That&#39;s it.</p>
+<h3 id="replace-the-run-function">Replace the Run function</h3>
+<p>In your <code>Program.cs</code> file, replace <code>Build().Run()</code> with <code>Build().RunOperator(args)</code>:</p>
+<pre><code class="lang-csharp">public static class Program
+{
+    public static Task&lt;int&gt; Main(string[] args) =&gt;
+        CreateHostBuilder(args)
+            .Build()
+            .RunOperator(args);
+
+    private static IHostBuilder CreateHostBuilder(string[] args) =&gt;
+        Host.CreateDefaultBuilder(args)
+            .ConfigureWebHostDefaults(webBuilder =&gt;
+            {
+                webBuilder.UseStartup&lt;Startup&gt;();
+            });
+}
+</code></pre><p>This adds the default commands (like run and the code generators) to your app.
+The commands are documentated under the <a href="commands.html">CLI Commands</a> section.</p>
+<p><em>NOTE</em>: Technically you don&#39;t need to replace the function,
+but if you don&#39;t, the other commands like yaml generation
+are not available to your application. Also namespaceing is not
+possible via run flag.</p>
+<h3 id="add-to-startupcs">Add to Startup.cs</h3>
+<pre><code class="lang-csharp">public class Startup
+{
+    /* snip... */
+    public void ConfigureServices(IServiceCollection services)
+    {
+        services
+            .AddKubernetesOperator() // config / settings here
+            .AddFinalizer&lt;TestEntityFinalizer&gt;()
+            .AddController&lt;TestController&gt;(); // Add controllers / finalizers / ... here
+
+        // your own dependencies
+        services.AddTransient&lt;IManager, TestManager.TestManager&gt;();
+    }
+
+    public void Configure(IApplicationBuilder app)
+    {
+        // fire up the mappings for the operator
+        // this is technically not needed, but if you don&#39;t call this
+        // function, the healthchecks and mappings are not
+        // mapped to endpoints (therefore not callable)
+        app.UseKubernetesOperator();
+    }
+}
+</code></pre><h2 id="next-steps">Next Steps</h2>
+<p>When you completed this basic setup instructions, the next steps may or may not include:</p>
+<ul>
+<li>Writting entities: Find more under <a href="entities.html">&quot;Entites&quot;</a></li>
+<li>Writting controllers: Find more under <a href="controller.html">&quot;Controller&quot;</a></li>
+<li>Writting finalizer: Find more under <a href="finalizer.html">&quot;Finalizer&quot;</a></li>
+<li>Customize the operator: Find more under <a href="settings.html">&quot;Settings&quot;</a></li>
+<li>Writting and using utilities: Find more under <a href="utilities.html">&quot;Utilities&quot;</a></li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/docs/docs/getting_started.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

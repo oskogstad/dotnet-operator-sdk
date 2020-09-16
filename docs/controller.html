@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Resource Controller </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Resource Controller ">
+    <meta name="generator" content="docfx 2.45.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="resource-controller">Resource Controller</h1>
+
+<p>When reconciling an entity of a <code>CRD</code>, one needs a controller to do so.
+The controller abstracts the general complexity of watching the
+resources on kubernetes and queueing of the events.</p>
+<p>When you want to create a controller for your (or any) entity,
+read the following instructions.</p>
+<h2 id="controller-instance">Controller instance</h2>
+<p>After you created a custom entity (like described in <a href="entities.html">Entities</a>)
+or you want to reconcile a given entity (from the <code>k8s.Models</code> namespace,
+e.g. <code>V1ConfigMap</code>) you need to create a controller class
+as you would do for a MVC or API controller in asp.net.</p>
+<p>Make sure you have the correct baseclass (<code>ResourceControllerBase&lt;TEntity&gt;</code>)
+inherited.</p>
+<pre><code class="lang-csharp">[EntityRbac(typeof(MyCustomEntity), Verbs = RbacVerb.All)]
+public class FooCtrl: ResourceControllerBase&lt;MyCustomEntity&gt;
+{
+    protected override async Task&lt;TimeSpan?&gt; Created(MyCustomEntity resource){}
+    // overwrite other methods here.
+    // Possible overwrites:
+    // &quot;Created&quot; (i.e. when the operator sees the entity for the first time),
+    // &quot;Updated&quot; (i.e. when the operator knows the entity and it was updated),
+    // &quot;NotModified&quot; (i.e. when nothing changed but a timed requeue happend),
+    // &quot;StatusModified&quot; (i.e. when only the status was updated),
+    // &quot;Deleted&quot; (i.e. when the entity was deleted and all finalizers are done)
+}
+</code></pre><h2 id="rbac">RBAC</h2>
+<p>The entity rbac attribute does provide the information needed about
+your needed roles / rules.</p>
+<p>Please configure all entities you want to manage with your
+operator with such an entity rbac attribute. This generates
+the rbac roles / role bindings for your operator and therefore
+for the service account associated with the operator.</p>
+<h3 id="entityrbac">EntityRbac</h3>
+<p>The first possibility to configure rbac is with the <a class="xref" href="../kube-ops/KubeOps.Operator.Rbac.EntityRbacAttribute.html">EntityRbacAttribute</a>
+attribute.</p>
+<p>The attribute takes a list of types (your entities) and a <a class="xref" href="../kube-ops/KubeOps.Operator.Rbac.RbacVerb.html">RbacVerb</a>.
+The verbs define the needed permissions and roles for the given entity(ies).</p>
+<p>You can configure multiple types and even well known entities from kubernetes:</p>
+<pre><code class="lang-csharp">[EntityRbac(typeof(MyCustomEntity), Verbs = RbacVerb.All)]
+[EntityRbac(typeof(V1Secret), typeof(V1ConfigMap), Verbs = RbacVerb.Get | RbacVerb.List)]
+[EntityRbac(typeof(V1Deployment), Verbs = RbacVerb.Create | RbacVerb.Update | RbacVerb.Delete)]
+</code></pre><h3 id="genericrbac">GenericRbac</h3>
+<p>The second possibility is to use the <a class="xref" href="../kube-ops/KubeOps.Operator.Rbac.GenericRbacAttribute.html">GenericRbacAttribute</a>
+which takes a list of api groups, resources, versions and a selection of
+<a class="xref" href="../kube-ops/KubeOps.Operator.Rbac.RbacVerb.html">RbacVerb</a>s to configure the rbac rule:</p>
+<pre><code class="lang-csharp">[GenericRbac(Groups = new {&quot;apps&quot;}, Resources = new {&quot;deployments&quot;}, Verbs = RbacVerb.All)]
+</code></pre><h2 id="requeue">Requeue</h2>
+<p>The controller&#39;s methods have a return value of <code>TimeSpan?</code>. This means
+you can return a time span to automatically requeue the event for the
+given entity. If requeued and nothing changed, it will most likely fire
+a <code>NotModified</code> event.</p>
+<p>This can be useful if you want to periodically check for a database
+connection for example and update the status of a given entity.</p>
+<p>If you return <code>null</code> in an event function, the event is not requeued.
+If you return a timespan, then the event is requeued after this delay.</p>
+<pre><code class="lang-csharp">/* snip... */
+protected override async Task&lt;TimeSpan?&gt; Created(MyCustomEntity resource){
+    // do something useful.
+    return TimeSpan.FromSeconds(15); // This will retrigger an event in 15 secs.
+}
+
+protected override async Task&lt;TimeSpan?&gt; Updated(MyCustomEntity resource){
+    // do something useful.
+    return null; // This will not retrigger an event.
+}
+/* snip... */
+</code></pre><h2 id="error-requeue">Error requeue</h2>
+<p>If the function throws an error, the event is requeued with an exponential backoff.</p>
+<pre><code class="lang-csharp">/* snip... */
+protected override async Task&lt;TimeSpan?&gt; Created(MyCustomEntity resource){
+    // do something useful.
+    throw new Exception(&quot;¯\\_(ツ)_/¯&quot;);
+}
+/* snip... */
+</code></pre><p>The backoff function is defined as follows:</p>
+<pre><code class="lang-csharp">private const double MaxRetrySeconds = 64;
+private TimeSpan ExponentialBackoff(int retryCount) =&gt; TimeSpan
+            .FromSeconds(Math.Min(Math.Pow(2, retryCount), MaxRetrySeconds))
+            .Add(TimeSpan.FromMilliseconds(_rnd.Next(0, 1000)));
+</code></pre><p>Which means with each retry, it calculates the new backoff time
+to a max of 64. To each of those times a random number of milliseconds
+is added to add a certain fuzzying.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/docs/docs/controller.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
