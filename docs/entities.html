@@ -8,7 +8,7 @@
     <title>Custom Entities </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Custom Entities ">
-    <meta name="generator" content="docfx 2.45.1.0">
+    <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -143,7 +143,92 @@ for the result, the crd generator also searches for those files and a possible
 }
 </code></pre><p>In the example above, the text of the attribute will be used.</p>
 <h2 id="multi-version-entities">Multi-Version Entities</h2>
-<p>TODO</p>
+<p>You can manage multiple versions of a CRD. To do this, you can
+specify multiple classes as the &quot;same&quot; entity, but with different
+versions.</p>
+<p>To mark multiple entity classes as the same, use exactly the same
+<code>Kind</code>, <code>Group</code> and <code>PluralName</code> and differ in the <code>ApiVersion</code>
+field.</p>
+<h3 id="version-priority">Version priority</h3>
+<p>Sorting of the versions - and therefore determine which version should be
+the <code>storage version</code> if no attribute is provided - is done by the kubernetes
+rules of version sorting:</p>
+<p>Priority is as follows:</p>
+<ol>
+<li>General Availablility (i.e. <code>V1Foobar</code>, <code>V2Foobar</code>)</li>
+<li>Beta Versions (i.e. <code>V11Beta13Foobar</code>, <code>V2Beta1Foobar</code>)</li>
+<li>Alpha Versions (i.e. <code>V16Alpha13Foobar</code>, <code>V2Alpha10Foobar</code>)</li>
+</ol>
+<p>The parsed version numbers are sorted by the highest first, this leads
+to the following version priority:</p>
+<pre><code>- v10
+- v2
+- v1
+- v11beta2
+- v10beta3
+- v3beta1
+- v12alpha1
+- v11alpha2
+</code></pre><p>This can also be seen over at the
+<a href="https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definition-versioning/#version-priority">kubernetes documentation</a>.</p>
+<h3 id="storage-version">Storage Version</h3>
+<p>To determine the storage version (of which one, and exactly one must exist)
+the system uses the previously mentioned version priority to sort the versions
+and picking the first one. To overwrite this behaviour, use the
+<a class="xref" href="../kube-ops/KubeOps.Operator.Entities.Annotations.StorageVersionAttribute.html">StorageVersionAttribute</a>.</p>
+<p><em>WARNING</em>: when multiple <a class="xref" href="../kube-ops/KubeOps.Operator.Entities.Annotations.StorageVersionAttribute.html">StorageVersionAttribute</a>
+are used, the system will thrown an error.</p>
+<p>To overwrite a version, annotate the entity class with the attribute.</p>
+<h3 id="example">Example</h3>
+<h4 id="normal-multiversion-entity">Normal multiversion entity</h4>
+<p>Note that the <code>Kind</code></p>
+<pre><code class="lang-csharp">[KubernetesEntity(
+    ApiVersion = &quot;v1&quot;,
+    Kind = &quot;VersionedEntity&quot;,
+    Group = &quot;kubeops.test.dev&quot;,
+    PluralName = &quot;versionedentities&quot;)]
+public class V1VersionedEntity : CustomKubernetesEntity
+{
+}
+
+[KubernetesEntity(
+    ApiVersion = &quot;v1beta1&quot;,
+    Kind = &quot;VersionedEntity&quot;,
+    Group = &quot;kubeops.test.dev&quot;,
+    PluralName = &quot;versionedentities&quot;)]
+public class V1Beta1VersionedEntity : CustomKubernetesEntity
+{
+}
+
+[KubernetesEntity(
+    ApiVersion = &quot;v1alpha1&quot;,
+    Kind = &quot;VersionedEntity&quot;,
+    Group = &quot;kubeops.test.dev&quot;,
+    PluralName = &quot;versionedentities&quot;)]
+public class V1Alpha1VersionedEntity : CustomKubernetesEntity
+{
+}
+</code></pre><p>The resulting storage version would be <code>V1VersionedEntity</code>.</p>
+<h4 id="overwritten-storage-version-multiversion-entity">Overwritten storage version multiversion entity</h4>
+<pre><code class="lang-csharp">[KubernetesEntity(
+    ApiVersion = &quot;v1&quot;,
+    Kind = &quot;AttributeVersionedEntity&quot;,
+    Group = &quot;kubeops.test.dev&quot;,
+    PluralName = &quot;attributeversionedentities&quot;)]
+[StorageVersion]
+public class V1AttributeVersionedEntity : CustomKubernetesEntity
+{
+}
+
+[KubernetesEntity(
+    ApiVersion = &quot;v2&quot;,
+    Kind = &quot;AttributeVersionedEntity&quot;,
+    Group = &quot;kubeops.test.dev&quot;,
+    PluralName = &quot;attributeversionedentities&quot;)]
+public class V2AttributeVersionedEntity : CustomKubernetesEntity
+{
+}
+</code></pre><p>The resulting storage version would be <code>V1AttributeVersionedEntity</code>.</p>
 </article>
           </div>
           
@@ -152,7 +237,7 @@ for the result, the crd generator also searches for those files and a possible
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/docs/docs/entities.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/docs/docs/docs/docs/entities.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

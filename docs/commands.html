@@ -8,7 +8,7 @@
     <title>Commands </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Commands ">
-    <meta name="generator" content="docfx 2.45.1.0">
+    <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -67,13 +67,34 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
+<h1 id="commands">Commands</h1>
 
-<p>TODO</p>
-<h2 id="commands">Commands</h2>
-<p>There are default command line commands which you can see when using
+<p>For convenience, there are multiple commands added to the executable
+of your operator (through the KubeOps package).</p>
+<p>Those are implemented with the <a href="https://github.com/natemcmaster/CommandLineUtils">CommandLineUtils by NateMcMaster</a>.</p>
+<p>you can see the help and overview when using
 <code>dotnet run -- --help</code> in your project. As you can see, you can run
 multiple commands. Some of them do install / uninstall your crds in
 your currently selected kubernetes cluster or can generate code.</p>
+<h2 id="available-commands">Available Commands</h2>
+<p>Here is a brief overview over the available commands:
+<em>NOTE</em>: all commands assume either the compiled dll or you using
+<code>dotnet run --</code> as prepended command.</p>
+<ul>
+<li><code>` (empty): runs the operator (normal</code>dotnet run`)</li>
+<li><code>version</code>: prints the version information for the actual connected kubernetes cluster</li>
+<li><code>install</code>: install the CRDs for the solution into the cluster</li>
+<li><code>uninstall</code>: uninstall the CRDs for the solution from the cluster</li>
+<li><code>generator</code>: entry command for generator commands (i.e. has subcommands), all commands
+output their result to the stdout or the given output path<ul>
+<li><code>crd</code>: Generate the CRDs</li>
+<li><code>docker</code>: Generate the dockerfile</li>
+<li><code>installer</code>: Generate the installer files (i.e. kustomization yaml) for the operator</li>
+<li><code>operator</code>: Generate the deployment for the operator</li>
+<li><code>rbac</code>: Generate the needed rbac roles / role bindings for the operator</li>
+</ul>
+</li>
+</ul>
 <h2 id="code-generation">Code Generation</h2>
 <p>When installing this package, you also reference the default Targets and Props
 that come with the build engine. While building the following elements are generated:</p>
@@ -87,6 +108,8 @@ that come with the build engine. While building the following elements are gener
 <p>The dockerfile will not be overwritten in case you have custom elements in there.
 The installation files won&#39;t be overwritten as well if you have custom elements in there.</p>
 <p>To regenerate those two elements, just delete them and rebuild your code.</p>
+<p>For the customization on those build targets, header over to the
+<a href="ms_build.html">ms build extensions</a>.</p>
 </article>
           </div>
           
@@ -95,7 +118,7 @@ The installation files won&#39;t be overwritten as well if you have custom eleme
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/docs/docs/commands.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/docs/docs/docs/docs/commands.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

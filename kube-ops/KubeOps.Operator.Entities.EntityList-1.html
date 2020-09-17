@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class EntityList&lt;T&gt;
    ">
-    <meta name="generator" content="docfx 2.45.1.0">
+    <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -78,13 +78,48 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">EntityList&lt;T&gt;</span></div>
+    <div class="level1"><span class="xref">k8s.KubernetesObject</span></div>
+    <div class="level2"><span class="xref">EntityList&lt;T&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">k8s.IKubernetesObject</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">k8s.KubernetesObject.ApiVersion</span>
+    </div>
+    <div>
+      <span class="xref">k8s.KubernetesObject.Kind</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="KubeOps.Operator.Entities.html">KubeOps.Operator.Entities</a></h6>
   <h6><strong>Assembly</strong>: KubeOps.dll</h6>
   <h5 id="KubeOps_Operator_Entities_EntityList_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EntityList&lt;T&gt; : KubernetesObject where T : IKubernetesObject&lt;V1ObjectMeta&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class EntityList&lt;T&gt; : KubernetesObject, IKubernetesObject where T : IKubernetesObject&lt;V1ObjectMeta&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -105,10 +140,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Entities_EntityList_1_Items.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Entities.EntityList%601.Items%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/docs/docs/apiSpec/new?filename=KubeOps_Operator_Entities_EntityList_1_Items.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Entities.EntityList%601.Items%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Entities/EntityList.cs/#L12">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/docs/docs/src/KubeOps/Operator/Entities/EntityList.cs/#L12">View Source</a>
   </span>
   <a id="KubeOps_Operator_Entities_EntityList_1_Items_" data-uid="KubeOps.Operator.Entities.EntityList`1.Items*"></a>
   <h4 id="KubeOps_Operator_Entities_EntityList_1_Items" data-uid="KubeOps.Operator.Entities.EntityList`1.Items">Items</h4>
@@ -128,17 +163,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IList</span>&lt;T&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Entities_EntityList_1_Metadata.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Entities.EntityList%601.Metadata%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/docs/docs/apiSpec/new?filename=KubeOps_Operator_Entities_EntityList_1_Metadata.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Entities.EntityList%601.Metadata%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Entities/EntityList.cs/#L10">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/docs/docs/src/KubeOps/Operator/Entities/EntityList.cs/#L10">View Source</a>
   </span>
   <a id="KubeOps_Operator_Entities_EntityList_1_Metadata_" data-uid="KubeOps.Operator.Entities.EntityList`1.Metadata*"></a>
   <h4 id="KubeOps_Operator_Entities_EntityList_1_Metadata" data-uid="KubeOps.Operator.Entities.EntityList`1.Metadata">Metadata</h4>
@@ -158,11 +193,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">V1ListMeta</span></td>
+        <td><span class="xref">k8s.Models.V1ListMeta</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">k8s.IKubernetesObject</span>
+  </div>
 </article>
           </div>
           
@@ -171,10 +210,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Entities_EntityList_1.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Entities.EntityList%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/new/docs/docs/apiSpec/new?filename=KubeOps_Operator_Entities_EntityList_1.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Entities.EntityList%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Entities/EntityList.cs/#L7" class="contribution-link">View Source</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/docs/docs/src/KubeOps/Operator/Entities/EntityList.cs/#L7" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

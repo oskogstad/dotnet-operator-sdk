@@ -13,11 +13,11 @@ references:
   commentId: T:KubeOps.Operator.ApplicationBuilderExtensions
   fullName: KubeOps.Operator.ApplicationBuilderExtensions
   nameWithType: ApplicationBuilderExtensions
-- uid: KubeOps.Operator.ApplicationBuilderExtensions.UseKubernetesOperator(IApplicationBuilder)
+- uid: KubeOps.Operator.ApplicationBuilderExtensions.UseKubernetesOperator(Microsoft.AspNetCore.Builder.IApplicationBuilder)
   name: UseKubernetesOperator(IApplicationBuilder)
-  href: kube-ops/KubeOps.Operator.ApplicationBuilderExtensions.html#KubeOps_Operator_ApplicationBuilderExtensions_UseKubernetesOperator_IApplicationBuilder_
-  commentId: M:KubeOps.Operator.ApplicationBuilderExtensions.UseKubernetesOperator(IApplicationBuilder)
-  fullName: KubeOps.Operator.ApplicationBuilderExtensions.UseKubernetesOperator(IApplicationBuilder)
+  href: kube-ops/KubeOps.Operator.ApplicationBuilderExtensions.html#KubeOps_Operator_ApplicationBuilderExtensions_UseKubernetesOperator_Microsoft_AspNetCore_Builder_IApplicationBuilder_
+  commentId: M:KubeOps.Operator.ApplicationBuilderExtensions.UseKubernetesOperator(Microsoft.AspNetCore.Builder.IApplicationBuilder)
+  fullName: KubeOps.Operator.ApplicationBuilderExtensions.UseKubernetesOperator(Microsoft.AspNetCore.Builder.IApplicationBuilder)
   nameWithType: ApplicationBuilderExtensions.UseKubernetesOperator(IApplicationBuilder)
 - uid: KubeOps.Operator.ApplicationBuilderExtensions.UseKubernetesOperator*
   name: UseKubernetesOperator
@@ -77,15 +77,15 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddHealthCheck
   nameWithType: IOperatorBuilder.AddHealthCheck
-- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddHealthCheck``1(System.Nullable{System.String})
-  name: AddHealthCheck<THealthCheck>(Nullable<String>)
-  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddHealthCheck__1_System_Nullable_System_String__
-  commentId: M:KubeOps.Operator.Builder.IOperatorBuilder.AddHealthCheck``1(System.Nullable{System.String})
-  name.vb: AddHealthCheck(Of THealthCheck)(Nullable(Of String))
-  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddHealthCheck<THealthCheck>(System.Nullable<System.String>)
-  fullName.vb: KubeOps.Operator.Builder.IOperatorBuilder.AddHealthCheck(Of THealthCheck)(System.Nullable(Of System.String))
-  nameWithType: IOperatorBuilder.AddHealthCheck<THealthCheck>(Nullable<String>)
-  nameWithType.vb: IOperatorBuilder.AddHealthCheck(Of THealthCheck)(Nullable(Of String))
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddHealthCheck``1(System.String)
+  name: AddHealthCheck<THealthCheck>(String)
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddHealthCheck__1_System_String_
+  commentId: M:KubeOps.Operator.Builder.IOperatorBuilder.AddHealthCheck``1(System.String)
+  name.vb: AddHealthCheck(Of THealthCheck)(String)
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddHealthCheck<THealthCheck>(System.String)
+  fullName.vb: KubeOps.Operator.Builder.IOperatorBuilder.AddHealthCheck(Of THealthCheck)(System.String)
+  nameWithType: IOperatorBuilder.AddHealthCheck<THealthCheck>(String)
+  nameWithType.vb: IOperatorBuilder.AddHealthCheck(Of THealthCheck)(String)
 - uid: KubeOps.Operator.Builder.IOperatorBuilder.AddLivenessCheck*
   name: AddLivenessCheck
   href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddLivenessCheck_
@@ -93,15 +93,15 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddLivenessCheck
   nameWithType: IOperatorBuilder.AddLivenessCheck
-- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddLivenessCheck``1(System.Nullable{System.String})
-  name: AddLivenessCheck<TLivenessCheck>(Nullable<String>)
-  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddLivenessCheck__1_System_Nullable_System_String__
-  commentId: M:KubeOps.Operator.Builder.IOperatorBuilder.AddLivenessCheck``1(System.Nullable{System.String})
-  name.vb: AddLivenessCheck(Of TLivenessCheck)(Nullable(Of String))
-  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddLivenessCheck<TLivenessCheck>(System.Nullable<System.String>)
-  fullName.vb: KubeOps.Operator.Builder.IOperatorBuilder.AddLivenessCheck(Of TLivenessCheck)(System.Nullable(Of System.String))
-  nameWithType: IOperatorBuilder.AddLivenessCheck<TLivenessCheck>(Nullable<String>)
-  nameWithType.vb: IOperatorBuilder.AddLivenessCheck(Of TLivenessCheck)(Nullable(Of String))
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddLivenessCheck``1(System.String)
+  name: AddLivenessCheck<TLivenessCheck>(String)
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddLivenessCheck__1_System_String_
+  commentId: M:KubeOps.Operator.Builder.IOperatorBuilder.AddLivenessCheck``1(System.String)
+  name.vb: AddLivenessCheck(Of TLivenessCheck)(String)
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddLivenessCheck<TLivenessCheck>(System.String)
+  fullName.vb: KubeOps.Operator.Builder.IOperatorBuilder.AddLivenessCheck(Of TLivenessCheck)(System.String)
+  nameWithType: IOperatorBuilder.AddLivenessCheck<TLivenessCheck>(String)
+  nameWithType.vb: IOperatorBuilder.AddLivenessCheck(Of TLivenessCheck)(String)
 - uid: KubeOps.Operator.Builder.IOperatorBuilder.AddReadinessCheck*
   name: AddReadinessCheck
   href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddReadinessCheck_
@@ -109,15 +109,15 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddReadinessCheck
   nameWithType: IOperatorBuilder.AddReadinessCheck
-- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddReadinessCheck``1(System.Nullable{System.String})
-  name: AddReadinessCheck<TReadinessCheck>(Nullable<String>)
-  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddReadinessCheck__1_System_Nullable_System_String__
-  commentId: M:KubeOps.Operator.Builder.IOperatorBuilder.AddReadinessCheck``1(System.Nullable{System.String})
-  name.vb: AddReadinessCheck(Of TReadinessCheck)(Nullable(Of String))
-  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddReadinessCheck<TReadinessCheck>(System.Nullable<System.String>)
-  fullName.vb: KubeOps.Operator.Builder.IOperatorBuilder.AddReadinessCheck(Of TReadinessCheck)(System.Nullable(Of System.String))
-  nameWithType: IOperatorBuilder.AddReadinessCheck<TReadinessCheck>(Nullable<String>)
-  nameWithType.vb: IOperatorBuilder.AddReadinessCheck(Of TReadinessCheck)(Nullable(Of String))
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddReadinessCheck``1(System.String)
+  name: AddReadinessCheck<TReadinessCheck>(String)
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddReadinessCheck__1_System_String_
+  commentId: M:KubeOps.Operator.Builder.IOperatorBuilder.AddReadinessCheck``1(System.String)
+  name.vb: AddReadinessCheck(Of TReadinessCheck)(String)
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddReadinessCheck<TReadinessCheck>(System.String)
+  fullName.vb: KubeOps.Operator.Builder.IOperatorBuilder.AddReadinessCheck(Of TReadinessCheck)(System.String)
+  nameWithType: IOperatorBuilder.AddReadinessCheck<TReadinessCheck>(String)
+  nameWithType.vb: IOperatorBuilder.AddReadinessCheck(Of TReadinessCheck)(String)
 - uid: KubeOps.Operator.Builder.IOperatorBuilder.Services
   name: Services
   href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_Services
@@ -317,24 +317,24 @@ references:
   fullName.vb: KubeOps.Operator.Client.IKubernetesClient.Delete(Of TResource)(TResource())
   nameWithType: IKubernetesClient.Delete<TResource>(TResource[])
   nameWithType.vb: IKubernetesClient.Delete(Of TResource)(TResource())
-- uid: KubeOps.Operator.Client.IKubernetesClient.Delete``1(IEnumerable{``0})
+- uid: KubeOps.Operator.Client.IKubernetesClient.Delete``1(System.Collections.Generic.IEnumerable{``0})
   name: Delete<TResource>(IEnumerable<TResource>)
-  href: kube-ops/KubeOps.Operator.Client.IKubernetesClient.html#KubeOps_Operator_Client_IKubernetesClient_Delete__1_IEnumerable___0__
-  commentId: M:KubeOps.Operator.Client.IKubernetesClient.Delete``1(IEnumerable{``0})
+  href: kube-ops/KubeOps.Operator.Client.IKubernetesClient.html#KubeOps_Operator_Client_IKubernetesClient_Delete__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:KubeOps.Operator.Client.IKubernetesClient.Delete``1(System.Collections.Generic.IEnumerable{``0})
   name.vb: Delete(Of TResource)(IEnumerable(Of TResource))
-  fullName: KubeOps.Operator.Client.IKubernetesClient.Delete<TResource>(IEnumerable<TResource>)
-  fullName.vb: KubeOps.Operator.Client.IKubernetesClient.Delete(Of TResource)(IEnumerable(Of TResource))
+  fullName: KubeOps.Operator.Client.IKubernetesClient.Delete<TResource>(System.Collections.Generic.IEnumerable<TResource>)
+  fullName.vb: KubeOps.Operator.Client.IKubernetesClient.Delete(Of TResource)(System.Collections.Generic.IEnumerable(Of TResource))
   nameWithType: IKubernetesClient.Delete<TResource>(IEnumerable<TResource>)
   nameWithType.vb: IKubernetesClient.Delete(Of TResource)(IEnumerable(Of TResource))
-- uid: KubeOps.Operator.Client.IKubernetesClient.Delete``1(System.String,System.Nullable{System.String})
-  name: Delete<TResource>(String, Nullable<String>)
-  href: kube-ops/KubeOps.Operator.Client.IKubernetesClient.html#KubeOps_Operator_Client_IKubernetesClient_Delete__1_System_String_System_Nullable_System_String__
-  commentId: M:KubeOps.Operator.Client.IKubernetesClient.Delete``1(System.String,System.Nullable{System.String})
-  name.vb: Delete(Of TResource)(String, Nullable(Of String))
-  fullName: KubeOps.Operator.Client.IKubernetesClient.Delete<TResource>(System.String, System.Nullable<System.String>)
-  fullName.vb: KubeOps.Operator.Client.IKubernetesClient.Delete(Of TResource)(System.String, System.Nullable(Of System.String))
-  nameWithType: IKubernetesClient.Delete<TResource>(String, Nullable<String>)
-  nameWithType.vb: IKubernetesClient.Delete(Of TResource)(String, Nullable(Of String))
+- uid: KubeOps.Operator.Client.IKubernetesClient.Delete``1(System.String,System.String)
+  name: Delete<TResource>(String, String)
+  href: kube-ops/KubeOps.Operator.Client.IKubernetesClient.html#KubeOps_Operator_Client_IKubernetesClient_Delete__1_System_String_System_String_
+  commentId: M:KubeOps.Operator.Client.IKubernetesClient.Delete``1(System.String,System.String)
+  name.vb: Delete(Of TResource)(String, String)
+  fullName: KubeOps.Operator.Client.IKubernetesClient.Delete<TResource>(System.String, System.String)
+  fullName.vb: KubeOps.Operator.Client.IKubernetesClient.Delete(Of TResource)(System.String, System.String)
+  nameWithType: IKubernetesClient.Delete<TResource>(String, String)
+  nameWithType.vb: IKubernetesClient.Delete(Of TResource)(String, String)
 - uid: KubeOps.Operator.Client.IKubernetesClient.Get*
   name: Get
   href: kube-ops/KubeOps.Operator.Client.IKubernetesClient.html#KubeOps_Operator_Client_IKubernetesClient_Get_
@@ -342,15 +342,15 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.Client.IKubernetesClient.Get
   nameWithType: IKubernetesClient.Get
-- uid: KubeOps.Operator.Client.IKubernetesClient.Get``1(System.String,System.Nullable{System.String})
-  name: Get<TResource>(String, Nullable<String>)
-  href: kube-ops/KubeOps.Operator.Client.IKubernetesClient.html#KubeOps_Operator_Client_IKubernetesClient_Get__1_System_String_System_Nullable_System_String__
-  commentId: M:KubeOps.Operator.Client.IKubernetesClient.Get``1(System.String,System.Nullable{System.String})
-  name.vb: Get(Of TResource)(String, Nullable(Of String))
-  fullName: KubeOps.Operator.Client.IKubernetesClient.Get<TResource>(System.String, System.Nullable<System.String>)
-  fullName.vb: KubeOps.Operator.Client.IKubernetesClient.Get(Of TResource)(System.String, System.Nullable(Of System.String))
-  nameWithType: IKubernetesClient.Get<TResource>(String, Nullable<String>)
-  nameWithType.vb: IKubernetesClient.Get(Of TResource)(String, Nullable(Of String))
+- uid: KubeOps.Operator.Client.IKubernetesClient.Get``1(System.String,System.String)
+  name: Get<TResource>(String, String)
+  href: kube-ops/KubeOps.Operator.Client.IKubernetesClient.html#KubeOps_Operator_Client_IKubernetesClient_Get__1_System_String_System_String_
+  commentId: M:KubeOps.Operator.Client.IKubernetesClient.Get``1(System.String,System.String)
+  name.vb: Get(Of TResource)(String, String)
+  fullName: KubeOps.Operator.Client.IKubernetesClient.Get<TResource>(System.String, System.String)
+  fullName.vb: KubeOps.Operator.Client.IKubernetesClient.Get(Of TResource)(System.String, System.String)
+  nameWithType: IKubernetesClient.Get<TResource>(String, String)
+  nameWithType.vb: IKubernetesClient.Get(Of TResource)(String, String)
 - uid: KubeOps.Operator.Client.IKubernetesClient.GetCurrentNamespace(System.String)
   name: GetCurrentNamespace(String)
   href: kube-ops/KubeOps.Operator.Client.IKubernetesClient.html#KubeOps_Operator_Client_IKubernetesClient_GetCurrentNamespace_System_String_
@@ -384,24 +384,24 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.Client.IKubernetesClient.List
   nameWithType: IKubernetesClient.List
-- uid: KubeOps.Operator.Client.IKubernetesClient.List``1(System.Nullable{System.String},KubeOps.Operator.Client.LabelSelectors.ILabelSelector[])
-  name: List<TResource>(Nullable<String>, ILabelSelector[])
-  href: kube-ops/KubeOps.Operator.Client.IKubernetesClient.html#KubeOps_Operator_Client_IKubernetesClient_List__1_System_Nullable_System_String__KubeOps_Operator_Client_LabelSelectors_ILabelSelector___
-  commentId: M:KubeOps.Operator.Client.IKubernetesClient.List``1(System.Nullable{System.String},KubeOps.Operator.Client.LabelSelectors.ILabelSelector[])
-  name.vb: List(Of TResource)(Nullable(Of String), ILabelSelector())
-  fullName: KubeOps.Operator.Client.IKubernetesClient.List<TResource>(System.Nullable<System.String>, KubeOps.Operator.Client.LabelSelectors.ILabelSelector[])
-  fullName.vb: KubeOps.Operator.Client.IKubernetesClient.List(Of TResource)(System.Nullable(Of System.String), KubeOps.Operator.Client.LabelSelectors.ILabelSelector())
-  nameWithType: IKubernetesClient.List<TResource>(Nullable<String>, ILabelSelector[])
-  nameWithType.vb: IKubernetesClient.List(Of TResource)(Nullable(Of String), ILabelSelector())
-- uid: KubeOps.Operator.Client.IKubernetesClient.List``1(System.Nullable{System.String},System.Nullable{System.String})
-  name: List<TResource>(Nullable<String>, Nullable<String>)
-  href: kube-ops/KubeOps.Operator.Client.IKubernetesClient.html#KubeOps_Operator_Client_IKubernetesClient_List__1_System_Nullable_System_String__System_Nullable_System_String__
-  commentId: M:KubeOps.Operator.Client.IKubernetesClient.List``1(System.Nullable{System.String},System.Nullable{System.String})
-  name.vb: List(Of TResource)(Nullable(Of String), Nullable(Of String))
-  fullName: KubeOps.Operator.Client.IKubernetesClient.List<TResource>(System.Nullable<System.String>, System.Nullable<System.String>)
-  fullName.vb: KubeOps.Operator.Client.IKubernetesClient.List(Of TResource)(System.Nullable(Of System.String), System.Nullable(Of System.String))
-  nameWithType: IKubernetesClient.List<TResource>(Nullable<String>, Nullable<String>)
-  nameWithType.vb: IKubernetesClient.List(Of TResource)(Nullable(Of String), Nullable(Of String))
+- uid: KubeOps.Operator.Client.IKubernetesClient.List``1(System.String,KubeOps.Operator.Client.LabelSelectors.ILabelSelector[])
+  name: List<TResource>(String, ILabelSelector[])
+  href: kube-ops/KubeOps.Operator.Client.IKubernetesClient.html#KubeOps_Operator_Client_IKubernetesClient_List__1_System_String_KubeOps_Operator_Client_LabelSelectors_ILabelSelector___
+  commentId: M:KubeOps.Operator.Client.IKubernetesClient.List``1(System.String,KubeOps.Operator.Client.LabelSelectors.ILabelSelector[])
+  name.vb: List(Of TResource)(String, ILabelSelector())
+  fullName: KubeOps.Operator.Client.IKubernetesClient.List<TResource>(System.String, KubeOps.Operator.Client.LabelSelectors.ILabelSelector[])
+  fullName.vb: KubeOps.Operator.Client.IKubernetesClient.List(Of TResource)(System.String, KubeOps.Operator.Client.LabelSelectors.ILabelSelector())
+  nameWithType: IKubernetesClient.List<TResource>(String, ILabelSelector[])
+  nameWithType.vb: IKubernetesClient.List(Of TResource)(String, ILabelSelector())
+- uid: KubeOps.Operator.Client.IKubernetesClient.List``1(System.String,System.String)
+  name: List<TResource>(String, String)
+  href: kube-ops/KubeOps.Operator.Client.IKubernetesClient.html#KubeOps_Operator_Client_IKubernetesClient_List__1_System_String_System_String_
+  commentId: M:KubeOps.Operator.Client.IKubernetesClient.List``1(System.String,System.String)
+  name.vb: List(Of TResource)(String, String)
+  fullName: KubeOps.Operator.Client.IKubernetesClient.List<TResource>(System.String, System.String)
+  fullName.vb: KubeOps.Operator.Client.IKubernetesClient.List(Of TResource)(System.String, System.String)
+  nameWithType: IKubernetesClient.List<TResource>(String, String)
+  nameWithType.vb: IKubernetesClient.List(Of TResource)(String, String)
 - uid: KubeOps.Operator.Client.IKubernetesClient.Save*
   name: Save
   href: kube-ops/KubeOps.Operator.Client.IKubernetesClient.html#KubeOps_Operator_Client_IKubernetesClient_Save_
@@ -441,13 +441,13 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.Client.IKubernetesClient.UpdateStatus
   nameWithType: IKubernetesClient.UpdateStatus
-- uid: KubeOps.Operator.Client.IKubernetesClient.UpdateStatus``1(IStatus{``0})
+- uid: KubeOps.Operator.Client.IKubernetesClient.UpdateStatus``1(k8s.IStatus{``0})
   name: UpdateStatus<TStatus>(IStatus<TStatus>)
-  href: kube-ops/KubeOps.Operator.Client.IKubernetesClient.html#KubeOps_Operator_Client_IKubernetesClient_UpdateStatus__1_IStatus___0__
-  commentId: M:KubeOps.Operator.Client.IKubernetesClient.UpdateStatus``1(IStatus{``0})
+  href: kube-ops/KubeOps.Operator.Client.IKubernetesClient.html#KubeOps_Operator_Client_IKubernetesClient_UpdateStatus__1_k8s_IStatus___0__
+  commentId: M:KubeOps.Operator.Client.IKubernetesClient.UpdateStatus``1(k8s.IStatus{``0})
   name.vb: UpdateStatus(Of TStatus)(IStatus(Of TStatus))
-  fullName: KubeOps.Operator.Client.IKubernetesClient.UpdateStatus<TStatus>(IStatus<TStatus>)
-  fullName.vb: KubeOps.Operator.Client.IKubernetesClient.UpdateStatus(Of TStatus)(IStatus(Of TStatus))
+  fullName: KubeOps.Operator.Client.IKubernetesClient.UpdateStatus<TStatus>(k8s.IStatus<TStatus>)
+  fullName.vb: KubeOps.Operator.Client.IKubernetesClient.UpdateStatus(Of TStatus)(k8s.IStatus(Of TStatus))
   nameWithType: IKubernetesClient.UpdateStatus<TStatus>(IStatus<TStatus>)
   nameWithType.vb: IKubernetesClient.UpdateStatus(Of TStatus)(IStatus(Of TStatus))
 - uid: KubeOps.Operator.Client.IKubernetesClient.Watch*
@@ -457,15 +457,15 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.Client.IKubernetesClient.Watch
   nameWithType: IKubernetesClient.Watch
-- uid: KubeOps.Operator.Client.IKubernetesClient.Watch``1(TimeSpan,Action{WatchEventType,``0},System.Nullable{Action{Exception}},System.Nullable{Action},System.Nullable{System.String},CancellationToken)
-  name: Watch<TResource>(TimeSpan, Action<WatchEventType, TResource>, Nullable<Action<Exception>>, Nullable<Action>, Nullable<String>, CancellationToken)
-  href: kube-ops/KubeOps.Operator.Client.IKubernetesClient.html#KubeOps_Operator_Client_IKubernetesClient_Watch__1_TimeSpan_Action_WatchEventType___0__System_Nullable_Action_Exception___System_Nullable_Action__System_Nullable_System_String__CancellationToken_
-  commentId: M:KubeOps.Operator.Client.IKubernetesClient.Watch``1(TimeSpan,Action{WatchEventType,``0},System.Nullable{Action{Exception}},System.Nullable{Action},System.Nullable{System.String},CancellationToken)
-  name.vb: Watch(Of TResource)(TimeSpan, Action(Of WatchEventType, TResource), Nullable(Of Action(Of Exception)), Nullable(Of Action), Nullable(Of String), CancellationToken)
-  fullName: KubeOps.Operator.Client.IKubernetesClient.Watch<TResource>(TimeSpan, Action<WatchEventType, TResource>, System.Nullable<Action<Exception>>, System.Nullable<Action>, System.Nullable<System.String>, CancellationToken)
-  fullName.vb: KubeOps.Operator.Client.IKubernetesClient.Watch(Of TResource)(TimeSpan, Action(Of WatchEventType, TResource), System.Nullable(Of Action(Of Exception)), System.Nullable(Of Action), System.Nullable(Of System.String), CancellationToken)
-  nameWithType: IKubernetesClient.Watch<TResource>(TimeSpan, Action<WatchEventType, TResource>, Nullable<Action<Exception>>, Nullable<Action>, Nullable<String>, CancellationToken)
-  nameWithType.vb: IKubernetesClient.Watch(Of TResource)(TimeSpan, Action(Of WatchEventType, TResource), Nullable(Of Action(Of Exception)), Nullable(Of Action), Nullable(Of String), CancellationToken)
+- uid: KubeOps.Operator.Client.IKubernetesClient.Watch``1(System.TimeSpan,System.Action{k8s.WatchEventType,``0},System.Action{System.Exception},System.Action,System.String,System.Threading.CancellationToken)
+  name: Watch<TResource>(TimeSpan, Action<WatchEventType, TResource>, Action<Exception>, Action, String, CancellationToken)
+  href: kube-ops/KubeOps.Operator.Client.IKubernetesClient.html#KubeOps_Operator_Client_IKubernetesClient_Watch__1_System_TimeSpan_System_Action_k8s_WatchEventType___0__System_Action_System_Exception__System_Action_System_String_System_Threading_CancellationToken_
+  commentId: M:KubeOps.Operator.Client.IKubernetesClient.Watch``1(System.TimeSpan,System.Action{k8s.WatchEventType,``0},System.Action{System.Exception},System.Action,System.String,System.Threading.CancellationToken)
+  name.vb: Watch(Of TResource)(TimeSpan, Action(Of WatchEventType, TResource), Action(Of Exception), Action, String, CancellationToken)
+  fullName: KubeOps.Operator.Client.IKubernetesClient.Watch<TResource>(System.TimeSpan, System.Action<k8s.WatchEventType, TResource>, System.Action<System.Exception>, System.Action, System.String, System.Threading.CancellationToken)
+  fullName.vb: KubeOps.Operator.Client.IKubernetesClient.Watch(Of TResource)(System.TimeSpan, System.Action(Of k8s.WatchEventType, TResource), System.Action(Of System.Exception), System.Action, System.String, System.Threading.CancellationToken)
+  nameWithType: IKubernetesClient.Watch<TResource>(TimeSpan, Action<WatchEventType, TResource>, Action<Exception>, Action, String, CancellationToken)
+  nameWithType.vb: IKubernetesClient.Watch(Of TResource)(TimeSpan, Action(Of WatchEventType, TResource), Action(Of Exception), Action, String, CancellationToken)
 - uid: KubeOps.Operator.Client.LabelSelectors
   name: KubeOps.Operator.Client.LabelSelectors
   href: kube-ops/KubeOps.Operator.Client.LabelSelectors.html
@@ -670,19 +670,6 @@ references:
   commentId: T:KubeOps.Operator.Controller.IResourceController
   fullName: KubeOps.Operator.Controller.IResourceController
   nameWithType: IResourceController
-- uid: KubeOps.Operator.Controller.IResourceController.Running
-  name: Running
-  href: kube-ops/KubeOps.Operator.Controller.IResourceController.html#KubeOps_Operator_Controller_IResourceController_Running
-  commentId: P:KubeOps.Operator.Controller.IResourceController.Running
-  fullName: KubeOps.Operator.Controller.IResourceController.Running
-  nameWithType: IResourceController.Running
-- uid: KubeOps.Operator.Controller.IResourceController.Running*
-  name: Running
-  href: kube-ops/KubeOps.Operator.Controller.IResourceController.html#KubeOps_Operator_Controller_IResourceController_Running_
-  commentId: Overload:KubeOps.Operator.Controller.IResourceController.Running
-  isSpec: "True"
-  fullName: KubeOps.Operator.Controller.IResourceController.Running
-  nameWithType: IResourceController.Running
 - uid: KubeOps.Operator.Controller.IResourceController`1
   name: IResourceController<TEntity>
   href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html
@@ -788,25 +775,6 @@ references:
   fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).Deleted
   nameWithType: ResourceControllerBase<TEntity>.Deleted
   nameWithType.vb: ResourceControllerBase(Of TEntity).Deleted
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.KubeOps#Operator#Controller#IResourceController#Running
-  name: IResourceController.Running
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_KubeOps_Operator_Controller_IResourceController_Running
-  commentId: P:KubeOps.Operator.Controller.ResourceControllerBase`1.KubeOps#Operator#Controller#IResourceController#Running
-  name.vb: KubeOps.Operator.Controller.IResourceController.Running
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.KubeOps.Operator.Controller.IResourceController.Running
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).KubeOps.Operator.Controller.IResourceController.Running
-  nameWithType: ResourceControllerBase<TEntity>.IResourceController.Running
-  nameWithType.vb: ResourceControllerBase(Of TEntity).KubeOps.Operator.Controller.IResourceController.Running
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.KubeOps#Operator#Controller#IResourceController#Running*
-  name: IResourceController.Running
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_KubeOps_Operator_Controller_IResourceController_Running_
-  commentId: Overload:KubeOps.Operator.Controller.ResourceControllerBase`1.KubeOps#Operator#Controller#IResourceController#Running
-  isSpec: "True"
-  name.vb: KubeOps.Operator.Controller.IResourceController.Running
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.KubeOps.Operator.Controller.IResourceController.Running
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).KubeOps.Operator.Controller.IResourceController.Running
-  nameWithType: ResourceControllerBase<TEntity>.IResourceController.Running
-  nameWithType.vb: ResourceControllerBase(Of TEntity).KubeOps.Operator.Controller.IResourceController.Running
 - uid: KubeOps.Operator.Controller.ResourceControllerBase`1.NotModified(`0)
   name: NotModified(TEntity)
   href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_NotModified__0_
@@ -824,12 +792,12 @@ references:
   fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).NotModified
   nameWithType: ResourceControllerBase<TEntity>.NotModified
   nameWithType.vb: ResourceControllerBase(Of TEntity).NotModified
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.StartAsync(CancellationToken)
+- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.StartAsync(System.Threading.CancellationToken)
   name: StartAsync(CancellationToken)
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_StartAsync_CancellationToken_
-  commentId: M:KubeOps.Operator.Controller.ResourceControllerBase`1.StartAsync(CancellationToken)
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.StartAsync(CancellationToken)
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).StartAsync(CancellationToken)
+  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_StartAsync_System_Threading_CancellationToken_
+  commentId: M:KubeOps.Operator.Controller.ResourceControllerBase`1.StartAsync(System.Threading.CancellationToken)
+  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.StartAsync(System.Threading.CancellationToken)
+  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).StartAsync(System.Threading.CancellationToken)
   nameWithType: ResourceControllerBase<TEntity>.StartAsync(CancellationToken)
   nameWithType.vb: ResourceControllerBase(Of TEntity).StartAsync(CancellationToken)
 - uid: KubeOps.Operator.Controller.ResourceControllerBase`1.StartAsync*
@@ -858,12 +826,12 @@ references:
   fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).StatusModified
   nameWithType: ResourceControllerBase<TEntity>.StatusModified
   nameWithType.vb: ResourceControllerBase(Of TEntity).StatusModified
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.StopAsync(CancellationToken)
+- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.StopAsync(System.Threading.CancellationToken)
   name: StopAsync(CancellationToken)
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_StopAsync_CancellationToken_
-  commentId: M:KubeOps.Operator.Controller.ResourceControllerBase`1.StopAsync(CancellationToken)
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.StopAsync(CancellationToken)
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).StopAsync(CancellationToken)
+  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_StopAsync_System_Threading_CancellationToken_
+  commentId: M:KubeOps.Operator.Controller.ResourceControllerBase`1.StopAsync(System.Threading.CancellationToken)
+  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.StopAsync(System.Threading.CancellationToken)
+  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).StopAsync(System.Threading.CancellationToken)
   nameWithType: ResourceControllerBase<TEntity>.StopAsync(CancellationToken)
   nameWithType.vb: ResourceControllerBase(Of TEntity).StopAsync(CancellationToken)
 - uid: KubeOps.Operator.Controller.ResourceControllerBase`1.StopAsync*
@@ -948,15 +916,12 @@ references:
   commentId: T:KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute
   fullName: KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute
   nameWithType: ExternalDocsAttribute
-- uid: KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.#ctor(System.String,System.Nullable{System.String})
-  name: ExternalDocsAttribute(String, Nullable<String>)
-  href: kube-ops/KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.html#KubeOps_Operator_Entities_Annotations_ExternalDocsAttribute__ctor_System_String_System_Nullable_System_String__
-  commentId: M:KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.#ctor(System.String,System.Nullable{System.String})
-  name.vb: ExternalDocsAttribute(String, Nullable(Of String))
-  fullName: KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.ExternalDocsAttribute(System.String, System.Nullable<System.String>)
-  fullName.vb: KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.ExternalDocsAttribute(System.String, System.Nullable(Of System.String))
-  nameWithType: ExternalDocsAttribute.ExternalDocsAttribute(String, Nullable<String>)
-  nameWithType.vb: ExternalDocsAttribute.ExternalDocsAttribute(String, Nullable(Of String))
+- uid: KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.#ctor(System.String,System.String)
+  name: ExternalDocsAttribute(String, String)
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.html#KubeOps_Operator_Entities_Annotations_ExternalDocsAttribute__ctor_System_String_System_String_
+  commentId: M:KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.#ctor(System.String,System.String)
+  fullName: KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.ExternalDocsAttribute(System.String, System.String)
+  nameWithType: ExternalDocsAttribute.ExternalDocsAttribute(String, String)
 - uid: KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.#ctor*
   name: ExternalDocsAttribute
   href: kube-ops/KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.html#KubeOps_Operator_Entities_Annotations_ExternalDocsAttribute__ctor_
@@ -1382,13 +1347,13 @@ references:
   commentId: T:KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions
   fullName: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions
   nameWithType: KubernetesObjectExtensions
-- uid: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeObjectReference(IKubernetesObject{V1ObjectMeta})
+- uid: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeObjectReference(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta})
   name: MakeObjectReference(IKubernetesObject<V1ObjectMeta>)
-  href: kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html#KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_MakeObjectReference_IKubernetesObject_V1ObjectMeta__
-  commentId: M:KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeObjectReference(IKubernetesObject{V1ObjectMeta})
+  href: kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html#KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_MakeObjectReference_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__
+  commentId: M:KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeObjectReference(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta})
   name.vb: MakeObjectReference(IKubernetesObject(Of V1ObjectMeta))
-  fullName: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeObjectReference(IKubernetesObject<V1ObjectMeta>)
-  fullName.vb: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeObjectReference(IKubernetesObject(Of V1ObjectMeta))
+  fullName: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeObjectReference(k8s.IKubernetesObject<k8s.Models.V1ObjectMeta>)
+  fullName.vb: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeObjectReference(k8s.IKubernetesObject(Of k8s.Models.V1ObjectMeta))
   nameWithType: KubernetesObjectExtensions.MakeObjectReference(IKubernetesObject<V1ObjectMeta>)
   nameWithType.vb: KubernetesObjectExtensions.MakeObjectReference(IKubernetesObject(Of V1ObjectMeta))
 - uid: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeObjectReference*
@@ -1398,13 +1363,13 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeObjectReference
   nameWithType: KubernetesObjectExtensions.MakeObjectReference
-- uid: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeOwnerReference(IKubernetesObject{V1ObjectMeta})
+- uid: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeOwnerReference(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta})
   name: MakeOwnerReference(IKubernetesObject<V1ObjectMeta>)
-  href: kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html#KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_MakeOwnerReference_IKubernetesObject_V1ObjectMeta__
-  commentId: M:KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeOwnerReference(IKubernetesObject{V1ObjectMeta})
+  href: kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html#KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_MakeOwnerReference_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__
+  commentId: M:KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeOwnerReference(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta})
   name.vb: MakeOwnerReference(IKubernetesObject(Of V1ObjectMeta))
-  fullName: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeOwnerReference(IKubernetesObject<V1ObjectMeta>)
-  fullName.vb: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeOwnerReference(IKubernetesObject(Of V1ObjectMeta))
+  fullName: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeOwnerReference(k8s.IKubernetesObject<k8s.Models.V1ObjectMeta>)
+  fullName.vb: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeOwnerReference(k8s.IKubernetesObject(Of k8s.Models.V1ObjectMeta))
   nameWithType: KubernetesObjectExtensions.MakeOwnerReference(IKubernetesObject<V1ObjectMeta>)
   nameWithType.vb: KubernetesObjectExtensions.MakeOwnerReference(IKubernetesObject(Of V1ObjectMeta))
 - uid: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeOwnerReference*
@@ -1421,13 +1386,13 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference
   nameWithType: KubernetesObjectExtensions.WithOwnerReference
-- uid: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference``1(``0,IKubernetesObject{V1ObjectMeta})
+- uid: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference``1(``0,k8s.IKubernetesObject{k8s.Models.V1ObjectMeta})
   name: WithOwnerReference<TResource>(TResource, IKubernetesObject<V1ObjectMeta>)
-  href: kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html#KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_WithOwnerReference__1___0_IKubernetesObject_V1ObjectMeta__
-  commentId: M:KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference``1(``0,IKubernetesObject{V1ObjectMeta})
+  href: kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html#KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_WithOwnerReference__1___0_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__
+  commentId: M:KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference``1(``0,k8s.IKubernetesObject{k8s.Models.V1ObjectMeta})
   name.vb: WithOwnerReference(Of TResource)(TResource, IKubernetesObject(Of V1ObjectMeta))
-  fullName: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference<TResource>(TResource, IKubernetesObject<V1ObjectMeta>)
-  fullName.vb: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference(Of TResource)(TResource, IKubernetesObject(Of V1ObjectMeta))
+  fullName: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference<TResource>(TResource, k8s.IKubernetesObject<k8s.Models.V1ObjectMeta>)
+  fullName.vb: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference(Of TResource)(TResource, k8s.IKubernetesObject(Of k8s.Models.V1ObjectMeta))
   nameWithType: KubernetesObjectExtensions.WithOwnerReference<TResource>(TResource, IKubernetesObject<V1ObjectMeta>)
   nameWithType.vb: KubernetesObjectExtensions.WithOwnerReference(Of TResource)(TResource, IKubernetesObject(Of V1ObjectMeta))
 - uid: KubeOps.Operator.Entities.Extensions.V1SecretExtensions
@@ -1436,11 +1401,11 @@ references:
   commentId: T:KubeOps.Operator.Entities.Extensions.V1SecretExtensions
   fullName: KubeOps.Operator.Entities.Extensions.V1SecretExtensions
   nameWithType: V1SecretExtensions
-- uid: KubeOps.Operator.Entities.Extensions.V1SecretExtensions.ReadData(V1Secret,System.String)
+- uid: KubeOps.Operator.Entities.Extensions.V1SecretExtensions.ReadData(k8s.Models.V1Secret,System.String)
   name: ReadData(V1Secret, String)
-  href: kube-ops/KubeOps.Operator.Entities.Extensions.V1SecretExtensions.html#KubeOps_Operator_Entities_Extensions_V1SecretExtensions_ReadData_V1Secret_System_String_
-  commentId: M:KubeOps.Operator.Entities.Extensions.V1SecretExtensions.ReadData(V1Secret,System.String)
-  fullName: KubeOps.Operator.Entities.Extensions.V1SecretExtensions.ReadData(V1Secret, System.String)
+  href: kube-ops/KubeOps.Operator.Entities.Extensions.V1SecretExtensions.html#KubeOps_Operator_Entities_Extensions_V1SecretExtensions_ReadData_k8s_Models_V1Secret_System_String_
+  commentId: M:KubeOps.Operator.Entities.Extensions.V1SecretExtensions.ReadData(k8s.Models.V1Secret,System.String)
+  fullName: KubeOps.Operator.Entities.Extensions.V1SecretExtensions.ReadData(k8s.Models.V1Secret, System.String)
   nameWithType: V1SecretExtensions.ReadData(V1Secret, String)
 - uid: KubeOps.Operator.Entities.Extensions.V1SecretExtensions.ReadData*
   name: ReadData
@@ -1449,11 +1414,11 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.Entities.Extensions.V1SecretExtensions.ReadData
   nameWithType: V1SecretExtensions.ReadData
-- uid: KubeOps.Operator.Entities.Extensions.V1SecretExtensions.WriteData(V1Secret,System.String,System.String)
+- uid: KubeOps.Operator.Entities.Extensions.V1SecretExtensions.WriteData(k8s.Models.V1Secret,System.String,System.String)
   name: WriteData(V1Secret, String, String)
-  href: kube-ops/KubeOps.Operator.Entities.Extensions.V1SecretExtensions.html#KubeOps_Operator_Entities_Extensions_V1SecretExtensions_WriteData_V1Secret_System_String_System_String_
-  commentId: M:KubeOps.Operator.Entities.Extensions.V1SecretExtensions.WriteData(V1Secret,System.String,System.String)
-  fullName: KubeOps.Operator.Entities.Extensions.V1SecretExtensions.WriteData(V1Secret, System.String, System.String)
+  href: kube-ops/KubeOps.Operator.Entities.Extensions.V1SecretExtensions.html#KubeOps_Operator_Entities_Extensions_V1SecretExtensions_WriteData_k8s_Models_V1Secret_System_String_System_String_
+  commentId: M:KubeOps.Operator.Entities.Extensions.V1SecretExtensions.WriteData(k8s.Models.V1Secret,System.String,System.String)
+  fullName: KubeOps.Operator.Entities.Extensions.V1SecretExtensions.WriteData(k8s.Models.V1Secret, System.String, System.String)
   nameWithType: V1SecretExtensions.WriteData(V1Secret, String, String)
 - uid: KubeOps.Operator.Entities.Extensions.V1SecretExtensions.WriteData*
   name: WriteData
@@ -1644,23 +1609,6 @@ references:
   fullName.vb: KubeOps.Operator.Finalizer.IResourceFinalizer(Of TResource)
   nameWithType: IResourceFinalizer<TResource>
   nameWithType.vb: IResourceFinalizer(Of TResource)
-- uid: KubeOps.Operator.Finalizer.IResourceFinalizer`1.FinalizeResource(`0)
-  name: FinalizeResource(TResource)
-  href: kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html#KubeOps_Operator_Finalizer_IResourceFinalizer_1_FinalizeResource__0_
-  commentId: M:KubeOps.Operator.Finalizer.IResourceFinalizer`1.FinalizeResource(`0)
-  fullName: KubeOps.Operator.Finalizer.IResourceFinalizer<TResource>.FinalizeResource(TResource)
-  fullName.vb: KubeOps.Operator.Finalizer.IResourceFinalizer(Of TResource).FinalizeResource(TResource)
-  nameWithType: IResourceFinalizer<TResource>.FinalizeResource(TResource)
-  nameWithType.vb: IResourceFinalizer(Of TResource).FinalizeResource(TResource)
-- uid: KubeOps.Operator.Finalizer.IResourceFinalizer`1.FinalizeResource*
-  name: FinalizeResource
-  href: kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html#KubeOps_Operator_Finalizer_IResourceFinalizer_1_FinalizeResource_
-  commentId: Overload:KubeOps.Operator.Finalizer.IResourceFinalizer`1.FinalizeResource
-  isSpec: "True"
-  fullName: KubeOps.Operator.Finalizer.IResourceFinalizer<TResource>.FinalizeResource
-  fullName.vb: KubeOps.Operator.Finalizer.IResourceFinalizer(Of TResource).FinalizeResource
-  nameWithType: IResourceFinalizer<TResource>.FinalizeResource
-  nameWithType.vb: IResourceFinalizer(Of TResource).FinalizeResource
 - uid: KubeOps.Operator.Finalizer.IResourceFinalizer`1.Register(`0)
   name: Register(TResource)
   href: kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html#KubeOps_Operator_Finalizer_IResourceFinalizer_1_Register__0_
@@ -1690,11 +1638,11 @@ references:
   commentId: M:KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.#ctor
   fullName: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.NoFinalizerRegisteredException()
   nameWithType: NoFinalizerRegisteredException.NoFinalizerRegisteredException()
-- uid: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.#ctor(MemberInfo)
+- uid: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.#ctor(System.Reflection.MemberInfo)
   name: NoFinalizerRegisteredException(MemberInfo)
-  href: kube-ops/KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.html#KubeOps_Operator_Finalizer_NoFinalizerRegisteredException__ctor_MemberInfo_
-  commentId: M:KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.#ctor(MemberInfo)
-  fullName: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.NoFinalizerRegisteredException(MemberInfo)
+  href: kube-ops/KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.html#KubeOps_Operator_Finalizer_NoFinalizerRegisteredException__ctor_System_Reflection_MemberInfo_
+  commentId: M:KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.#ctor(System.Reflection.MemberInfo)
+  fullName: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.NoFinalizerRegisteredException(System.Reflection.MemberInfo)
   nameWithType: NoFinalizerRegisteredException.NoFinalizerRegisteredException(MemberInfo)
 - uid: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.#ctor(System.String)
   name: NoFinalizerRegisteredException(String)
@@ -1702,11 +1650,11 @@ references:
   commentId: M:KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.#ctor(System.String)
   fullName: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.NoFinalizerRegisteredException(System.String)
   nameWithType: NoFinalizerRegisteredException.NoFinalizerRegisteredException(String)
-- uid: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.#ctor(System.String,Exception)
+- uid: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.#ctor(System.String,System.Exception)
   name: NoFinalizerRegisteredException(String, Exception)
-  href: kube-ops/KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.html#KubeOps_Operator_Finalizer_NoFinalizerRegisteredException__ctor_System_String_Exception_
-  commentId: M:KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.#ctor(System.String,Exception)
-  fullName: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.NoFinalizerRegisteredException(System.String, Exception)
+  href: kube-ops/KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.html#KubeOps_Operator_Finalizer_NoFinalizerRegisteredException__ctor_System_String_System_Exception_
+  commentId: M:KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.#ctor(System.String,System.Exception)
+  fullName: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.NoFinalizerRegisteredException(System.String, System.Exception)
   nameWithType: NoFinalizerRegisteredException.NoFinalizerRegisteredException(String, Exception)
 - uid: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.#ctor*
   name: NoFinalizerRegisteredException
@@ -1724,13 +1672,13 @@ references:
   fullName.vb: KubeOps.Operator.Finalizer.ResourceFinalizerBase(Of TResource)
   nameWithType: ResourceFinalizerBase<TResource>
   nameWithType.vb: ResourceFinalizerBase(Of TResource)
-- uid: KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.#ctor(ILogger{KubeOps.Operator.Finalizer.ResourceFinalizerBase{`0}},KubeOps.Operator.Client.IKubernetesClient)
+- uid: KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.#ctor(Microsoft.Extensions.Logging.ILogger{KubeOps.Operator.Finalizer.ResourceFinalizerBase{`0}},KubeOps.Operator.Client.IKubernetesClient)
   name: ResourceFinalizerBase(ILogger<ResourceFinalizerBase<TResource>>, IKubernetesClient)
-  href: kube-ops/KubeOps.Operator.Finalizer.ResourceFinalizerBase-1.html#KubeOps_Operator_Finalizer_ResourceFinalizerBase_1__ctor_ILogger_KubeOps_Operator_Finalizer_ResourceFinalizerBase__0___KubeOps_Operator_Client_IKubernetesClient_
-  commentId: M:KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.#ctor(ILogger{KubeOps.Operator.Finalizer.ResourceFinalizerBase{`0}},KubeOps.Operator.Client.IKubernetesClient)
+  href: kube-ops/KubeOps.Operator.Finalizer.ResourceFinalizerBase-1.html#KubeOps_Operator_Finalizer_ResourceFinalizerBase_1__ctor_Microsoft_Extensions_Logging_ILogger_KubeOps_Operator_Finalizer_ResourceFinalizerBase__0___KubeOps_Operator_Client_IKubernetesClient_
+  commentId: M:KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.#ctor(Microsoft.Extensions.Logging.ILogger{KubeOps.Operator.Finalizer.ResourceFinalizerBase{`0}},KubeOps.Operator.Client.IKubernetesClient)
   name.vb: ResourceFinalizerBase(ILogger(Of ResourceFinalizerBase(Of TResource)), IKubernetesClient)
-  fullName: KubeOps.Operator.Finalizer.ResourceFinalizerBase<TResource>.ResourceFinalizerBase(ILogger<KubeOps.Operator.Finalizer.ResourceFinalizerBase<TResource>>, KubeOps.Operator.Client.IKubernetesClient)
-  fullName.vb: KubeOps.Operator.Finalizer.ResourceFinalizerBase(Of TResource).ResourceFinalizerBase(ILogger(Of KubeOps.Operator.Finalizer.ResourceFinalizerBase(Of TResource)), KubeOps.Operator.Client.IKubernetesClient)
+  fullName: KubeOps.Operator.Finalizer.ResourceFinalizerBase<TResource>.ResourceFinalizerBase(Microsoft.Extensions.Logging.ILogger<KubeOps.Operator.Finalizer.ResourceFinalizerBase<TResource>>, KubeOps.Operator.Client.IKubernetesClient)
+  fullName.vb: KubeOps.Operator.Finalizer.ResourceFinalizerBase(Of TResource).ResourceFinalizerBase(Microsoft.Extensions.Logging.ILogger(Of KubeOps.Operator.Finalizer.ResourceFinalizerBase(Of TResource)), KubeOps.Operator.Client.IKubernetesClient)
   nameWithType: ResourceFinalizerBase<TResource>.ResourceFinalizerBase(ILogger<ResourceFinalizerBase<TResource>>, IKubernetesClient)
   nameWithType.vb: ResourceFinalizerBase(Of TResource).ResourceFinalizerBase(ILogger(Of ResourceFinalizerBase(Of TResource)), IKubernetesClient)
 - uid: KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.#ctor*
@@ -1793,25 +1741,6 @@ references:
   fullName.vb: KubeOps.Operator.Finalizer.ResourceFinalizerBase(Of TResource).Identifier
   nameWithType: ResourceFinalizerBase<TResource>.Identifier
   nameWithType.vb: ResourceFinalizerBase(Of TResource).Identifier
-- uid: KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.KubeOps#Operator#Finalizer#IResourceFinalizer{TResource}#FinalizeResource(`0)
-  name: IResourceFinalizer<TResource>.FinalizeResource(TResource)
-  href: kube-ops/KubeOps.Operator.Finalizer.ResourceFinalizerBase-1.html#KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_KubeOps_Operator_Finalizer_IResourceFinalizer_TResource__FinalizeResource__0_
-  commentId: M:KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.KubeOps#Operator#Finalizer#IResourceFinalizer{TResource}#FinalizeResource(`0)
-  name.vb: KubeOps.Operator.Finalizer.IResourceFinalizer<TResource>.FinalizeResource(TResource)
-  fullName: KubeOps.Operator.Finalizer.ResourceFinalizerBase<TResource>.KubeOps.Operator.Finalizer.IResourceFinalizer<TResource>.FinalizeResource(TResource)
-  fullName.vb: KubeOps.Operator.Finalizer.ResourceFinalizerBase(Of TResource).KubeOps.Operator.Finalizer.IResourceFinalizer<TResource>.FinalizeResource(TResource)
-  nameWithType: ResourceFinalizerBase<TResource>.IResourceFinalizer<TResource>.FinalizeResource(TResource)
-  nameWithType.vb: ResourceFinalizerBase(Of TResource).KubeOps.Operator.Finalizer.IResourceFinalizer<TResource>.FinalizeResource(TResource)
-- uid: KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.KubeOps#Operator#Finalizer#IResourceFinalizer{TResource}#FinalizeResource*
-  name: IResourceFinalizer<TResource>.FinalizeResource
-  href: kube-ops/KubeOps.Operator.Finalizer.ResourceFinalizerBase-1.html#KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_KubeOps_Operator_Finalizer_IResourceFinalizer_TResource__FinalizeResource_
-  commentId: Overload:KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.KubeOps#Operator#Finalizer#IResourceFinalizer{TResource}#FinalizeResource
-  isSpec: "True"
-  name.vb: KubeOps.Operator.Finalizer.IResourceFinalizer<TResource>.FinalizeResource
-  fullName: KubeOps.Operator.Finalizer.ResourceFinalizerBase<TResource>.KubeOps.Operator.Finalizer.IResourceFinalizer<TResource>.FinalizeResource
-  fullName.vb: KubeOps.Operator.Finalizer.ResourceFinalizerBase(Of TResource).KubeOps.Operator.Finalizer.IResourceFinalizer<TResource>.FinalizeResource
-  nameWithType: ResourceFinalizerBase<TResource>.IResourceFinalizer<TResource>.FinalizeResource
-  nameWithType.vb: ResourceFinalizerBase(Of TResource).KubeOps.Operator.Finalizer.IResourceFinalizer<TResource>.FinalizeResource
 - uid: KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Register(`0)
   name: Register(TResource)
   href: kube-ops/KubeOps.Operator.Finalizer.ResourceFinalizerBase-1.html#KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Register__0_
@@ -1852,13 +1781,13 @@ references:
   commentId: T:KubeOps.Operator.HostExtensions
   fullName: KubeOps.Operator.HostExtensions
   nameWithType: HostExtensions
-- uid: KubeOps.Operator.HostExtensions.RunOperator(IHost,System.String[])
+- uid: KubeOps.Operator.HostExtensions.RunOperator(Microsoft.Extensions.Hosting.IHost,System.String[])
   name: RunOperator(IHost, String[])
-  href: kube-ops/KubeOps.Operator.HostExtensions.html#KubeOps_Operator_HostExtensions_RunOperator_IHost_System_String___
-  commentId: M:KubeOps.Operator.HostExtensions.RunOperator(IHost,System.String[])
+  href: kube-ops/KubeOps.Operator.HostExtensions.html#KubeOps_Operator_HostExtensions_RunOperator_Microsoft_Extensions_Hosting_IHost_System_String___
+  commentId: M:KubeOps.Operator.HostExtensions.RunOperator(Microsoft.Extensions.Hosting.IHost,System.String[])
   name.vb: RunOperator(IHost, String())
-  fullName: KubeOps.Operator.HostExtensions.RunOperator(IHost, System.String[])
-  fullName.vb: KubeOps.Operator.HostExtensions.RunOperator(IHost, System.String())
+  fullName: KubeOps.Operator.HostExtensions.RunOperator(Microsoft.Extensions.Hosting.IHost, System.String[])
+  fullName.vb: KubeOps.Operator.HostExtensions.RunOperator(Microsoft.Extensions.Hosting.IHost, System.String())
   nameWithType: HostExtensions.RunOperator(IHost, String[])
   nameWithType.vb: HostExtensions.RunOperator(IHost, String())
 - uid: KubeOps.Operator.HostExtensions.RunOperator*
@@ -1886,19 +1815,6 @@ references:
   commentId: E:KubeOps.Operator.Leadership.ILeaderElection.LeadershipChange
   fullName: KubeOps.Operator.Leadership.ILeaderElection.LeadershipChange
   nameWithType: ILeaderElection.LeadershipChange
-- uid: KubeOps.Operator.Leadership.ILeaderElection.LeadershipChanged(KubeOps.Operator.Leadership.LeaderState)
-  name: LeadershipChanged(LeaderState)
-  href: kube-ops/KubeOps.Operator.Leadership.ILeaderElection.html#KubeOps_Operator_Leadership_ILeaderElection_LeadershipChanged_KubeOps_Operator_Leadership_LeaderState_
-  commentId: M:KubeOps.Operator.Leadership.ILeaderElection.LeadershipChanged(KubeOps.Operator.Leadership.LeaderState)
-  fullName: KubeOps.Operator.Leadership.ILeaderElection.LeadershipChanged(KubeOps.Operator.Leadership.LeaderState)
-  nameWithType: ILeaderElection.LeadershipChanged(LeaderState)
-- uid: KubeOps.Operator.Leadership.ILeaderElection.LeadershipChanged*
-  name: LeadershipChanged
-  href: kube-ops/KubeOps.Operator.Leadership.ILeaderElection.html#KubeOps_Operator_Leadership_ILeaderElection_LeadershipChanged_
-  commentId: Overload:KubeOps.Operator.Leadership.ILeaderElection.LeadershipChanged
-  isSpec: "True"
-  fullName: KubeOps.Operator.Leadership.ILeaderElection.LeadershipChanged
-  nameWithType: ILeaderElection.LeadershipChanged
 - uid: KubeOps.Operator.Leadership.ILeaderElection.State
   name: State
   href: kube-ops/KubeOps.Operator.Leadership.ILeaderElection.html#KubeOps_Operator_Leadership_ILeaderElection_State
@@ -1948,11 +1864,11 @@ references:
   commentId: T:KubeOps.Operator.Logging.LoggingBuilderExtensions
   fullName: KubeOps.Operator.Logging.LoggingBuilderExtensions
   nameWithType: LoggingBuilderExtensions
-- uid: KubeOps.Operator.Logging.LoggingBuilderExtensions.AddStructuredConsole(ILoggingBuilder)
+- uid: KubeOps.Operator.Logging.LoggingBuilderExtensions.AddStructuredConsole(Microsoft.Extensions.Logging.ILoggingBuilder)
   name: AddStructuredConsole(ILoggingBuilder)
-  href: kube-ops/KubeOps.Operator.Logging.LoggingBuilderExtensions.html#KubeOps_Operator_Logging_LoggingBuilderExtensions_AddStructuredConsole_ILoggingBuilder_
-  commentId: M:KubeOps.Operator.Logging.LoggingBuilderExtensions.AddStructuredConsole(ILoggingBuilder)
-  fullName: KubeOps.Operator.Logging.LoggingBuilderExtensions.AddStructuredConsole(ILoggingBuilder)
+  href: kube-ops/KubeOps.Operator.Logging.LoggingBuilderExtensions.html#KubeOps_Operator_Logging_LoggingBuilderExtensions_AddStructuredConsole_Microsoft_Extensions_Logging_ILoggingBuilder_
+  commentId: M:KubeOps.Operator.Logging.LoggingBuilderExtensions.AddStructuredConsole(Microsoft.Extensions.Logging.ILoggingBuilder)
+  fullName: KubeOps.Operator.Logging.LoggingBuilderExtensions.AddStructuredConsole(Microsoft.Extensions.Logging.ILoggingBuilder)
   nameWithType: LoggingBuilderExtensions.AddStructuredConsole(ILoggingBuilder)
 - uid: KubeOps.Operator.Logging.LoggingBuilderExtensions.AddStructuredConsole*
   name: AddStructuredConsole
@@ -2090,13 +2006,13 @@ references:
   fullName.vb: KubeOps.Operator.Queue.IResourceEventQueue(Of TEntity).ClearError
   nameWithType: IResourceEventQueue<TEntity>.ClearError
   nameWithType.vb: IResourceEventQueue(Of TEntity).ClearError
-- uid: KubeOps.Operator.Queue.IResourceEventQueue`1.Enqueue(`0,System.Nullable{TimeSpan})
+- uid: KubeOps.Operator.Queue.IResourceEventQueue`1.Enqueue(`0,System.Nullable{System.TimeSpan})
   name: Enqueue(TEntity, Nullable<TimeSpan>)
-  href: kube-ops/KubeOps.Operator.Queue.IResourceEventQueue-1.html#KubeOps_Operator_Queue_IResourceEventQueue_1_Enqueue__0_System_Nullable_TimeSpan__
-  commentId: M:KubeOps.Operator.Queue.IResourceEventQueue`1.Enqueue(`0,System.Nullable{TimeSpan})
+  href: kube-ops/KubeOps.Operator.Queue.IResourceEventQueue-1.html#KubeOps_Operator_Queue_IResourceEventQueue_1_Enqueue__0_System_Nullable_System_TimeSpan__
+  commentId: M:KubeOps.Operator.Queue.IResourceEventQueue`1.Enqueue(`0,System.Nullable{System.TimeSpan})
   name.vb: Enqueue(TEntity, Nullable(Of TimeSpan))
-  fullName: KubeOps.Operator.Queue.IResourceEventQueue<TEntity>.Enqueue(TEntity, System.Nullable<TimeSpan>)
-  fullName.vb: KubeOps.Operator.Queue.IResourceEventQueue(Of TEntity).Enqueue(TEntity, System.Nullable(Of TimeSpan))
+  fullName: KubeOps.Operator.Queue.IResourceEventQueue<TEntity>.Enqueue(TEntity, System.Nullable<System.TimeSpan>)
+  fullName.vb: KubeOps.Operator.Queue.IResourceEventQueue(Of TEntity).Enqueue(TEntity, System.Nullable(Of System.TimeSpan))
   nameWithType: IResourceEventQueue<TEntity>.Enqueue(TEntity, Nullable<TimeSpan>)
   nameWithType.vb: IResourceEventQueue(Of TEntity).Enqueue(TEntity, Nullable(Of TimeSpan))
 - uid: KubeOps.Operator.Queue.IResourceEventQueue`1.Enqueue*
@@ -2221,13 +2137,13 @@ references:
   commentId: T:KubeOps.Operator.Rbac.EntityRbacAttribute
   fullName: KubeOps.Operator.Rbac.EntityRbacAttribute
   nameWithType: EntityRbacAttribute
-- uid: KubeOps.Operator.Rbac.EntityRbacAttribute.#ctor(Type[])
+- uid: KubeOps.Operator.Rbac.EntityRbacAttribute.#ctor(System.Type[])
   name: EntityRbacAttribute(Type[])
-  href: kube-ops/KubeOps.Operator.Rbac.EntityRbacAttribute.html#KubeOps_Operator_Rbac_EntityRbacAttribute__ctor_Type___
-  commentId: M:KubeOps.Operator.Rbac.EntityRbacAttribute.#ctor(Type[])
+  href: kube-ops/KubeOps.Operator.Rbac.EntityRbacAttribute.html#KubeOps_Operator_Rbac_EntityRbacAttribute__ctor_System_Type___
+  commentId: M:KubeOps.Operator.Rbac.EntityRbacAttribute.#ctor(System.Type[])
   name.vb: EntityRbacAttribute(Type())
-  fullName: KubeOps.Operator.Rbac.EntityRbacAttribute.EntityRbacAttribute(Type[])
-  fullName.vb: KubeOps.Operator.Rbac.EntityRbacAttribute.EntityRbacAttribute(Type())
+  fullName: KubeOps.Operator.Rbac.EntityRbacAttribute.EntityRbacAttribute(System.Type[])
+  fullName.vb: KubeOps.Operator.Rbac.EntityRbacAttribute.EntityRbacAttribute(System.Type())
   nameWithType: EntityRbacAttribute.EntityRbacAttribute(Type[])
   nameWithType.vb: EntityRbacAttribute.EntityRbacAttribute(Type())
 - uid: KubeOps.Operator.Rbac.EntityRbacAttribute.#ctor*
@@ -2387,21 +2303,21 @@ references:
   commentId: T:KubeOps.Operator.ServiceCollectionExtensions
   fullName: KubeOps.Operator.ServiceCollectionExtensions
   nameWithType: ServiceCollectionExtensions
-- uid: KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(IServiceCollection,KubeOps.Operator.OperatorSettings)
+- uid: KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(Microsoft.Extensions.DependencyInjection.IServiceCollection,KubeOps.Operator.OperatorSettings)
   name: AddKubernetesOperator(IServiceCollection, OperatorSettings)
-  href: kube-ops/KubeOps.Operator.ServiceCollectionExtensions.html#KubeOps_Operator_ServiceCollectionExtensions_AddKubernetesOperator_IServiceCollection_KubeOps_Operator_OperatorSettings_
-  commentId: M:KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(IServiceCollection,KubeOps.Operator.OperatorSettings)
-  fullName: KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(IServiceCollection, KubeOps.Operator.OperatorSettings)
+  href: kube-ops/KubeOps.Operator.ServiceCollectionExtensions.html#KubeOps_Operator_ServiceCollectionExtensions_AddKubernetesOperator_Microsoft_Extensions_DependencyInjection_IServiceCollection_KubeOps_Operator_OperatorSettings_
+  commentId: M:KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(Microsoft.Extensions.DependencyInjection.IServiceCollection,KubeOps.Operator.OperatorSettings)
+  fullName: KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(Microsoft.Extensions.DependencyInjection.IServiceCollection, KubeOps.Operator.OperatorSettings)
   nameWithType: ServiceCollectionExtensions.AddKubernetesOperator(IServiceCollection, OperatorSettings)
-- uid: KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(IServiceCollection,System.Nullable{Action{KubeOps.Operator.OperatorSettings}})
-  name: AddKubernetesOperator(IServiceCollection, Nullable<Action<OperatorSettings>>)
-  href: kube-ops/KubeOps.Operator.ServiceCollectionExtensions.html#KubeOps_Operator_ServiceCollectionExtensions_AddKubernetesOperator_IServiceCollection_System_Nullable_Action_KubeOps_Operator_OperatorSettings___
-  commentId: M:KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(IServiceCollection,System.Nullable{Action{KubeOps.Operator.OperatorSettings}})
-  name.vb: AddKubernetesOperator(IServiceCollection, Nullable(Of Action(Of OperatorSettings)))
-  fullName: KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(IServiceCollection, System.Nullable<Action<KubeOps.Operator.OperatorSettings>>)
-  fullName.vb: KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(IServiceCollection, System.Nullable(Of Action(Of KubeOps.Operator.OperatorSettings)))
-  nameWithType: ServiceCollectionExtensions.AddKubernetesOperator(IServiceCollection, Nullable<Action<OperatorSettings>>)
-  nameWithType.vb: ServiceCollectionExtensions.AddKubernetesOperator(IServiceCollection, Nullable(Of Action(Of OperatorSettings)))
+- uid: KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{KubeOps.Operator.OperatorSettings})
+  name: AddKubernetesOperator(IServiceCollection, Action<OperatorSettings>)
+  href: kube-ops/KubeOps.Operator.ServiceCollectionExtensions.html#KubeOps_Operator_ServiceCollectionExtensions_AddKubernetesOperator_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_KubeOps_Operator_OperatorSettings__
+  commentId: M:KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{KubeOps.Operator.OperatorSettings})
+  name.vb: AddKubernetesOperator(IServiceCollection, Action(Of OperatorSettings))
+  fullName: KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<KubeOps.Operator.OperatorSettings>)
+  fullName.vb: KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of KubeOps.Operator.OperatorSettings))
+  nameWithType: ServiceCollectionExtensions.AddKubernetesOperator(IServiceCollection, Action<OperatorSettings>)
+  nameWithType.vb: ServiceCollectionExtensions.AddKubernetesOperator(IServiceCollection, Action(Of OperatorSettings))
 - uid: KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator*
   name: AddKubernetesOperator
   href: kube-ops/KubeOps.Operator.ServiceCollectionExtensions.html#KubeOps_Operator_ServiceCollectionExtensions_AddKubernetesOperator_
@@ -2615,12 +2531,12 @@ references:
   fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup)
   nameWithType: KubernetesOperatorFactory<TTestStartup>
   nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup)
-- uid: KubeOps.Testing.KubernetesOperatorFactory`1.ConfigureWebHost(IWebHostBuilder)
+- uid: KubeOps.Testing.KubernetesOperatorFactory`1.ConfigureWebHost(Microsoft.AspNetCore.Hosting.IWebHostBuilder)
   name: ConfigureWebHost(IWebHostBuilder)
-  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_ConfigureWebHost_IWebHostBuilder_
-  commentId: M:KubeOps.Testing.KubernetesOperatorFactory`1.ConfigureWebHost(IWebHostBuilder)
-  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.ConfigureWebHost(IWebHostBuilder)
-  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).ConfigureWebHost(IWebHostBuilder)
+  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_ConfigureWebHost_Microsoft_AspNetCore_Hosting_IWebHostBuilder_
+  commentId: M:KubeOps.Testing.KubernetesOperatorFactory`1.ConfigureWebHost(Microsoft.AspNetCore.Hosting.IWebHostBuilder)
+  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.ConfigureWebHost(Microsoft.AspNetCore.Hosting.IWebHostBuilder)
+  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).ConfigureWebHost(Microsoft.AspNetCore.Hosting.IWebHostBuilder)
   nameWithType: KubernetesOperatorFactory<TTestStartup>.ConfigureWebHost(IWebHostBuilder)
   nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).ConfigureWebHost(IWebHostBuilder)
 - uid: KubeOps.Testing.KubernetesOperatorFactory`1.ConfigureWebHost*
@@ -2791,24 +2707,24 @@ references:
   fullName.vb: KubeOps.Testing.MockKubernetesClient.Delete(Of TResource)(TResource())
   nameWithType: MockKubernetesClient.Delete<TResource>(TResource[])
   nameWithType.vb: MockKubernetesClient.Delete(Of TResource)(TResource())
-- uid: KubeOps.Testing.MockKubernetesClient.Delete``1(IEnumerable{``0})
+- uid: KubeOps.Testing.MockKubernetesClient.Delete``1(System.Collections.Generic.IEnumerable{``0})
   name: Delete<TResource>(IEnumerable<TResource>)
-  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Delete__1_IEnumerable___0__
-  commentId: M:KubeOps.Testing.MockKubernetesClient.Delete``1(IEnumerable{``0})
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Delete__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:KubeOps.Testing.MockKubernetesClient.Delete``1(System.Collections.Generic.IEnumerable{``0})
   name.vb: Delete(Of TResource)(IEnumerable(Of TResource))
-  fullName: KubeOps.Testing.MockKubernetesClient.Delete<TResource>(IEnumerable<TResource>)
-  fullName.vb: KubeOps.Testing.MockKubernetesClient.Delete(Of TResource)(IEnumerable(Of TResource))
+  fullName: KubeOps.Testing.MockKubernetesClient.Delete<TResource>(System.Collections.Generic.IEnumerable<TResource>)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Delete(Of TResource)(System.Collections.Generic.IEnumerable(Of TResource))
   nameWithType: MockKubernetesClient.Delete<TResource>(IEnumerable<TResource>)
   nameWithType.vb: MockKubernetesClient.Delete(Of TResource)(IEnumerable(Of TResource))
-- uid: KubeOps.Testing.MockKubernetesClient.Delete``1(System.String,System.Nullable{System.String})
-  name: Delete<TResource>(String, Nullable<String>)
-  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Delete__1_System_String_System_Nullable_System_String__
-  commentId: M:KubeOps.Testing.MockKubernetesClient.Delete``1(System.String,System.Nullable{System.String})
-  name.vb: Delete(Of TResource)(String, Nullable(Of String))
-  fullName: KubeOps.Testing.MockKubernetesClient.Delete<TResource>(System.String, System.Nullable<System.String>)
-  fullName.vb: KubeOps.Testing.MockKubernetesClient.Delete(Of TResource)(System.String, System.Nullable(Of System.String))
-  nameWithType: MockKubernetesClient.Delete<TResource>(String, Nullable<String>)
-  nameWithType.vb: MockKubernetesClient.Delete(Of TResource)(String, Nullable(Of String))
+- uid: KubeOps.Testing.MockKubernetesClient.Delete``1(System.String,System.String)
+  name: Delete<TResource>(String, String)
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Delete__1_System_String_System_String_
+  commentId: M:KubeOps.Testing.MockKubernetesClient.Delete``1(System.String,System.String)
+  name.vb: Delete(Of TResource)(String, String)
+  fullName: KubeOps.Testing.MockKubernetesClient.Delete<TResource>(System.String, System.String)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Delete(Of TResource)(System.String, System.String)
+  nameWithType: MockKubernetesClient.Delete<TResource>(String, String)
+  nameWithType.vb: MockKubernetesClient.Delete(Of TResource)(String, String)
 - uid: KubeOps.Testing.MockKubernetesClient.Get*
   name: Get
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Get_
@@ -2816,15 +2732,15 @@ references:
   isSpec: "True"
   fullName: KubeOps.Testing.MockKubernetesClient.Get
   nameWithType: MockKubernetesClient.Get
-- uid: KubeOps.Testing.MockKubernetesClient.Get``1(System.String,System.Nullable{System.String})
-  name: Get<TResource>(String, Nullable<String>)
-  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Get__1_System_String_System_Nullable_System_String__
-  commentId: M:KubeOps.Testing.MockKubernetesClient.Get``1(System.String,System.Nullable{System.String})
-  name.vb: Get(Of TResource)(String, Nullable(Of String))
-  fullName: KubeOps.Testing.MockKubernetesClient.Get<TResource>(System.String, System.Nullable<System.String>)
-  fullName.vb: KubeOps.Testing.MockKubernetesClient.Get(Of TResource)(System.String, System.Nullable(Of System.String))
-  nameWithType: MockKubernetesClient.Get<TResource>(String, Nullable<String>)
-  nameWithType.vb: MockKubernetesClient.Get(Of TResource)(String, Nullable(Of String))
+- uid: KubeOps.Testing.MockKubernetesClient.Get``1(System.String,System.String)
+  name: Get<TResource>(String, String)
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Get__1_System_String_System_String_
+  commentId: M:KubeOps.Testing.MockKubernetesClient.Get``1(System.String,System.String)
+  name.vb: Get(Of TResource)(String, String)
+  fullName: KubeOps.Testing.MockKubernetesClient.Get<TResource>(System.String, System.String)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Get(Of TResource)(System.String, System.String)
+  nameWithType: MockKubernetesClient.Get<TResource>(String, String)
+  nameWithType.vb: MockKubernetesClient.Get(Of TResource)(String, String)
 - uid: KubeOps.Testing.MockKubernetesClient.GetCurrentNamespace(System.String)
   name: GetCurrentNamespace(String)
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_GetCurrentNamespace_System_String_
@@ -2871,24 +2787,24 @@ references:
   isSpec: "True"
   fullName: KubeOps.Testing.MockKubernetesClient.List
   nameWithType: MockKubernetesClient.List
-- uid: KubeOps.Testing.MockKubernetesClient.List``1(System.Nullable{System.String},KubeOps.Operator.Client.LabelSelectors.ILabelSelector[])
-  name: List<TResource>(Nullable<String>, ILabelSelector[])
-  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_List__1_System_Nullable_System_String__KubeOps_Operator_Client_LabelSelectors_ILabelSelector___
-  commentId: M:KubeOps.Testing.MockKubernetesClient.List``1(System.Nullable{System.String},KubeOps.Operator.Client.LabelSelectors.ILabelSelector[])
-  name.vb: List(Of TResource)(Nullable(Of String), ILabelSelector())
-  fullName: KubeOps.Testing.MockKubernetesClient.List<TResource>(System.Nullable<System.String>, KubeOps.Operator.Client.LabelSelectors.ILabelSelector[])
-  fullName.vb: KubeOps.Testing.MockKubernetesClient.List(Of TResource)(System.Nullable(Of System.String), KubeOps.Operator.Client.LabelSelectors.ILabelSelector())
-  nameWithType: MockKubernetesClient.List<TResource>(Nullable<String>, ILabelSelector[])
-  nameWithType.vb: MockKubernetesClient.List(Of TResource)(Nullable(Of String), ILabelSelector())
-- uid: KubeOps.Testing.MockKubernetesClient.List``1(System.Nullable{System.String},System.Nullable{System.String})
-  name: List<TResource>(Nullable<String>, Nullable<String>)
-  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_List__1_System_Nullable_System_String__System_Nullable_System_String__
-  commentId: M:KubeOps.Testing.MockKubernetesClient.List``1(System.Nullable{System.String},System.Nullable{System.String})
-  name.vb: List(Of TResource)(Nullable(Of String), Nullable(Of String))
-  fullName: KubeOps.Testing.MockKubernetesClient.List<TResource>(System.Nullable<System.String>, System.Nullable<System.String>)
-  fullName.vb: KubeOps.Testing.MockKubernetesClient.List(Of TResource)(System.Nullable(Of System.String), System.Nullable(Of System.String))
-  nameWithType: MockKubernetesClient.List<TResource>(Nullable<String>, Nullable<String>)
-  nameWithType.vb: MockKubernetesClient.List(Of TResource)(Nullable(Of String), Nullable(Of String))
+- uid: KubeOps.Testing.MockKubernetesClient.List``1(System.String,KubeOps.Operator.Client.LabelSelectors.ILabelSelector[])
+  name: List<TResource>(String, ILabelSelector[])
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_List__1_System_String_KubeOps_Operator_Client_LabelSelectors_ILabelSelector___
+  commentId: M:KubeOps.Testing.MockKubernetesClient.List``1(System.String,KubeOps.Operator.Client.LabelSelectors.ILabelSelector[])
+  name.vb: List(Of TResource)(String, ILabelSelector())
+  fullName: KubeOps.Testing.MockKubernetesClient.List<TResource>(System.String, KubeOps.Operator.Client.LabelSelectors.ILabelSelector[])
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.List(Of TResource)(System.String, KubeOps.Operator.Client.LabelSelectors.ILabelSelector())
+  nameWithType: MockKubernetesClient.List<TResource>(String, ILabelSelector[])
+  nameWithType.vb: MockKubernetesClient.List(Of TResource)(String, ILabelSelector())
+- uid: KubeOps.Testing.MockKubernetesClient.List``1(System.String,System.String)
+  name: List<TResource>(String, String)
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_List__1_System_String_System_String_
+  commentId: M:KubeOps.Testing.MockKubernetesClient.List``1(System.String,System.String)
+  name.vb: List(Of TResource)(String, String)
+  fullName: KubeOps.Testing.MockKubernetesClient.List<TResource>(System.String, System.String)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.List(Of TResource)(System.String, System.String)
+  nameWithType: MockKubernetesClient.List<TResource>(String, String)
+  nameWithType.vb: MockKubernetesClient.List(Of TResource)(String, String)
 - uid: KubeOps.Testing.MockKubernetesClient.ListResult
   name: ListResult
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_ListResult
@@ -2967,13 +2883,13 @@ references:
   isSpec: "True"
   fullName: KubeOps.Testing.MockKubernetesClient.UpdateStatus
   nameWithType: MockKubernetesClient.UpdateStatus
-- uid: KubeOps.Testing.MockKubernetesClient.UpdateStatus``1(IStatus{``0})
+- uid: KubeOps.Testing.MockKubernetesClient.UpdateStatus``1(k8s.IStatus{``0})
   name: UpdateStatus<TStatus>(IStatus<TStatus>)
-  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_UpdateStatus__1_IStatus___0__
-  commentId: M:KubeOps.Testing.MockKubernetesClient.UpdateStatus``1(IStatus{``0})
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_UpdateStatus__1_k8s_IStatus___0__
+  commentId: M:KubeOps.Testing.MockKubernetesClient.UpdateStatus``1(k8s.IStatus{``0})
   name.vb: UpdateStatus(Of TStatus)(IStatus(Of TStatus))
-  fullName: KubeOps.Testing.MockKubernetesClient.UpdateStatus<TStatus>(IStatus<TStatus>)
-  fullName.vb: KubeOps.Testing.MockKubernetesClient.UpdateStatus(Of TStatus)(IStatus(Of TStatus))
+  fullName: KubeOps.Testing.MockKubernetesClient.UpdateStatus<TStatus>(k8s.IStatus<TStatus>)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.UpdateStatus(Of TStatus)(k8s.IStatus(Of TStatus))
   nameWithType: MockKubernetesClient.UpdateStatus<TStatus>(IStatus<TStatus>)
   nameWithType.vb: MockKubernetesClient.UpdateStatus(Of TStatus)(IStatus(Of TStatus))
 - uid: KubeOps.Testing.MockKubernetesClient.Watch*
@@ -2983,15 +2899,15 @@ references:
   isSpec: "True"
   fullName: KubeOps.Testing.MockKubernetesClient.Watch
   nameWithType: MockKubernetesClient.Watch
-- uid: KubeOps.Testing.MockKubernetesClient.Watch``1(TimeSpan,Action{WatchEventType,``0},System.Nullable{Action{Exception}},System.Nullable{Action},System.Nullable{System.String},CancellationToken)
-  name: Watch<TResource>(TimeSpan, Action<WatchEventType, TResource>, Nullable<Action<Exception>>, Nullable<Action>, Nullable<String>, CancellationToken)
-  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Watch__1_TimeSpan_Action_WatchEventType___0__System_Nullable_Action_Exception___System_Nullable_Action__System_Nullable_System_String__CancellationToken_
-  commentId: M:KubeOps.Testing.MockKubernetesClient.Watch``1(TimeSpan,Action{WatchEventType,``0},System.Nullable{Action{Exception}},System.Nullable{Action},System.Nullable{System.String},CancellationToken)
-  name.vb: Watch(Of TResource)(TimeSpan, Action(Of WatchEventType, TResource), Nullable(Of Action(Of Exception)), Nullable(Of Action), Nullable(Of String), CancellationToken)
-  fullName: KubeOps.Testing.MockKubernetesClient.Watch<TResource>(TimeSpan, Action<WatchEventType, TResource>, System.Nullable<Action<Exception>>, System.Nullable<Action>, System.Nullable<System.String>, CancellationToken)
-  fullName.vb: KubeOps.Testing.MockKubernetesClient.Watch(Of TResource)(TimeSpan, Action(Of WatchEventType, TResource), System.Nullable(Of Action(Of Exception)), System.Nullable(Of Action), System.Nullable(Of System.String), CancellationToken)
-  nameWithType: MockKubernetesClient.Watch<TResource>(TimeSpan, Action<WatchEventType, TResource>, Nullable<Action<Exception>>, Nullable<Action>, Nullable<String>, CancellationToken)
-  nameWithType.vb: MockKubernetesClient.Watch(Of TResource)(TimeSpan, Action(Of WatchEventType, TResource), Nullable(Of Action(Of Exception)), Nullable(Of Action), Nullable(Of String), CancellationToken)
+- uid: KubeOps.Testing.MockKubernetesClient.Watch``1(System.TimeSpan,System.Action{k8s.WatchEventType,``0},System.Action{System.Exception},System.Action,System.String,System.Threading.CancellationToken)
+  name: Watch<TResource>(TimeSpan, Action<WatchEventType, TResource>, Action<Exception>, Action, String, CancellationToken)
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Watch__1_System_TimeSpan_System_Action_k8s_WatchEventType___0__System_Action_System_Exception__System_Action_System_String_System_Threading_CancellationToken_
+  commentId: M:KubeOps.Testing.MockKubernetesClient.Watch``1(System.TimeSpan,System.Action{k8s.WatchEventType,``0},System.Action{System.Exception},System.Action,System.String,System.Threading.CancellationToken)
+  name.vb: Watch(Of TResource)(TimeSpan, Action(Of WatchEventType, TResource), Action(Of Exception), Action, String, CancellationToken)
+  fullName: KubeOps.Testing.MockKubernetesClient.Watch<TResource>(System.TimeSpan, System.Action<k8s.WatchEventType, TResource>, System.Action<System.Exception>, System.Action, System.String, System.Threading.CancellationToken)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Watch(Of TResource)(System.TimeSpan, System.Action(Of k8s.WatchEventType, TResource), System.Action(Of System.Exception), System.Action, System.String, System.Threading.CancellationToken)
+  nameWithType: MockKubernetesClient.Watch<TResource>(TimeSpan, Action<WatchEventType, TResource>, Action<Exception>, Action, String, CancellationToken)
+  nameWithType.vb: MockKubernetesClient.Watch(Of TResource)(TimeSpan, Action(Of WatchEventType, TResource), Action(Of Exception), Action, String, CancellationToken)
 - uid: KubeOps.Testing.MockResourceEventQueue`1
   name: MockResourceEventQueue<TEntity>
   href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html
@@ -3086,13 +3002,13 @@ references:
   fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).Dispose
   nameWithType: MockResourceEventQueue<TEntity>.Dispose
   nameWithType.vb: MockResourceEventQueue(Of TEntity).Dispose
-- uid: KubeOps.Testing.MockResourceEventQueue`1.Enqueue(`0,System.Nullable{TimeSpan})
+- uid: KubeOps.Testing.MockResourceEventQueue`1.Enqueue(`0,System.Nullable{System.TimeSpan})
   name: Enqueue(TEntity, Nullable<TimeSpan>)
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_Enqueue__0_System_Nullable_TimeSpan__
-  commentId: M:KubeOps.Testing.MockResourceEventQueue`1.Enqueue(`0,System.Nullable{TimeSpan})
+  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_Enqueue__0_System_Nullable_System_TimeSpan__
+  commentId: M:KubeOps.Testing.MockResourceEventQueue`1.Enqueue(`0,System.Nullable{System.TimeSpan})
   name.vb: Enqueue(TEntity, Nullable(Of TimeSpan))
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.Enqueue(TEntity, System.Nullable<TimeSpan>)
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).Enqueue(TEntity, System.Nullable(Of TimeSpan))
+  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.Enqueue(TEntity, System.Nullable<System.TimeSpan>)
+  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).Enqueue(TEntity, System.Nullable(Of System.TimeSpan))
   nameWithType: MockResourceEventQueue<TEntity>.Enqueue(TEntity, Nullable<TimeSpan>)
   nameWithType.vb: MockResourceEventQueue(Of TEntity).Enqueue(TEntity, Nullable(Of TimeSpan))
 - uid: KubeOps.Testing.MockResourceEventQueue`1.Enqueue*
