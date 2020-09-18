@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Write Finalizers </title>
+    <title>Finalizers </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Write Finalizers ">
+    <meta name="title" content="Finalizers ">
     <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -67,23 +67,43 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
+<h1 id="finalizers">Finalizers</h1>
 
-<p>TODO</p>
-<h3 id="write-finalizers">Write Finalizers</h3>
+<p>A finalizer is a special type of software that can asynchronously
+cleanup stuff for an entity that is beeing deleted.</p>
+<p>A finalizer is registered as an identifier in the kubernetes
+resource (i.e. in the yaml / json structure) and an object
+wont be removed from the api until all finalizers are removed.</p>
+<p>If you write finalizer, don&#39;t forget to register them with
+<a class="xref" href="../kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddFinalizer__1">AddFinalizer&lt;TFinalizer&gt;()</a>
+to the DI system.</p>
+<h2 id="write-a-finalizer">Write a finalizer</h2>
+<p>Use the correct base class (<a class="xref" href="../kube-ops/KubeOps.Operator.Finalizer.ResourceFinalizerBase-1.html">ResourceFinalizerBase&lt;TResource&gt;</a>).</p>
 <p>A finalizer can be as simple as:</p>
 <pre><code class="lang-csharp">public class FooFinalizer : ResourceFinalizerBase&lt;Foo&gt;
 {
     public override async Task Finalize(Foo resource)
     {
         // do something with the resource.
+        // like deleting a database.
     }
 }
-</code></pre><p>And can be added to a resource with:</p>
-<pre><code class="lang-csharp">// in a resource controller
-await AttachFinalizer&lt;TestEntityFinalizer&gt;(resource);
-</code></pre><p>After the finalizer ran successfully on a resource, it is unregistered
-on the resource.</p>
-</article>
+</code></pre><p>When the finalizer successfully completed his job, it is automatically removed
+from the finalizers list of the resource. The finalizers are registered
+as transient resources in DI.</p>
+<h2 id="register-a-finalizer">Register a finalizer</h2>
+<p>To attach a finalizer for a resource, call the
+<a class="xref" href="../kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_AttachFinalizer__1__0_">AttachFinalizer&lt;TFinalizer&gt;(TEntity)</a>
+method in the controller during reconciliation.</p>
+<pre><code class="lang-csharp">public class TestController : ResourceControllerBase&lt;V1TestEntity&gt;
+{
+    protected override async Task&lt;TimeSpan?&gt; Created(V1TestEntity resource)
+    {
+        await AttachFinalizer&lt;TestEntityFinalizer&gt;(resource);
+        return await base.Created(resource);
+    }
+}
+</code></pre></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
@@ -91,7 +111,7 @@ on the resource.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/docs/docs/docs/docs/finalizer.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/docs/docs/finalizer.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

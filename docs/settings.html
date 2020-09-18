@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> </title>
+    <title>Settings </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content=" ">
+    <meta name="title" content="Settings ">
     <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -67,8 +67,17 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
+<h1 id="settings">Settings</h1>
 
-<p>TODO</p>
+<p>To configure the operator, use the <a class="xref" href="../kube-ops/KubeOps.Operator.OperatorSettings.html">OperatorSettings</a>
+that are configurable during the generic host extension method
+<a class="xref" href="../kube-ops/KubeOps.Operator.ServiceCollectionExtensions.html#KubeOps_Operator_ServiceCollectionExtensions_AddKubernetesOperator_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_KubeOps_Operator_OperatorSettings__">AddKubernetesOperator(IServiceCollection, Action&lt;OperatorSettings&gt;)</a>
+or <a class="xref" href="../kube-ops/KubeOps.Operator.ServiceCollectionExtensions.html#KubeOps_Operator_ServiceCollectionExtensions_AddKubernetesOperator_Microsoft_Extensions_DependencyInjection_IServiceCollection_KubeOps_Operator_OperatorSettings_">AddKubernetesOperator(IServiceCollection, OperatorSettings)</a>.</p>
+<p>You can configure things like the name of the operator,
+if it should use namespacing, and other elements like the
+urls of metrics and lease durations for the leader election.</p>
+<p>Please look at the documention over at: <a class="xref" href="../kube-ops/KubeOps.Operator.OperatorSettings.html">OperatorSettings</a>
+to know what the fields mean.</p>
 </article>
           </div>
           
@@ -77,7 +86,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/docs/docs/docs/docs/settings.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/docs/docs/settings.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

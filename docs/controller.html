@@ -74,12 +74,16 @@ The controller abstracts the general complexity of watching the
 resources on kubernetes and queueing of the events.</p>
 <p>When you want to create a controller for your (or any) entity,
 read the following instructions.</p>
+<p>When you have controllers, don&#39;t forget to register them with
+<a class="xref" href="../kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddController__1">AddController&lt;TController&gt;()</a>
+to the DI system.</p>
 <h2 id="controller-instance">Controller instance</h2>
 <p>After you created a custom entity (like described in <a href="entities.html">Entities</a>)
 or you want to reconcile a given entity (from the <code>k8s.Models</code> namespace,
 e.g. <code>V1ConfigMap</code>) you need to create a controller class
 as you would do for a MVC or API controller in asp.net.</p>
-<p>Make sure you have the correct baseclass (<code>ResourceControllerBase&lt;TEntity&gt;</code>)
+<p>Make sure you have the correct baseclass
+(<a class="xref" href="../kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html">ResourceControllerBase&lt;TEntity&gt;</a>)
 inherited.</p>
 <pre><code class="lang-csharp">[EntityRbac(typeof(MyCustomEntity), Verbs = RbacVerb.All)]
 public class FooCtrl: ResourceControllerBase&lt;MyCustomEntity&gt;
@@ -93,7 +97,15 @@ public class FooCtrl: ResourceControllerBase&lt;MyCustomEntity&gt;
     // &quot;StatusModified&quot; (i.e. when only the status was updated),
     // &quot;Deleted&quot; (i.e. when the entity was deleted and all finalizers are done)
 }
-</code></pre><h2 id="rbac">RBAC</h2>
+</code></pre><h2 id="namespaced-controller">Namespaced controller</h2>
+<p>To limit the operator (and therefore all controllers) to a specific
+namespace in kubernetes, use the <a class="xref" href="../kube-ops/KubeOps.Operator.OperatorSettings.html">OperatorSettings</a>
+and configure a specific namespace when it is predefined.</p>
+<p>To use namespacing dynamically, run the application with the <code>--namespaced</code>
+option. When given a name (i.e. <code>--namespaced=foobar</code>) the defined
+namespace is used. When only the option is provided (i.e. <code>--namespaced</code>)
+then the actual namespace is used that the pod runs in.</p>
+<h2 id="rbac">RBAC</h2>
 <p>The entity rbac attribute does provide the information needed about
 your needed roles / rules.</p>
 <p>Please configure all entities you want to manage with your
@@ -158,7 +170,7 @@ is added to add a certain fuzzying.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/docs/docs/docs/docs/controller.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/docs/docs/controller.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

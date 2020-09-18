@@ -76,10 +76,15 @@ of your operator (through the KubeOps package).</p>
 <code>dotnet run -- --help</code> in your project. As you can see, you can run
 multiple commands. Some of them do install / uninstall your crds in
 your currently selected kubernetes cluster or can generate code.</p>
+<div class="NOTE"><h5>Note</h5><p>For the normal &quot;dotnet run&quot; command exists a <code>--namespaced</code>
+option that starts the operator in namespaced mode. This means
+that only the given namespace is watched for entities.</p>
+</div>
 <h2 id="available-commands">Available Commands</h2>
-<p>Here is a brief overview over the available commands:
-<em>NOTE</em>: all commands assume either the compiled dll or you using
+<p>Here is a brief overview over the available commands:</p>
+<div class="NOTE"><h5>Note</h5><p>all commands assume either the compiled dll or you using
 <code>dotnet run --</code> as prepended command.</p>
+</div>
 <ul>
 <li><code>` (empty): runs the operator (normal</code>dotnet run`)</li>
 <li><code>version</code>: prints the version information for the actual connected kubernetes cluster</li>
@@ -118,7 +123,7 @@ The installation files won&#39;t be overwritten as well if you have custom eleme
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/docs/docs/docs/docs/commands.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/docs/docs/commands.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
