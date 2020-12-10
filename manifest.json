@@ -108,7 +108,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/testing.html",
-          "hash": "DfmAx6XWbobnPnqZ60HkjQ=="
+          "hash": "3KUvJ5TlbpltU6k9wVWiNg=="
         }
       },
       "is_incremental": false,
@@ -168,7 +168,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html",
-          "hash": "n8edFs7tu8OX//SsVbgLcg=="
+          "hash": "8K4WCiD48PA1Grplf1M66g=="
         }
       },
       "is_incremental": false,
@@ -252,7 +252,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html",
-          "hash": "amVU5eq9WqsbTcbmgruKLw=="
+          "hash": "SpVe5s3FSQivHLKmGtETTQ=="
         }
       },
       "is_incremental": false,
@@ -276,7 +276,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Caching.CacheComparisonResult.html",
-          "hash": "bK9mRIw9yyiS5fljGHoExg=="
+          "hash": "NHOY9P18xssplbdUfSJgag=="
         }
       },
       "is_incremental": false,
@@ -300,91 +300,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Caching.html",
-          "hash": "5/jKwVoO2eRrtbtJ6uQ63w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Client.IKubernetesClient.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Client.IKubernetesClient.html",
-          "hash": "v7B+xg7NREcoc7udGdiBmQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Client.LabelSelectors.EqualsSelector.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Client.LabelSelectors.EqualsSelector.html",
-          "hash": "8uvH6FapLE9bv2H6xEmH4A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Client.LabelSelectors.ExistsSelector.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Client.LabelSelectors.ExistsSelector.html",
-          "hash": "YBKaj3Esj7RBRZd9pj761Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Client.LabelSelectors.ILabelSelector.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Client.LabelSelectors.ILabelSelector.html",
-          "hash": "KggvHSKiYeXw4O3heemyyg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Client.LabelSelectors.NotEqualsSelector.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Client.LabelSelectors.NotEqualsSelector.html",
-          "hash": "8fc2tNI3RxE9v+zPk1O52Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Client.LabelSelectors.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Client.LabelSelectors.html",
-          "hash": "U0PBy3k4rtSUWc+lDdPZJg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Client.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Client.html",
-          "hash": "tcDkrnnxBWNKZ20tqClgPw=="
+          "hash": "BRp0h7vuh1I/ghWKVLSwIA=="
         }
       },
       "is_incremental": false,
@@ -420,7 +336,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html",
-          "hash": "nuGeZEdLT6Z350GdYo/m4g=="
+          "hash": "2ftA0cYXLzvkZTrN7heBzw=="
         }
       },
       "is_incremental": false,
@@ -804,7 +720,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Finalizer.ResourceFinalizerBase-1.html",
-          "hash": "wS98qQ7HCIrlHh+Sb6bCGQ=="
+          "hash": "Xr0ErjX0nnW5OL7Hj1/E9A=="
         }
       },
       "is_incremental": false,
@@ -900,7 +816,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.OperatorSettings.html",
-          "hash": "SlP9fNYCP7+XpVZHun+Ztw=="
+          "hash": "Xa5vLRSggCEdVMFVMs+snA=="
         }
       },
       "is_incremental": false,
@@ -1008,7 +924,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Services.IResourceServices-1.html",
-          "hash": "cgfuV7og41Gty6CN57zEMw=="
+          "hash": "wGWudypCzWy32RHaxzc0JQ=="
         }
       },
       "is_incremental": false,
@@ -1080,7 +996,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/toc.html",
-          "hash": "mK0HGP6+lUk5n5rsWMqDIA=="
+          "hash": "PyZz1GT9Clp7IMo7TTUBjw=="
         }
       },
       "is_incremental": false,
@@ -1119,7 +1035,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 74,
+          "total_file_count": 67,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
