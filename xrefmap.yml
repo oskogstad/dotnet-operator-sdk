@@ -1567,6 +1567,19 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.OperatorSettings.ReadinessEndpoint
   nameWithType: OperatorSettings.ReadinessEndpoint
+- uid: KubeOps.Operator.OperatorSettings.WatcherHttpTimeout
+  name: WatcherHttpTimeout
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_WatcherHttpTimeout
+  commentId: P:KubeOps.Operator.OperatorSettings.WatcherHttpTimeout
+  fullName: KubeOps.Operator.OperatorSettings.WatcherHttpTimeout
+  nameWithType: OperatorSettings.WatcherHttpTimeout
+- uid: KubeOps.Operator.OperatorSettings.WatcherHttpTimeout*
+  name: WatcherHttpTimeout
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_WatcherHttpTimeout_
+  commentId: Overload:KubeOps.Operator.OperatorSettings.WatcherHttpTimeout
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorSettings.WatcherHttpTimeout
+  nameWithType: OperatorSettings.WatcherHttpTimeout
 - uid: KubeOps.Operator.Queue
   name: KubeOps.Operator.Queue
   href: kube-ops/KubeOps.Operator.Queue.html
