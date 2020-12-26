@@ -118,6 +118,19 @@ references:
   fullName.vb: KubeOps.Operator.Builder.IOperatorBuilder.AddReadinessCheck(Of TReadinessCheck)(System.String)
   nameWithType: IOperatorBuilder.AddReadinessCheck<TReadinessCheck>(String)
   nameWithType.vb: IOperatorBuilder.AddReadinessCheck(Of TReadinessCheck)(String)
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddResourceAssembly(System.Reflection.Assembly)
+  name: AddResourceAssembly(Assembly)
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddResourceAssembly_System_Reflection_Assembly_
+  commentId: M:KubeOps.Operator.Builder.IOperatorBuilder.AddResourceAssembly(System.Reflection.Assembly)
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddResourceAssembly(System.Reflection.Assembly)
+  nameWithType: IOperatorBuilder.AddResourceAssembly(Assembly)
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddResourceAssembly*
+  name: AddResourceAssembly
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddResourceAssembly_
+  commentId: Overload:KubeOps.Operator.Builder.IOperatorBuilder.AddResourceAssembly
+  isSpec: "True"
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddResourceAssembly
+  nameWithType: IOperatorBuilder.AddResourceAssembly
 - uid: KubeOps.Operator.Builder.IOperatorBuilder.Services
   name: Services
   href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_Services
