@@ -8,6 +8,18 @@
   "files": [
     {
       "type": "Conceptual",
+      "source_relative_path": "CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "CHANGELOG.html",
+          "hash": "Y7QFJ0Hja8wLVDJuZOyLyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/commands.md",
       "output": {
         ".html": {
@@ -108,7 +120,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/testing.html",
-          "hash": "N3Xk1pUZ+93BjUAbccF0fA=="
+          "hash": "3H/iQHG8wD9MOhl7T5hzSg=="
         }
       },
       "is_incremental": false,
@@ -168,7 +180,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html",
-          "hash": "sLkeJ94bzSuFkvKwnbr7VA=="
+          "hash": "UMi/CpDvbYkE7WnmPANm8Q=="
         }
       },
       "is_incremental": false,
@@ -1008,7 +1020,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "QzBIbVsfgY0VbZh29YZyDA=="
+          "hash": "5ppkfcaelKHwjKGBp+J00g=="
         }
       },
       "is_incremental": false,
@@ -1029,7 +1041,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 13,
+          "total_file_count": 14,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {

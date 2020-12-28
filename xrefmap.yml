@@ -2549,15 +2549,24 @@ references:
   isSpec: "True"
   fullName: KubeOps.Testing.MockKubernetesClient.Watch
   nameWithType: MockKubernetesClient.Watch
-- uid: KubeOps.Testing.MockKubernetesClient.Watch``1(System.TimeSpan,System.Action{k8s.WatchEventType,``0},System.Action{System.Exception},System.Action,System.String,System.Threading.CancellationToken)
-  name: Watch<TResource>(TimeSpan, Action<WatchEventType, TResource>, Action<Exception>, Action, String, CancellationToken)
-  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Watch__1_System_TimeSpan_System_Action_k8s_WatchEventType___0__System_Action_System_Exception__System_Action_System_String_System_Threading_CancellationToken_
-  commentId: M:KubeOps.Testing.MockKubernetesClient.Watch``1(System.TimeSpan,System.Action{k8s.WatchEventType,``0},System.Action{System.Exception},System.Action,System.String,System.Threading.CancellationToken)
-  name.vb: Watch(Of TResource)(TimeSpan, Action(Of WatchEventType, TResource), Action(Of Exception), Action, String, CancellationToken)
-  fullName: KubeOps.Testing.MockKubernetesClient.Watch<TResource>(System.TimeSpan, System.Action<k8s.WatchEventType, TResource>, System.Action<System.Exception>, System.Action, System.String, System.Threading.CancellationToken)
-  fullName.vb: KubeOps.Testing.MockKubernetesClient.Watch(Of TResource)(System.TimeSpan, System.Action(Of k8s.WatchEventType, TResource), System.Action(Of System.Exception), System.Action, System.String, System.Threading.CancellationToken)
-  nameWithType: MockKubernetesClient.Watch<TResource>(TimeSpan, Action<WatchEventType, TResource>, Action<Exception>, Action, String, CancellationToken)
-  nameWithType.vb: MockKubernetesClient.Watch(Of TResource)(TimeSpan, Action(Of WatchEventType, TResource), Action(Of Exception), Action, String, CancellationToken)
+- uid: KubeOps.Testing.MockKubernetesClient.Watch``1(System.TimeSpan,System.Action{k8s.WatchEventType,``0},System.Action{System.Exception},System.Action,System.String,System.Threading.CancellationToken,DotnetKubernetesClient.LabelSelectors.ILabelSelector[])
+  name: Watch<TResource>(TimeSpan, Action<WatchEventType, TResource>, Action<Exception>, Action, String, CancellationToken, ILabelSelector[])
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Watch__1_System_TimeSpan_System_Action_k8s_WatchEventType___0__System_Action_System_Exception__System_Action_System_String_System_Threading_CancellationToken_DotnetKubernetesClient_LabelSelectors_ILabelSelector___
+  commentId: M:KubeOps.Testing.MockKubernetesClient.Watch``1(System.TimeSpan,System.Action{k8s.WatchEventType,``0},System.Action{System.Exception},System.Action,System.String,System.Threading.CancellationToken,DotnetKubernetesClient.LabelSelectors.ILabelSelector[])
+  name.vb: Watch(Of TResource)(TimeSpan, Action(Of WatchEventType, TResource), Action(Of Exception), Action, String, CancellationToken, ILabelSelector())
+  fullName: KubeOps.Testing.MockKubernetesClient.Watch<TResource>(System.TimeSpan, System.Action<k8s.WatchEventType, TResource>, System.Action<System.Exception>, System.Action, System.String, System.Threading.CancellationToken, DotnetKubernetesClient.LabelSelectors.ILabelSelector[])
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Watch(Of TResource)(System.TimeSpan, System.Action(Of k8s.WatchEventType, TResource), System.Action(Of System.Exception), System.Action, System.String, System.Threading.CancellationToken, DotnetKubernetesClient.LabelSelectors.ILabelSelector())
+  nameWithType: MockKubernetesClient.Watch<TResource>(TimeSpan, Action<WatchEventType, TResource>, Action<Exception>, Action, String, CancellationToken, ILabelSelector[])
+  nameWithType.vb: MockKubernetesClient.Watch(Of TResource)(TimeSpan, Action(Of WatchEventType, TResource), Action(Of Exception), Action, String, CancellationToken, ILabelSelector())
+- uid: KubeOps.Testing.MockKubernetesClient.Watch``1(System.TimeSpan,System.Action{k8s.WatchEventType,``0},System.Action{System.Exception},System.Action,System.String,System.Threading.CancellationToken,System.String)
+  name: Watch<TResource>(TimeSpan, Action<WatchEventType, TResource>, Action<Exception>, Action, String, CancellationToken, String)
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Watch__1_System_TimeSpan_System_Action_k8s_WatchEventType___0__System_Action_System_Exception__System_Action_System_String_System_Threading_CancellationToken_System_String_
+  commentId: M:KubeOps.Testing.MockKubernetesClient.Watch``1(System.TimeSpan,System.Action{k8s.WatchEventType,``0},System.Action{System.Exception},System.Action,System.String,System.Threading.CancellationToken,System.String)
+  name.vb: Watch(Of TResource)(TimeSpan, Action(Of WatchEventType, TResource), Action(Of Exception), Action, String, CancellationToken, String)
+  fullName: KubeOps.Testing.MockKubernetesClient.Watch<TResource>(System.TimeSpan, System.Action<k8s.WatchEventType, TResource>, System.Action<System.Exception>, System.Action, System.String, System.Threading.CancellationToken, System.String)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Watch(Of TResource)(System.TimeSpan, System.Action(Of k8s.WatchEventType, TResource), System.Action(Of System.Exception), System.Action, System.String, System.Threading.CancellationToken, System.String)
+  nameWithType: MockKubernetesClient.Watch<TResource>(TimeSpan, Action<WatchEventType, TResource>, Action<Exception>, Action, String, CancellationToken, String)
+  nameWithType.vb: MockKubernetesClient.Watch(Of TResource)(TimeSpan, Action(Of WatchEventType, TResource), Action(Of Exception), Action, String, CancellationToken, String)
 - uid: KubeOps.Testing.MockResourceEventQueue`1
   name: MockResourceEventQueue<TEntity>
   href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html

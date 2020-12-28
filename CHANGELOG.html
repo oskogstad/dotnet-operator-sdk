@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Changelog </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Changelog ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="changelog">Changelog</h1>
+
+<h2 id="v240httpsgithubcombuehlerdotnet-operator-sdktreev240-2020-12-10"><a href="https://github.com/buehler/dotnet-operator-sdk/tree/v2.4.0">v2.4.0</a> (2020-12-10)</h2>
+<h2 id="v230httpsgithubcombuehlerdotnet-operator-sdktreev230-2020-10-26"><a href="https://github.com/buehler/dotnet-operator-sdk/tree/v2.3.0">v2.3.0</a> (2020-10-26)</h2>
+<p><strong>Implemented enhancements:</strong></p>
+<ul>
+<li>feat: throw an error if a crd has no proper type <a href="https://github.com/buehler/dotnet-operator-sdk/issues/80">#80</a></li>
+</ul>
+<p><strong>Fixed bugs:</strong></p>
+<ul>
+<li>Unhandled exception. System.NotSupportedException and then crash and exit <a href="https://github.com/buehler/dotnet-operator-sdk/issues/76">#76</a></li>
+</ul>
+<p><strong>Closed issues:</strong></p>
+<ul>
+<li>Let the docs specify that the output type should be &#39;Exe&#39;. <a href="https://github.com/buehler/dotnet-operator-sdk/issues/73">#73</a></li>
+</ul>
+<h2 id="v220httpsgithubcombuehlerdotnet-operator-sdktreev220-2020-09-18"><a href="https://github.com/buehler/dotnet-operator-sdk/tree/v2.2.0">v2.2.0</a> (2020-09-18)</h2>
+<p><strong>Implemented enhancements:</strong></p>
+<ul>
+<li>Support multiple versions of a CRD <a href="https://github.com/buehler/dotnet-operator-sdk/issues/54">#54</a></li>
+<li>Proper testing <a href="https://github.com/buehler/dotnet-operator-sdk/issues/9">#9</a></li>
+<li>CrdGenerator: fetch descriptions from documentation - xml file if able <a href="https://github.com/buehler/dotnet-operator-sdk/issues/7">#7</a></li>
+<li>Namespaced controllers / operator <a href="https://github.com/buehler/dotnet-operator-sdk/issues/2">#2</a></li>
+</ul>
+<h2 id="v211httpsgithubcombuehlerdotnet-operator-sdktreev211-2020-09-10"><a href="https://github.com/buehler/dotnet-operator-sdk/tree/v2.1.1">v2.1.1</a> (2020-09-10)</h2>
+<h2 id="v210httpsgithubcombuehlerdotnet-operator-sdktreev210-2020-09-10"><a href="https://github.com/buehler/dotnet-operator-sdk/tree/v2.1.0">v2.1.0</a> (2020-09-10)</h2>
+<p><strong>Implemented enhancements:</strong></p>
+<ul>
+<li>Refactoring of Operator <a href="https://github.com/buehler/dotnet-operator-sdk/issues/45">#45</a></li>
+<li>Support leader takeover <a href="https://github.com/buehler/dotnet-operator-sdk/issues/23">#23</a></li>
+<li>Support leader election <a href="https://github.com/buehler/dotnet-operator-sdk/issues/22">#22</a></li>
+</ul>
+<p><strong>Fixed bugs:</strong></p>
+<ul>
+<li>Deployment yaml of operator is missing liveness / readiness probe <a href="https://github.com/buehler/dotnet-operator-sdk/issues/52">#52</a></li>
+<li>Remove MVC Testing from KubeOps <a href="https://github.com/buehler/dotnet-operator-sdk/issues/51">#51</a></li>
+</ul>
+<h2 id="v200httpsgithubcombuehlerdotnet-operator-sdktreev200-2020-09-01"><a href="https://github.com/buehler/dotnet-operator-sdk/tree/v2.0.0">v2.0.0</a> (2020-09-01)</h2>
+<h2 id="v130httpsgithubcombuehlerdotnet-operator-sdktreev130-2020-08-29"><a href="https://github.com/buehler/dotnet-operator-sdk/tree/v1.3.0">v1.3.0</a> (2020-08-29)</h2>
+<p><strong>Implemented enhancements:</strong></p>
+<ul>
+<li>Provide KubeOps.Testing package <a href="https://github.com/buehler/dotnet-operator-sdk/issues/10">#10</a></li>
+<li>Add prometheus metrics <a href="https://github.com/buehler/dotnet-operator-sdk/issues/4">#4</a></li>
+</ul>
+<h2 id="v120httpsgithubcombuehlerdotnet-operator-sdktreev120-2020-06-25"><a href="https://github.com/buehler/dotnet-operator-sdk/tree/v1.2.0">v1.2.0</a> (2020-06-25)</h2>
+<p><strong>Implemented enhancements:</strong></p>
+<ul>
+<li>Add &quot;Ignore&quot; Attribute for entities <a href="https://github.com/buehler/dotnet-operator-sdk/issues/25">#25</a></li>
+<li>Make Queue size configurable <a href="https://github.com/buehler/dotnet-operator-sdk/issues/6">#6</a></li>
+</ul>
+<p><strong>Fixed bugs:</strong></p>
+<ul>
+<li>Remove &quot;UniqueItems&quot; since it is not allowed <a href="https://github.com/buehler/dotnet-operator-sdk/issues/24">#24</a></li>
+</ul>
+<h2 id="v112httpsgithubcombuehlerdotnet-operator-sdktreev112-2020-05-20"><a href="https://github.com/buehler/dotnet-operator-sdk/tree/v1.1.2">v1.1.2</a> (2020-05-20)</h2>
+<p><strong>Implemented enhancements:</strong></p>
+<ul>
+<li>Allow kube-proxy flag for commands <a href="https://github.com/buehler/dotnet-operator-sdk/issues/1">#1</a></li>
+</ul>
+<p><strong>Fixed bugs:</strong></p>
+<ul>
+<li>Remove emtpy &quot;required&quot; fields from V1BetaCRD <a href="https://github.com/buehler/dotnet-operator-sdk/issues/19">#19</a></li>
+<li>Production Logging is always enabled <a href="https://github.com/buehler/dotnet-operator-sdk/issues/18">#18</a></li>
+<li>Errors thrown from k8s API when no CRD instances are present <a href="https://github.com/buehler/dotnet-operator-sdk/issues/17">#17</a></li>
+</ul>
+<h2 id="v111httpsgithubcombuehlerdotnet-operator-sdktreev111-2020-05-14"><a href="https://github.com/buehler/dotnet-operator-sdk/tree/v1.1.1">v1.1.1</a> (2020-05-14)</h2>
+<h2 id="v110httpsgithubcombuehlerdotnet-operator-sdktreev110-2020-05-13"><a href="https://github.com/buehler/dotnet-operator-sdk/tree/v1.1.0">v1.1.0</a> (2020-05-13)</h2>
+<p><strong>Implemented enhancements:</strong></p>
+<ul>
+<li>CrdGenerator: Array types <a href="https://github.com/buehler/dotnet-operator-sdk/issues/16">#16</a></li>
+<li>Provide possibility to have structured logs on production <a href="https://github.com/buehler/dotnet-operator-sdk/issues/12">#12</a></li>
+<li>CrdGenerator: add the validation attributes <a href="https://github.com/buehler/dotnet-operator-sdk/issues/8">#8</a></li>
+</ul>
+<h2 id="v103httpsgithubcombuehlerdotnet-operator-sdktreev103-2020-05-10"><a href="https://github.com/buehler/dotnet-operator-sdk/tree/v1.0.3">v1.0.3</a> (2020-05-10)</h2>
+<h2 id="v102httpsgithubcombuehlerdotnet-operator-sdktreev102-2020-05-09"><a href="https://github.com/buehler/dotnet-operator-sdk/tree/v1.0.2">v1.0.2</a> (2020-05-09)</h2>
+<p><strong>Fixed bugs:</strong></p>
+<ul>
+<li>Add Role Binding in namespace to manager role <a href="https://github.com/buehler/dotnet-operator-sdk/issues/15">#15</a></li>
+</ul>
+<p><strong>Closed issues:</strong></p>
+<ul>
+<li>Provide propper documentation <a href="https://github.com/buehler/dotnet-operator-sdk/issues/11">#11</a></li>
+</ul>
+<h2 id="v101httpsgithubcombuehlerdotnet-operator-sdktreev101-2020-05-08"><a href="https://github.com/buehler/dotnet-operator-sdk/tree/v1.0.1">v1.0.1</a> (2020-05-08)</h2>
+<p><strong>Fixed bugs:</strong></p>
+<ul>
+<li>Use correct api group for Deployment <a href="https://github.com/buehler/dotnet-operator-sdk/issues/14">#14</a></li>
+<li>Clear file when regenerate crds and other yamls <a href="https://github.com/buehler/dotnet-operator-sdk/issues/13">#13</a></li>
+</ul>
+<h2 id="v100httpsgithubcombuehlerdotnet-operator-sdktreev100-2020-05-08"><a href="https://github.com/buehler/dotnet-operator-sdk/tree/v1.0.0">v1.0.0</a> (2020-05-08)</h2>
+<p>* <em>This Changelog was automatically generated by <a href="https://github.com/github-changelog-generator/github-changelog-generator">github_changelog_generator</a></em></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/docs/CHANGELOG.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>

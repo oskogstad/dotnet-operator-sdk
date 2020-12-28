@@ -153,7 +153,7 @@ references that can be set to return certain results upon calling the client.</p
     public object? CreateResult { get; set; }
 
     public object? UpdateResult { get; set; }
-                _ =&gt; { }));
+                (_, __) =&gt; { },
 </code></pre><div class="WARNING"><h5>Warning</h5><p>The mocked client is injected as singleton, this means
 the used &quot;result&quot; references can vary. Be aware of that
 and don&#39;t run your tests in parallel if you rely
