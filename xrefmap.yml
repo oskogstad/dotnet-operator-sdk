@@ -212,6 +212,24 @@ references:
   fullName.vb: KubeOps.Operator.Caching.IResourceCache(Of TEntity).Clear
   nameWithType: IResourceCache<TEntity>.Clear
   nameWithType.vb: IResourceCache(Of TEntity).Clear
+- uid: KubeOps.Operator.Caching.IResourceCache`1.Fill(System.Collections.Generic.IEnumerable{`0})
+  name: Fill(IEnumerable<TEntity>)
+  href: kube-ops/KubeOps.Operator.Caching.IResourceCache-1.html#KubeOps_Operator_Caching_IResourceCache_1_Fill_System_Collections_Generic_IEnumerable__0__
+  commentId: M:KubeOps.Operator.Caching.IResourceCache`1.Fill(System.Collections.Generic.IEnumerable{`0})
+  name.vb: Fill(IEnumerable(Of TEntity))
+  fullName: KubeOps.Operator.Caching.IResourceCache<TEntity>.Fill(System.Collections.Generic.IEnumerable<TEntity>)
+  fullName.vb: KubeOps.Operator.Caching.IResourceCache(Of TEntity).Fill(System.Collections.Generic.IEnumerable(Of TEntity))
+  nameWithType: IResourceCache<TEntity>.Fill(IEnumerable<TEntity>)
+  nameWithType.vb: IResourceCache(Of TEntity).Fill(IEnumerable(Of TEntity))
+- uid: KubeOps.Operator.Caching.IResourceCache`1.Fill*
+  name: Fill
+  href: kube-ops/KubeOps.Operator.Caching.IResourceCache-1.html#KubeOps_Operator_Caching_IResourceCache_1_Fill_
+  commentId: Overload:KubeOps.Operator.Caching.IResourceCache`1.Fill
+  isSpec: "True"
+  fullName: KubeOps.Operator.Caching.IResourceCache<TEntity>.Fill
+  fullName.vb: KubeOps.Operator.Caching.IResourceCache(Of TEntity).Fill
+  nameWithType: IResourceCache<TEntity>.Fill
+  nameWithType.vb: IResourceCache(Of TEntity).Fill
 - uid: KubeOps.Operator.Caching.IResourceCache`1.Get(System.String)
   name: Get(String)
   href: kube-ops/KubeOps.Operator.Caching.IResourceCache-1.html#KubeOps_Operator_Caching_IResourceCache_1_Get_System_String_
@@ -1567,6 +1585,19 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.OperatorSettings.Namespace
   nameWithType: OperatorSettings.Namespace
+- uid: KubeOps.Operator.OperatorSettings.PreloadCache
+  name: PreloadCache
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_PreloadCache
+  commentId: P:KubeOps.Operator.OperatorSettings.PreloadCache
+  fullName: KubeOps.Operator.OperatorSettings.PreloadCache
+  nameWithType: OperatorSettings.PreloadCache
+- uid: KubeOps.Operator.OperatorSettings.PreloadCache*
+  name: PreloadCache
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_PreloadCache_
+  commentId: Overload:KubeOps.Operator.OperatorSettings.PreloadCache
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorSettings.PreloadCache
+  nameWithType: OperatorSettings.PreloadCache
 - uid: KubeOps.Operator.OperatorSettings.ReadinessEndpoint
   name: ReadinessEndpoint
   href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_ReadinessEndpoint
