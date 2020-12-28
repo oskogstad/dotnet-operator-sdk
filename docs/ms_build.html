@@ -70,13 +70,29 @@
 <h1 id="ms-build-extensions">MS Build extensions</h1>
 
 <p>This project extends the default build process of dotnet with some
-code generation targets before the build.</p>
-<p>You&#39;ll find those two files here:</p>
+code generation targets after the build.</p>
+<p>You&#39;ll find the configurations and targets here:</p>
 <ul>
-<li><a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Build/KubeOps.props">KubeOps.props</a>: defines the build properties</li>
 <li><a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Build/KubeOps.targets">KubeOps.targets</a>: defines the additional build targets</li>
 </ul>
-<p>They can be configured with the prop settings described below.
+<p>An example of such a target is:</p>
+<pre><code class="lang-xml" name="KubeOps.targets" highlight-lines="2-7">&lt;Target Name=&quot;GenerateDockerfile&quot;&gt;
+    &lt;PropertyGroup&gt;
+        &lt;!-- Configuration for Docker related commands --&gt;
+        &lt;KubeOpsDockerfilePath Condition=&quot;&#39;$(KubeOpsDockerfilePath)&#39; == &#39;&#39;&quot;&gt;$(MSBuildProjectDirectory)\Dockerfile&lt;/KubeOpsDockerfilePath&gt;
+        &lt;KubeOpsDockerTag Condition=&quot;&#39;$(KubeOpsDockerTag)&#39; == &#39;&#39;&quot;&gt;latest&lt;/KubeOpsDockerTag&gt;
+    &lt;/PropertyGroup&gt;
+
+    &lt;Message Text=&quot;Generating Dockerfile&quot; Importance=&quot;high&quot;/&gt;
+    &lt;Message Text=&quot;Dockerfile path: $(KubeOpsDockerfilePath)&quot; Importance=&quot;normal&quot;/&gt;
+
+    &lt;Message Condition=&quot;Exists(&#39;$(KubeOpsDockerfilePath)&#39;)&quot; Text=&quot;Dockerfile already exists. Don&#39;t overwrite.&quot;
+             Importance=&quot;high&quot;/&gt;
+    &lt;Exec Condition=&quot;!Exists(&#39;$(KubeOpsDockerfilePath)&#39;)&quot;
+          Command=&quot;dotnet $(OutputPath)$(TargetFileName) generator docker --out $(KubeOpsDockerfilePath) --dotnet-tag $(KubeOpsDockerTag) --solution-dir $(SolutionDir) --target-file $(TargetFileName) --project-path $(ProjectPath)&quot;/&gt;
+&lt;/Target&gt;
+
+</code></pre><p>They can be configured with the prop settings described below.
 The props file just defines the defaults.</p>
 <h2 id="prop-settings">Prop Settings</h2>
 <p>You can overwrite the default behaviour of the building parts with the following
@@ -93,7 +109,7 @@ variables that you can add in a <code>&lt;PropertyGroup&gt;</code> in your <code
 <tr>
 <td>KubeOpsDockerfilePath</td>
 <td>The path of the dockerfile</td>
-<td>$(SolutionDir)Dockerfile<br>or<br>$(MSBuildProjectDirectory)\Dockerfile</td>
+<td>$(MSBuildProjectDirectory)\Dockerfile</td>
 </tr>
 <tr>
 <td>KubeOpsDockerTag</td>
@@ -103,7 +119,7 @@ variables that you can add in a <code>&lt;PropertyGroup&gt;</code> in your <code
 <tr>
 <td>KubeOpsConfigRoot</td>
 <td>The base directory for generated elements</td>
-<td>$(SolutionDir)config<br>or<br>$(MSBuildProjectDirectory)\config</td>
+<td>$(MSBuildProjectDirectory)\config</td>
 </tr>
 <tr>
 <td>KubeOpsCrdDir</td>
