@@ -77,32 +77,57 @@
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
+      <h4><a class="xref" href="KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.html">AdditionalPrinterColumnAttribute</a></h4>
+      <section><p>Defines a property as an additional printer column.</p>
+</section>
       <h4><a class="xref" href="KubeOps.Operator.Entities.Annotations.DescriptionAttribute.html">DescriptionAttribute</a></h4>
-      <section></section>
+      <section><p>Defines a description for a property. This precedes the description found in a
+XML documentation file.</p>
+</section>
       <h4><a class="xref" href="KubeOps.Operator.Entities.Annotations.EmbeddedResourceAttribute.html">EmbeddedResourceAttribute</a></h4>
-      <section></section>
+      <section><p>Defines a property as an embedded resource.
+This property can contain another kubernetes object
+(e.g. a <span class="xref">k8s.Models.V1ConfigMap</span> or a <span class="xref">k8s.Models.V1Deployment</span>).
+This implicitly sets the <a class="xref" href="KubeOps.Operator.Entities.Annotations.PreserveUnknownFieldsAttribute.html">PreserveUnknownFieldsAttribute</a>.</p>
+</section>
       <h4><a class="xref" href="KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.html">ExternalDocsAttribute</a></h4>
-      <section></section>
+      <section><p>Defines that the property has an external documentation.</p>
+</section>
+      <h4><a class="xref" href="KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html">GenericAdditionalPrinterColumnAttribute</a></h4>
+      <section><p>Defines a generic additional printer column.
+With this, other elements (such as Metadata.Name)
+can be referenced. In contrast to the <a class="xref" href="KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.html">AdditionalPrinterColumnAttribute</a>,
+all needed information must be provided.</p>
+</section>
       <h4><a class="xref" href="KubeOps.Operator.Entities.Annotations.IgnoreEntityAttribute.html">IgnoreEntityAttribute</a></h4>
       <section><p>Attribute that states that the given entity should be
 ignored during CRD generation.</p>
 </section>
       <h4><a class="xref" href="KubeOps.Operator.Entities.Annotations.ItemsAttribute.html">ItemsAttribute</a></h4>
-      <section></section>
+      <section><p>Define minimum and maximum items count for an array property.</p>
+</section>
       <h4><a class="xref" href="KubeOps.Operator.Entities.Annotations.LengthAttribute.html">LengthAttribute</a></h4>
-      <section></section>
+      <section><p>Defines length limits for properties.</p>
+</section>
       <h4><a class="xref" href="KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.html">MultipleOfAttribute</a></h4>
-      <section></section>
+      <section><p>Defines the factor that a numeric value must adhere to.</p>
+</section>
       <h4><a class="xref" href="KubeOps.Operator.Entities.Annotations.PatternAttribute.html">PatternAttribute</a></h4>
-      <section></section>
+      <section><p>Define a regex validator for the property.</p>
+</section>
       <h4><a class="xref" href="KubeOps.Operator.Entities.Annotations.PreserveUnknownFieldsAttribute.html">PreserveUnknownFieldsAttribute</a></h4>
-      <section></section>
+      <section><p>Defines that a property should keep unknown fields
+so that kubernetes does not purge additional structures.</p>
+</section>
       <h4><a class="xref" href="KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.html">RangeMaximumAttribute</a></h4>
-      <section></section>
+      <section><p>Defines a range maximum for a numeric property.</p>
+</section>
       <h4><a class="xref" href="KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.html">RangeMinimumAttribute</a></h4>
-      <section></section>
+      <section><p>Defines a range minimum for a numeric property.</p>
+</section>
       <h4><a class="xref" href="KubeOps.Operator.Entities.Annotations.RequiredAttribute.html">RequiredAttribute</a></h4>
-      <section></section>
+      <section><p>Defines a property of a specification as required.</p>
+</section>
       <h4><a class="xref" href="KubeOps.Operator.Entities.Annotations.StorageVersionAttribute.html">StorageVersionAttribute</a></h4>
       <section><p>This attribute marks an entity as the storage version of
 an entity. Only one storage version must be set.

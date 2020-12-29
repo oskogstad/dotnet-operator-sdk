@@ -496,6 +496,38 @@ references:
   commentId: N:KubeOps.Operator.Entities.Annotations
   fullName: KubeOps.Operator.Entities.Annotations
   nameWithType: KubeOps.Operator.Entities.Annotations
+- uid: KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute
+  name: AdditionalPrinterColumnAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.html
+  commentId: T:KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute
+  fullName: KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute
+  nameWithType: AdditionalPrinterColumnAttribute
+- uid: KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Name
+  name: Name
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_AdditionalPrinterColumnAttribute_Name
+  commentId: P:KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Name
+  fullName: KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Name
+  nameWithType: AdditionalPrinterColumnAttribute.Name
+- uid: KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Name*
+  name: Name
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_AdditionalPrinterColumnAttribute_Name_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Name
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Name
+  nameWithType: AdditionalPrinterColumnAttribute.Name
+- uid: KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Priority
+  name: Priority
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_AdditionalPrinterColumnAttribute_Priority
+  commentId: P:KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Priority
+  fullName: KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Priority
+  nameWithType: AdditionalPrinterColumnAttribute.Priority
+- uid: KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Priority*
+  name: Priority
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_AdditionalPrinterColumnAttribute_Priority_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Priority
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Priority
+  nameWithType: AdditionalPrinterColumnAttribute.Priority
 - uid: KubeOps.Operator.Entities.Annotations.DescriptionAttribute
   name: DescriptionAttribute
   href: kube-ops/KubeOps.Operator.Entities.Annotations.DescriptionAttribute.html
@@ -579,6 +611,103 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.Url
   nameWithType: ExternalDocsAttribute.Url
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute
+  name: GenericAdditionalPrinterColumnAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html
+  commentId: T:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute
+  nameWithType: GenericAdditionalPrinterColumnAttribute
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.#ctor(System.String,System.String,System.String)
+  name: GenericAdditionalPrinterColumnAttribute(String, String, String)
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute__ctor_System_String_System_String_System_String_
+  commentId: M:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.#ctor(System.String,System.String,System.String)
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.GenericAdditionalPrinterColumnAttribute(System.String, System.String, System.String)
+  nameWithType: GenericAdditionalPrinterColumnAttribute.GenericAdditionalPrinterColumnAttribute(String, String, String)
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.#ctor*
+  name: GenericAdditionalPrinterColumnAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute__ctor_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.#ctor
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.GenericAdditionalPrinterColumnAttribute
+  nameWithType: GenericAdditionalPrinterColumnAttribute.GenericAdditionalPrinterColumnAttribute
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Description
+  name: Description
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_Description
+  commentId: P:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Description
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Description
+  nameWithType: GenericAdditionalPrinterColumnAttribute.Description
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Description*
+  name: Description
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_Description_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Description
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Description
+  nameWithType: GenericAdditionalPrinterColumnAttribute.Description
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Format
+  name: Format
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_Format
+  commentId: P:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Format
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Format
+  nameWithType: GenericAdditionalPrinterColumnAttribute.Format
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Format*
+  name: Format
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_Format_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Format
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Format
+  nameWithType: GenericAdditionalPrinterColumnAttribute.Format
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.JsonPath
+  name: JsonPath
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_JsonPath
+  commentId: P:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.JsonPath
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.JsonPath
+  nameWithType: GenericAdditionalPrinterColumnAttribute.JsonPath
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.JsonPath*
+  name: JsonPath
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_JsonPath_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.JsonPath
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.JsonPath
+  nameWithType: GenericAdditionalPrinterColumnAttribute.JsonPath
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Name
+  name: Name
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_Name
+  commentId: P:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Name
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Name
+  nameWithType: GenericAdditionalPrinterColumnAttribute.Name
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Name*
+  name: Name
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_Name_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Name
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Name
+  nameWithType: GenericAdditionalPrinterColumnAttribute.Name
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Priority
+  name: Priority
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_Priority
+  commentId: P:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Priority
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Priority
+  nameWithType: GenericAdditionalPrinterColumnAttribute.Priority
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Priority*
+  name: Priority
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_Priority_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Priority
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Priority
+  nameWithType: GenericAdditionalPrinterColumnAttribute.Priority
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Type
+  name: Type
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_Type
+  commentId: P:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Type
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Type
+  nameWithType: GenericAdditionalPrinterColumnAttribute.Type
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Type*
+  name: Type
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_Type_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Type
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Type
+  nameWithType: GenericAdditionalPrinterColumnAttribute.Type
 - uid: KubeOps.Operator.Entities.Annotations.IgnoreEntityAttribute
   name: IgnoreEntityAttribute
   href: kube-ops/KubeOps.Operator.Entities.Annotations.IgnoreEntityAttribute.html

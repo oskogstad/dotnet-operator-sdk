@@ -12,7 +12,7 @@
       "output": {
         ".html": {
           "relative_path": "CHANGELOG.html",
-          "hash": "IzbBxNqihciZzunfKCu4Jg=="
+          "hash": "9rrl1KVur3EksPYzdSCn1Q=="
         }
       },
       "is_incremental": false,
@@ -368,11 +368,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.html",
+          "hash": "Jdr+JG5t+I/tIdGaiXSOfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.DescriptionAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.DescriptionAttribute.html",
-          "hash": "hLxlzpWakfXdDzckJ50G8Q=="
+          "hash": "ZHIBnBch3LhIaqajPpbWdw=="
         }
       },
       "is_incremental": false,
@@ -384,7 +396,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.EmbeddedResourceAttribute.html",
-          "hash": "Q1cWadKL8xngrDLQKTmyuw=="
+          "hash": "GVo4nc7t0SJNUieSyxrK4w=="
         }
       },
       "is_incremental": false,
@@ -396,7 +408,19 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.html",
-          "hash": "r70C+rRkkfzHVSoFW0Mjbw=="
+          "hash": "4Vgan9CbKZnCufq4ENX7Yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html",
+          "hash": "OTbntYeC+opULzPLKsILuQ=="
         }
       },
       "is_incremental": false,
@@ -420,7 +444,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.ItemsAttribute.html",
-          "hash": "OAqGv+0QFPiDu9iEUnYx/A=="
+          "hash": "1ovI1yzxc/Rm9M/bRmk0AQ=="
         }
       },
       "is_incremental": false,
@@ -432,7 +456,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.LengthAttribute.html",
-          "hash": "IIfxxKdbJR7slxBHqAYgbA=="
+          "hash": "khk0aWzjHbjFc/cp4CTQcg=="
         }
       },
       "is_incremental": false,
@@ -444,7 +468,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.html",
-          "hash": "o19Rv9USx7ZK2pqm/QOnYQ=="
+          "hash": "GZeWTLbxsgz+22FkiKyKlg=="
         }
       },
       "is_incremental": false,
@@ -456,7 +480,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.PatternAttribute.html",
-          "hash": "Y6vMPuzqWDGXM5nHQisFzw=="
+          "hash": "+CaHJX6BAFq6IJHHwjOnbQ=="
         }
       },
       "is_incremental": false,
@@ -468,7 +492,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.PreserveUnknownFieldsAttribute.html",
-          "hash": "o2RsJxKC2+iBHQsRKUOa7w=="
+          "hash": "p/yIOZA4HSM9GI6i+vPMfQ=="
         }
       },
       "is_incremental": false,
@@ -480,7 +504,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.html",
-          "hash": "Bk5tG+WYN9hwwF8Y5GKpzw=="
+          "hash": "S8j3E0uC3t/hgAbzgSdmtw=="
         }
       },
       "is_incremental": false,
@@ -492,7 +516,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.html",
-          "hash": "OKZ2Ayzsv10vwlU3BajMHQ=="
+          "hash": "HrP/myg9ZbjRKnkohvP0ZA=="
         }
       },
       "is_incremental": false,
@@ -504,7 +528,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.RequiredAttribute.html",
-          "hash": "vt5Hj3USZXoqZHLwY6G4lw=="
+          "hash": "pAUZM9NQi0QUM69m+OFzTA=="
         }
       },
       "is_incremental": false,
@@ -528,7 +552,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.html",
-          "hash": "Ql2bOuG63rygxysGP6obuA=="
+          "hash": "L53wnj+28ys3UJCr/Low4g=="
         }
       },
       "is_incremental": false,
@@ -540,7 +564,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity-1.html",
-          "hash": "dlyEwyy7B4m/4UdEEiotnQ=="
+          "hash": "w7ASb/v6/UPPk4VKRD8Y5g=="
         }
       },
       "is_incremental": false,
@@ -552,7 +576,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity-2.html",
-          "hash": "fAWJsjrdOoeIS8StIqfSJQ=="
+          "hash": "ci/mcr5HZzFLzd4rA49rPg=="
         }
       },
       "is_incremental": false,
@@ -564,7 +588,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity.html",
-          "hash": "kRyEa+rNIUTA8yjGfXNTLw=="
+          "hash": "iAgYDhgR/NNVYy3IrCtKwA=="
         }
       },
       "is_incremental": false,
@@ -1008,7 +1032,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/toc.html",
-          "hash": "PyZz1GT9Clp7IMo7TTUBjw=="
+          "hash": "Os8VUNjrXNS17aIy5OjRDA=="
         }
       },
       "is_incremental": false,
@@ -1047,7 +1071,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 67,
+          "total_file_count": 69,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
