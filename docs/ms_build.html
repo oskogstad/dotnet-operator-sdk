@@ -79,7 +79,7 @@ code generation targets after the build.</p>
 <pre><code class="lang-xml" name="KubeOps.targets" highlight-lines="2-7">&lt;Target Name=&quot;GenerateDockerfile&quot;&gt;
     &lt;PropertyGroup&gt;
         &lt;!-- Configuration for Docker related commands --&gt;
-        &lt;KubeOpsDockerfilePath Condition=&quot;&#39;$(KubeOpsDockerfilePath)&#39; == &#39;&#39;&quot;&gt;$(MSBuildProjectDirectory)\Dockerfile&lt;/KubeOpsDockerfilePath&gt;
+        &lt;KubeOpsDockerfilePath Condition=&quot;&#39;$(KubeOpsDockerfilePath)&#39; == &#39;&#39;&quot;&gt;$(KubeOpsBasePath)\Dockerfile&lt;/KubeOpsDockerfilePath&gt;
         &lt;KubeOpsDockerTag Condition=&quot;&#39;$(KubeOpsDockerTag)&#39; == &#39;&#39;&quot;&gt;latest&lt;/KubeOpsDockerTag&gt;
     &lt;/PropertyGroup&gt;
 
@@ -107,89 +107,94 @@ variables that you can add in a <code>&lt;PropertyGroup&gt;</code> in your <code
 </thead>
 <tbody>
 <tr>
+<td>KubeOpsBasePath</td>
+<td>Base path for all other elements</td>
+<td><code>$(MSBuildProjectDirectory)</code></td>
+</tr>
+<tr>
 <td>KubeOpsDockerfilePath</td>
 <td>The path of the dockerfile</td>
-<td>$(MSBuildProjectDirectory)\Dockerfile</td>
+<td><code>$(KubeOpsBasePath)\Dockerfile</code></td>
 </tr>
 <tr>
 <td>KubeOpsDockerTag</td>
 <td>Which dotnet sdk / run tag should be used</td>
-<td>latest</td>
+<td><code>latest</code></td>
 </tr>
 <tr>
 <td>KubeOpsConfigRoot</td>
 <td>The base directory for generated elements</td>
-<td>$(MSBuildProjectDirectory)\config</td>
+<td><code>$(KubeOpsBasePath)\config</code></td>
 </tr>
 <tr>
 <td>KubeOpsCrdDir</td>
 <td>The directory for the generated crds</td>
-<td>$(KubeOpsConfigRoot)\crds</td>
+<td><code>$(KubeOpsConfigRoot)\crds</code></td>
 </tr>
 <tr>
 <td>KubeOpsCrdFormat</td>
 <td>Output format for crds</td>
-<td>Yaml</td>
+<td><code>Yaml</code></td>
 </tr>
 <tr>
 <td>KubeOpsCrdUseOldCrds</td>
 <td>Use V1Beta version of crd instead of V1<br>(for kubernetes version &lt; 1.16)</td>
-<td>false</td>
+<td><code>false</code></td>
 </tr>
 <tr>
 <td>KubeOpsRbacDir</td>
 <td>Where to put the roles</td>
-<td>$(KubeOpsConfigRoot)\rbac</td>
+<td><code>$(KubeOpsConfigRoot)\rbac</code></td>
 </tr>
 <tr>
 <td>KubeOpsRbacFormat</td>
 <td>Output format for rbac</td>
-<td>Yaml</td>
+<td><code>Yaml</code></td>
 </tr>
 <tr>
 <td>KubeOpsOperatorDir</td>
 <td>Where to put operator related elements<br>(e.g. Deployment)</td>
-<td>$(KubeOpsConfigRoot)\operator</td>
+<td><code>$(KubeOpsConfigRoot)\operator</code></td>
 </tr>
 <tr>
 <td>KubeOpsOperatorFormat</td>
 <td>Output format for the operator</td>
-<td>Yaml</td>
+<td><code>Yaml</code></td>
 </tr>
 <tr>
 <td>KubeOpsInstallerDir</td>
 <td>Where to put the installation files<br>(e.g. Namespace / Kustomization)</td>
-<td>$(KubeOpsConfigRoot)\install</td>
+<td><code>$(KubeOpsConfigRoot)\install</code></td>
 </tr>
 <tr>
 <td>KubeOpsInstallerFormat</td>
 <td>Output format for the installation files</td>
-<td>Yaml</td>
+<td><code>Yaml</code></td>
 </tr>
 <tr>
 <td>KubeOpsSkipDockerfile</td>
 <td>Skip dockerfile during build</td>
-<td>&quot;&quot;</td>
+<td><code>&quot;&quot;</code></td>
 </tr>
 <tr>
 <td>KubeOpsSkipCrds</td>
 <td>Skip crd generation during build</td>
-<td>&quot;&quot;</td>
+<td><code>&quot;&quot;</code></td>
 </tr>
 <tr>
 <td>KubeOpsSkipRbac</td>
 <td>Skip rbac generation during build</td>
-<td>&quot;&quot;</td>
+<td><code>&quot;&quot;</code></td>
 </tr>
 <tr>
 <td>KubeOpsSkipOperator</td>
 <td>Skip operator generation during build</td>
-<td>&quot;&quot;</td>
+<td><code>&quot;&quot;</code></td>
 </tr>
 <tr>
 <td>KubeOpsSkipInstaller</td>
 <td>Skip installer generation during build</td>
-<td>&quot;&quot;</td>
+<td><code>&quot;&quot;</code></td>
 </tr>
 </tbody>
 </table>
