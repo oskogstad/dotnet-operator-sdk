@@ -73,7 +73,8 @@
   
   <h1 id="KubeOps_Operator_ServiceCollectionExtensions" data-uid="KubeOps.Operator.ServiceCollectionExtensions" class="text-break">Class ServiceCollectionExtensions
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Extensions for <span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span>.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -117,11 +118,13 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_ServiceCollectionExtensions_AddKubernetesOperator_Microsoft_Extensions_DependencyInjection_IServiceCollection_KubeOps_Operator_OperatorSettings_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(Microsoft.Extensions.DependencyInjection.IServiceCollection%2CKubeOps.Operator.OperatorSettings)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/ServiceCollectionExtensions.cs/#L18">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/ServiceCollectionExtensions.cs/#L35">View Source</a>
   </span>
   <a id="KubeOps_Operator_ServiceCollectionExtensions_AddKubernetesOperator_" data-uid="KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator*"></a>
   <h4 id="KubeOps_Operator_ServiceCollectionExtensions_AddKubernetesOperator_Microsoft_Extensions_DependencyInjection_IServiceCollection_KubeOps_Operator_OperatorSettings_" data-uid="KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(Microsoft.Extensions.DependencyInjection.IServiceCollection,KubeOps.Operator.OperatorSettings)">AddKubernetesOperator(IServiceCollection, OperatorSettings)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Add the kubernetes operator to the dependency injection
+and configure the operator.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -140,12 +143,14 @@
       <tr>
         <td><span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span></td>
         <td><span class="parametername">services</span></td>
-        <td></td>
+        <td><p><span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span>.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="KubeOps.Operator.OperatorSettings.html">OperatorSettings</a></td>
         <td><span class="parametername">settings</span></td>
-        <td></td>
+        <td><p>An instance of the operator settings to use.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -160,7 +165,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="KubeOps.Operator.Builder.IOperatorBuilder.html">IOperatorBuilder</a></td>
-        <td></td>
+        <td><p>An <a class="xref" href="KubeOps.Operator.Builder.IOperatorBuilder.html">IOperatorBuilder</a> for further configuration and chaining.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -169,11 +175,13 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_ServiceCollectionExtensions_AddKubernetesOperator_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_KubeOps_Operator_OperatorSettings__.md&amp;value=---%0Auid%3A%20KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(Microsoft.Extensions.DependencyInjection.IServiceCollection%2CSystem.Action%7BKubeOps.Operator.OperatorSettings%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/ServiceCollectionExtensions.cs/#L9">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/ServiceCollectionExtensions.cs/#L19">View Source</a>
   </span>
   <a id="KubeOps_Operator_ServiceCollectionExtensions_AddKubernetesOperator_" data-uid="KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator*"></a>
   <h4 id="KubeOps_Operator_ServiceCollectionExtensions_AddKubernetesOperator_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_KubeOps_Operator_OperatorSettings__" data-uid="KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{KubeOps.Operator.OperatorSettings})">AddKubernetesOperator(IServiceCollection, Action&lt;OperatorSettings&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Add the kubernetes operator to the dependency injection
+and configure the operator.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -192,12 +200,14 @@
       <tr>
         <td><span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span></td>
         <td><span class="parametername">services</span></td>
-        <td></td>
+        <td><p><span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span>.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Action</span>&lt;<a class="xref" href="KubeOps.Operator.OperatorSettings.html">OperatorSettings</a>&gt;</td>
         <td><span class="parametername">configure</span></td>
-        <td></td>
+        <td><p>An optional configure action for adjusting settings in the operator.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -212,7 +222,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="KubeOps.Operator.Builder.IOperatorBuilder.html">IOperatorBuilder</a></td>
-        <td></td>
+        <td><p>An <a class="xref" href="KubeOps.Operator.Builder.IOperatorBuilder.html">IOperatorBuilder</a> for further configuration and chaining.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -227,7 +238,7 @@
                     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_ServiceCollectionExtensions.md&amp;value=---%0Auid%3A%20KubeOps.Operator.ServiceCollectionExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/ServiceCollectionExtensions.cs/#L7" class="contribution-link">View Source</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/ServiceCollectionExtensions.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

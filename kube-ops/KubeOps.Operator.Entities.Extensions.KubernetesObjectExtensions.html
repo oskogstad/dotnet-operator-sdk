@@ -73,7 +73,8 @@
   
   <h1 id="KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions" data-uid="KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions" class="text-break">Class KubernetesObjectExtensions
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Extensions for various kubernetes objects.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -117,11 +118,12 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_MakeObjectReference_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeObjectReference(k8s.IKubernetesObject%7Bk8s.Models.V1ObjectMeta%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Entities/Extensions/KubernetesObjectExtensions.cs/#L25">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Entities/Extensions/KubernetesObjectExtensions.cs/#L45">View Source</a>
   </span>
   <a id="KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_MakeObjectReference_" data-uid="KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeObjectReference*"></a>
   <h4 id="KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_MakeObjectReference_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__" data-uid="KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeObjectReference(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta})">MakeObjectReference(IKubernetesObject&lt;V1ObjectMeta&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Create a <span class="xref">k8s.Models.V1ObjectReference</span> of a kubernetes object.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -140,7 +142,8 @@
       <tr>
         <td><span class="xref">k8s.IKubernetesObject</span>&lt;<span class="xref">k8s.Models.V1ObjectMeta</span>&gt;</td>
         <td><span class="parametername">kubernetesObject</span></td>
-        <td></td>
+        <td><p>The object that should be translated.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -155,7 +158,8 @@
     <tbody>
       <tr>
         <td><span class="xref">k8s.Models.V1ObjectReference</span></td>
-        <td></td>
+        <td><p>The created <span class="xref">k8s.Models.V1ObjectReference</span>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -164,11 +168,12 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_MakeOwnerReference_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeOwnerReference(k8s.IKubernetesObject%7Bk8s.Models.V1ObjectMeta%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Entities/Extensions/KubernetesObjectExtensions.cs/#L18">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Entities/Extensions/KubernetesObjectExtensions.cs/#L33">View Source</a>
   </span>
   <a id="KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_MakeOwnerReference_" data-uid="KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeOwnerReference*"></a>
   <h4 id="KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_MakeOwnerReference_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__" data-uid="KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeOwnerReference(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta})">MakeOwnerReference(IKubernetesObject&lt;V1ObjectMeta&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Create a <span class="xref">k8s.Models.V1OwnerReference</span> out of a kubernetes object.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -187,7 +192,8 @@
       <tr>
         <td><span class="xref">k8s.IKubernetesObject</span>&lt;<span class="xref">k8s.Models.V1ObjectMeta</span>&gt;</td>
         <td><span class="parametername">kubernetesObject</span></td>
-        <td></td>
+        <td><p>The object that should be translated.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -202,7 +208,8 @@
     <tbody>
       <tr>
         <td><span class="xref">k8s.Models.V1OwnerReference</span></td>
-        <td></td>
+        <td><p>The created <span class="xref">k8s.Models.V1OwnerReference</span>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -211,11 +218,12 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_WithOwnerReference__1___0_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference%60%601(%60%600%2Ck8s.IKubernetesObject%7Bk8s.Models.V1ObjectMeta%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Entities/Extensions/KubernetesObjectExtensions.cs/#L9">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Entities/Extensions/KubernetesObjectExtensions.cs/#L19">View Source</a>
   </span>
   <a id="KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_WithOwnerReference_" data-uid="KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference*"></a>
   <h4 id="KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_WithOwnerReference__1___0_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__" data-uid="KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference``1(``0,k8s.IKubernetesObject{k8s.Models.V1ObjectMeta})">WithOwnerReference&lt;TResource&gt;(TResource, IKubernetesObject&lt;V1ObjectMeta&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Ensures the object contains owner references and adds the owner to the list.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -235,12 +243,14 @@
       <tr>
         <td><span class="xref">TResource</span></td>
         <td><span class="parametername">resource</span></td>
-        <td></td>
+        <td><p>The resource that is owned by another resource.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">k8s.IKubernetesObject</span>&lt;<span class="xref">k8s.Models.V1ObjectMeta</span>&gt;</td>
         <td><span class="parametername">owner</span></td>
-        <td></td>
+        <td><p>The owner to add.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -255,7 +265,8 @@
     <tbody>
       <tr>
         <td><span class="xref">TResource</span></td>
-        <td></td>
+        <td><p>The resource with the added owner reference.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -270,7 +281,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">TResource</span></td>
-        <td></td>
+        <td><p>The type of the entity.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -285,7 +297,7 @@
                     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Entities/Extensions/KubernetesObjectExtensions.cs/#L7" class="contribution-link">View Source</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Entities/Extensions/KubernetesObjectExtensions.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

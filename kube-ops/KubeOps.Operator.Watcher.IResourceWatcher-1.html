@@ -73,7 +73,9 @@
   
   <h1 id="KubeOps_Operator_Watcher_IResourceWatcher_1" data-uid="KubeOps.Operator.Watcher.IResourceWatcher`1" class="text-break">Interface IResourceWatcher&lt;TEntity&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Watcher for a given resource.
+Queries the kubernetes cluster and notifies the event-queue when something happens.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -98,7 +100,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">TEntity</span></td>
-        <td></td>
+        <td><p>The type of the entity.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -109,11 +112,12 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Watcher_IResourceWatcher_1_Start.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Watcher.IResourceWatcher%601.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Watcher/IResourceWatcher.cs/#L13">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Watcher/IResourceWatcher.cs/#L25">View Source</a>
   </span>
   <a id="KubeOps_Operator_Watcher_IResourceWatcher_1_Start_" data-uid="KubeOps.Operator.Watcher.IResourceWatcher`1.Start*"></a>
   <h4 id="KubeOps_Operator_Watcher_IResourceWatcher_1_Start" data-uid="KubeOps.Operator.Watcher.IResourceWatcher`1.Start">Start()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Start the watcher.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -130,7 +134,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span></td>
-        <td></td>
+        <td><p>A task that resolves when everything is done.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -139,11 +144,12 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Watcher_IResourceWatcher_1_Stop.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Watcher.IResourceWatcher%601.Stop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Watcher/IResourceWatcher.cs/#L15">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Watcher/IResourceWatcher.cs/#L31">View Source</a>
   </span>
   <a id="KubeOps_Operator_Watcher_IResourceWatcher_1_Stop_" data-uid="KubeOps.Operator.Watcher.IResourceWatcher`1.Stop*"></a>
   <h4 id="KubeOps_Operator_Watcher_IResourceWatcher_1_Stop" data-uid="KubeOps.Operator.Watcher.IResourceWatcher`1.Stop">Stop()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Stop the watcher.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -160,7 +166,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span></td>
-        <td></td>
+        <td><p>A task that resolves when everything is done.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -171,10 +178,11 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Watcher_IResourceWatcher_1_WatcherEvent.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Watcher.IResourceWatcher%601.WatcherEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Watcher/IResourceWatcher.cs/#L11">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Watcher/IResourceWatcher.cs/#L19">View Source</a>
   </span>
   <h4 id="KubeOps_Operator_Watcher_IResourceWatcher_1_WatcherEvent" data-uid="KubeOps.Operator.Watcher.IResourceWatcher`1.WatcherEvent">WatcherEvent</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Event that fires when the kubernetes cluster notifies the watcher.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -206,7 +214,7 @@
                     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Watcher_IResourceWatcher_1.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Watcher.IResourceWatcher%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Watcher/IResourceWatcher.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Watcher/IResourceWatcher.cs/#L13" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

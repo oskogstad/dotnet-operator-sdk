@@ -73,7 +73,9 @@
   
   <h1 id="KubeOps_Operator_Finalizer_ResourceFinalizerBase_1" data-uid="KubeOps.Operator.Finalizer.ResourceFinalizerBase`1" class="text-break">Class ResourceFinalizerBase&lt;TResource&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Resource finalizer base. Inherit this class to create a resource finalizer.
+The finalizer is registered with <a class="xref" href="KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddFinalizer__1">AddFinalizer&lt;TFinalizer&gt;()</a>.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -126,7 +128,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">TResource</span></td>
-        <td></td>
+        <td><p>The type of the resource.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -137,7 +140,7 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Finalizer_ResourceFinalizerBase_1__ctor_Microsoft_Extensions_Logging_ILogger_KubeOps_Operator_Finalizer_ResourceFinalizerBase__0___DotnetKubernetesClient_IKubernetesClient_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Finalizer.ResourceFinalizerBase%601.%23ctor(Microsoft.Extensions.Logging.ILogger%7BKubeOps.Operator.Finalizer.ResourceFinalizerBase%7B%600%7D%7D%2CDotnetKubernetesClient.IKubernetesClient)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Finalizer/ResourceFinalizerBase.cs/#L17">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Finalizer/ResourceFinalizerBase.cs/#L23">View Source</a>
   </span>
   <a id="KubeOps_Operator_Finalizer_ResourceFinalizerBase_1__ctor_" data-uid="KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.#ctor*"></a>
   <h4 id="KubeOps_Operator_Finalizer_ResourceFinalizerBase_1__ctor_Microsoft_Extensions_Logging_ILogger_KubeOps_Operator_Finalizer_ResourceFinalizerBase__0___DotnetKubernetesClient_IKubernetesClient_" data-uid="KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.#ctor(Microsoft.Extensions.Logging.ILogger{KubeOps.Operator.Finalizer.ResourceFinalizerBase{`0}},DotnetKubernetesClient.IKubernetesClient)">ResourceFinalizerBase(ILogger&lt;ResourceFinalizerBase&lt;TResource&gt;&gt;, IKubernetesClient)</h4>
@@ -176,11 +179,12 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Client.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Finalizer.ResourceFinalizerBase%601.Client%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Finalizer/ResourceFinalizerBase.cs/#L32">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Finalizer/ResourceFinalizerBase.cs/#L46">View Source</a>
   </span>
   <a id="KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Client_" data-uid="KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Client*"></a>
   <h4 id="KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Client" data-uid="KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Client">Client</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The instance of the kubernetes client for querying the cluster.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -206,11 +210,13 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Identifier.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Finalizer.ResourceFinalizerBase%601.Identifier%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Finalizer/ResourceFinalizerBase.cs/#L23">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Finalizer/ResourceFinalizerBase.cs/#L34">View Source</a>
   </span>
   <a id="KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Identifier_" data-uid="KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Identifier*"></a>
   <h4 id="KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Identifier" data-uid="KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Identifier">Identifier</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The unique identifier for the finalizer.
+Defaults to the singular name of the CRD with the group attached.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -231,6 +237,9 @@
       </tr>
     </tbody>
   </table>
+  <h5 id="KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Identifier_examples">Examples</h5>
+  <p>testentity.finalizers.dev.</p>
+
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
@@ -238,11 +247,14 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Finalize__0_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Finalizer.ResourceFinalizerBase%601.Finalize(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Finalizer/ResourceFinalizerBase.cs/#L67">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Finalizer/ResourceFinalizerBase.cs/#L100">View Source</a>
   </span>
   <a id="KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Finalize_" data-uid="KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Finalize*"></a>
   <h4 id="KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Finalize__0_" data-uid="KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Finalize(`0)">Finalize(TResource)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The finalize method. This is called when a resource is in the
+process of being deleted. When the <a class="xref" href="KubeOps.Operator.Finalizer.ResourceFinalizerBase-1.html#KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Identifier">Identifier</a>
+is in the list of finalizers, this method will be called.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -261,7 +273,8 @@
       <tr>
         <td><span class="xref">TResource</span></td>
         <td><span class="parametername">resource</span></td>
-        <td></td>
+        <td><p>The resource that is being finalized.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -276,7 +289,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span></td>
-        <td></td>
+        <td><p>A task that resolves when everything is done.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -285,11 +299,14 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Register__0_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Finalizer.ResourceFinalizerBase%601.Register(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Finalizer/ResourceFinalizerBase.cs/#L34">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Finalizer/ResourceFinalizerBase.cs/#L55">View Source</a>
   </span>
   <a id="KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Register_" data-uid="KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Register*"></a>
   <h4 id="KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Register__0_" data-uid="KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Register(`0)">Register(TResource)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Register the finalizer on a resource.
+This essentially checks if the list of finalizers already contains the
+identifier. If not: attach it and update the resource.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -308,7 +325,8 @@
       <tr>
         <td><span class="xref">TResource</span></td>
         <td><span class="parametername">resource</span></td>
-        <td></td>
+        <td><p>The resource to attach the finalizer to.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -323,7 +341,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span></td>
-        <td></td>
+        <td><p>A task that resolves when everything is done.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -332,11 +351,12 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Unregister__0_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Finalizer.ResourceFinalizerBase%601.Unregister(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Finalizer/ResourceFinalizerBase.cs/#L51">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Finalizer/ResourceFinalizerBase.cs/#L77">View Source</a>
   </span>
   <a id="KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Unregister_" data-uid="KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Unregister*"></a>
   <h4 id="KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Unregister__0_" data-uid="KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Unregister(`0)">Unregister(TResource)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Unregister the finalizer from a given resource.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -355,7 +375,8 @@
       <tr>
         <td><span class="xref">TResource</span></td>
         <td><span class="parametername">resource</span></td>
-        <td></td>
+        <td><p>The resource that the finalizer should be removed.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -370,7 +391,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span></td>
-        <td></td>
+        <td><p>A task that resolves when everything is done.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -392,7 +414,7 @@
                     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Finalizer_ResourceFinalizerBase_1.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Finalizer.ResourceFinalizerBase%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Finalizer/ResourceFinalizerBase.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Finalizer/ResourceFinalizerBase.cs/#L18" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

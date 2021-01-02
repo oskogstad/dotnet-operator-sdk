@@ -73,7 +73,8 @@
   
   <h1 id="KubeOps_Testing_KubernetesOperatorFactory_1" data-uid="KubeOps.Testing.KubernetesOperatorFactory`1" class="text-break">Class KubernetesOperatorFactory&lt;TTestStartup&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Operator factory for testing an operator created with the asp web server.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -174,7 +175,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">TTestStartup</span></td>
-        <td></td>
+        <td><p>Type of the Startup type (see asp.net).</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -185,11 +187,13 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_KubernetesOperatorFactory_1_MockedKubernetesClient.md&amp;value=---%0Auid%3A%20KubeOps.Testing.KubernetesOperatorFactory%601.MockedKubernetesClient%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/KubernetesOperatorFactory.cs/#L21">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/KubernetesOperatorFactory.cs/#L29">View Source</a>
   </span>
   <a id="KubeOps_Testing_KubernetesOperatorFactory_1_MockedKubernetesClient_" data-uid="KubeOps.Testing.KubernetesOperatorFactory`1.MockedKubernetesClient*"></a>
   <h4 id="KubeOps_Testing_KubernetesOperatorFactory_1_MockedKubernetesClient" data-uid="KubeOps.Testing.KubernetesOperatorFactory`1.MockedKubernetesClient">MockedKubernetesClient</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Return a mocked kubernetes client. This client defines
+no-op for all related methods.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -217,11 +221,14 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_KubernetesOperatorFactory_1_ConfigureWebHost_Microsoft_AspNetCore_Hosting_IWebHostBuilder_.md&amp;value=---%0Auid%3A%20KubeOps.Testing.KubernetesOperatorFactory%601.ConfigureWebHost(Microsoft.AspNetCore.Hosting.IWebHostBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/KubernetesOperatorFactory.cs/#L47">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/KubernetesOperatorFactory.cs/#L78">View Source</a>
   </span>
   <a id="KubeOps_Testing_KubernetesOperatorFactory_1_ConfigureWebHost_" data-uid="KubeOps.Testing.KubernetesOperatorFactory`1.ConfigureWebHost*"></a>
   <h4 id="KubeOps_Testing_KubernetesOperatorFactory_1_ConfigureWebHost_Microsoft_AspNetCore_Hosting_IWebHostBuilder_" data-uid="KubeOps.Testing.KubernetesOperatorFactory`1.ConfigureWebHost(Microsoft.AspNetCore.Hosting.IWebHostBuilder)">ConfigureWebHost(IWebHostBuilder)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Configure the web-host.
+This registers the mocked client as well as mocked
+event queues.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -240,7 +247,8 @@
       <tr>
         <td><span class="xref">Microsoft.AspNetCore.Hosting.IWebHostBuilder</span></td>
         <td><span class="parametername">builder</span></td>
-        <td></td>
+        <td><p>The web host builder.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -251,11 +259,12 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_KubernetesOperatorFactory_1_CreateHostBuilder.md&amp;value=---%0Auid%3A%20KubeOps.Testing.KubernetesOperatorFactory%601.CreateHostBuilder%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/KubernetesOperatorFactory.cs/#L41">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/KubernetesOperatorFactory.cs/#L66">View Source</a>
   </span>
   <a id="KubeOps_Testing_KubernetesOperatorFactory_1_CreateHostBuilder_" data-uid="KubeOps.Testing.KubernetesOperatorFactory`1.CreateHostBuilder*"></a>
   <h4 id="KubeOps_Testing_KubernetesOperatorFactory_1_CreateHostBuilder" data-uid="KubeOps.Testing.KubernetesOperatorFactory`1.CreateHostBuilder">CreateHostBuilder()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Create the host builder. Needed for the factory.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -283,11 +292,12 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_KubernetesOperatorFactory_1_GetMockedEventQueue__1.md&amp;value=---%0Auid%3A%20KubeOps.Testing.KubernetesOperatorFactory%601.GetMockedEventQueue%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/KubernetesOperatorFactory.cs/#L37">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/KubernetesOperatorFactory.cs/#L58">View Source</a>
   </span>
   <a id="KubeOps_Testing_KubernetesOperatorFactory_1_GetMockedEventQueue_" data-uid="KubeOps.Testing.KubernetesOperatorFactory`1.GetMockedEventQueue*"></a>
   <h4 id="KubeOps_Testing_KubernetesOperatorFactory_1_GetMockedEventQueue__1" data-uid="KubeOps.Testing.KubernetesOperatorFactory`1.GetMockedEventQueue``1">GetMockedEventQueue&lt;TEntity&gt;()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Return a mocked event queue for the given entity.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -305,7 +315,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="KubeOps.Testing.MockResourceEventQueue-1.html">MockResourceEventQueue</a>&lt;TEntity&gt;</td>
-        <td></td>
+        <td><p>A mocked event queue for the given type.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -320,7 +331,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">TEntity</span></td>
-        <td></td>
+        <td><p>The type of the entity.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -329,11 +341,12 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_KubernetesOperatorFactory_1_Run.md&amp;value=---%0Auid%3A%20KubeOps.Testing.KubernetesOperatorFactory%601.Run%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/KubernetesOperatorFactory.cs/#L31">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/KubernetesOperatorFactory.cs/#L47">View Source</a>
   </span>
   <a id="KubeOps_Testing_KubernetesOperatorFactory_1_Run_" data-uid="KubeOps.Testing.KubernetesOperatorFactory`1.Run*"></a>
   <h4 id="KubeOps_Testing_KubernetesOperatorFactory_1_Run" data-uid="KubeOps.Testing.KubernetesOperatorFactory`1.Run">Run()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Start the server.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -344,11 +357,12 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_KubernetesOperatorFactory_1_WithSolutionRelativeContentRoot_System_String_.md&amp;value=---%0Auid%3A%20KubeOps.Testing.KubernetesOperatorFactory%601.WithSolutionRelativeContentRoot(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/KubernetesOperatorFactory.cs/#L25">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/KubernetesOperatorFactory.cs/#L38">View Source</a>
   </span>
   <a id="KubeOps_Testing_KubernetesOperatorFactory_1_WithSolutionRelativeContentRoot_" data-uid="KubeOps.Testing.KubernetesOperatorFactory`1.WithSolutionRelativeContentRoot*"></a>
   <h4 id="KubeOps_Testing_KubernetesOperatorFactory_1_WithSolutionRelativeContentRoot_System_String_" data-uid="KubeOps.Testing.KubernetesOperatorFactory`1.WithSolutionRelativeContentRoot(System.String)">WithSolutionRelativeContentRoot(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Set a specific content root path to the given factory.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -401,7 +415,7 @@
                     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_KubernetesOperatorFactory_1.md&amp;value=---%0Auid%3A%20KubeOps.Testing.KubernetesOperatorFactory%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/KubernetesOperatorFactory.cs/#L16" class="contribution-link">View Source</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/KubernetesOperatorFactory.cs/#L20" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

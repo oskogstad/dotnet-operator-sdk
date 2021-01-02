@@ -73,7 +73,10 @@
   
   <h1 id="KubeOps_Testing_MockResourceEventQueue_1" data-uid="KubeOps.Testing.MockResourceEventQueue`1" class="text-break">Class MockResourceEventQueue&lt;TEntity&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Mocked resource event queue.
+Helps unit/integration test a controller by firing events
+when needed.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -130,6 +133,10 @@
       </tr>
     </tbody>
   </table>
+  <h5 id="KubeOps_Testing_MockResourceEventQueue_1_examples"><strong>Examples</strong></h5>
+  <p>var queue = _factory.GetMockedEventQueue{V1TestEntity}();
+queue.Created(new V1TestEntity());</p>
+
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
@@ -137,7 +144,7 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_MockResourceEventQueue_1__ctor_KubeOps_Testing_MockResourceQueueCollection_.md&amp;value=---%0Auid%3A%20KubeOps.Testing.MockResourceEventQueue%601.%23ctor(KubeOps.Testing.MockResourceQueueCollection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L15">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L26">View Source</a>
   </span>
   <a id="KubeOps_Testing_MockResourceEventQueue_1__ctor_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.#ctor*"></a>
   <h4 id="KubeOps_Testing_MockResourceEventQueue_1__ctor_KubeOps_Testing_MockResourceQueueCollection_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.#ctor(KubeOps.Testing.MockResourceQueueCollection)">MockResourceEventQueue(MockResourceQueueCollection)</h4>
@@ -171,11 +178,12 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_MockResourceEventQueue_1_Enqueued.md&amp;value=---%0Auid%3A%20KubeOps.Testing.MockResourceEventQueue%601.Enqueued%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L22">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L37">View Source</a>
   </span>
   <a id="KubeOps_Testing_MockResourceEventQueue_1_Enqueued_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.Enqueued*"></a>
   <h4 id="KubeOps_Testing_MockResourceEventQueue_1_Enqueued" data-uid="KubeOps.Testing.MockResourceEventQueue`1.Enqueued">Enqueued</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>List of enqueued entities.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -201,11 +209,12 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_MockResourceEventQueue_1_ErrorEnqueued.md&amp;value=---%0Auid%3A%20KubeOps.Testing.MockResourceEventQueue%601.ErrorEnqueued%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L24">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L42">View Source</a>
   </span>
   <a id="KubeOps_Testing_MockResourceEventQueue_1_ErrorEnqueued_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.ErrorEnqueued*"></a>
   <h4 id="KubeOps_Testing_MockResourceEventQueue_1_ErrorEnqueued" data-uid="KubeOps.Testing.MockResourceEventQueue`1.ErrorEnqueued">ErrorEnqueued</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>List of enqueued errors.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -233,7 +242,7 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_MockResourceEventQueue_1_ClearError__0_.md&amp;value=---%0Auid%3A%20KubeOps.Testing.MockResourceEventQueue%601.ClearError(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L63">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L110">View Source</a>
   </span>
   <a id="KubeOps_Testing_MockResourceEventQueue_1_ClearError_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.ClearError*"></a>
   <h4 id="KubeOps_Testing_MockResourceEventQueue_1_ClearError__0_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.ClearError(`0)">ClearError(TEntity)</h4>
@@ -265,11 +274,12 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_MockResourceEventQueue_1_Created__0_.md&amp;value=---%0Auid%3A%20KubeOps.Testing.MockResourceEventQueue%601.Created(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L43">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L67">View Source</a>
   </span>
   <a id="KubeOps_Testing_MockResourceEventQueue_1_Created_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.Created*"></a>
   <h4 id="KubeOps_Testing_MockResourceEventQueue_1_Created__0_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.Created(`0)">Created(TEntity)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Fire a (mocked) <a class="xref" href="../kube-ops/KubeOps.Operator.Queue.ResourceEventType.html#KubeOps_Operator_Queue_ResourceEventType_Created">Created</a> event.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -288,7 +298,8 @@
       <tr>
         <td><span class="xref">TEntity</span></td>
         <td><span class="parametername">entity</span></td>
-        <td></td>
+        <td><p>The entity that fires the event.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -297,11 +308,12 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_MockResourceEventQueue_1_Deleted__0_.md&amp;value=---%0Auid%3A%20KubeOps.Testing.MockResourceEventQueue%601.Deleted(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L47">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L79">View Source</a>
   </span>
   <a id="KubeOps_Testing_MockResourceEventQueue_1_Deleted_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.Deleted*"></a>
   <h4 id="KubeOps_Testing_MockResourceEventQueue_1_Deleted__0_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.Deleted(`0)">Deleted(TEntity)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Fire a (mocked) <a class="xref" href="../kube-ops/KubeOps.Operator.Queue.ResourceEventType.html#KubeOps_Operator_Queue_ResourceEventType_Deleted">Deleted</a> event.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -320,7 +332,8 @@
       <tr>
         <td><span class="xref">TEntity</span></td>
         <td><span class="parametername">entity</span></td>
-        <td></td>
+        <td><p>The entity that fires the event.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -329,7 +342,7 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_MockResourceEventQueue_1_Dispose.md&amp;value=---%0Auid%3A%20KubeOps.Testing.MockResourceEventQueue%601.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L27">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L45">View Source</a>
   </span>
   <a id="KubeOps_Testing_MockResourceEventQueue_1_Dispose_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.Dispose*"></a>
   <h4 id="KubeOps_Testing_MockResourceEventQueue_1_Dispose" data-uid="KubeOps.Testing.MockResourceEventQueue`1.Dispose">Dispose()</h4>
@@ -344,7 +357,7 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_MockResourceEventQueue_1_Enqueue__0_System_Nullable_System_TimeSpan__.md&amp;value=---%0Auid%3A%20KubeOps.Testing.MockResourceEventQueue%601.Enqueue(%600%2CSystem.Nullable%7BSystem.TimeSpan%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L55">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L100">View Source</a>
   </span>
   <a id="KubeOps_Testing_MockResourceEventQueue_1_Enqueue_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.Enqueue*"></a>
   <h4 id="KubeOps_Testing_MockResourceEventQueue_1_Enqueue__0_System_Nullable_System_TimeSpan__" data-uid="KubeOps.Testing.MockResourceEventQueue`1.Enqueue(`0,System.Nullable{System.TimeSpan})">Enqueue(TEntity, Nullable&lt;TimeSpan&gt;)</h4>
@@ -396,7 +409,7 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_MockResourceEventQueue_1_EnqueueErrored_KubeOps_Operator_Queue_ResourceEventType__0_.md&amp;value=---%0Auid%3A%20KubeOps.Testing.MockResourceEventQueue%601.EnqueueErrored(KubeOps.Operator.Queue.ResourceEventType%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L61">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L107">View Source</a>
   </span>
   <a id="KubeOps_Testing_MockResourceEventQueue_1_EnqueueErrored_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.EnqueueErrored*"></a>
   <h4 id="KubeOps_Testing_MockResourceEventQueue_1_EnqueueErrored_KubeOps_Operator_Queue_ResourceEventType__0_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.EnqueueErrored(KubeOps.Operator.Queue.ResourceEventType,`0)">EnqueueErrored(ResourceEventType, TEntity)</h4>
@@ -433,11 +446,12 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_MockResourceEventQueue_1_Finalizing__0_.md&amp;value=---%0Auid%3A%20KubeOps.Testing.MockResourceEventQueue%601.Finalizing(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L53">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L97">View Source</a>
   </span>
   <a id="KubeOps_Testing_MockResourceEventQueue_1_Finalizing_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.Finalizing*"></a>
   <h4 id="KubeOps_Testing_MockResourceEventQueue_1_Finalizing__0_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.Finalizing(`0)">Finalizing(TEntity)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Fire a (mocked) <a class="xref" href="../kube-ops/KubeOps.Operator.Queue.ResourceEventType.html#KubeOps_Operator_Queue_ResourceEventType_Finalizing">Finalizing</a> event.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -456,7 +470,8 @@
       <tr>
         <td><span class="xref">TEntity</span></td>
         <td><span class="parametername">entity</span></td>
-        <td></td>
+        <td><p>The entity that fires the event.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -465,11 +480,12 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_MockResourceEventQueue_1_NotModified__0_.md&amp;value=---%0Auid%3A%20KubeOps.Testing.MockResourceEventQueue%601.NotModified(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L49">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L85">View Source</a>
   </span>
   <a id="KubeOps_Testing_MockResourceEventQueue_1_NotModified_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.NotModified*"></a>
   <h4 id="KubeOps_Testing_MockResourceEventQueue_1_NotModified__0_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.NotModified(`0)">NotModified(TEntity)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Fire a (mocked) <a class="xref" href="../kube-ops/KubeOps.Operator.Queue.ResourceEventType.html#KubeOps_Operator_Queue_ResourceEventType_NotModified">NotModified</a> event.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -488,7 +504,8 @@
       <tr>
         <td><span class="xref">TEntity</span></td>
         <td><span class="parametername">entity</span></td>
-        <td></td>
+        <td><p>The entity that fires the event.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -497,7 +514,7 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_MockResourceEventQueue_1_Start.md&amp;value=---%0Auid%3A%20KubeOps.Testing.MockResourceEventQueue%601.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L31">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L50">View Source</a>
   </span>
   <a id="KubeOps_Testing_MockResourceEventQueue_1_Start_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.Start*"></a>
   <h4 id="KubeOps_Testing_MockResourceEventQueue_1_Start" data-uid="KubeOps.Testing.MockResourceEventQueue`1.Start">Start()</h4>
@@ -527,11 +544,12 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_MockResourceEventQueue_1_StatusUpdated__0_.md&amp;value=---%0Auid%3A%20KubeOps.Testing.MockResourceEventQueue%601.StatusUpdated(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L51">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L91">View Source</a>
   </span>
   <a id="KubeOps_Testing_MockResourceEventQueue_1_StatusUpdated_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.StatusUpdated*"></a>
   <h4 id="KubeOps_Testing_MockResourceEventQueue_1_StatusUpdated__0_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.StatusUpdated(`0)">StatusUpdated(TEntity)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Fire a (mocked) <a class="xref" href="../kube-ops/KubeOps.Operator.Queue.ResourceEventType.html#KubeOps_Operator_Queue_ResourceEventType_StatusUpdated">StatusUpdated</a> event.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -550,7 +568,8 @@
       <tr>
         <td><span class="xref">TEntity</span></td>
         <td><span class="parametername">entity</span></td>
-        <td></td>
+        <td><p>The entity that fires the event.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -559,7 +578,7 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_MockResourceEventQueue_1_Stop.md&amp;value=---%0Auid%3A%20KubeOps.Testing.MockResourceEventQueue%601.Stop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L37">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L57">View Source</a>
   </span>
   <a id="KubeOps_Testing_MockResourceEventQueue_1_Stop_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.Stop*"></a>
   <h4 id="KubeOps_Testing_MockResourceEventQueue_1_Stop" data-uid="KubeOps.Testing.MockResourceEventQueue`1.Stop">Stop()</h4>
@@ -589,11 +608,12 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_MockResourceEventQueue_1_Updated__0_.md&amp;value=---%0Auid%3A%20KubeOps.Testing.MockResourceEventQueue%601.Updated(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L45">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L73">View Source</a>
   </span>
   <a id="KubeOps_Testing_MockResourceEventQueue_1_Updated_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.Updated*"></a>
   <h4 id="KubeOps_Testing_MockResourceEventQueue_1_Updated__0_" data-uid="KubeOps.Testing.MockResourceEventQueue`1.Updated(`0)">Updated(TEntity)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Fire a (mocked) <a class="xref" href="../kube-ops/KubeOps.Operator.Queue.ResourceEventType.html#KubeOps_Operator_Queue_ResourceEventType_Updated">Updated</a> event.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -612,7 +632,8 @@
       <tr>
         <td><span class="xref">TEntity</span></td>
         <td><span class="parametername">entity</span></td>
-        <td></td>
+        <td><p>The entity that fires the event.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -623,7 +644,7 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_MockResourceEventQueue_1_ResourceEvent.md&amp;value=---%0Auid%3A%20KubeOps.Testing.MockResourceEventQueue%601.ResourceEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L20">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L32">View Source</a>
   </span>
   <h4 id="KubeOps_Testing_MockResourceEventQueue_1_ResourceEvent" data-uid="KubeOps.Testing.MockResourceEventQueue`1.ResourceEvent">ResourceEvent</h4>
   <div class="markdown level1 summary"></div>
@@ -665,7 +686,7 @@
                     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_MockResourceEventQueue_1.md&amp;value=---%0Auid%3A%20KubeOps.Testing.MockResourceEventQueue%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceEventQueue.cs/#L21" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

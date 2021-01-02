@@ -142,18 +142,18 @@ of resources.</p>
 All methods do return <code>null</code> or the object that was passed
 into the mocked class. There are five different object
 references that can be set to return certain results upon calling the client.</p>
-<pre><code class="lang-csharp" name="TestStartup.cs" highlight-lines="3-11">public class MockKubernetesClient : IKubernetesClient
+<pre><code class="lang-csharp" name="TestStartup.cs" highlight-lines="3-11">/// &lt;summary&gt;
+/// Mocked implementation for the kubernetes client.
+public class MockKubernetesClient : IKubernetesClient
 {
-    public object? GetResult { get; set; }
+    /// &lt;summary&gt;
+    /// Instance of the default client.
+    /// &lt;/summary&gt;
+    public IKubernetes ApiClient { get; } = new Kubernetes(KubernetesClientConfiguration.BuildDefaultConfig());
 
-    public IList&lt;object&gt;? ListResult { get; set; }
-
-    public object? SaveResult { get; set; }
-
-    public object? CreateResult { get; set; }
-
-    public object? UpdateResult { get; set; }
-                (_, __) =&gt; { },
+    /// &lt;summary&gt;
+    /// Mocked result for the &lt;see cref=&quot;Get{TResource}&quot;/&gt; call.
+    /// &lt;param name=&quot;labelSelector&quot;&gt;Not used.&lt;/param&gt;
 </code></pre><div class="WARNING"><h5>Warning</h5><p>The mocked client is injected as singleton, this means
 the used &quot;result&quot; references can vary. Be aware of that
 and don&#39;t run your tests in parallel if you rely
@@ -164,28 +164,28 @@ on those results.</p>
 You probably need to set the solution relative content root for
 asp.net testing. But then you can run the factory
 and create a test.</p>
-<pre><code class="lang-csharp" name="TestStartup.cs" highlight-lines="7,13">public class TestControllerTest : IClassFixture&lt;KubernetesOperatorFactory&lt;TestStartup&gt;&gt;
-{
-    private readonly KubernetesOperatorFactory&lt;TestStartup&gt; _factory;
-
-    public TestControllerTest(KubernetesOperatorFactory&lt;TestStartup&gt; factory)
+<pre><code class="lang-csharp" name="TestStartup.cs" highlight-lines="7,13">    public class TestControllerTest : IClassFixture&lt;KubernetesOperatorFactory&lt;TestStartup&gt;&gt;
     {
-        _factory = factory.WithSolutionRelativeContentRoot(&quot;tests/KubeOps.TestOperator&quot;);
-    }
+        private readonly KubernetesOperatorFactory&lt;TestStartup&gt; _factory;
 
-    [Fact]
-    public void Test_If_Manager_Created_Is_Called()
-    {
-        _factory.Run();
-        var mock = _factory.Services.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;();
-        mock.Reset();
-        mock.Setup(o =&gt; o.Created(It.IsAny&lt;V1TestEntity&gt;()));
-        mock.Verify(o =&gt; o.Created(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
-        _factory.MockedKubernetesClient.UpdateResult = new V1TestEntity();
-        var queue = _factory.GetMockedEventQueue&lt;V1TestEntity&gt;();
-        queue.Created(new V1TestEntity());
-        mock.Verify(o =&gt; o.Created(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
-    }
+        public TestControllerTest(KubernetesOperatorFactory&lt;TestStartup&gt; factory)
+        {
+            _factory = factory.WithSolutionRelativeContentRoot(&quot;tests/KubeOps.TestOperator&quot;);
+        }
+
+        [Fact]
+        public void Test_If_Manager_Created_Is_Called()
+        {
+            _factory.Run();
+            var mock = _factory.Services.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;();
+            mock.Reset();
+            mock.Setup(o =&gt; o.Created(It.IsAny&lt;V1TestEntity&gt;()));
+            mock.Verify(o =&gt; o.Created(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
+            var queue = _factory.GetMockedEventQueue&lt;V1TestEntity&gt;();
+            queue.Created(new V1TestEntity());
+            mock.Verify(o =&gt; o.Created(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
+        }
+
 }
 </code></pre></article>
           </div>

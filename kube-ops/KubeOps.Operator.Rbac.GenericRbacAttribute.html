@@ -73,7 +73,11 @@
   
   <h1 id="KubeOps_Operator_Rbac_GenericRbacAttribute" data-uid="KubeOps.Operator.Rbac.GenericRbacAttribute" class="text-break">Class GenericRbacAttribute
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Generic attribute to define rbac needs for the operator.
+This needs get generated into rbac - yaml style resources
+for installation on a cluster.</p>
+<p>The attribute essentially defines the role definition of kubernetes.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -224,15 +228,18 @@ public class GenericRbacAttribute : Attribute</code></pre>
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Rbac_GenericRbacAttribute_Groups.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Rbac.GenericRbacAttribute.Groups%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Rbac/GenericRbacAttribute.cs/#L8">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Rbac/GenericRbacAttribute.cs/#L21">View Source</a>
   </span>
   <a id="KubeOps_Operator_Rbac_GenericRbacAttribute_Groups_" data-uid="KubeOps.Operator.Rbac.GenericRbacAttribute.Groups*"></a>
   <h4 id="KubeOps_Operator_Rbac_GenericRbacAttribute_Groups" data-uid="KubeOps.Operator.Rbac.GenericRbacAttribute.Groups">Groups</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>List of groups.</p>
+<p>Yaml example:
+&quot;apiGroups: ...&quot;.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string[] Groups { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string[] Groups { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -254,15 +261,18 @@ public class GenericRbacAttribute : Attribute</code></pre>
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Rbac_GenericRbacAttribute_Resources.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Rbac.GenericRbacAttribute.Resources%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Rbac/GenericRbacAttribute.cs/#L10">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Rbac/GenericRbacAttribute.cs/#L29">View Source</a>
   </span>
   <a id="KubeOps_Operator_Rbac_GenericRbacAttribute_Resources_" data-uid="KubeOps.Operator.Rbac.GenericRbacAttribute.Resources*"></a>
   <h4 id="KubeOps_Operator_Rbac_GenericRbacAttribute_Resources" data-uid="KubeOps.Operator.Rbac.GenericRbacAttribute.Resources">Resources</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>List of resources.</p>
+<p>Yaml example:
+&quot;resources: [&quot;pods&quot;]&quot;.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string[] Resources { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string[] Resources { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -284,15 +294,16 @@ public class GenericRbacAttribute : Attribute</code></pre>
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Rbac_GenericRbacAttribute_Urls.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Rbac.GenericRbacAttribute.Urls%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Rbac/GenericRbacAttribute.cs/#L12">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Rbac/GenericRbacAttribute.cs/#L34">View Source</a>
   </span>
   <a id="KubeOps_Operator_Rbac_GenericRbacAttribute_Urls_" data-uid="KubeOps.Operator.Rbac.GenericRbacAttribute.Urls*"></a>
   <h4 id="KubeOps_Operator_Rbac_GenericRbacAttribute_Urls" data-uid="KubeOps.Operator.Rbac.GenericRbacAttribute.Urls">Urls</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>List of urls.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string[] Urls { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string[] Urls { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -314,15 +325,18 @@ public class GenericRbacAttribute : Attribute</code></pre>
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Rbac_GenericRbacAttribute_Verbs.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Rbac.GenericRbacAttribute.Verbs%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Rbac/GenericRbacAttribute.cs/#L14">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Rbac/GenericRbacAttribute.cs/#L42">View Source</a>
   </span>
   <a id="KubeOps_Operator_Rbac_GenericRbacAttribute_Verbs_" data-uid="KubeOps.Operator.Rbac.GenericRbacAttribute.Verbs*"></a>
   <h4 id="KubeOps_Operator_Rbac_GenericRbacAttribute_Verbs" data-uid="KubeOps.Operator.Rbac.GenericRbacAttribute.Verbs">Verbs</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Flags (&quot;list&quot;) of allowed verbs.</p>
+<p>Yaml example:
+&quot;verbs: [&quot;get&quot;, &quot;list&quot;, &quot;watch&quot;]&quot;.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RbacVerb Verbs { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public RbacVerb Verbs { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -350,7 +364,7 @@ public class GenericRbacAttribute : Attribute</code></pre>
                     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Rbac_GenericRbacAttribute.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Rbac.GenericRbacAttribute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Rbac/GenericRbacAttribute.cs/#L5" class="contribution-link">View Source</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Rbac/GenericRbacAttribute.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

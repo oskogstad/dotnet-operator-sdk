@@ -73,7 +73,10 @@
   
   <h1 id="KubeOps_Testing_MockResourceQueueCollection" data-uid="KubeOps.Testing.MockResourceQueueCollection" class="text-break">Class MockResourceQueueCollection
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Static collection for <a class="xref" href="KubeOps.Testing.MockResourceEventQueue-1.html">MockResourceEventQueue&lt;TEntity&gt;</a>.
+When a queue is created, the collection gets notified and keeps
+a list of them.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -117,11 +120,12 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_MockResourceQueueCollection_Get__1.md&amp;value=---%0Auid%3A%20KubeOps.Testing.MockResourceQueueCollection.Get%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceQueueCollection.cs/#L25">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceQueueCollection.cs/#L45">View Source</a>
   </span>
   <a id="KubeOps_Testing_MockResourceQueueCollection_Get_" data-uid="KubeOps.Testing.MockResourceQueueCollection.Get*"></a>
   <h4 id="KubeOps_Testing_MockResourceQueueCollection_Get__1" data-uid="KubeOps.Testing.MockResourceQueueCollection.Get``1">Get&lt;TEntity&gt;()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get a mocked event queue for a given entity type.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -139,7 +143,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="KubeOps.Testing.MockResourceEventQueue-1.html">MockResourceEventQueue</a>&lt;TEntity&gt;</td>
-        <td></td>
+        <td><p>The <a class="xref" href="KubeOps.Testing.MockResourceEventQueue-1.html">MockResourceEventQueue&lt;TEntity&gt;</a> for the entity.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -154,7 +159,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">TEntity</span></td>
-        <td></td>
+        <td><p>The type of the entity.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -163,15 +169,16 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_MockResourceQueueCollection_Register__1_KubeOps_Testing_MockResourceEventQueue___0__.md&amp;value=---%0Auid%3A%20KubeOps.Testing.MockResourceQueueCollection.Register%60%601(KubeOps.Testing.MockResourceEventQueue%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceQueueCollection.cs/#L13">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceQueueCollection.cs/#L23">View Source</a>
   </span>
   <a id="KubeOps_Testing_MockResourceQueueCollection_Register_" data-uid="KubeOps.Testing.MockResourceQueueCollection.Register*"></a>
   <h4 id="KubeOps_Testing_MockResourceQueueCollection_Register__1_KubeOps_Testing_MockResourceEventQueue___0__" data-uid="KubeOps.Testing.MockResourceQueueCollection.Register``1(KubeOps.Testing.MockResourceEventQueue{``0})">Register&lt;TEntity&gt;(MockResourceEventQueue&lt;TEntity&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Register a mocked queue.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Register&lt;TEntity&gt;(MockResourceEventQueue&lt;TEntity&gt; watcher)
+    <pre><code class="lang-csharp hljs">public void Register&lt;TEntity&gt;(MockResourceEventQueue&lt;TEntity&gt; queue)
     where TEntity : IKubernetesObject&lt;V1ObjectMeta&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -186,8 +193,9 @@
     <tbody>
       <tr>
         <td><a class="xref" href="KubeOps.Testing.MockResourceEventQueue-1.html">MockResourceEventQueue</a>&lt;TEntity&gt;</td>
-        <td><span class="parametername">watcher</span></td>
-        <td></td>
+        <td><span class="parametername">queue</span></td>
+        <td><p>The queue to be registered.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -202,7 +210,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">TEntity</span></td>
-        <td></td>
+        <td><p>The type of the entity.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -211,11 +220,12 @@
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_MockResourceQueueCollection_Unregister__1_KubeOps_Testing_MockResourceEventQueue___0__.md&amp;value=---%0Auid%3A%20KubeOps.Testing.MockResourceQueueCollection.Unregister%60%601(KubeOps.Testing.MockResourceEventQueue%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceQueueCollection.cs/#L19">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceQueueCollection.cs/#L34">View Source</a>
   </span>
   <a id="KubeOps_Testing_MockResourceQueueCollection_Unregister_" data-uid="KubeOps.Testing.MockResourceQueueCollection.Unregister*"></a>
   <h4 id="KubeOps_Testing_MockResourceQueueCollection_Unregister__1_KubeOps_Testing_MockResourceEventQueue___0__" data-uid="KubeOps.Testing.MockResourceQueueCollection.Unregister``1(KubeOps.Testing.MockResourceEventQueue{``0})">Unregister&lt;TEntity&gt;(MockResourceEventQueue&lt;TEntity&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Remove a registered queue for a given type.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -235,7 +245,8 @@
       <tr>
         <td><a class="xref" href="KubeOps.Testing.MockResourceEventQueue-1.html">MockResourceEventQueue</a>&lt;TEntity&gt;</td>
         <td><span class="parametername">_</span></td>
-        <td></td>
+        <td><p>Not used.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -250,7 +261,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">TEntity</span></td>
-        <td></td>
+        <td><p>The type of the entity.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -265,7 +277,7 @@
                     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Testing_MockResourceQueueCollection.md&amp;value=---%0Auid%3A%20KubeOps.Testing.MockResourceQueueCollection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceQueueCollection.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps.Testing/MockResourceQueueCollection.cs/#L13" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
