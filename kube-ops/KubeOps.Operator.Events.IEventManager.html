@@ -1,0 +1,383 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IEventManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IEventManager
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="KubeOps.Operator.Events.IEventManager">
+  
+  
+  <h1 id="KubeOps_Operator_Events_IEventManager" data-uid="KubeOps.Operator.Events.IEventManager" class="text-break">Interface IEventManager
+  </h1>
+  <div class="markdown level0 summary"><p>Event manager for <span class="xref">k8s.Models.Corev1Event</span> objects.
+Contains various utility methods for emitting events on objects.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="KubeOps.Operator.Events.html">KubeOps.Operator.Events</a></h6>
+  <h6><strong>Assembly</strong>: KubeOps.dll</h6>
+  <h5 id="KubeOps_Operator_Events_IEventManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IEventManager</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Events_IEventManager_CreatePublisher_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__System_String_System_String_KubeOps_Operator_Events_EventType_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Events.IEventManager.CreatePublisher(k8s.IKubernetesObject%7Bk8s.Models.V1ObjectMeta%7D%2CSystem.String%2CSystem.String%2CKubeOps.Operator.Events.EventType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Events/IEventManager.cs/#L78">View Source</a>
+  </span>
+  <a id="KubeOps_Operator_Events_IEventManager_CreatePublisher_" data-uid="KubeOps.Operator.Events.IEventManager.CreatePublisher*"></a>
+  <h4 id="KubeOps_Operator_Events_IEventManager_CreatePublisher_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__System_String_System_String_KubeOps_Operator_Events_EventType_" data-uid="KubeOps.Operator.Events.IEventManager.CreatePublisher(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta},System.String,System.String,KubeOps.Operator.Events.EventType)">CreatePublisher(IKubernetesObject&lt;V1ObjectMeta&gt;, String, String, EventType)</h4>
+  <div class="markdown level1 summary"><p>Create a <a class="xref" href="KubeOps.Operator.Events.IEventManager.StaticPublisher.html">IEventManager.StaticPublisher</a> for a predefined event.
+The <a class="xref" href="KubeOps.Operator.Events.IEventManager.StaticPublisher.html">IEventManager.StaticPublisher</a> is then called without any parameters.
+The predefined event is published with the initially given resource as the involved object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEventManager.StaticPublisher CreatePublisher(IKubernetesObject&lt;V1ObjectMeta&gt; resource, string reason, string message, EventType type = EventType.Normal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">k8s.IKubernetesObject</span>&lt;<span class="xref">k8s.Models.V1ObjectMeta</span>&gt;</td>
+        <td><span class="parametername">resource</span></td>
+        <td><p>The resource that is involved with the event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>The reason string. This should be a machine readable reason string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>A human readable string for the event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="KubeOps.Operator.Events.EventType.html">EventType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The type of the event.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="KubeOps.Operator.Events.IEventManager.StaticPublisher.html">IEventManager.StaticPublisher</a></td>
+        <td><p>A <a class="xref" href="KubeOps.Operator.Events.IEventManager.StaticPublisher.html">IEventManager.StaticPublisher</a> delegate that can be called to create or update events.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Events_IEventManager_CreatePublisher_System_String_System_String_KubeOps_Operator_Events_EventType_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Events.IEventManager.CreatePublisher(System.String%2CSystem.String%2CKubeOps.Operator.Events.EventType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Events/IEventManager.cs/#L63">View Source</a>
+  </span>
+  <a id="KubeOps_Operator_Events_IEventManager_CreatePublisher_" data-uid="KubeOps.Operator.Events.IEventManager.CreatePublisher*"></a>
+  <h4 id="KubeOps_Operator_Events_IEventManager_CreatePublisher_System_String_System_String_KubeOps_Operator_Events_EventType_" data-uid="KubeOps.Operator.Events.IEventManager.CreatePublisher(System.String,System.String,KubeOps.Operator.Events.EventType)">CreatePublisher(String, String, EventType)</h4>
+  <div class="markdown level1 summary"><p>Create a <a class="xref" href="KubeOps.Operator.Events.IEventManager.Publisher.html">IEventManager.Publisher</a> for a predefined event.
+The <a class="xref" href="KubeOps.Operator.Events.IEventManager.Publisher.html">IEventManager.Publisher</a> is then called with a resource (<span class="xref">k8s.IKubernetesObject&lt;TMetadata&gt;</span>).
+The predefined event is published with this resource as the involved object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEventManager.Publisher CreatePublisher(string reason, string message, EventType type = EventType.Normal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>The reason string. This should be a machine readable reason string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>A human readable string for the event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="KubeOps.Operator.Events.EventType.html">EventType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The type of the event.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="KubeOps.Operator.Events.IEventManager.Publisher.html">IEventManager.Publisher</a></td>
+        <td><p>A <a class="xref" href="KubeOps.Operator.Events.IEventManager.Publisher.html">IEventManager.Publisher</a> delegate that can be called to create or update events.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Events_IEventManager_Publish_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__System_String_System_String_KubeOps_Operator_Events_EventType_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Events.IEventManager.Publish(k8s.IKubernetesObject%7Bk8s.Models.V1ObjectMeta%7D%2CSystem.String%2CSystem.String%2CKubeOps.Operator.Events.EventType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Events/IEventManager.cs/#L41">View Source</a>
+  </span>
+  <a id="KubeOps_Operator_Events_IEventManager_Publish_" data-uid="KubeOps.Operator.Events.IEventManager.Publish*"></a>
+  <h4 id="KubeOps_Operator_Events_IEventManager_Publish_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__System_String_System_String_KubeOps_Operator_Events_EventType_" data-uid="KubeOps.Operator.Events.IEventManager.Publish(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta},System.String,System.String,KubeOps.Operator.Events.EventType)">Publish(IKubernetesObject&lt;V1ObjectMeta&gt;, String, String, EventType)</h4>
+  <div class="markdown level1 summary"><p>Publish an event in relation to a given resource.
+The event is created or updated if it exists.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task Publish(IKubernetesObject&lt;V1ObjectMeta&gt; resource, string reason, string message, EventType type = EventType.Normal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">k8s.IKubernetesObject</span>&lt;<span class="xref">k8s.Models.V1ObjectMeta</span>&gt;</td>
+        <td><span class="parametername">resource</span></td>
+        <td><p>The resource that is involved with the event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>The reason string. This should be a machine readable reason string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>A human readable string for the event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="KubeOps.Operator.Events.EventType.html">EventType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The type of the event.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>A task that finishes when the event is created or updated.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Events_IEventManager_Publish_k8s_Models_Corev1Event_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Events.IEventManager.Publish(k8s.Models.Corev1Event)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Events/IEventManager.cs/#L52">View Source</a>
+  </span>
+  <a id="KubeOps_Operator_Events_IEventManager_Publish_" data-uid="KubeOps.Operator.Events.IEventManager.Publish*"></a>
+  <h4 id="KubeOps_Operator_Events_IEventManager_Publish_k8s_Models_Corev1Event_" data-uid="KubeOps.Operator.Events.IEventManager.Publish(k8s.Models.Corev1Event)">Publish(Corev1Event)</h4>
+  <div class="markdown level1 summary"><p>Create or update an event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task Publish(Corev1Event event)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">k8s.Models.Corev1Event</span></td>
+        <td><span class="parametername">event</span></td>
+        <td><p>The full event object that should be created or updated.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>A task that finishes when the event is created or updated.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Events_IEventManager.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Events.IEventManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Events/IEventManager.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

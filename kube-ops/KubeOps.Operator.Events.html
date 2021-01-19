@@ -5,9 +5,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Operator utils </title>
+    <title>Namespace KubeOps.Operator.Events
+   </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Operator utils ">
+    <meta name="title" content="Namespace KubeOps.Operator.Events
+   ">
     <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -66,45 +68,39 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="">
-<h1 id="operator-utils">Operator utils</h1>
-
-<p>There are two basic utilities that should be mentioned:</p>
-<ul>
-<li>Healthchecks</li>
-<li>Metrics</li>
-</ul>
-<h2 id="healthchecks">Healthchecks</h2>
-<p>This is a basic feature of asp.net. The operator sdk makes use of
-it and splits them up into <code>Liveness</code> and <code>Readiness</code> checks.</p>
-<p>With the appropriate methods, you can add an <code>IHealthCheck</code> interface
-to either <code>/ready</code>, <code>/health</code> or both.</p>
-<p>The urls can be configured via <a class="xref" href="../kube-ops/KubeOps.Operator.OperatorSettings.html">OperatorSettings</a>.</p>
-<ul>
-<li><a class="xref" href="../kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddHealthCheck__1_System_String_">AddHealthCheck&lt;THealthCheck&gt;(String)</a>:
-adds a healthcheck to ready and liveness</li>
-<li><a class="xref" href="../kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddLivenessCheck__1_System_String_">AddLivenessCheck&lt;TLivenessCheck&gt;(String)</a>:
-adds a healthcheck to the liveness route only</li>
-<li><a class="xref" href="../kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddReadinessCheck__1_System_String_">AddReadinessCheck&lt;TReadinessCheck&gt;(String)</a>:
-adds a healthcheck to the readiness route only</li>
-</ul>
-<h2 id="metrics">Metrics</h2>
-<p>By default, the operator lists some interessting metrics on the
-<code>/metrics</code> route. The url can be configured via <a class="xref" href="../kube-ops/KubeOps.Operator.OperatorSettings.html">OperatorSettings</a>.</p>
-<p>There are many counters on how many elements have been reconciled, if the
-controllers and queues are up and how many elements are in timed requeue state.</p>
-<p>Please have a look at the metrics if you run your operator locally or online
-to see which metrics are available.</p>
-<p>Of course you can also have a look at the used metrics classes to see the
-implementation: <a href="https://github.com/buehler/dotnet-operator-sdk/tree/master/src/KubeOps/Operator/DevOps">Metrics Implementations</a>.</p>
-<h1 id="entity--resource-utils">Entity / Resource utils</h1>
-<p>There are several method extensions that help with day to day resource
-handling. Head over to their documentation to see that they do:</p>
-<ul>
-<li><a class="xref" href="../kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html#KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_MakeObjectReference_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__">MakeObjectReference(IKubernetesObject&lt;V1ObjectMeta&gt;)</a></li>
-<li><a class="xref" href="../kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html#KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_MakeOwnerReference_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__">MakeOwnerReference(IKubernetesObject&lt;V1ObjectMeta&gt;)</a></li>
-<li><a class="xref" href="../kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html#KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_WithOwnerReference__1___0_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__">WithOwnerReference&lt;TResource&gt;(TResource, IKubernetesObject&lt;V1ObjectMeta&gt;)</a></li>
-</ul>
+            <article class="content wrap" id="_content" data-uid="KubeOps.Operator.Events">
+  
+  <h1 id="KubeOps_Operator_Events" data-uid="KubeOps.Operator.Events" class="text-break">Namespace KubeOps.Operator.Events
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="KubeOps.Operator.Events.IEventManager.html">IEventManager</a></h4>
+      <section><p>Event manager for <span class="xref">k8s.Models.Corev1Event</span> objects.
+Contains various utility methods for emitting events on objects.</p>
+</section>
+    <h3 id="enums">Enums
+  </h3>
+      <h4><a class="xref" href="KubeOps.Operator.Events.EventType.html">EventType</a></h4>
+      <section><p>The type of a <span class="xref">k8s.Models.Corev1Event</span>.
+The event type will be stringified and used as <span class="xref">k8s.Models.Corev1Event.Type</span>.</p>
+</section>
+    <h3 id="delegates">Delegates
+  </h3>
+      <h4><a class="xref" href="KubeOps.Operator.Events.IEventManager.Publisher.html">IEventManager.Publisher</a></h4>
+      <section><p>Delegate that publishes a predefined event for a resource that is passed.
+This delegate should be created with
+<a class="xref" href="KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_CreatePublisher_System_String_System_String_KubeOps_Operator_Events_EventType_">CreatePublisher(String, String, EventType)</a>.
+When called with a resource, the publisher creates or updates the event defined by the params.</p>
+</section>
+      <h4><a class="xref" href="KubeOps.Operator.Events.IEventManager.StaticPublisher.html">IEventManager.StaticPublisher</a></h4>
+      <section><p>Delegate that publishes a predefined event for a statically given resource.
+This delegate should be created with
+<a class="xref" href="KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_CreatePublisher_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__System_String_System_String_KubeOps_Operator_Events_EventType_">CreatePublisher(IKubernetesObject&lt;V1ObjectMeta&gt;, String, String, EventType)</a>.
+When called, the publisher creates or updates the event defined by the params.</p>
+</section>
 </article>
           </div>
           
@@ -112,9 +108,6 @@ handling. Head over to their documentation to see that they do:</p>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/docs/docs/utilities.md/#L1" class="contribution-link">Improve this Doc</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

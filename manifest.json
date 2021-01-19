@@ -12,7 +12,7 @@
       "output": {
         ".html": {
           "relative_path": "CHANGELOG.html",
-          "hash": "9rrl1KVur3EksPYzdSCn1Q=="
+          "hash": "7h2SzwSXXzvm3Z7FygovSQ=="
         }
       },
       "is_incremental": false,
@@ -49,6 +49,18 @@
         ".html": {
           "relative_path": "docs/entities.html",
           "hash": "OcSChfEKzUUoOg68q/TI6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/events.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/events.html",
+          "hash": "NLTHvTcZX8J0MF5AdOHqqA=="
         }
       },
       "is_incremental": false,
@@ -132,7 +144,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/toc.html",
-          "hash": "dsekRpV3mAdimZ+/wPznTA=="
+          "hash": "6dNQI7PKtbPFYTnWDeePKw=="
         }
       },
       "is_incremental": false,
@@ -144,7 +156,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/utilities.html",
-          "hash": "ZnSMK8o1IVf0E4+Ym6I1Lw=="
+          "hash": "FgxCpm6SMnFazWE8h1wHbA=="
         }
       },
       "is_incremental": false,
@@ -716,6 +728,66 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "kube-ops/KubeOps.Operator.Events.EventType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "kube-ops/KubeOps.Operator.Events.EventType.html",
+          "hash": "hcDwIVKey8AIbwrXjGRN8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "kube-ops/KubeOps.Operator.Events.IEventManager.Publisher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "kube-ops/KubeOps.Operator.Events.IEventManager.Publisher.html",
+          "hash": "kGiMRgh6TyGQAsiIwgxd0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "kube-ops/KubeOps.Operator.Events.IEventManager.StaticPublisher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "kube-ops/KubeOps.Operator.Events.IEventManager.StaticPublisher.html",
+          "hash": "CmS1YFxPtqMhcwl2JQmcRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "kube-ops/KubeOps.Operator.Events.IEventManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "kube-ops/KubeOps.Operator.Events.IEventManager.html",
+          "hash": "p2uD0K7XqF1pSSLuHuTzjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "kube-ops/KubeOps.Operator.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "kube-ops/KubeOps.Operator.Events.html",
+          "hash": "h8tytdaBRhFMWLdUilMgxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.yml",
       "output": {
         ".html": {
@@ -1032,7 +1104,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/toc.html",
-          "hash": "Os8VUNjrXNS17aIy5OjRDA=="
+          "hash": "8S2MpLz65E7b4gDm/cz1Bg=="
         }
       },
       "is_incremental": false,
@@ -1065,13 +1137,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 14,
+          "total_file_count": 15,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 69,
+          "total_file_count": 74,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

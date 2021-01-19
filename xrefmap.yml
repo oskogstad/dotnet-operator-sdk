@@ -1328,6 +1328,92 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.Entities.Kustomize.KustomizationImage.NewTag
   nameWithType: KustomizationImage.NewTag
+- uid: KubeOps.Operator.Events
+  name: KubeOps.Operator.Events
+  href: kube-ops/KubeOps.Operator.Events.html
+  commentId: N:KubeOps.Operator.Events
+  fullName: KubeOps.Operator.Events
+  nameWithType: KubeOps.Operator.Events
+- uid: KubeOps.Operator.Events.EventType
+  name: EventType
+  href: kube-ops/KubeOps.Operator.Events.EventType.html
+  commentId: T:KubeOps.Operator.Events.EventType
+  fullName: KubeOps.Operator.Events.EventType
+  nameWithType: EventType
+- uid: KubeOps.Operator.Events.EventType.Normal
+  name: Normal
+  href: kube-ops/KubeOps.Operator.Events.EventType.html#KubeOps_Operator_Events_EventType_Normal
+  commentId: F:KubeOps.Operator.Events.EventType.Normal
+  fullName: KubeOps.Operator.Events.EventType.Normal
+  nameWithType: EventType.Normal
+- uid: KubeOps.Operator.Events.EventType.Warning
+  name: Warning
+  href: kube-ops/KubeOps.Operator.Events.EventType.html#KubeOps_Operator_Events_EventType_Warning
+  commentId: F:KubeOps.Operator.Events.EventType.Warning
+  fullName: KubeOps.Operator.Events.EventType.Warning
+  nameWithType: EventType.Warning
+- uid: KubeOps.Operator.Events.IEventManager
+  name: IEventManager
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.html
+  commentId: T:KubeOps.Operator.Events.IEventManager
+  fullName: KubeOps.Operator.Events.IEventManager
+  nameWithType: IEventManager
+- uid: KubeOps.Operator.Events.IEventManager.CreatePublisher(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta},System.String,System.String,KubeOps.Operator.Events.EventType)
+  name: CreatePublisher(IKubernetesObject<V1ObjectMeta>, String, String, EventType)
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_CreatePublisher_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__System_String_System_String_KubeOps_Operator_Events_EventType_
+  commentId: M:KubeOps.Operator.Events.IEventManager.CreatePublisher(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta},System.String,System.String,KubeOps.Operator.Events.EventType)
+  name.vb: CreatePublisher(IKubernetesObject(Of V1ObjectMeta), String, String, EventType)
+  fullName: KubeOps.Operator.Events.IEventManager.CreatePublisher(k8s.IKubernetesObject<k8s.Models.V1ObjectMeta>, System.String, System.String, KubeOps.Operator.Events.EventType)
+  fullName.vb: KubeOps.Operator.Events.IEventManager.CreatePublisher(k8s.IKubernetesObject(Of k8s.Models.V1ObjectMeta), System.String, System.String, KubeOps.Operator.Events.EventType)
+  nameWithType: IEventManager.CreatePublisher(IKubernetesObject<V1ObjectMeta>, String, String, EventType)
+  nameWithType.vb: IEventManager.CreatePublisher(IKubernetesObject(Of V1ObjectMeta), String, String, EventType)
+- uid: KubeOps.Operator.Events.IEventManager.CreatePublisher(System.String,System.String,KubeOps.Operator.Events.EventType)
+  name: CreatePublisher(String, String, EventType)
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_CreatePublisher_System_String_System_String_KubeOps_Operator_Events_EventType_
+  commentId: M:KubeOps.Operator.Events.IEventManager.CreatePublisher(System.String,System.String,KubeOps.Operator.Events.EventType)
+  fullName: KubeOps.Operator.Events.IEventManager.CreatePublisher(System.String, System.String, KubeOps.Operator.Events.EventType)
+  nameWithType: IEventManager.CreatePublisher(String, String, EventType)
+- uid: KubeOps.Operator.Events.IEventManager.CreatePublisher*
+  name: CreatePublisher
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_CreatePublisher_
+  commentId: Overload:KubeOps.Operator.Events.IEventManager.CreatePublisher
+  isSpec: "True"
+  fullName: KubeOps.Operator.Events.IEventManager.CreatePublisher
+  nameWithType: IEventManager.CreatePublisher
+- uid: KubeOps.Operator.Events.IEventManager.Publish(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta},System.String,System.String,KubeOps.Operator.Events.EventType)
+  name: Publish(IKubernetesObject<V1ObjectMeta>, String, String, EventType)
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_Publish_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__System_String_System_String_KubeOps_Operator_Events_EventType_
+  commentId: M:KubeOps.Operator.Events.IEventManager.Publish(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta},System.String,System.String,KubeOps.Operator.Events.EventType)
+  name.vb: Publish(IKubernetesObject(Of V1ObjectMeta), String, String, EventType)
+  fullName: KubeOps.Operator.Events.IEventManager.Publish(k8s.IKubernetesObject<k8s.Models.V1ObjectMeta>, System.String, System.String, KubeOps.Operator.Events.EventType)
+  fullName.vb: KubeOps.Operator.Events.IEventManager.Publish(k8s.IKubernetesObject(Of k8s.Models.V1ObjectMeta), System.String, System.String, KubeOps.Operator.Events.EventType)
+  nameWithType: IEventManager.Publish(IKubernetesObject<V1ObjectMeta>, String, String, EventType)
+  nameWithType.vb: IEventManager.Publish(IKubernetesObject(Of V1ObjectMeta), String, String, EventType)
+- uid: KubeOps.Operator.Events.IEventManager.Publish(k8s.Models.Corev1Event)
+  name: Publish(Corev1Event)
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_Publish_k8s_Models_Corev1Event_
+  commentId: M:KubeOps.Operator.Events.IEventManager.Publish(k8s.Models.Corev1Event)
+  fullName: KubeOps.Operator.Events.IEventManager.Publish(k8s.Models.Corev1Event)
+  nameWithType: IEventManager.Publish(Corev1Event)
+- uid: KubeOps.Operator.Events.IEventManager.Publish*
+  name: Publish
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_Publish_
+  commentId: Overload:KubeOps.Operator.Events.IEventManager.Publish
+  isSpec: "True"
+  fullName: KubeOps.Operator.Events.IEventManager.Publish
+  nameWithType: IEventManager.Publish
+- uid: KubeOps.Operator.Events.IEventManager.Publisher
+  name: IEventManager.Publisher
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.Publisher.html
+  commentId: T:KubeOps.Operator.Events.IEventManager.Publisher
+  fullName: KubeOps.Operator.Events.IEventManager.Publisher
+  nameWithType: IEventManager.Publisher
+- uid: KubeOps.Operator.Events.IEventManager.StaticPublisher
+  name: IEventManager.StaticPublisher
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.StaticPublisher.html
+  commentId: T:KubeOps.Operator.Events.IEventManager.StaticPublisher
+  fullName: KubeOps.Operator.Events.IEventManager.StaticPublisher
+  nameWithType: IEventManager.StaticPublisher
 - uid: KubeOps.Operator.Finalizer
   name: KubeOps.Operator.Finalizer
   href: kube-ops/KubeOps.Operator.Finalizer.html
