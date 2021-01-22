@@ -131,6 +131,22 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddResourceAssembly
   nameWithType: IOperatorBuilder.AddResourceAssembly
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddValidationWebhook*
+  name: AddValidationWebhook
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddValidationWebhook_
+  commentId: Overload:KubeOps.Operator.Builder.IOperatorBuilder.AddValidationWebhook
+  isSpec: "True"
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddValidationWebhook
+  nameWithType: IOperatorBuilder.AddValidationWebhook
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddValidationWebhook``1
+  name: AddValidationWebhook<TWebhook>()
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddValidationWebhook__1
+  commentId: M:KubeOps.Operator.Builder.IOperatorBuilder.AddValidationWebhook``1
+  name.vb: AddValidationWebhook(Of TWebhook)()
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddValidationWebhook<TWebhook>()
+  fullName.vb: KubeOps.Operator.Builder.IOperatorBuilder.AddValidationWebhook(Of TWebhook)()
+  nameWithType: IOperatorBuilder.AddValidationWebhook<TWebhook>()
+  nameWithType.vb: IOperatorBuilder.AddValidationWebhook(Of TWebhook)()
 - uid: KubeOps.Operator.Builder.IOperatorBuilder.Services
   name: Services
   href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_Services
@@ -1218,6 +1234,19 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.CommonLabels
   nameWithType: KustomizationConfig.CommonLabels
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.ConfigMapGenerator
+  name: ConfigMapGenerator
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfig_ConfigMapGenerator
+  commentId: P:KubeOps.Operator.Entities.Kustomize.KustomizationConfig.ConfigMapGenerator
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.ConfigMapGenerator
+  nameWithType: KustomizationConfig.ConfigMapGenerator
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.ConfigMapGenerator*
+  name: ConfigMapGenerator
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfig_ConfigMapGenerator_
+  commentId: Overload:KubeOps.Operator.Entities.Kustomize.KustomizationConfig.ConfigMapGenerator
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.ConfigMapGenerator
+  nameWithType: KustomizationConfig.ConfigMapGenerator
 - uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.Images
   name: Images
   href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfig_Images
@@ -1283,6 +1312,51 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.Resources
   nameWithType: KustomizationConfig.Resources
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator
+  name: KustomizationConfigMapGenerator
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.html
+  commentId: T:KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator
+  nameWithType: KustomizationConfigMapGenerator
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Files
+  name: Files
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfigMapGenerator_Files
+  commentId: P:KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Files
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Files
+  nameWithType: KustomizationConfigMapGenerator.Files
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Files*
+  name: Files
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfigMapGenerator_Files_
+  commentId: Overload:KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Files
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Files
+  nameWithType: KustomizationConfigMapGenerator.Files
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Literals
+  name: Literals
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfigMapGenerator_Literals
+  commentId: P:KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Literals
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Literals
+  nameWithType: KustomizationConfigMapGenerator.Literals
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Literals*
+  name: Literals
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfigMapGenerator_Literals_
+  commentId: Overload:KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Literals
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Literals
+  nameWithType: KustomizationConfigMapGenerator.Literals
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Name
+  name: Name
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfigMapGenerator_Name
+  commentId: P:KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Name
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Name
+  nameWithType: KustomizationConfigMapGenerator.Name
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Name*
+  name: Name
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfigMapGenerator_Name_
+  commentId: Overload:KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Name
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Name
+  nameWithType: KustomizationConfigMapGenerator.Name
 - uid: KubeOps.Operator.Entities.Kustomize.KustomizationImage
   name: KustomizationImage
   href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationImage.html
@@ -2381,6 +2455,271 @@ references:
   fullName.vb: KubeOps.Operator.Watcher.IResourceWatcher(Of TEntity).WatcherEvent
   nameWithType: IResourceWatcher<TEntity>.WatcherEvent
   nameWithType.vb: IResourceWatcher(Of TEntity).WatcherEvent
+- uid: KubeOps.Operator.Webhooks
+  name: KubeOps.Operator.Webhooks
+  href: kube-ops/KubeOps.Operator.Webhooks.html
+  commentId: N:KubeOps.Operator.Webhooks
+  fullName: KubeOps.Operator.Webhooks
+  nameWithType: KubeOps.Operator.Webhooks
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook
+  name: IValidationWebhook
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook.html
+  commentId: T:KubeOps.Operator.Webhooks.IValidationWebhook
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook
+  nameWithType: IValidationWebhook
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook.Operations
+  name: Operations
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook.html#KubeOps_Operator_Webhooks_IValidationWebhook_Operations
+  commentId: P:KubeOps.Operator.Webhooks.IValidationWebhook.Operations
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook.Operations
+  nameWithType: IValidationWebhook.Operations
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook.Operations*
+  name: Operations
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook.html#KubeOps_Operator_Webhooks_IValidationWebhook_Operations_
+  commentId: Overload:KubeOps.Operator.Webhooks.IValidationWebhook.Operations
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook.Operations
+  nameWithType: IValidationWebhook.Operations
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook`1
+  name: IValidationWebhook<TEntity>
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html
+  commentId: T:KubeOps.Operator.Webhooks.IValidationWebhook`1
+  name.vb: IValidationWebhook(Of TEntity)
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook<TEntity>
+  fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity)
+  nameWithType: IValidationWebhook<TEntity>
+  nameWithType.vb: IValidationWebhook(Of TEntity)
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook`1.Create(`0,System.Boolean)
+  name: Create(TEntity, Boolean)
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_Create__0_System_Boolean_
+  commentId: M:KubeOps.Operator.Webhooks.IValidationWebhook`1.Create(`0,System.Boolean)
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook<TEntity>.Create(TEntity, System.Boolean)
+  fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity).Create(TEntity, System.Boolean)
+  nameWithType: IValidationWebhook<TEntity>.Create(TEntity, Boolean)
+  nameWithType.vb: IValidationWebhook(Of TEntity).Create(TEntity, Boolean)
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook`1.Create*
+  name: Create
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_Create_
+  commentId: Overload:KubeOps.Operator.Webhooks.IValidationWebhook`1.Create
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook<TEntity>.Create
+  fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity).Create
+  nameWithType: IValidationWebhook<TEntity>.Create
+  nameWithType.vb: IValidationWebhook(Of TEntity).Create
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook`1.CreateAsync(`0,System.Boolean)
+  name: CreateAsync(TEntity, Boolean)
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_CreateAsync__0_System_Boolean_
+  commentId: M:KubeOps.Operator.Webhooks.IValidationWebhook`1.CreateAsync(`0,System.Boolean)
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook<TEntity>.CreateAsync(TEntity, System.Boolean)
+  fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity).CreateAsync(TEntity, System.Boolean)
+  nameWithType: IValidationWebhook<TEntity>.CreateAsync(TEntity, Boolean)
+  nameWithType.vb: IValidationWebhook(Of TEntity).CreateAsync(TEntity, Boolean)
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook`1.CreateAsync*
+  name: CreateAsync
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_CreateAsync_
+  commentId: Overload:KubeOps.Operator.Webhooks.IValidationWebhook`1.CreateAsync
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook<TEntity>.CreateAsync
+  fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity).CreateAsync
+  nameWithType: IValidationWebhook<TEntity>.CreateAsync
+  nameWithType.vb: IValidationWebhook(Of TEntity).CreateAsync
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook`1.Delete(`0,System.Boolean)
+  name: Delete(TEntity, Boolean)
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_Delete__0_System_Boolean_
+  commentId: M:KubeOps.Operator.Webhooks.IValidationWebhook`1.Delete(`0,System.Boolean)
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook<TEntity>.Delete(TEntity, System.Boolean)
+  fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity).Delete(TEntity, System.Boolean)
+  nameWithType: IValidationWebhook<TEntity>.Delete(TEntity, Boolean)
+  nameWithType.vb: IValidationWebhook(Of TEntity).Delete(TEntity, Boolean)
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook`1.Delete*
+  name: Delete
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_Delete_
+  commentId: Overload:KubeOps.Operator.Webhooks.IValidationWebhook`1.Delete
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook<TEntity>.Delete
+  fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity).Delete
+  nameWithType: IValidationWebhook<TEntity>.Delete
+  nameWithType.vb: IValidationWebhook(Of TEntity).Delete
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook`1.DeleteAsync(`0,System.Boolean)
+  name: DeleteAsync(TEntity, Boolean)
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_DeleteAsync__0_System_Boolean_
+  commentId: M:KubeOps.Operator.Webhooks.IValidationWebhook`1.DeleteAsync(`0,System.Boolean)
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook<TEntity>.DeleteAsync(TEntity, System.Boolean)
+  fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity).DeleteAsync(TEntity, System.Boolean)
+  nameWithType: IValidationWebhook<TEntity>.DeleteAsync(TEntity, Boolean)
+  nameWithType.vb: IValidationWebhook(Of TEntity).DeleteAsync(TEntity, Boolean)
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook`1.DeleteAsync*
+  name: DeleteAsync
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_DeleteAsync_
+  commentId: Overload:KubeOps.Operator.Webhooks.IValidationWebhook`1.DeleteAsync
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook<TEntity>.DeleteAsync
+  fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity).DeleteAsync
+  nameWithType: IValidationWebhook<TEntity>.DeleteAsync
+  nameWithType.vb: IValidationWebhook(Of TEntity).DeleteAsync
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook`1.Update(`0,`0,System.Boolean)
+  name: Update(TEntity, TEntity, Boolean)
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_Update__0__0_System_Boolean_
+  commentId: M:KubeOps.Operator.Webhooks.IValidationWebhook`1.Update(`0,`0,System.Boolean)
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook<TEntity>.Update(TEntity, TEntity, System.Boolean)
+  fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity).Update(TEntity, TEntity, System.Boolean)
+  nameWithType: IValidationWebhook<TEntity>.Update(TEntity, TEntity, Boolean)
+  nameWithType.vb: IValidationWebhook(Of TEntity).Update(TEntity, TEntity, Boolean)
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook`1.Update*
+  name: Update
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_Update_
+  commentId: Overload:KubeOps.Operator.Webhooks.IValidationWebhook`1.Update
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook<TEntity>.Update
+  fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity).Update
+  nameWithType: IValidationWebhook<TEntity>.Update
+  nameWithType.vb: IValidationWebhook(Of TEntity).Update
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook`1.UpdateAsync(`0,`0,System.Boolean)
+  name: UpdateAsync(TEntity, TEntity, Boolean)
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_UpdateAsync__0__0_System_Boolean_
+  commentId: M:KubeOps.Operator.Webhooks.IValidationWebhook`1.UpdateAsync(`0,`0,System.Boolean)
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook<TEntity>.UpdateAsync(TEntity, TEntity, System.Boolean)
+  fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity).UpdateAsync(TEntity, TEntity, System.Boolean)
+  nameWithType: IValidationWebhook<TEntity>.UpdateAsync(TEntity, TEntity, Boolean)
+  nameWithType.vb: IValidationWebhook(Of TEntity).UpdateAsync(TEntity, TEntity, Boolean)
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook`1.UpdateAsync*
+  name: UpdateAsync
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_UpdateAsync_
+  commentId: Overload:KubeOps.Operator.Webhooks.IValidationWebhook`1.UpdateAsync
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook<TEntity>.UpdateAsync
+  fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity).UpdateAsync
+  nameWithType: IValidationWebhook<TEntity>.UpdateAsync
+  nameWithType.vb: IValidationWebhook(Of TEntity).UpdateAsync
+- uid: KubeOps.Operator.Webhooks.ValidatedOperations
+  name: ValidatedOperations
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidatedOperations.html
+  commentId: T:KubeOps.Operator.Webhooks.ValidatedOperations
+  fullName: KubeOps.Operator.Webhooks.ValidatedOperations
+  nameWithType: ValidatedOperations
+- uid: KubeOps.Operator.Webhooks.ValidatedOperations.All
+  name: All
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidatedOperations.html#KubeOps_Operator_Webhooks_ValidatedOperations_All
+  commentId: F:KubeOps.Operator.Webhooks.ValidatedOperations.All
+  fullName: KubeOps.Operator.Webhooks.ValidatedOperations.All
+  nameWithType: ValidatedOperations.All
+- uid: KubeOps.Operator.Webhooks.ValidatedOperations.Create
+  name: Create
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidatedOperations.html#KubeOps_Operator_Webhooks_ValidatedOperations_Create
+  commentId: F:KubeOps.Operator.Webhooks.ValidatedOperations.Create
+  fullName: KubeOps.Operator.Webhooks.ValidatedOperations.Create
+  nameWithType: ValidatedOperations.Create
+- uid: KubeOps.Operator.Webhooks.ValidatedOperations.Delete
+  name: Delete
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidatedOperations.html#KubeOps_Operator_Webhooks_ValidatedOperations_Delete
+  commentId: F:KubeOps.Operator.Webhooks.ValidatedOperations.Delete
+  fullName: KubeOps.Operator.Webhooks.ValidatedOperations.Delete
+  nameWithType: ValidatedOperations.Delete
+- uid: KubeOps.Operator.Webhooks.ValidatedOperations.None
+  name: None
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidatedOperations.html#KubeOps_Operator_Webhooks_ValidatedOperations_None
+  commentId: F:KubeOps.Operator.Webhooks.ValidatedOperations.None
+  fullName: KubeOps.Operator.Webhooks.ValidatedOperations.None
+  nameWithType: ValidatedOperations.None
+- uid: KubeOps.Operator.Webhooks.ValidatedOperations.Update
+  name: Update
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidatedOperations.html#KubeOps_Operator_Webhooks_ValidatedOperations_Update
+  commentId: F:KubeOps.Operator.Webhooks.ValidatedOperations.Update
+  fullName: KubeOps.Operator.Webhooks.ValidatedOperations.Update
+  nameWithType: ValidatedOperations.Update
+- uid: KubeOps.Operator.Webhooks.ValidationResult
+  name: ValidationResult
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html
+  commentId: T:KubeOps.Operator.Webhooks.ValidationResult
+  fullName: KubeOps.Operator.Webhooks.ValidationResult
+  nameWithType: ValidationResult
+- uid: KubeOps.Operator.Webhooks.ValidationResult.Fail
+  name: Fail()
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html#KubeOps_Operator_Webhooks_ValidationResult_Fail
+  commentId: M:KubeOps.Operator.Webhooks.ValidationResult.Fail
+  fullName: KubeOps.Operator.Webhooks.ValidationResult.Fail()
+  nameWithType: ValidationResult.Fail()
+- uid: KubeOps.Operator.Webhooks.ValidationResult.Fail(System.Int32,System.String)
+  name: Fail(Int32, String)
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html#KubeOps_Operator_Webhooks_ValidationResult_Fail_System_Int32_System_String_
+  commentId: M:KubeOps.Operator.Webhooks.ValidationResult.Fail(System.Int32,System.String)
+  fullName: KubeOps.Operator.Webhooks.ValidationResult.Fail(System.Int32, System.String)
+  nameWithType: ValidationResult.Fail(Int32, String)
+- uid: KubeOps.Operator.Webhooks.ValidationResult.Fail*
+  name: Fail
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html#KubeOps_Operator_Webhooks_ValidationResult_Fail_
+  commentId: Overload:KubeOps.Operator.Webhooks.ValidationResult.Fail
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.ValidationResult.Fail
+  nameWithType: ValidationResult.Fail
+- uid: KubeOps.Operator.Webhooks.ValidationResult.StatusCode
+  name: StatusCode
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html#KubeOps_Operator_Webhooks_ValidationResult_StatusCode
+  commentId: P:KubeOps.Operator.Webhooks.ValidationResult.StatusCode
+  fullName: KubeOps.Operator.Webhooks.ValidationResult.StatusCode
+  nameWithType: ValidationResult.StatusCode
+- uid: KubeOps.Operator.Webhooks.ValidationResult.StatusCode*
+  name: StatusCode
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html#KubeOps_Operator_Webhooks_ValidationResult_StatusCode_
+  commentId: Overload:KubeOps.Operator.Webhooks.ValidationResult.StatusCode
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.ValidationResult.StatusCode
+  nameWithType: ValidationResult.StatusCode
+- uid: KubeOps.Operator.Webhooks.ValidationResult.StatusMessage
+  name: StatusMessage
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html#KubeOps_Operator_Webhooks_ValidationResult_StatusMessage
+  commentId: P:KubeOps.Operator.Webhooks.ValidationResult.StatusMessage
+  fullName: KubeOps.Operator.Webhooks.ValidationResult.StatusMessage
+  nameWithType: ValidationResult.StatusMessage
+- uid: KubeOps.Operator.Webhooks.ValidationResult.StatusMessage*
+  name: StatusMessage
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html#KubeOps_Operator_Webhooks_ValidationResult_StatusMessage_
+  commentId: Overload:KubeOps.Operator.Webhooks.ValidationResult.StatusMessage
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.ValidationResult.StatusMessage
+  nameWithType: ValidationResult.StatusMessage
+- uid: KubeOps.Operator.Webhooks.ValidationResult.Success(System.String[])
+  name: Success(String[])
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html#KubeOps_Operator_Webhooks_ValidationResult_Success_System_String___
+  commentId: M:KubeOps.Operator.Webhooks.ValidationResult.Success(System.String[])
+  name.vb: Success(String())
+  fullName: KubeOps.Operator.Webhooks.ValidationResult.Success(System.String[])
+  fullName.vb: KubeOps.Operator.Webhooks.ValidationResult.Success(System.String())
+  nameWithType: ValidationResult.Success(String[])
+  nameWithType.vb: ValidationResult.Success(String())
+- uid: KubeOps.Operator.Webhooks.ValidationResult.Success*
+  name: Success
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html#KubeOps_Operator_Webhooks_ValidationResult_Success_
+  commentId: Overload:KubeOps.Operator.Webhooks.ValidationResult.Success
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.ValidationResult.Success
+  nameWithType: ValidationResult.Success
+- uid: KubeOps.Operator.Webhooks.ValidationResult.Valid
+  name: Valid
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html#KubeOps_Operator_Webhooks_ValidationResult_Valid
+  commentId: P:KubeOps.Operator.Webhooks.ValidationResult.Valid
+  fullName: KubeOps.Operator.Webhooks.ValidationResult.Valid
+  nameWithType: ValidationResult.Valid
+- uid: KubeOps.Operator.Webhooks.ValidationResult.Valid*
+  name: Valid
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html#KubeOps_Operator_Webhooks_ValidationResult_Valid_
+  commentId: Overload:KubeOps.Operator.Webhooks.ValidationResult.Valid
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.ValidationResult.Valid
+  nameWithType: ValidationResult.Valid
+- uid: KubeOps.Operator.Webhooks.ValidationResult.Warnings
+  name: Warnings
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html#KubeOps_Operator_Webhooks_ValidationResult_Warnings
+  commentId: P:KubeOps.Operator.Webhooks.ValidationResult.Warnings
+  fullName: KubeOps.Operator.Webhooks.ValidationResult.Warnings
+  nameWithType: ValidationResult.Warnings
+- uid: KubeOps.Operator.Webhooks.ValidationResult.Warnings*
+  name: Warnings
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html#KubeOps_Operator_Webhooks_ValidationResult_Warnings_
+  commentId: Overload:KubeOps.Operator.Webhooks.ValidationResult.Warnings
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.ValidationResult.Warnings
+  nameWithType: ValidationResult.Warnings
 - uid: KubeOps.Testing
   name: KubeOps.Testing
   href: kube-ops-testing/KubeOps.Testing.html

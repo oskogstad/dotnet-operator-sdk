@@ -12,7 +12,7 @@
       "output": {
         ".html": {
           "relative_path": "CHANGELOG.html",
-          "hash": "7h2SzwSXXzvm3Z7FygovSQ=="
+          "hash": "9rrl1KVur3EksPYzdSCn1Q=="
         }
       },
       "is_incremental": false,
@@ -60,7 +60,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/events.html",
-          "hash": "NLTHvTcZX8J0MF5AdOHqqA=="
+          "hash": "ZO2y/hXansMqdkuk9mv1QA=="
         }
       },
       "is_incremental": false,
@@ -108,7 +108,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/ms_build.html",
-          "hash": "SHhWqNsYBGYzJpWD062L+g=="
+          "hash": "6iGEh/l1SCtrO0BP4Qcd5Q=="
         }
       },
       "is_incremental": false,
@@ -144,7 +144,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/toc.html",
-          "hash": "6dNQI7PKtbPFYTnWDeePKw=="
+          "hash": "LYTdCdRaBswRZEzq8Pm4zg=="
         }
       },
       "is_incremental": false,
@@ -157,6 +157,18 @@
         ".html": {
           "relative_path": "docs/utilities.html",
           "hash": "FgxCpm6SMnFazWE8h1wHbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/webhooks.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/webhooks.html",
+          "hash": "Of6rUvokD4nLGGev3ifcZg=="
         }
       },
       "is_incremental": false,
@@ -264,7 +276,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.ApplicationBuilderExtensions.html",
-          "hash": "pJxmRAuzklk3qfLJlp0tbg=="
+          "hash": "ZUjB4hq6ngGXcNK+ojXRmA=="
         }
       },
       "is_incremental": false,
@@ -276,7 +288,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html",
-          "hash": "+g1dTVBT+yrmFlsMYdSfIQ=="
+          "hash": "JAvwLj4LLZLcFtGNB8WCQQ=="
         }
       },
       "is_incremental": false,
@@ -684,7 +696,19 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html",
-          "hash": "KjyDB62SJyHkstafPaec8w=="
+          "hash": "g0sL61AH1XTbxitWUjb72w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.html",
+          "hash": "kRTbpiNG3r2lc68snb2MHA=="
         }
       },
       "is_incremental": false,
@@ -708,7 +732,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.Entities.Kustomize.html",
-          "hash": "hRGun/Qc3qDhMiD2s0gnUQ=="
+          "hash": "yFpVMj9xIZV01I+ZvFQsGw=="
         }
       },
       "is_incremental": false,
@@ -1076,6 +1100,66 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html",
+          "hash": "P2JMMRGrNuq9RY4VrevHeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook.yml",
+      "output": {
+        ".html": {
+          "relative_path": "kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook.html",
+          "hash": "MUpBsFkizoM5GbbIgsqJhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "kube-ops/KubeOps.Operator.Webhooks.ValidatedOperations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "kube-ops/KubeOps.Operator.Webhooks.ValidatedOperations.html",
+          "hash": "yc5MvHvYdsPNfkYSTzFxWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "kube-ops/KubeOps.Operator.Webhooks.ValidationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html",
+          "hash": "I1n23lWWs3JNtQxIKgt1uQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "kube-ops/KubeOps.Operator.Webhooks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "kube-ops/KubeOps.Operator.Webhooks.html",
+          "hash": "c2mpoQlRl+uu2UaDF11Jbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "kube-ops/KubeOps.Operator.yml",
       "output": {
         ".html": {
@@ -1104,7 +1188,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/toc.html",
-          "hash": "8S2MpLz65E7b4gDm/cz1Bg=="
+          "hash": "yvjfi9q02NObfH8jJA20tA=="
         }
       },
       "is_incremental": false,
@@ -1137,13 +1221,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 15,
+          "total_file_count": 16,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 74,
+          "total_file_count": 80,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

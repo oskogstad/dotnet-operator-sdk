@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace KubeOps.Operator.Entities.Kustomize
+    <title>Enum ValidatedOperations
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace KubeOps.Operator.Entities.Kustomize
+    <meta name="title" content="Enum ValidatedOperations
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -68,24 +68,63 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="KubeOps.Operator.Entities.Kustomize">
+            <article class="content wrap" id="_content" data-uid="KubeOps.Operator.Webhooks.ValidatedOperations">
   
-  <h1 id="KubeOps_Operator_Entities_Kustomize" data-uid="KubeOps.Operator.Entities.Kustomize" class="text-break">Namespace KubeOps.Operator.Entities.Kustomize
+  
+  <h1 id="KubeOps_Operator_Webhooks_ValidatedOperations" data-uid="KubeOps.Operator.Webhooks.ValidatedOperations" class="text-break">Enum ValidatedOperations
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Possible validator operations.
+Those operations are watched by the kubernetes api and webhooks
+are called according to their registered operations.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <h6><strong>Namespace</strong>: <a class="xref" href="KubeOps.Operator.Webhooks.html">KubeOps.Operator.Webhooks</a></h6>
+  <h6><strong>Assembly</strong>: KubeOps.dll</h6>
+  <h5 id="KubeOps_Operator_Webhooks_ValidatedOperations_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Flags]
+public enum ValidatedOperations</code></pre>
+  </div>
+  <h3 id="fields">Fields
   </h3>
-      <h4><a class="xref" href="KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html">KustomizationConfig</a></h4>
-      <section><p>(Partial) definition for a kustomization yaml.</p>
-</section>
-      <h4><a class="xref" href="KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.html">KustomizationConfigMapGenerator</a></h4>
-      <section><p>Entitiy for config map generators in a kustomization.yaml file.</p>
-</section>
-      <h4><a class="xref" href="KubeOps.Operator.Entities.Kustomize.KustomizationImage.html">KustomizationImage</a></h4>
-      <section><p>Definition for an &quot;image&quot; in a kustomization yaml.</p>
-</section>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    <thead>
+    <tbody>
+      <tr>
+        <td id="KubeOps_Operator_Webhooks_ValidatedOperations_All">All</td>
+        <td><p>All possible operations.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="KubeOps_Operator_Webhooks_ValidatedOperations_Create">Create</td>
+        <td><p>Create operations.
+This is fired when an entity is new.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="KubeOps_Operator_Webhooks_ValidatedOperations_Delete">Delete</td>
+        <td><p>Delete operations.
+This is fired when an entity gets deleted from the api.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="KubeOps_Operator_Webhooks_ValidatedOperations_None">None</td>
+        <td><p>Default value of &quot;none&quot;.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="KubeOps_Operator_Webhooks_ValidatedOperations_Update">Update</td>
+        <td><p>Update operations.
+This is fired when an entity is updated (e.g. kubectl edit ...).</p>
+</td>
+      </tr>
+    </tbody>
+  </thead></thead></table>
 </article>
           </div>
           
@@ -93,6 +132,12 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Webhooks_ValidatedOperations.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Webhooks.ValidatedOperations%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/ValidatedOperations.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

@@ -76,22 +76,22 @@ code generation targets after the build.</p>
 <li><a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Build/KubeOps.targets">KubeOps.targets</a>: defines the additional build targets</li>
 </ul>
 <p>An example of such a target is:</p>
-<pre><code class="lang-xml" name="KubeOps.targets" highlight-lines="2-7">&lt;Target Name=&quot;GenerateDockerfile&quot;&gt;
+<pre><code class="lang-xml" name="KubeOps.targets" highlight-lines="2-7">&lt;Target Name=&quot;BaseConfig&quot;&gt;
+    &lt;PropertyGroup&gt;
+        &lt;!-- Configuration for the base --&gt;
+        &lt;KubeOpsBasePath Condition=&quot;&#39;$(KubeOpsBasePath)&#39; == &#39;&#39;&quot;&gt;$(MSBuildProjectDirectory)&lt;/KubeOpsBasePath&gt;
+    &lt;/PropertyGroup&gt;
+
+    &lt;PropertyGroup&gt;
+        &lt;!-- Configuration for the pathes where to store the generated yamls and elements --&gt;
+        &lt;KubeOpsConfigRoot Condition=&quot;&#39;$(KubeOpsConfigRoot)&#39; == &#39;&#39;&quot;&gt;$(KubeOpsBasePath)\config&lt;/KubeOpsConfigRoot&gt;
+    &lt;/PropertyGroup&gt;
+
     &lt;PropertyGroup&gt;
         &lt;!-- Configuration for Docker related commands --&gt;
         &lt;KubeOpsDockerfilePath Condition=&quot;&#39;$(KubeOpsDockerfilePath)&#39; == &#39;&#39;&quot;&gt;$(KubeOpsBasePath)\Dockerfile&lt;/KubeOpsDockerfilePath&gt;
         &lt;KubeOpsDockerTag Condition=&quot;&#39;$(KubeOpsDockerTag)&#39; == &#39;&#39;&quot;&gt;latest&lt;/KubeOpsDockerTag&gt;
     &lt;/PropertyGroup&gt;
-
-    &lt;Message Text=&quot;Generating Dockerfile&quot; Importance=&quot;high&quot;/&gt;
-    &lt;Message Text=&quot;Dockerfile path: $(KubeOpsDockerfilePath)&quot; Importance=&quot;normal&quot;/&gt;
-
-    &lt;Message Condition=&quot;Exists(&#39;$(KubeOpsDockerfilePath)&#39;)&quot; Text=&quot;Dockerfile already exists. Don&#39;t overwrite.&quot;
-             Importance=&quot;high&quot;/&gt;
-    &lt;Exec Condition=&quot;!Exists(&#39;$(KubeOpsDockerfilePath)&#39;)&quot;
-          Command=&quot;dotnet $(OutputPath)$(TargetFileName) generator docker --out $(KubeOpsDockerfilePath) --dotnet-tag $(KubeOpsDockerTag) --solution-dir $(SolutionDir) --target-file $(TargetFileName) --project-path $(ProjectPath)&quot;/&gt;
-&lt;/Target&gt;
-
 </code></pre><p>They can be configured with the prop settings described below.
 The props file just defines the defaults.</p>
 <h2 id="prop-settings">Prop Settings</h2>
