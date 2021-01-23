@@ -6,18 +6,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Class MockResourceEventQueue&lt;TEntity&gt;
-   </title>
+   | KubeOps Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class MockResourceEventQueue&lt;TEntity&gt;
-   ">
+   | KubeOps Documentation ">
     <meta name="generator" content="docfx 2.56.6.0">
     
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
     
     
     
@@ -46,7 +46,21 @@
                   <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
                 </div>
               </form>
-            </div>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../docs/getting_started.html" title="Documentation">Documentation</a>
+                      </li>
+                      <li>
+                          <a href="../kube-ops/index.html" title="KubeOps Api">KubeOps Api</a>
+                      </li>
+                      <li>
+                          <a href="../kube-ops-testing/index.html" title="KubeOps Testing Api">KubeOps Testing Api</a>
+                      </li>
+                      <li>
+                          <a href="https://github.com/buehler/dotnet-operator-sdk/releases" title="Changelog">Changelog</a>
+                      </li>
+                </ul>    </div>
           </div>
         </nav>
         
@@ -59,11 +73,41 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="KubeOps.Testing.html" title="KubeOps.Testing" class="">KubeOps.Testing</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="KubeOps.Testing.KubernetesOperatorFactory-1.html" title="KubernetesOperatorFactory&lt;TTestStartup&gt;" class="">KubernetesOperatorFactory&lt;TTestStartup&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="KubeOps.Testing.MockKubernetesClient.html" title="MockKubernetesClient" class="">MockKubernetesClient</a>
+                          </li>
+                          <li class="active">
+                            <a href="KubeOps.Testing.MockResourceEventQueue-1.html" title="MockResourceEventQueue&lt;TEntity&gt;" class="active">MockResourceEventQueue&lt;TEntity&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="KubeOps.Testing.MockResourceQueueCollection.html" title="MockResourceQueueCollection" class="">MockResourceQueueCollection</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="article row grid-right">
@@ -80,36 +124,36 @@ when needed.</p>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">MockResourceEventQueue&lt;TEntity&gt;</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="../kube-ops/KubeOps.Operator.Queue.IResourceEventQueue-1.html">IResourceEventQueue</a>&lt;TEntity&gt;</div>
-    <div><span class="xref">System.IDisposable</span></div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.GetHashCode()</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
     </div>
     <div>
-      <span class="xref">System.Object.GetType()</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
     </div>
     <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
     </div>
     <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.ToString()</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="KubeOps.Testing.html">KubeOps.Testing</a></h6>
@@ -199,7 +243,7 @@ queue.Created(new V1TestEntity());</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;TEntity&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;TEntity&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -230,7 +274,7 @@ queue.Created(new V1TestEntity());</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.ValueTuple</span>&lt;<a class="xref" href="../kube-ops/KubeOps.Operator.Queue.ResourceEventType.html">ResourceEventType</a>, TEntity&gt;&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetuple-2">ValueTuple</a>&lt;<a class="xref" href="../kube-ops/KubeOps.Operator.Queue.ResourceEventType.html">ResourceEventType</a>, TEntity&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -383,7 +427,7 @@ queue.Created(new V1TestEntity());</p>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.TimeSpan</span>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
         <td><span class="parametername">enqueueDelay</span></td>
         <td></td>
       </tr>
@@ -399,7 +443,7 @@ queue.Created(new V1TestEntity());</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -534,7 +578,7 @@ queue.Created(new V1TestEntity());</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -598,7 +642,7 @@ queue.Created(new V1TestEntity());</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -663,7 +707,7 @@ queue.Created(new V1TestEntity());</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.EventHandler</span>&lt;<span class="xref">System.ValueTuple</span>&lt;<a class="xref" href="../kube-ops/KubeOps.Operator.Queue.ResourceEventType.html">ResourceEventType</a>, TEntity&gt;&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetuple-2">ValueTuple</a>&lt;<a class="xref" href="../kube-ops/KubeOps.Operator.Queue.ResourceEventType.html">ResourceEventType</a>, TEntity&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -673,7 +717,7 @@ queue.Created(new V1TestEntity());</p>
       <a class="xref" href="../kube-ops/KubeOps.Operator.Queue.IResourceEventQueue-1.html">IResourceEventQueue&lt;TEntity&gt;</a>
   </div>
   <div>
-      <span class="xref">System.IDisposable</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
   </div>
 </article>
           </div>
@@ -706,8 +750,8 @@ queue.Created(new V1TestEntity());</p>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
+            © Copyright 2021 Christoph Bühler
             
-            <span>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>

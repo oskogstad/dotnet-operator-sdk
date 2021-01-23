@@ -5,17 +5,17 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Commands </title>
+    <title>Commands | KubeOps Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Commands ">
+    <meta name="title" content="Commands | KubeOps Documentation ">
     <meta name="generator" content="docfx 2.56.6.0">
     
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
     
     
     
@@ -44,7 +44,21 @@
                   <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
                 </div>
               </form>
-            </div>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../docs/getting_started.html" title="Documentation">Documentation</a>
+                      </li>
+                      <li>
+                          <a href="../kube-ops/index.html" title="KubeOps Api">KubeOps Api</a>
+                      </li>
+                      <li>
+                          <a href="../kube-ops-testing/index.html" title="KubeOps Testing Api">KubeOps Testing Api</a>
+                      </li>
+                      <li>
+                          <a href="https://github.com/buehler/dotnet-operator-sdk/releases" title="Changelog">Changelog</a>
+                      </li>
+                </ul>    </div>
           </div>
         </nav>
         
@@ -57,11 +71,59 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <a href="getting_started.html" title="Getting Started" class="">Getting Started</a>
+                    </li>
+                    <li class="">
+                      <a href="features.html" title="Features" class="">Features</a>
+                    </li>
+                    <li class="">
+                      <a href="settings.html" title="Settings" class="">Settings</a>
+                    </li>
+                    <li class="">
+                      <a href="entities.html" title="Entities" class="">Entities</a>
+                    </li>
+                    <li class="">
+                      <a href="controller.html" title="Controller" class="">Controller</a>
+                    </li>
+                    <li class="">
+                      <a href="events.html" title="Events" class="">Events</a>
+                    </li>
+                    <li class="">
+                      <a href="finalizer.html" title="Finalizer" class="">Finalizer</a>
+                    </li>
+                    <li class="">
+                      <a href="webhooks.html" title="Webhooks" class="">Webhooks</a>
+                    </li>
+                    <li class="">
+                      <a href="utilities.html" title="Utilities" class="">Utilities</a>
+                    </li>
+                    <li class="active">
+                      <a href="commands.html" title="CLI Commands" class="active">CLI Commands</a>
+                    </li>
+                    <li class="">
+                      <a href="ms_build.html" title="MS Build extensions" class="">MS Build extensions</a>
+                    </li>
+                    <li class="">
+                      <a href="testing.html" title="Testing" class="">Testing</a>
+                    </li>
+                  </ul>        </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="article row grid-right">
@@ -92,11 +154,16 @@ that only the given namespace is watched for entities.</p>
 <li><code>uninstall</code>: uninstall the CRDs for the solution from the cluster</li>
 <li><code>generator</code>: entry command for generator commands (i.e. has subcommands), all commands
 output their result to the stdout or the given output path<ul>
-<li><code>crd</code>: Generate the CRDs</li>
-<li><code>docker</code>: Generate the dockerfile</li>
-<li><code>installer</code>: Generate the installer files (i.e. kustomization yaml) for the operator</li>
-<li><code>operator</code>: Generate the deployment for the operator</li>
-<li><code>rbac</code>: Generate the needed rbac roles / role bindings for the operator</li>
+<li><code>crd</code>: generate the CRDs</li>
+<li><code>docker</code>: generate the dockerfile</li>
+<li><code>installer</code>: generate the installer files (i.e. kustomization yaml) for the operator</li>
+<li><code>operator</code>: generate the deployment for the operator</li>
+<li><code>rbac</code>: generate the needed rbac roles / role bindings for the operator</li>
+</ul>
+</li>
+<li><code>webhook</code>: entry command for webhook related operations<ul>
+<li><code>install</code>: generate the server certificate and install the service / webhook registration</li>
+<li><code>register</code>: register the currently implemented webhooks to the currently selected cluster</li>
 </ul>
 </li>
 </ul>
@@ -143,8 +210,8 @@ The installation files won&#39;t be overwritten as well if you have custom eleme
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
+            © Copyright 2021 Christoph Bühler
             
-            <span>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>

@@ -6,18 +6,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Class KubernetesOperatorFactory&lt;TTestStartup&gt;
-   </title>
+   | KubeOps Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class KubernetesOperatorFactory&lt;TTestStartup&gt;
-   ">
+   | KubeOps Documentation ">
     <meta name="generator" content="docfx 2.56.6.0">
     
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
     
     
     
@@ -46,7 +46,21 @@
                   <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
                 </div>
               </form>
-            </div>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../docs/getting_started.html" title="Documentation">Documentation</a>
+                      </li>
+                      <li>
+                          <a href="../kube-ops/index.html" title="KubeOps Api">KubeOps Api</a>
+                      </li>
+                      <li>
+                          <a href="../kube-ops-testing/index.html" title="KubeOps Testing Api">KubeOps Testing Api</a>
+                      </li>
+                      <li>
+                          <a href="https://github.com/buehler/dotnet-operator-sdk/releases" title="Changelog">Changelog</a>
+                      </li>
+                </ul>    </div>
           </div>
         </nav>
         
@@ -59,11 +73,41 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="KubeOps.Testing.html" title="KubeOps.Testing" class="">KubeOps.Testing</a>
+                        
+                        <ul class="nav level2">
+                          <li class="active">
+                            <a href="KubeOps.Testing.KubernetesOperatorFactory-1.html" title="KubernetesOperatorFactory&lt;TTestStartup&gt;" class="active">KubernetesOperatorFactory&lt;TTestStartup&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="KubeOps.Testing.MockKubernetesClient.html" title="MockKubernetesClient" class="">MockKubernetesClient</a>
+                          </li>
+                          <li class="">
+                            <a href="KubeOps.Testing.MockResourceEventQueue-1.html" title="MockResourceEventQueue&lt;TEntity&gt;" class="">MockResourceEventQueue&lt;TEntity&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="KubeOps.Testing.MockResourceQueueCollection.html" title="MockResourceQueueCollection" class="">MockResourceQueueCollection</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="article row grid-right">
@@ -78,84 +122,84 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactory</span>&lt;TTestStartup&gt;</div>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1">WebApplicationFactory</a>&lt;TTestStartup&gt;</div>
     <div class="level2"><span class="xref">KubernetesOperatorFactory&lt;TTestStartup&gt;</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">System.IDisposable</span></div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactory&lt;TTestStartup&gt;.WithWebHostBuilder(System.Action&lt;Microsoft.AspNetCore.Hosting.IWebHostBuilder&gt;)</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1.withwebhostbuilder#Microsoft_AspNetCore_Mvc_Testing_WebApplicationFactory_1_WithWebHostBuilder_System_Action_Microsoft_AspNetCore_Hosting_IWebHostBuilder__">WebApplicationFactory&lt;TTestStartup&gt;.WithWebHostBuilder(Action&lt;IWebHostBuilder&gt;)</a>
     </div>
     <div>
-      <span class="xref">Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactory&lt;TTestStartup&gt;.GetTestAssemblies()</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1.gettestassemblies#Microsoft_AspNetCore_Mvc_Testing_WebApplicationFactory_1_GetTestAssemblies">WebApplicationFactory&lt;TTestStartup&gt;.GetTestAssemblies()</a>
     </div>
     <div>
-      <span class="xref">Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactory&lt;TTestStartup&gt;.CreateWebHostBuilder()</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1.createwebhostbuilder#Microsoft_AspNetCore_Mvc_Testing_WebApplicationFactory_1_CreateWebHostBuilder">WebApplicationFactory&lt;TTestStartup&gt;.CreateWebHostBuilder()</a>
     </div>
     <div>
-      <span class="xref">Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactory&lt;TTestStartup&gt;.CreateServer(Microsoft.AspNetCore.Hosting.IWebHostBuilder)</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1.createserver#Microsoft_AspNetCore_Mvc_Testing_WebApplicationFactory_1_CreateServer_Microsoft_AspNetCore_Hosting_IWebHostBuilder_">WebApplicationFactory&lt;TTestStartup&gt;.CreateServer(IWebHostBuilder)</a>
     </div>
     <div>
-      <span class="xref">Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactory&lt;TTestStartup&gt;.CreateHost(Microsoft.Extensions.Hosting.IHostBuilder)</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1.createhost#Microsoft_AspNetCore_Mvc_Testing_WebApplicationFactory_1_CreateHost_Microsoft_Extensions_Hosting_IHostBuilder_">WebApplicationFactory&lt;TTestStartup&gt;.CreateHost(IHostBuilder)</a>
     </div>
     <div>
-      <span class="xref">Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactory&lt;TTestStartup&gt;.CreateClient()</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1.createclient#Microsoft_AspNetCore_Mvc_Testing_WebApplicationFactory_1_CreateClient">WebApplicationFactory&lt;TTestStartup&gt;.CreateClient()</a>
     </div>
     <div>
-      <span class="xref">Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactory&lt;TTestStartup&gt;.CreateClient(Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryClientOptions)</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1.createclient#Microsoft_AspNetCore_Mvc_Testing_WebApplicationFactory_1_CreateClient_Microsoft_AspNetCore_Mvc_Testing_WebApplicationFactoryClientOptions_">WebApplicationFactory&lt;TTestStartup&gt;.CreateClient(WebApplicationFactoryClientOptions)</a>
     </div>
     <div>
-      <span class="xref">Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactory&lt;TTestStartup&gt;.CreateDefaultClient(System.Net.Http.DelegatingHandler[])</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1.createdefaultclient#Microsoft_AspNetCore_Mvc_Testing_WebApplicationFactory_1_CreateDefaultClient_System_Net_Http_DelegatingHandler___">WebApplicationFactory&lt;TTestStartup&gt;.CreateDefaultClient(DelegatingHandler[])</a>
     </div>
     <div>
-      <span class="xref">Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactory&lt;TTestStartup&gt;.ConfigureClient(System.Net.Http.HttpClient)</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1.configureclient#Microsoft_AspNetCore_Mvc_Testing_WebApplicationFactory_1_ConfigureClient_System_Net_Http_HttpClient_">WebApplicationFactory&lt;TTestStartup&gt;.ConfigureClient(HttpClient)</a>
     </div>
     <div>
-      <span class="xref">Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactory&lt;TTestStartup&gt;.CreateDefaultClient(System.Uri, System.Net.Http.DelegatingHandler[])</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1.createdefaultclient#Microsoft_AspNetCore_Mvc_Testing_WebApplicationFactory_1_CreateDefaultClient_System_Uri_System_Net_Http_DelegatingHandler___">WebApplicationFactory&lt;TTestStartup&gt;.CreateDefaultClient(Uri, DelegatingHandler[])</a>
     </div>
     <div>
-      <span class="xref">Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactory&lt;TTestStartup&gt;.Dispose()</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1.dispose#Microsoft_AspNetCore_Mvc_Testing_WebApplicationFactory_1_Dispose">WebApplicationFactory&lt;TTestStartup&gt;.Dispose()</a>
     </div>
     <div>
-      <span class="xref">Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactory&lt;TTestStartup&gt;.Dispose(System.Boolean)</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1.dispose#Microsoft_AspNetCore_Mvc_Testing_WebApplicationFactory_1_Dispose_System_Boolean_">WebApplicationFactory&lt;TTestStartup&gt;.Dispose(Boolean)</a>
     </div>
     <div>
-      <span class="xref">Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactory&lt;TTestStartup&gt;.Server</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1.server#Microsoft_AspNetCore_Mvc_Testing_WebApplicationFactory_1_Server">WebApplicationFactory&lt;TTestStartup&gt;.Server</a>
     </div>
     <div>
-      <span class="xref">Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactory&lt;TTestStartup&gt;.Services</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1.services#Microsoft_AspNetCore_Mvc_Testing_WebApplicationFactory_1_Services">WebApplicationFactory&lt;TTestStartup&gt;.Services</a>
     </div>
     <div>
-      <span class="xref">Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactory&lt;TTestStartup&gt;.Factories</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1.factories#Microsoft_AspNetCore_Mvc_Testing_WebApplicationFactory_1_Factories">WebApplicationFactory&lt;TTestStartup&gt;.Factories</a>
     </div>
     <div>
-      <span class="xref">Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactory&lt;TTestStartup&gt;.ClientOptions</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1.clientoptions#Microsoft_AspNetCore_Mvc_Testing_WebApplicationFactory_1_ClientOptions">WebApplicationFactory&lt;TTestStartup&gt;.ClientOptions</a>
     </div>
     <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.GetHashCode()</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
     </div>
     <div>
-      <span class="xref">System.Object.GetType()</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
     </div>
     <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
     </div>
     <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.ToString()</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="KubeOps.Testing.html">KubeOps.Testing</a></h6>
@@ -245,7 +289,7 @@ event queues.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Hosting.IWebHostBuilder</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.hosting.iwebhostbuilder">IWebHostBuilder</a></td>
         <td><span class="parametername">builder</span></td>
         <td><p>The web host builder.</p>
 </td>
@@ -280,7 +324,7 @@ event queues.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.Extensions.Hosting.IHostBuilder</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.extensions.hosting.ihostbuilder">IHostBuilder</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -379,7 +423,7 @@ event queues.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">root</span></td>
         <td></td>
       </tr>
@@ -402,7 +446,7 @@ event queues.</p>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">System.IDisposable</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
   </div>
 </article>
           </div>
@@ -435,8 +479,8 @@ event queues.</p>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
+            © Copyright 2021 Christoph Bühler
             
-            <span>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>
