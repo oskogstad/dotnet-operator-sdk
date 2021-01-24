@@ -1765,31 +1765,6 @@ references:
   commentId: F:KubeOps.Operator.Leadership.LeaderState.None
   fullName: KubeOps.Operator.Leadership.LeaderState.None
   nameWithType: LeaderState.None
-- uid: KubeOps.Operator.Logging
-  name: KubeOps.Operator.Logging
-  href: kube-ops/KubeOps.Operator.Logging.html
-  commentId: N:KubeOps.Operator.Logging
-  fullName: KubeOps.Operator.Logging
-  nameWithType: KubeOps.Operator.Logging
-- uid: KubeOps.Operator.Logging.LoggingBuilderExtensions
-  name: LoggingBuilderExtensions
-  href: kube-ops/KubeOps.Operator.Logging.LoggingBuilderExtensions.html
-  commentId: T:KubeOps.Operator.Logging.LoggingBuilderExtensions
-  fullName: KubeOps.Operator.Logging.LoggingBuilderExtensions
-  nameWithType: LoggingBuilderExtensions
-- uid: KubeOps.Operator.Logging.LoggingBuilderExtensions.AddStructuredConsole(Microsoft.Extensions.Logging.ILoggingBuilder)
-  name: AddStructuredConsole(ILoggingBuilder)
-  href: kube-ops/KubeOps.Operator.Logging.LoggingBuilderExtensions.html#KubeOps_Operator_Logging_LoggingBuilderExtensions_AddStructuredConsole_Microsoft_Extensions_Logging_ILoggingBuilder_
-  commentId: M:KubeOps.Operator.Logging.LoggingBuilderExtensions.AddStructuredConsole(Microsoft.Extensions.Logging.ILoggingBuilder)
-  fullName: KubeOps.Operator.Logging.LoggingBuilderExtensions.AddStructuredConsole(Microsoft.Extensions.Logging.ILoggingBuilder)
-  nameWithType: LoggingBuilderExtensions.AddStructuredConsole(ILoggingBuilder)
-- uid: KubeOps.Operator.Logging.LoggingBuilderExtensions.AddStructuredConsole*
-  name: AddStructuredConsole
-  href: kube-ops/KubeOps.Operator.Logging.LoggingBuilderExtensions.html#KubeOps_Operator_Logging_LoggingBuilderExtensions_AddStructuredConsole_
-  commentId: Overload:KubeOps.Operator.Logging.LoggingBuilderExtensions.AddStructuredConsole
-  isSpec: "True"
-  fullName: KubeOps.Operator.Logging.LoggingBuilderExtensions.AddStructuredConsole
-  nameWithType: LoggingBuilderExtensions.AddStructuredConsole
 - uid: KubeOps.Operator.OperatorSettings
   name: OperatorSettings
   href: kube-ops/KubeOps.Operator.OperatorSettings.html
