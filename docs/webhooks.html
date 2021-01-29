@@ -198,15 +198,15 @@ It is suggested one uses <code>Docker Desktop</code> with kubernetes.</p>
 <h2 id="validation-webhook">Validation webhook</h2>
 <p>The general idea of this webhook type is to validate an entity
 before it is definitely created / updated or deleted.</p>
+<p>Webhooks are registered in a <strong>scoped</strong> maner to the DI system.
+They behave like asp.net api controller.</p>
 <p>The implementation of a webhook is fairly simple:</p>
 <ul>
 <li>Create a class somewhere in your project.</li>
 <li>Implement the <a class="xref" href="../kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html">IValidationWebhook&lt;TEntity&gt;</a> interface.</li>
-<li>Define the <a class="xref" href="../kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook.html#KubeOps_Operator_Webhooks_IValidationWebhook_Operations">Operations</a>
+<li>Define the <a class="xref" href="../kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_Operations">Operations</a>
 (from the interface) that the validator is interested in.</li>
 <li>Overwrite the corresponding methods.</li>
-<li>Register it in the <a class="xref" href="../kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html">IOperatorBuilder</a>
-with <a class="xref" href="../kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddValidationWebhook__1">AddValidationWebhook&lt;TWebhook&gt;()</a>.</li>
 </ul>
 <div class="WARNING"><h5>Warning</h5><p>The interface contains default implementations for <em>ALL</em> methods.
 The default of the async methods are to call the sync ones.
@@ -238,14 +238,6 @@ as well as a custom error message that is presented to the user.</p>
 
      private static bool CheckSpec(EntityClass entity) =&gt; entity.Spec.Username != &quot;foobar&quot;;
  }
-</code></pre><p>And then register the webhook in <code>Startup.cs</code>:</p>
-<pre><code class="lang-c#">public void ConfigureServices(IServiceCollection services)
-{
-    services
-        .AddKubernetesOperator()
-        // ...
-        .AddValidationWebhook&lt;TestValidator&gt;();
-}
 </code></pre></article>
           </div>
           

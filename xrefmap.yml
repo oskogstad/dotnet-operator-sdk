@@ -38,38 +38,6 @@ references:
   commentId: T:KubeOps.Operator.Builder.IOperatorBuilder
   fullName: KubeOps.Operator.Builder.IOperatorBuilder
   nameWithType: IOperatorBuilder
-- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddController*
-  name: AddController
-  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddController_
-  commentId: Overload:KubeOps.Operator.Builder.IOperatorBuilder.AddController
-  isSpec: "True"
-  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddController
-  nameWithType: IOperatorBuilder.AddController
-- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddController``1
-  name: AddController<TController>()
-  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddController__1
-  commentId: M:KubeOps.Operator.Builder.IOperatorBuilder.AddController``1
-  name.vb: AddController(Of TController)()
-  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddController<TController>()
-  fullName.vb: KubeOps.Operator.Builder.IOperatorBuilder.AddController(Of TController)()
-  nameWithType: IOperatorBuilder.AddController<TController>()
-  nameWithType.vb: IOperatorBuilder.AddController(Of TController)()
-- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddFinalizer*
-  name: AddFinalizer
-  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddFinalizer_
-  commentId: Overload:KubeOps.Operator.Builder.IOperatorBuilder.AddFinalizer
-  isSpec: "True"
-  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddFinalizer
-  nameWithType: IOperatorBuilder.AddFinalizer
-- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddFinalizer``1
-  name: AddFinalizer<TFinalizer>()
-  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddFinalizer__1
-  commentId: M:KubeOps.Operator.Builder.IOperatorBuilder.AddFinalizer``1
-  name.vb: AddFinalizer(Of TFinalizer)()
-  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddFinalizer<TFinalizer>()
-  fullName.vb: KubeOps.Operator.Builder.IOperatorBuilder.AddFinalizer(Of TFinalizer)()
-  nameWithType: IOperatorBuilder.AddFinalizer<TFinalizer>()
-  nameWithType.vb: IOperatorBuilder.AddFinalizer(Of TFinalizer)()
 - uid: KubeOps.Operator.Builder.IOperatorBuilder.AddHealthCheck*
   name: AddHealthCheck
   href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddHealthCheck_
@@ -131,22 +99,6 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddResourceAssembly
   nameWithType: IOperatorBuilder.AddResourceAssembly
-- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddValidationWebhook*
-  name: AddValidationWebhook
-  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddValidationWebhook_
-  commentId: Overload:KubeOps.Operator.Builder.IOperatorBuilder.AddValidationWebhook
-  isSpec: "True"
-  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddValidationWebhook
-  nameWithType: IOperatorBuilder.AddValidationWebhook
-- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddValidationWebhook``1
-  name: AddValidationWebhook<TWebhook>()
-  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddValidationWebhook__1
-  commentId: M:KubeOps.Operator.Builder.IOperatorBuilder.AddValidationWebhook``1
-  name.vb: AddValidationWebhook(Of TWebhook)()
-  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddValidationWebhook<TWebhook>()
-  fullName.vb: KubeOps.Operator.Builder.IOperatorBuilder.AddValidationWebhook(Of TWebhook)()
-  nameWithType: IOperatorBuilder.AddValidationWebhook<TWebhook>()
-  nameWithType.vb: IOperatorBuilder.AddValidationWebhook(Of TWebhook)()
 - uid: KubeOps.Operator.Builder.IOperatorBuilder.Services
   name: Services
   href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_Services
@@ -160,156 +112,12 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.Builder.IOperatorBuilder.Services
   nameWithType: IOperatorBuilder.Services
-- uid: KubeOps.Operator.Caching
-  name: KubeOps.Operator.Caching
-  href: kube-ops/KubeOps.Operator.Caching.html
-  commentId: N:KubeOps.Operator.Caching
-  fullName: KubeOps.Operator.Caching
-  nameWithType: KubeOps.Operator.Caching
-- uid: KubeOps.Operator.Caching.CacheComparisonResult
-  name: CacheComparisonResult
-  href: kube-ops/KubeOps.Operator.Caching.CacheComparisonResult.html
-  commentId: T:KubeOps.Operator.Caching.CacheComparisonResult
-  fullName: KubeOps.Operator.Caching.CacheComparisonResult
-  nameWithType: CacheComparisonResult
-- uid: KubeOps.Operator.Caching.CacheComparisonResult.FinalizersModified
-  name: FinalizersModified
-  href: kube-ops/KubeOps.Operator.Caching.CacheComparisonResult.html#KubeOps_Operator_Caching_CacheComparisonResult_FinalizersModified
-  commentId: F:KubeOps.Operator.Caching.CacheComparisonResult.FinalizersModified
-  fullName: KubeOps.Operator.Caching.CacheComparisonResult.FinalizersModified
-  nameWithType: CacheComparisonResult.FinalizersModified
-- uid: KubeOps.Operator.Caching.CacheComparisonResult.Modified
-  name: Modified
-  href: kube-ops/KubeOps.Operator.Caching.CacheComparisonResult.html#KubeOps_Operator_Caching_CacheComparisonResult_Modified
-  commentId: F:KubeOps.Operator.Caching.CacheComparisonResult.Modified
-  fullName: KubeOps.Operator.Caching.CacheComparisonResult.Modified
-  nameWithType: CacheComparisonResult.Modified
-- uid: KubeOps.Operator.Caching.CacheComparisonResult.New
-  name: New
-  href: kube-ops/KubeOps.Operator.Caching.CacheComparisonResult.html#KubeOps_Operator_Caching_CacheComparisonResult_New
-  commentId: F:KubeOps.Operator.Caching.CacheComparisonResult.New
-  fullName: KubeOps.Operator.Caching.CacheComparisonResult.New
-  nameWithType: CacheComparisonResult.New
-- uid: KubeOps.Operator.Caching.CacheComparisonResult.NotModified
-  name: NotModified
-  href: kube-ops/KubeOps.Operator.Caching.CacheComparisonResult.html#KubeOps_Operator_Caching_CacheComparisonResult_NotModified
-  commentId: F:KubeOps.Operator.Caching.CacheComparisonResult.NotModified
-  fullName: KubeOps.Operator.Caching.CacheComparisonResult.NotModified
-  nameWithType: CacheComparisonResult.NotModified
-- uid: KubeOps.Operator.Caching.CacheComparisonResult.StatusModified
-  name: StatusModified
-  href: kube-ops/KubeOps.Operator.Caching.CacheComparisonResult.html#KubeOps_Operator_Caching_CacheComparisonResult_StatusModified
-  commentId: F:KubeOps.Operator.Caching.CacheComparisonResult.StatusModified
-  fullName: KubeOps.Operator.Caching.CacheComparisonResult.StatusModified
-  nameWithType: CacheComparisonResult.StatusModified
-- uid: KubeOps.Operator.Caching.IResourceCache`1
-  name: IResourceCache<TEntity>
-  href: kube-ops/KubeOps.Operator.Caching.IResourceCache-1.html
-  commentId: T:KubeOps.Operator.Caching.IResourceCache`1
-  name.vb: IResourceCache(Of TEntity)
-  fullName: KubeOps.Operator.Caching.IResourceCache<TEntity>
-  fullName.vb: KubeOps.Operator.Caching.IResourceCache(Of TEntity)
-  nameWithType: IResourceCache<TEntity>
-  nameWithType.vb: IResourceCache(Of TEntity)
-- uid: KubeOps.Operator.Caching.IResourceCache`1.Clear
-  name: Clear()
-  href: kube-ops/KubeOps.Operator.Caching.IResourceCache-1.html#KubeOps_Operator_Caching_IResourceCache_1_Clear
-  commentId: M:KubeOps.Operator.Caching.IResourceCache`1.Clear
-  fullName: KubeOps.Operator.Caching.IResourceCache<TEntity>.Clear()
-  fullName.vb: KubeOps.Operator.Caching.IResourceCache(Of TEntity).Clear()
-  nameWithType: IResourceCache<TEntity>.Clear()
-  nameWithType.vb: IResourceCache(Of TEntity).Clear()
-- uid: KubeOps.Operator.Caching.IResourceCache`1.Clear*
-  name: Clear
-  href: kube-ops/KubeOps.Operator.Caching.IResourceCache-1.html#KubeOps_Operator_Caching_IResourceCache_1_Clear_
-  commentId: Overload:KubeOps.Operator.Caching.IResourceCache`1.Clear
-  isSpec: "True"
-  fullName: KubeOps.Operator.Caching.IResourceCache<TEntity>.Clear
-  fullName.vb: KubeOps.Operator.Caching.IResourceCache(Of TEntity).Clear
-  nameWithType: IResourceCache<TEntity>.Clear
-  nameWithType.vb: IResourceCache(Of TEntity).Clear
-- uid: KubeOps.Operator.Caching.IResourceCache`1.Fill(System.Collections.Generic.IEnumerable{`0})
-  name: Fill(IEnumerable<TEntity>)
-  href: kube-ops/KubeOps.Operator.Caching.IResourceCache-1.html#KubeOps_Operator_Caching_IResourceCache_1_Fill_System_Collections_Generic_IEnumerable__0__
-  commentId: M:KubeOps.Operator.Caching.IResourceCache`1.Fill(System.Collections.Generic.IEnumerable{`0})
-  name.vb: Fill(IEnumerable(Of TEntity))
-  fullName: KubeOps.Operator.Caching.IResourceCache<TEntity>.Fill(System.Collections.Generic.IEnumerable<TEntity>)
-  fullName.vb: KubeOps.Operator.Caching.IResourceCache(Of TEntity).Fill(System.Collections.Generic.IEnumerable(Of TEntity))
-  nameWithType: IResourceCache<TEntity>.Fill(IEnumerable<TEntity>)
-  nameWithType.vb: IResourceCache(Of TEntity).Fill(IEnumerable(Of TEntity))
-- uid: KubeOps.Operator.Caching.IResourceCache`1.Fill*
-  name: Fill
-  href: kube-ops/KubeOps.Operator.Caching.IResourceCache-1.html#KubeOps_Operator_Caching_IResourceCache_1_Fill_
-  commentId: Overload:KubeOps.Operator.Caching.IResourceCache`1.Fill
-  isSpec: "True"
-  fullName: KubeOps.Operator.Caching.IResourceCache<TEntity>.Fill
-  fullName.vb: KubeOps.Operator.Caching.IResourceCache(Of TEntity).Fill
-  nameWithType: IResourceCache<TEntity>.Fill
-  nameWithType.vb: IResourceCache(Of TEntity).Fill
-- uid: KubeOps.Operator.Caching.IResourceCache`1.Get(System.String)
-  name: Get(String)
-  href: kube-ops/KubeOps.Operator.Caching.IResourceCache-1.html#KubeOps_Operator_Caching_IResourceCache_1_Get_System_String_
-  commentId: M:KubeOps.Operator.Caching.IResourceCache`1.Get(System.String)
-  fullName: KubeOps.Operator.Caching.IResourceCache<TEntity>.Get(System.String)
-  fullName.vb: KubeOps.Operator.Caching.IResourceCache(Of TEntity).Get(System.String)
-  nameWithType: IResourceCache<TEntity>.Get(String)
-  nameWithType.vb: IResourceCache(Of TEntity).Get(String)
-- uid: KubeOps.Operator.Caching.IResourceCache`1.Get*
-  name: Get
-  href: kube-ops/KubeOps.Operator.Caching.IResourceCache-1.html#KubeOps_Operator_Caching_IResourceCache_1_Get_
-  commentId: Overload:KubeOps.Operator.Caching.IResourceCache`1.Get
-  isSpec: "True"
-  fullName: KubeOps.Operator.Caching.IResourceCache<TEntity>.Get
-  fullName.vb: KubeOps.Operator.Caching.IResourceCache(Of TEntity).Get
-  nameWithType: IResourceCache<TEntity>.Get
-  nameWithType.vb: IResourceCache(Of TEntity).Get
-- uid: KubeOps.Operator.Caching.IResourceCache`1.Remove(`0)
-  name: Remove(TEntity)
-  href: kube-ops/KubeOps.Operator.Caching.IResourceCache-1.html#KubeOps_Operator_Caching_IResourceCache_1_Remove__0_
-  commentId: M:KubeOps.Operator.Caching.IResourceCache`1.Remove(`0)
-  fullName: KubeOps.Operator.Caching.IResourceCache<TEntity>.Remove(TEntity)
-  fullName.vb: KubeOps.Operator.Caching.IResourceCache(Of TEntity).Remove(TEntity)
-  nameWithType: IResourceCache<TEntity>.Remove(TEntity)
-  nameWithType.vb: IResourceCache(Of TEntity).Remove(TEntity)
-- uid: KubeOps.Operator.Caching.IResourceCache`1.Remove*
-  name: Remove
-  href: kube-ops/KubeOps.Operator.Caching.IResourceCache-1.html#KubeOps_Operator_Caching_IResourceCache_1_Remove_
-  commentId: Overload:KubeOps.Operator.Caching.IResourceCache`1.Remove
-  isSpec: "True"
-  fullName: KubeOps.Operator.Caching.IResourceCache<TEntity>.Remove
-  fullName.vb: KubeOps.Operator.Caching.IResourceCache(Of TEntity).Remove
-  nameWithType: IResourceCache<TEntity>.Remove
-  nameWithType.vb: IResourceCache(Of TEntity).Remove
-- uid: KubeOps.Operator.Caching.IResourceCache`1.Upsert(`0,KubeOps.Operator.Caching.CacheComparisonResult@)
-  name: Upsert(TEntity, out CacheComparisonResult)
-  href: kube-ops/KubeOps.Operator.Caching.IResourceCache-1.html#KubeOps_Operator_Caching_IResourceCache_1_Upsert__0_KubeOps_Operator_Caching_CacheComparisonResult__
-  commentId: M:KubeOps.Operator.Caching.IResourceCache`1.Upsert(`0,KubeOps.Operator.Caching.CacheComparisonResult@)
-  name.vb: Upsert(TEntity, ByRef CacheComparisonResult)
-  fullName: KubeOps.Operator.Caching.IResourceCache<TEntity>.Upsert(TEntity, out KubeOps.Operator.Caching.CacheComparisonResult)
-  fullName.vb: KubeOps.Operator.Caching.IResourceCache(Of TEntity).Upsert(TEntity, ByRef KubeOps.Operator.Caching.CacheComparisonResult)
-  nameWithType: IResourceCache<TEntity>.Upsert(TEntity, out CacheComparisonResult)
-  nameWithType.vb: IResourceCache(Of TEntity).Upsert(TEntity, ByRef CacheComparisonResult)
-- uid: KubeOps.Operator.Caching.IResourceCache`1.Upsert*
-  name: Upsert
-  href: kube-ops/KubeOps.Operator.Caching.IResourceCache-1.html#KubeOps_Operator_Caching_IResourceCache_1_Upsert_
-  commentId: Overload:KubeOps.Operator.Caching.IResourceCache`1.Upsert
-  isSpec: "True"
-  fullName: KubeOps.Operator.Caching.IResourceCache<TEntity>.Upsert
-  fullName.vb: KubeOps.Operator.Caching.IResourceCache(Of TEntity).Upsert
-  nameWithType: IResourceCache<TEntity>.Upsert
-  nameWithType.vb: IResourceCache(Of TEntity).Upsert
 - uid: KubeOps.Operator.Controller
   name: KubeOps.Operator.Controller
   href: kube-ops/KubeOps.Operator.Controller.html
   commentId: N:KubeOps.Operator.Controller
   fullName: KubeOps.Operator.Controller
   nameWithType: KubeOps.Operator.Controller
-- uid: KubeOps.Operator.Controller.IResourceController
-  name: IResourceController
-  href: kube-ops/KubeOps.Operator.Controller.IResourceController.html
-  commentId: T:KubeOps.Operator.Controller.IResourceController
-  fullName: KubeOps.Operator.Controller.IResourceController
-  nameWithType: IResourceController
 - uid: KubeOps.Operator.Controller.IResourceController`1
   name: IResourceController<TEntity>
   href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html
@@ -319,187 +127,129 @@ references:
   fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity)
   nameWithType: IResourceController<TEntity>
   nameWithType.vb: IResourceController(Of TEntity)
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1
-  name: ResourceControllerBase<TEntity>
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html
-  commentId: T:KubeOps.Operator.Controller.ResourceControllerBase`1
-  name.vb: ResourceControllerBase(Of TEntity)
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity)
-  nameWithType: ResourceControllerBase<TEntity>
-  nameWithType.vb: ResourceControllerBase(Of TEntity)
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.#ctor(KubeOps.Operator.Services.IResourceServices{`0})
-  name: ResourceControllerBase(IResourceServices<TEntity>)
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1__ctor_KubeOps_Operator_Services_IResourceServices__0__
-  commentId: M:KubeOps.Operator.Controller.ResourceControllerBase`1.#ctor(KubeOps.Operator.Services.IResourceServices{`0})
-  name.vb: ResourceControllerBase(IResourceServices(Of TEntity))
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.ResourceControllerBase(KubeOps.Operator.Services.IResourceServices<TEntity>)
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).ResourceControllerBase(KubeOps.Operator.Services.IResourceServices(Of TEntity))
-  nameWithType: ResourceControllerBase<TEntity>.ResourceControllerBase(IResourceServices<TEntity>)
-  nameWithType.vb: ResourceControllerBase(Of TEntity).ResourceControllerBase(IResourceServices(Of TEntity))
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.#ctor*
-  name: ResourceControllerBase
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1__ctor_
-  commentId: Overload:KubeOps.Operator.Controller.ResourceControllerBase`1.#ctor
+- uid: KubeOps.Operator.Controller.IResourceController`1.CreatedAsync(`0)
+  name: CreatedAsync(TEntity)
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_CreatedAsync__0_
+  commentId: M:KubeOps.Operator.Controller.IResourceController`1.CreatedAsync(`0)
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.CreatedAsync(TEntity)
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).CreatedAsync(TEntity)
+  nameWithType: IResourceController<TEntity>.CreatedAsync(TEntity)
+  nameWithType.vb: IResourceController(Of TEntity).CreatedAsync(TEntity)
+- uid: KubeOps.Operator.Controller.IResourceController`1.CreatedAsync*
+  name: CreatedAsync
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_CreatedAsync_
+  commentId: Overload:KubeOps.Operator.Controller.IResourceController`1.CreatedAsync
   isSpec: "True"
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.ResourceControllerBase
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).ResourceControllerBase
-  nameWithType: ResourceControllerBase<TEntity>.ResourceControllerBase
-  nameWithType.vb: ResourceControllerBase(Of TEntity).ResourceControllerBase
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.AttachFinalizer*
-  name: AttachFinalizer
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_AttachFinalizer_
-  commentId: Overload:KubeOps.Operator.Controller.ResourceControllerBase`1.AttachFinalizer
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.CreatedAsync
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).CreatedAsync
+  nameWithType: IResourceController<TEntity>.CreatedAsync
+  nameWithType.vb: IResourceController(Of TEntity).CreatedAsync
+- uid: KubeOps.Operator.Controller.IResourceController`1.DeletedAsync(`0)
+  name: DeletedAsync(TEntity)
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_DeletedAsync__0_
+  commentId: M:KubeOps.Operator.Controller.IResourceController`1.DeletedAsync(`0)
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.DeletedAsync(TEntity)
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).DeletedAsync(TEntity)
+  nameWithType: IResourceController<TEntity>.DeletedAsync(TEntity)
+  nameWithType.vb: IResourceController(Of TEntity).DeletedAsync(TEntity)
+- uid: KubeOps.Operator.Controller.IResourceController`1.DeletedAsync*
+  name: DeletedAsync
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_DeletedAsync_
+  commentId: Overload:KubeOps.Operator.Controller.IResourceController`1.DeletedAsync
   isSpec: "True"
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.AttachFinalizer
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).AttachFinalizer
-  nameWithType: ResourceControllerBase<TEntity>.AttachFinalizer
-  nameWithType.vb: ResourceControllerBase(Of TEntity).AttachFinalizer
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.AttachFinalizer``1(`0)
-  name: AttachFinalizer<TFinalizer>(TEntity)
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_AttachFinalizer__1__0_
-  commentId: M:KubeOps.Operator.Controller.ResourceControllerBase`1.AttachFinalizer``1(`0)
-  name.vb: AttachFinalizer(Of TFinalizer)(TEntity)
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.AttachFinalizer<TFinalizer>(TEntity)
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).AttachFinalizer(Of TFinalizer)(TEntity)
-  nameWithType: ResourceControllerBase<TEntity>.AttachFinalizer<TFinalizer>(TEntity)
-  nameWithType.vb: ResourceControllerBase(Of TEntity).AttachFinalizer(Of TFinalizer)(TEntity)
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.Client
-  name: Client
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_Client
-  commentId: P:KubeOps.Operator.Controller.ResourceControllerBase`1.Client
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.Client
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).Client
-  nameWithType: ResourceControllerBase<TEntity>.Client
-  nameWithType.vb: ResourceControllerBase(Of TEntity).Client
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.Client*
-  name: Client
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_Client_
-  commentId: Overload:KubeOps.Operator.Controller.ResourceControllerBase`1.Client
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.DeletedAsync
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).DeletedAsync
+  nameWithType: IResourceController<TEntity>.DeletedAsync
+  nameWithType.vb: IResourceController(Of TEntity).DeletedAsync
+- uid: KubeOps.Operator.Controller.IResourceController`1.NotModifiedAsync(`0)
+  name: NotModifiedAsync(TEntity)
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_NotModifiedAsync__0_
+  commentId: M:KubeOps.Operator.Controller.IResourceController`1.NotModifiedAsync(`0)
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.NotModifiedAsync(TEntity)
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).NotModifiedAsync(TEntity)
+  nameWithType: IResourceController<TEntity>.NotModifiedAsync(TEntity)
+  nameWithType.vb: IResourceController(Of TEntity).NotModifiedAsync(TEntity)
+- uid: KubeOps.Operator.Controller.IResourceController`1.NotModifiedAsync*
+  name: NotModifiedAsync
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_NotModifiedAsync_
+  commentId: Overload:KubeOps.Operator.Controller.IResourceController`1.NotModifiedAsync
   isSpec: "True"
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.Client
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).Client
-  nameWithType: ResourceControllerBase<TEntity>.Client
-  nameWithType.vb: ResourceControllerBase(Of TEntity).Client
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.Created(`0)
-  name: Created(TEntity)
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_Created__0_
-  commentId: M:KubeOps.Operator.Controller.ResourceControllerBase`1.Created(`0)
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.Created(TEntity)
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).Created(TEntity)
-  nameWithType: ResourceControllerBase<TEntity>.Created(TEntity)
-  nameWithType.vb: ResourceControllerBase(Of TEntity).Created(TEntity)
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.Created*
-  name: Created
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_Created_
-  commentId: Overload:KubeOps.Operator.Controller.ResourceControllerBase`1.Created
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.NotModifiedAsync
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).NotModifiedAsync
+  nameWithType: IResourceController<TEntity>.NotModifiedAsync
+  nameWithType.vb: IResourceController(Of TEntity).NotModifiedAsync
+- uid: KubeOps.Operator.Controller.IResourceController`1.StatusModifiedAsync(`0)
+  name: StatusModifiedAsync(TEntity)
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_StatusModifiedAsync__0_
+  commentId: M:KubeOps.Operator.Controller.IResourceController`1.StatusModifiedAsync(`0)
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.StatusModifiedAsync(TEntity)
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).StatusModifiedAsync(TEntity)
+  nameWithType: IResourceController<TEntity>.StatusModifiedAsync(TEntity)
+  nameWithType.vb: IResourceController(Of TEntity).StatusModifiedAsync(TEntity)
+- uid: KubeOps.Operator.Controller.IResourceController`1.StatusModifiedAsync*
+  name: StatusModifiedAsync
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_StatusModifiedAsync_
+  commentId: Overload:KubeOps.Operator.Controller.IResourceController`1.StatusModifiedAsync
   isSpec: "True"
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.Created
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).Created
-  nameWithType: ResourceControllerBase<TEntity>.Created
-  nameWithType.vb: ResourceControllerBase(Of TEntity).Created
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.Deleted(`0)
-  name: Deleted(TEntity)
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_Deleted__0_
-  commentId: M:KubeOps.Operator.Controller.ResourceControllerBase`1.Deleted(`0)
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.Deleted(TEntity)
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).Deleted(TEntity)
-  nameWithType: ResourceControllerBase<TEntity>.Deleted(TEntity)
-  nameWithType.vb: ResourceControllerBase(Of TEntity).Deleted(TEntity)
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.Deleted*
-  name: Deleted
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_Deleted_
-  commentId: Overload:KubeOps.Operator.Controller.ResourceControllerBase`1.Deleted
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.StatusModifiedAsync
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).StatusModifiedAsync
+  nameWithType: IResourceController<TEntity>.StatusModifiedAsync
+  nameWithType.vb: IResourceController(Of TEntity).StatusModifiedAsync
+- uid: KubeOps.Operator.Controller.IResourceController`1.UpdatedAsync(`0)
+  name: UpdatedAsync(TEntity)
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_UpdatedAsync__0_
+  commentId: M:KubeOps.Operator.Controller.IResourceController`1.UpdatedAsync(`0)
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.UpdatedAsync(TEntity)
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).UpdatedAsync(TEntity)
+  nameWithType: IResourceController<TEntity>.UpdatedAsync(TEntity)
+  nameWithType.vb: IResourceController(Of TEntity).UpdatedAsync(TEntity)
+- uid: KubeOps.Operator.Controller.IResourceController`1.UpdatedAsync*
+  name: UpdatedAsync
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_UpdatedAsync_
+  commentId: Overload:KubeOps.Operator.Controller.IResourceController`1.UpdatedAsync
   isSpec: "True"
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.Deleted
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).Deleted
-  nameWithType: ResourceControllerBase<TEntity>.Deleted
-  nameWithType.vb: ResourceControllerBase(Of TEntity).Deleted
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.NotModified(`0)
-  name: NotModified(TEntity)
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_NotModified__0_
-  commentId: M:KubeOps.Operator.Controller.ResourceControllerBase`1.NotModified(`0)
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.NotModified(TEntity)
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).NotModified(TEntity)
-  nameWithType: ResourceControllerBase<TEntity>.NotModified(TEntity)
-  nameWithType.vb: ResourceControllerBase(Of TEntity).NotModified(TEntity)
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.NotModified*
-  name: NotModified
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_NotModified_
-  commentId: Overload:KubeOps.Operator.Controller.ResourceControllerBase`1.NotModified
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.UpdatedAsync
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).UpdatedAsync
+  nameWithType: IResourceController<TEntity>.UpdatedAsync
+  nameWithType.vb: IResourceController(Of TEntity).UpdatedAsync
+- uid: KubeOps.Operator.Controller.Results
+  name: KubeOps.Operator.Controller.Results
+  href: kube-ops/KubeOps.Operator.Controller.Results.html
+  commentId: N:KubeOps.Operator.Controller.Results
+  fullName: KubeOps.Operator.Controller.Results
+  nameWithType: KubeOps.Operator.Controller.Results
+- uid: KubeOps.Operator.Controller.Results.ResourceControllerResult
+  name: ResourceControllerResult
+  href: kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html
+  commentId: T:KubeOps.Operator.Controller.Results.ResourceControllerResult
+  fullName: KubeOps.Operator.Controller.Results.ResourceControllerResult
+  nameWithType: ResourceControllerResult
+- uid: KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueEvent(System.TimeSpan)
+  name: RequeueEvent(TimeSpan)
+  href: kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html#KubeOps_Operator_Controller_Results_ResourceControllerResult_RequeueEvent_System_TimeSpan_
+  commentId: M:KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueEvent(System.TimeSpan)
+  fullName: KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueEvent(System.TimeSpan)
+  nameWithType: ResourceControllerResult.RequeueEvent(TimeSpan)
+- uid: KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueEvent*
+  name: RequeueEvent
+  href: kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html#KubeOps_Operator_Controller_Results_ResourceControllerResult_RequeueEvent_
+  commentId: Overload:KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueEvent
   isSpec: "True"
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.NotModified
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).NotModified
-  nameWithType: ResourceControllerBase<TEntity>.NotModified
-  nameWithType.vb: ResourceControllerBase(Of TEntity).NotModified
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.StartAsync(System.Threading.CancellationToken)
-  name: StartAsync(CancellationToken)
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_StartAsync_System_Threading_CancellationToken_
-  commentId: M:KubeOps.Operator.Controller.ResourceControllerBase`1.StartAsync(System.Threading.CancellationToken)
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.StartAsync(System.Threading.CancellationToken)
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).StartAsync(System.Threading.CancellationToken)
-  nameWithType: ResourceControllerBase<TEntity>.StartAsync(CancellationToken)
-  nameWithType.vb: ResourceControllerBase(Of TEntity).StartAsync(CancellationToken)
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.StartAsync*
-  name: StartAsync
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_StartAsync_
-  commentId: Overload:KubeOps.Operator.Controller.ResourceControllerBase`1.StartAsync
+  fullName: KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueEvent
+  nameWithType: ResourceControllerResult.RequeueEvent
+- uid: KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueIn
+  name: RequeueIn
+  href: kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html#KubeOps_Operator_Controller_Results_ResourceControllerResult_RequeueIn
+  commentId: P:KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueIn
+  fullName: KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueIn
+  nameWithType: ResourceControllerResult.RequeueIn
+- uid: KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueIn*
+  name: RequeueIn
+  href: kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html#KubeOps_Operator_Controller_Results_ResourceControllerResult_RequeueIn_
+  commentId: Overload:KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueIn
   isSpec: "True"
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.StartAsync
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).StartAsync
-  nameWithType: ResourceControllerBase<TEntity>.StartAsync
-  nameWithType.vb: ResourceControllerBase(Of TEntity).StartAsync
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.StatusModified(`0)
-  name: StatusModified(TEntity)
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_StatusModified__0_
-  commentId: M:KubeOps.Operator.Controller.ResourceControllerBase`1.StatusModified(`0)
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.StatusModified(TEntity)
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).StatusModified(TEntity)
-  nameWithType: ResourceControllerBase<TEntity>.StatusModified(TEntity)
-  nameWithType.vb: ResourceControllerBase(Of TEntity).StatusModified(TEntity)
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.StatusModified*
-  name: StatusModified
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_StatusModified_
-  commentId: Overload:KubeOps.Operator.Controller.ResourceControllerBase`1.StatusModified
-  isSpec: "True"
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.StatusModified
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).StatusModified
-  nameWithType: ResourceControllerBase<TEntity>.StatusModified
-  nameWithType.vb: ResourceControllerBase(Of TEntity).StatusModified
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.StopAsync(System.Threading.CancellationToken)
-  name: StopAsync(CancellationToken)
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_StopAsync_System_Threading_CancellationToken_
-  commentId: M:KubeOps.Operator.Controller.ResourceControllerBase`1.StopAsync(System.Threading.CancellationToken)
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.StopAsync(System.Threading.CancellationToken)
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).StopAsync(System.Threading.CancellationToken)
-  nameWithType: ResourceControllerBase<TEntity>.StopAsync(CancellationToken)
-  nameWithType.vb: ResourceControllerBase(Of TEntity).StopAsync(CancellationToken)
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.StopAsync*
-  name: StopAsync
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_StopAsync_
-  commentId: Overload:KubeOps.Operator.Controller.ResourceControllerBase`1.StopAsync
-  isSpec: "True"
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.StopAsync
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).StopAsync
-  nameWithType: ResourceControllerBase<TEntity>.StopAsync
-  nameWithType.vb: ResourceControllerBase(Of TEntity).StopAsync
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.Updated(`0)
-  name: Updated(TEntity)
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_Updated__0_
-  commentId: M:KubeOps.Operator.Controller.ResourceControllerBase`1.Updated(`0)
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.Updated(TEntity)
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).Updated(TEntity)
-  nameWithType: ResourceControllerBase<TEntity>.Updated(TEntity)
-  nameWithType.vb: ResourceControllerBase(Of TEntity).Updated(TEntity)
-- uid: KubeOps.Operator.Controller.ResourceControllerBase`1.Updated*
-  name: Updated
-  href: kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_Updated_
-  commentId: Overload:KubeOps.Operator.Controller.ResourceControllerBase`1.Updated
-  isSpec: "True"
-  fullName: KubeOps.Operator.Controller.ResourceControllerBase<TEntity>.Updated
-  fullName.vb: KubeOps.Operator.Controller.ResourceControllerBase(Of TEntity).Updated
-  nameWithType: ResourceControllerBase<TEntity>.Updated
-  nameWithType.vb: ResourceControllerBase(Of TEntity).Updated
+  fullName: KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueIn
+  nameWithType: ResourceControllerResult.RequeueIn
 - uid: KubeOps.Operator.Entities
   name: KubeOps.Operator.Entities
   href: kube-ops/KubeOps.Operator.Entities.html
@@ -1156,14 +906,14 @@ references:
   fullName: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference
   nameWithType: KubernetesObjectExtensions.WithOwnerReference
 - uid: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference``1(``0,k8s.IKubernetesObject{k8s.Models.V1ObjectMeta})
-  name: WithOwnerReference<TResource>(TResource, IKubernetesObject<V1ObjectMeta>)
+  name: WithOwnerReference<TEntity>(TEntity, IKubernetesObject<V1ObjectMeta>)
   href: kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html#KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_WithOwnerReference__1___0_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__
   commentId: M:KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference``1(``0,k8s.IKubernetesObject{k8s.Models.V1ObjectMeta})
-  name.vb: WithOwnerReference(Of TResource)(TResource, IKubernetesObject(Of V1ObjectMeta))
-  fullName: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference<TResource>(TResource, k8s.IKubernetesObject<k8s.Models.V1ObjectMeta>)
-  fullName.vb: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference(Of TResource)(TResource, k8s.IKubernetesObject(Of k8s.Models.V1ObjectMeta))
-  nameWithType: KubernetesObjectExtensions.WithOwnerReference<TResource>(TResource, IKubernetesObject<V1ObjectMeta>)
-  nameWithType.vb: KubernetesObjectExtensions.WithOwnerReference(Of TResource)(TResource, IKubernetesObject(Of V1ObjectMeta))
+  name.vb: WithOwnerReference(Of TEntity)(TEntity, IKubernetesObject(Of V1ObjectMeta))
+  fullName: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference<TEntity>(TEntity, k8s.IKubernetesObject<k8s.Models.V1ObjectMeta>)
+  fullName.vb: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference(Of TEntity)(TEntity, k8s.IKubernetesObject(Of k8s.Models.V1ObjectMeta))
+  nameWithType: KubernetesObjectExtensions.WithOwnerReference<TEntity>(TEntity, IKubernetesObject<V1ObjectMeta>)
+  nameWithType.vb: KubernetesObjectExtensions.WithOwnerReference(Of TEntity)(TEntity, IKubernetesObject(Of V1ObjectMeta))
 - uid: KubeOps.Operator.Entities.Extensions.V1SecretExtensions
   name: V1SecretExtensions
   href: kube-ops/KubeOps.Operator.Entities.Extensions.V1SecretExtensions.html
@@ -1432,6 +1182,18 @@ references:
   commentId: T:KubeOps.Operator.Events.IEventManager
   fullName: KubeOps.Operator.Events.IEventManager
   nameWithType: IEventManager
+- uid: KubeOps.Operator.Events.IEventManager.AsyncPublisher
+  name: IEventManager.AsyncPublisher
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.AsyncPublisher.html
+  commentId: T:KubeOps.Operator.Events.IEventManager.AsyncPublisher
+  fullName: KubeOps.Operator.Events.IEventManager.AsyncPublisher
+  nameWithType: IEventManager.AsyncPublisher
+- uid: KubeOps.Operator.Events.IEventManager.AsyncStaticPublisher
+  name: IEventManager.AsyncStaticPublisher
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.AsyncStaticPublisher.html
+  commentId: T:KubeOps.Operator.Events.IEventManager.AsyncStaticPublisher
+  fullName: KubeOps.Operator.Events.IEventManager.AsyncStaticPublisher
+  nameWithType: IEventManager.AsyncStaticPublisher
 - uid: KubeOps.Operator.Events.IEventManager.CreatePublisher(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta},System.String,System.String,KubeOps.Operator.Events.EventType)
   name: CreatePublisher(IKubernetesObject<V1ObjectMeta>, String, String, EventType)
   href: kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_CreatePublisher_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__System_String_System_String_KubeOps_Operator_Events_EventType_
@@ -1454,262 +1216,180 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.Events.IEventManager.CreatePublisher
   nameWithType: IEventManager.CreatePublisher
-- uid: KubeOps.Operator.Events.IEventManager.Publish(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta},System.String,System.String,KubeOps.Operator.Events.EventType)
-  name: Publish(IKubernetesObject<V1ObjectMeta>, String, String, EventType)
-  href: kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_Publish_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__System_String_System_String_KubeOps_Operator_Events_EventType_
-  commentId: M:KubeOps.Operator.Events.IEventManager.Publish(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta},System.String,System.String,KubeOps.Operator.Events.EventType)
-  name.vb: Publish(IKubernetesObject(Of V1ObjectMeta), String, String, EventType)
-  fullName: KubeOps.Operator.Events.IEventManager.Publish(k8s.IKubernetesObject<k8s.Models.V1ObjectMeta>, System.String, System.String, KubeOps.Operator.Events.EventType)
-  fullName.vb: KubeOps.Operator.Events.IEventManager.Publish(k8s.IKubernetesObject(Of k8s.Models.V1ObjectMeta), System.String, System.String, KubeOps.Operator.Events.EventType)
-  nameWithType: IEventManager.Publish(IKubernetesObject<V1ObjectMeta>, String, String, EventType)
-  nameWithType.vb: IEventManager.Publish(IKubernetesObject(Of V1ObjectMeta), String, String, EventType)
-- uid: KubeOps.Operator.Events.IEventManager.Publish(k8s.Models.Corev1Event)
-  name: Publish(Corev1Event)
-  href: kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_Publish_k8s_Models_Corev1Event_
-  commentId: M:KubeOps.Operator.Events.IEventManager.Publish(k8s.Models.Corev1Event)
-  fullName: KubeOps.Operator.Events.IEventManager.Publish(k8s.Models.Corev1Event)
-  nameWithType: IEventManager.Publish(Corev1Event)
-- uid: KubeOps.Operator.Events.IEventManager.Publish*
-  name: Publish
-  href: kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_Publish_
-  commentId: Overload:KubeOps.Operator.Events.IEventManager.Publish
+- uid: KubeOps.Operator.Events.IEventManager.PublishAsync(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta},System.String,System.String,KubeOps.Operator.Events.EventType)
+  name: PublishAsync(IKubernetesObject<V1ObjectMeta>, String, String, EventType)
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_PublishAsync_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__System_String_System_String_KubeOps_Operator_Events_EventType_
+  commentId: M:KubeOps.Operator.Events.IEventManager.PublishAsync(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta},System.String,System.String,KubeOps.Operator.Events.EventType)
+  name.vb: PublishAsync(IKubernetesObject(Of V1ObjectMeta), String, String, EventType)
+  fullName: KubeOps.Operator.Events.IEventManager.PublishAsync(k8s.IKubernetesObject<k8s.Models.V1ObjectMeta>, System.String, System.String, KubeOps.Operator.Events.EventType)
+  fullName.vb: KubeOps.Operator.Events.IEventManager.PublishAsync(k8s.IKubernetesObject(Of k8s.Models.V1ObjectMeta), System.String, System.String, KubeOps.Operator.Events.EventType)
+  nameWithType: IEventManager.PublishAsync(IKubernetesObject<V1ObjectMeta>, String, String, EventType)
+  nameWithType.vb: IEventManager.PublishAsync(IKubernetesObject(Of V1ObjectMeta), String, String, EventType)
+- uid: KubeOps.Operator.Events.IEventManager.PublishAsync(k8s.Models.Corev1Event)
+  name: PublishAsync(Corev1Event)
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_PublishAsync_k8s_Models_Corev1Event_
+  commentId: M:KubeOps.Operator.Events.IEventManager.PublishAsync(k8s.Models.Corev1Event)
+  fullName: KubeOps.Operator.Events.IEventManager.PublishAsync(k8s.Models.Corev1Event)
+  nameWithType: IEventManager.PublishAsync(Corev1Event)
+- uid: KubeOps.Operator.Events.IEventManager.PublishAsync*
+  name: PublishAsync
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_PublishAsync_
+  commentId: Overload:KubeOps.Operator.Events.IEventManager.PublishAsync
   isSpec: "True"
-  fullName: KubeOps.Operator.Events.IEventManager.Publish
-  nameWithType: IEventManager.Publish
-- uid: KubeOps.Operator.Events.IEventManager.Publisher
-  name: IEventManager.Publisher
-  href: kube-ops/KubeOps.Operator.Events.IEventManager.Publisher.html
-  commentId: T:KubeOps.Operator.Events.IEventManager.Publisher
-  fullName: KubeOps.Operator.Events.IEventManager.Publisher
-  nameWithType: IEventManager.Publisher
-- uid: KubeOps.Operator.Events.IEventManager.StaticPublisher
-  name: IEventManager.StaticPublisher
-  href: kube-ops/KubeOps.Operator.Events.IEventManager.StaticPublisher.html
-  commentId: T:KubeOps.Operator.Events.IEventManager.StaticPublisher
-  fullName: KubeOps.Operator.Events.IEventManager.StaticPublisher
-  nameWithType: IEventManager.StaticPublisher
+  fullName: KubeOps.Operator.Events.IEventManager.PublishAsync
+  nameWithType: IEventManager.PublishAsync
 - uid: KubeOps.Operator.Finalizer
   name: KubeOps.Operator.Finalizer
   href: kube-ops/KubeOps.Operator.Finalizer.html
   commentId: N:KubeOps.Operator.Finalizer
   fullName: KubeOps.Operator.Finalizer
   nameWithType: KubeOps.Operator.Finalizer
-- uid: KubeOps.Operator.Finalizer.IResourceFinalizer
-  name: IResourceFinalizer
-  href: kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer.html
-  commentId: T:KubeOps.Operator.Finalizer.IResourceFinalizer
-  fullName: KubeOps.Operator.Finalizer.IResourceFinalizer
-  nameWithType: IResourceFinalizer
-- uid: KubeOps.Operator.Finalizer.IResourceFinalizer.Identifier
-  name: Identifier
-  href: kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer.html#KubeOps_Operator_Finalizer_IResourceFinalizer_Identifier
-  commentId: P:KubeOps.Operator.Finalizer.IResourceFinalizer.Identifier
-  fullName: KubeOps.Operator.Finalizer.IResourceFinalizer.Identifier
-  nameWithType: IResourceFinalizer.Identifier
-- uid: KubeOps.Operator.Finalizer.IResourceFinalizer.Identifier*
-  name: Identifier
-  href: kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer.html#KubeOps_Operator_Finalizer_IResourceFinalizer_Identifier_
-  commentId: Overload:KubeOps.Operator.Finalizer.IResourceFinalizer.Identifier
+- uid: KubeOps.Operator.Finalizer.IFinalizerManager`1
+  name: IFinalizerManager<TEntity>
+  href: kube-ops/KubeOps.Operator.Finalizer.IFinalizerManager-1.html
+  commentId: T:KubeOps.Operator.Finalizer.IFinalizerManager`1
+  name.vb: IFinalizerManager(Of TEntity)
+  fullName: KubeOps.Operator.Finalizer.IFinalizerManager<TEntity>
+  fullName.vb: KubeOps.Operator.Finalizer.IFinalizerManager(Of TEntity)
+  nameWithType: IFinalizerManager<TEntity>
+  nameWithType.vb: IFinalizerManager(Of TEntity)
+- uid: KubeOps.Operator.Finalizer.IFinalizerManager`1.RegisterFinalizerAsync*
+  name: RegisterFinalizerAsync
+  href: kube-ops/KubeOps.Operator.Finalizer.IFinalizerManager-1.html#KubeOps_Operator_Finalizer_IFinalizerManager_1_RegisterFinalizerAsync_
+  commentId: Overload:KubeOps.Operator.Finalizer.IFinalizerManager`1.RegisterFinalizerAsync
   isSpec: "True"
-  fullName: KubeOps.Operator.Finalizer.IResourceFinalizer.Identifier
-  nameWithType: IResourceFinalizer.Identifier
+  fullName: KubeOps.Operator.Finalizer.IFinalizerManager<TEntity>.RegisterFinalizerAsync
+  fullName.vb: KubeOps.Operator.Finalizer.IFinalizerManager(Of TEntity).RegisterFinalizerAsync
+  nameWithType: IFinalizerManager<TEntity>.RegisterFinalizerAsync
+  nameWithType.vb: IFinalizerManager(Of TEntity).RegisterFinalizerAsync
+- uid: KubeOps.Operator.Finalizer.IFinalizerManager`1.RegisterFinalizerAsync``1(`0)
+  name: RegisterFinalizerAsync<TFinalizer>(TEntity)
+  href: kube-ops/KubeOps.Operator.Finalizer.IFinalizerManager-1.html#KubeOps_Operator_Finalizer_IFinalizerManager_1_RegisterFinalizerAsync__1__0_
+  commentId: M:KubeOps.Operator.Finalizer.IFinalizerManager`1.RegisterFinalizerAsync``1(`0)
+  name.vb: RegisterFinalizerAsync(Of TFinalizer)(TEntity)
+  fullName: KubeOps.Operator.Finalizer.IFinalizerManager<TEntity>.RegisterFinalizerAsync<TFinalizer>(TEntity)
+  fullName.vb: KubeOps.Operator.Finalizer.IFinalizerManager(Of TEntity).RegisterFinalizerAsync(Of TFinalizer)(TEntity)
+  nameWithType: IFinalizerManager<TEntity>.RegisterFinalizerAsync<TFinalizer>(TEntity)
+  nameWithType.vb: IFinalizerManager(Of TEntity).RegisterFinalizerAsync(Of TFinalizer)(TEntity)
 - uid: KubeOps.Operator.Finalizer.IResourceFinalizer`1
-  name: IResourceFinalizer<TResource>
+  name: IResourceFinalizer<TEntity>
   href: kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html
   commentId: T:KubeOps.Operator.Finalizer.IResourceFinalizer`1
-  name.vb: IResourceFinalizer(Of TResource)
-  fullName: KubeOps.Operator.Finalizer.IResourceFinalizer<TResource>
-  fullName.vb: KubeOps.Operator.Finalizer.IResourceFinalizer(Of TResource)
-  nameWithType: IResourceFinalizer<TResource>
-  nameWithType.vb: IResourceFinalizer(Of TResource)
-- uid: KubeOps.Operator.Finalizer.IResourceFinalizer`1.Register(`0)
-  name: Register(TResource)
-  href: kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html#KubeOps_Operator_Finalizer_IResourceFinalizer_1_Register__0_
-  commentId: M:KubeOps.Operator.Finalizer.IResourceFinalizer`1.Register(`0)
-  fullName: KubeOps.Operator.Finalizer.IResourceFinalizer<TResource>.Register(TResource)
-  fullName.vb: KubeOps.Operator.Finalizer.IResourceFinalizer(Of TResource).Register(TResource)
-  nameWithType: IResourceFinalizer<TResource>.Register(TResource)
-  nameWithType.vb: IResourceFinalizer(Of TResource).Register(TResource)
-- uid: KubeOps.Operator.Finalizer.IResourceFinalizer`1.Register*
-  name: Register
-  href: kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html#KubeOps_Operator_Finalizer_IResourceFinalizer_1_Register_
-  commentId: Overload:KubeOps.Operator.Finalizer.IResourceFinalizer`1.Register
+  name.vb: IResourceFinalizer(Of TEntity)
+  fullName: KubeOps.Operator.Finalizer.IResourceFinalizer<TEntity>
+  fullName.vb: KubeOps.Operator.Finalizer.IResourceFinalizer(Of TEntity)
+  nameWithType: IResourceFinalizer<TEntity>
+  nameWithType.vb: IResourceFinalizer(Of TEntity)
+- uid: KubeOps.Operator.Finalizer.IResourceFinalizer`1.FinalizeAsync(`0)
+  name: FinalizeAsync(TEntity)
+  href: kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html#KubeOps_Operator_Finalizer_IResourceFinalizer_1_FinalizeAsync__0_
+  commentId: M:KubeOps.Operator.Finalizer.IResourceFinalizer`1.FinalizeAsync(`0)
+  fullName: KubeOps.Operator.Finalizer.IResourceFinalizer<TEntity>.FinalizeAsync(TEntity)
+  fullName.vb: KubeOps.Operator.Finalizer.IResourceFinalizer(Of TEntity).FinalizeAsync(TEntity)
+  nameWithType: IResourceFinalizer<TEntity>.FinalizeAsync(TEntity)
+  nameWithType.vb: IResourceFinalizer(Of TEntity).FinalizeAsync(TEntity)
+- uid: KubeOps.Operator.Finalizer.IResourceFinalizer`1.FinalizeAsync*
+  name: FinalizeAsync
+  href: kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html#KubeOps_Operator_Finalizer_IResourceFinalizer_1_FinalizeAsync_
+  commentId: Overload:KubeOps.Operator.Finalizer.IResourceFinalizer`1.FinalizeAsync
   isSpec: "True"
-  fullName: KubeOps.Operator.Finalizer.IResourceFinalizer<TResource>.Register
-  fullName.vb: KubeOps.Operator.Finalizer.IResourceFinalizer(Of TResource).Register
-  nameWithType: IResourceFinalizer<TResource>.Register
-  nameWithType.vb: IResourceFinalizer(Of TResource).Register
-- uid: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException
-  name: NoFinalizerRegisteredException
-  href: kube-ops/KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.html
-  commentId: T:KubeOps.Operator.Finalizer.NoFinalizerRegisteredException
-  fullName: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException
-  nameWithType: NoFinalizerRegisteredException
-- uid: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.#ctor
-  name: NoFinalizerRegisteredException()
-  href: kube-ops/KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.html#KubeOps_Operator_Finalizer_NoFinalizerRegisteredException__ctor
-  commentId: M:KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.#ctor
-  fullName: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.NoFinalizerRegisteredException()
-  nameWithType: NoFinalizerRegisteredException.NoFinalizerRegisteredException()
-- uid: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.#ctor(System.Reflection.MemberInfo)
-  name: NoFinalizerRegisteredException(MemberInfo)
-  href: kube-ops/KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.html#KubeOps_Operator_Finalizer_NoFinalizerRegisteredException__ctor_System_Reflection_MemberInfo_
-  commentId: M:KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.#ctor(System.Reflection.MemberInfo)
-  fullName: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.NoFinalizerRegisteredException(System.Reflection.MemberInfo)
-  nameWithType: NoFinalizerRegisteredException.NoFinalizerRegisteredException(MemberInfo)
-- uid: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.#ctor(System.String)
-  name: NoFinalizerRegisteredException(String)
-  href: kube-ops/KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.html#KubeOps_Operator_Finalizer_NoFinalizerRegisteredException__ctor_System_String_
-  commentId: M:KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.#ctor(System.String)
-  fullName: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.NoFinalizerRegisteredException(System.String)
-  nameWithType: NoFinalizerRegisteredException.NoFinalizerRegisteredException(String)
-- uid: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.#ctor(System.String,System.Exception)
-  name: NoFinalizerRegisteredException(String, Exception)
-  href: kube-ops/KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.html#KubeOps_Operator_Finalizer_NoFinalizerRegisteredException__ctor_System_String_System_Exception_
-  commentId: M:KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.#ctor(System.String,System.Exception)
-  fullName: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.NoFinalizerRegisteredException(System.String, System.Exception)
-  nameWithType: NoFinalizerRegisteredException.NoFinalizerRegisteredException(String, Exception)
-- uid: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.#ctor*
-  name: NoFinalizerRegisteredException
-  href: kube-ops/KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.html#KubeOps_Operator_Finalizer_NoFinalizerRegisteredException__ctor_
-  commentId: Overload:KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.#ctor
-  isSpec: "True"
-  fullName: KubeOps.Operator.Finalizer.NoFinalizerRegisteredException.NoFinalizerRegisteredException
-  nameWithType: NoFinalizerRegisteredException.NoFinalizerRegisteredException
-- uid: KubeOps.Operator.Finalizer.ResourceFinalizerBase`1
-  name: ResourceFinalizerBase<TResource>
-  href: kube-ops/KubeOps.Operator.Finalizer.ResourceFinalizerBase-1.html
-  commentId: T:KubeOps.Operator.Finalizer.ResourceFinalizerBase`1
-  name.vb: ResourceFinalizerBase(Of TResource)
-  fullName: KubeOps.Operator.Finalizer.ResourceFinalizerBase<TResource>
-  fullName.vb: KubeOps.Operator.Finalizer.ResourceFinalizerBase(Of TResource)
-  nameWithType: ResourceFinalizerBase<TResource>
-  nameWithType.vb: ResourceFinalizerBase(Of TResource)
-- uid: KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.#ctor(Microsoft.Extensions.Logging.ILogger{KubeOps.Operator.Finalizer.ResourceFinalizerBase{`0}},DotnetKubernetesClient.IKubernetesClient)
-  name: ResourceFinalizerBase(ILogger<ResourceFinalizerBase<TResource>>, IKubernetesClient)
-  href: kube-ops/KubeOps.Operator.Finalizer.ResourceFinalizerBase-1.html#KubeOps_Operator_Finalizer_ResourceFinalizerBase_1__ctor_Microsoft_Extensions_Logging_ILogger_KubeOps_Operator_Finalizer_ResourceFinalizerBase__0___DotnetKubernetesClient_IKubernetesClient_
-  commentId: M:KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.#ctor(Microsoft.Extensions.Logging.ILogger{KubeOps.Operator.Finalizer.ResourceFinalizerBase{`0}},DotnetKubernetesClient.IKubernetesClient)
-  name.vb: ResourceFinalizerBase(ILogger(Of ResourceFinalizerBase(Of TResource)), IKubernetesClient)
-  fullName: KubeOps.Operator.Finalizer.ResourceFinalizerBase<TResource>.ResourceFinalizerBase(Microsoft.Extensions.Logging.ILogger<KubeOps.Operator.Finalizer.ResourceFinalizerBase<TResource>>, DotnetKubernetesClient.IKubernetesClient)
-  fullName.vb: KubeOps.Operator.Finalizer.ResourceFinalizerBase(Of TResource).ResourceFinalizerBase(Microsoft.Extensions.Logging.ILogger(Of KubeOps.Operator.Finalizer.ResourceFinalizerBase(Of TResource)), DotnetKubernetesClient.IKubernetesClient)
-  nameWithType: ResourceFinalizerBase<TResource>.ResourceFinalizerBase(ILogger<ResourceFinalizerBase<TResource>>, IKubernetesClient)
-  nameWithType.vb: ResourceFinalizerBase(Of TResource).ResourceFinalizerBase(ILogger(Of ResourceFinalizerBase(Of TResource)), IKubernetesClient)
-- uid: KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.#ctor*
-  name: ResourceFinalizerBase
-  href: kube-ops/KubeOps.Operator.Finalizer.ResourceFinalizerBase-1.html#KubeOps_Operator_Finalizer_ResourceFinalizerBase_1__ctor_
-  commentId: Overload:KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.#ctor
-  isSpec: "True"
-  fullName: KubeOps.Operator.Finalizer.ResourceFinalizerBase<TResource>.ResourceFinalizerBase
-  fullName.vb: KubeOps.Operator.Finalizer.ResourceFinalizerBase(Of TResource).ResourceFinalizerBase
-  nameWithType: ResourceFinalizerBase<TResource>.ResourceFinalizerBase
-  nameWithType.vb: ResourceFinalizerBase(Of TResource).ResourceFinalizerBase
-- uid: KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Client
-  name: Client
-  href: kube-ops/KubeOps.Operator.Finalizer.ResourceFinalizerBase-1.html#KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Client
-  commentId: P:KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Client
-  fullName: KubeOps.Operator.Finalizer.ResourceFinalizerBase<TResource>.Client
-  fullName.vb: KubeOps.Operator.Finalizer.ResourceFinalizerBase(Of TResource).Client
-  nameWithType: ResourceFinalizerBase<TResource>.Client
-  nameWithType.vb: ResourceFinalizerBase(Of TResource).Client
-- uid: KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Client*
-  name: Client
-  href: kube-ops/KubeOps.Operator.Finalizer.ResourceFinalizerBase-1.html#KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Client_
-  commentId: Overload:KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Client
-  isSpec: "True"
-  fullName: KubeOps.Operator.Finalizer.ResourceFinalizerBase<TResource>.Client
-  fullName.vb: KubeOps.Operator.Finalizer.ResourceFinalizerBase(Of TResource).Client
-  nameWithType: ResourceFinalizerBase<TResource>.Client
-  nameWithType.vb: ResourceFinalizerBase(Of TResource).Client
-- uid: KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Finalize(`0)
-  name: Finalize(TResource)
-  href: kube-ops/KubeOps.Operator.Finalizer.ResourceFinalizerBase-1.html#KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Finalize__0_
-  commentId: M:KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Finalize(`0)
-  fullName: KubeOps.Operator.Finalizer.ResourceFinalizerBase<TResource>.Finalize(TResource)
-  fullName.vb: KubeOps.Operator.Finalizer.ResourceFinalizerBase(Of TResource).Finalize(TResource)
-  nameWithType: ResourceFinalizerBase<TResource>.Finalize(TResource)
-  nameWithType.vb: ResourceFinalizerBase(Of TResource).Finalize(TResource)
-- uid: KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Finalize*
-  name: Finalize
-  href: kube-ops/KubeOps.Operator.Finalizer.ResourceFinalizerBase-1.html#KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Finalize_
-  commentId: Overload:KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Finalize
-  isSpec: "True"
-  fullName: KubeOps.Operator.Finalizer.ResourceFinalizerBase<TResource>.Finalize
-  fullName.vb: KubeOps.Operator.Finalizer.ResourceFinalizerBase(Of TResource).Finalize
-  nameWithType: ResourceFinalizerBase<TResource>.Finalize
-  nameWithType.vb: ResourceFinalizerBase(Of TResource).Finalize
-- uid: KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Identifier
+  fullName: KubeOps.Operator.Finalizer.IResourceFinalizer<TEntity>.FinalizeAsync
+  fullName.vb: KubeOps.Operator.Finalizer.IResourceFinalizer(Of TEntity).FinalizeAsync
+  nameWithType: IResourceFinalizer<TEntity>.FinalizeAsync
+  nameWithType.vb: IResourceFinalizer(Of TEntity).FinalizeAsync
+- uid: KubeOps.Operator.Finalizer.IResourceFinalizer`1.Identifier
   name: Identifier
-  href: kube-ops/KubeOps.Operator.Finalizer.ResourceFinalizerBase-1.html#KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Identifier
-  commentId: P:KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Identifier
-  fullName: KubeOps.Operator.Finalizer.ResourceFinalizerBase<TResource>.Identifier
-  fullName.vb: KubeOps.Operator.Finalizer.ResourceFinalizerBase(Of TResource).Identifier
-  nameWithType: ResourceFinalizerBase<TResource>.Identifier
-  nameWithType.vb: ResourceFinalizerBase(Of TResource).Identifier
-- uid: KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Identifier*
+  href: kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html#KubeOps_Operator_Finalizer_IResourceFinalizer_1_Identifier
+  commentId: P:KubeOps.Operator.Finalizer.IResourceFinalizer`1.Identifier
+  fullName: KubeOps.Operator.Finalizer.IResourceFinalizer<TEntity>.Identifier
+  fullName.vb: KubeOps.Operator.Finalizer.IResourceFinalizer(Of TEntity).Identifier
+  nameWithType: IResourceFinalizer<TEntity>.Identifier
+  nameWithType.vb: IResourceFinalizer(Of TEntity).Identifier
+- uid: KubeOps.Operator.Finalizer.IResourceFinalizer`1.Identifier*
   name: Identifier
-  href: kube-ops/KubeOps.Operator.Finalizer.ResourceFinalizerBase-1.html#KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Identifier_
-  commentId: Overload:KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Identifier
+  href: kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html#KubeOps_Operator_Finalizer_IResourceFinalizer_1_Identifier_
+  commentId: Overload:KubeOps.Operator.Finalizer.IResourceFinalizer`1.Identifier
   isSpec: "True"
-  fullName: KubeOps.Operator.Finalizer.ResourceFinalizerBase<TResource>.Identifier
-  fullName.vb: KubeOps.Operator.Finalizer.ResourceFinalizerBase(Of TResource).Identifier
-  nameWithType: ResourceFinalizerBase<TResource>.Identifier
-  nameWithType.vb: ResourceFinalizerBase(Of TResource).Identifier
-- uid: KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Register(`0)
-  name: Register(TResource)
-  href: kube-ops/KubeOps.Operator.Finalizer.ResourceFinalizerBase-1.html#KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Register__0_
-  commentId: M:KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Register(`0)
-  fullName: KubeOps.Operator.Finalizer.ResourceFinalizerBase<TResource>.Register(TResource)
-  fullName.vb: KubeOps.Operator.Finalizer.ResourceFinalizerBase(Of TResource).Register(TResource)
-  nameWithType: ResourceFinalizerBase<TResource>.Register(TResource)
-  nameWithType.vb: ResourceFinalizerBase(Of TResource).Register(TResource)
-- uid: KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Register*
-  name: Register
-  href: kube-ops/KubeOps.Operator.Finalizer.ResourceFinalizerBase-1.html#KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Register_
-  commentId: Overload:KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Register
-  isSpec: "True"
-  fullName: KubeOps.Operator.Finalizer.ResourceFinalizerBase<TResource>.Register
-  fullName.vb: KubeOps.Operator.Finalizer.ResourceFinalizerBase(Of TResource).Register
-  nameWithType: ResourceFinalizerBase<TResource>.Register
-  nameWithType.vb: ResourceFinalizerBase(Of TResource).Register
-- uid: KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Unregister(`0)
-  name: Unregister(TResource)
-  href: kube-ops/KubeOps.Operator.Finalizer.ResourceFinalizerBase-1.html#KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Unregister__0_
-  commentId: M:KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Unregister(`0)
-  fullName: KubeOps.Operator.Finalizer.ResourceFinalizerBase<TResource>.Unregister(TResource)
-  fullName.vb: KubeOps.Operator.Finalizer.ResourceFinalizerBase(Of TResource).Unregister(TResource)
-  nameWithType: ResourceFinalizerBase<TResource>.Unregister(TResource)
-  nameWithType.vb: ResourceFinalizerBase(Of TResource).Unregister(TResource)
-- uid: KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Unregister*
-  name: Unregister
-  href: kube-ops/KubeOps.Operator.Finalizer.ResourceFinalizerBase-1.html#KubeOps_Operator_Finalizer_ResourceFinalizerBase_1_Unregister_
-  commentId: Overload:KubeOps.Operator.Finalizer.ResourceFinalizerBase`1.Unregister
-  isSpec: "True"
-  fullName: KubeOps.Operator.Finalizer.ResourceFinalizerBase<TResource>.Unregister
-  fullName.vb: KubeOps.Operator.Finalizer.ResourceFinalizerBase(Of TResource).Unregister
-  nameWithType: ResourceFinalizerBase<TResource>.Unregister
-  nameWithType.vb: ResourceFinalizerBase(Of TResource).Unregister
+  fullName: KubeOps.Operator.Finalizer.IResourceFinalizer<TEntity>.Identifier
+  fullName.vb: KubeOps.Operator.Finalizer.IResourceFinalizer(Of TEntity).Identifier
+  nameWithType: IResourceFinalizer<TEntity>.Identifier
+  nameWithType.vb: IResourceFinalizer(Of TEntity).Identifier
 - uid: KubeOps.Operator.HostExtensions
   name: HostExtensions
   href: kube-ops/KubeOps.Operator.HostExtensions.html
   commentId: T:KubeOps.Operator.HostExtensions
   fullName: KubeOps.Operator.HostExtensions
   nameWithType: HostExtensions
-- uid: KubeOps.Operator.HostExtensions.RunOperator(Microsoft.Extensions.Hosting.IHost,System.String[])
-  name: RunOperator(IHost, String[])
-  href: kube-ops/KubeOps.Operator.HostExtensions.html#KubeOps_Operator_HostExtensions_RunOperator_Microsoft_Extensions_Hosting_IHost_System_String___
-  commentId: M:KubeOps.Operator.HostExtensions.RunOperator(Microsoft.Extensions.Hosting.IHost,System.String[])
-  name.vb: RunOperator(IHost, String())
-  fullName: KubeOps.Operator.HostExtensions.RunOperator(Microsoft.Extensions.Hosting.IHost, System.String[])
-  fullName.vb: KubeOps.Operator.HostExtensions.RunOperator(Microsoft.Extensions.Hosting.IHost, System.String())
-  nameWithType: HostExtensions.RunOperator(IHost, String[])
-  nameWithType.vb: HostExtensions.RunOperator(IHost, String())
-- uid: KubeOps.Operator.HostExtensions.RunOperator*
-  name: RunOperator
-  href: kube-ops/KubeOps.Operator.HostExtensions.html#KubeOps_Operator_HostExtensions_RunOperator_
-  commentId: Overload:KubeOps.Operator.HostExtensions.RunOperator
+- uid: KubeOps.Operator.HostExtensions.RunOperatorAsync(Microsoft.Extensions.Hosting.IHost,System.String[])
+  name: RunOperatorAsync(IHost, String[])
+  href: kube-ops/KubeOps.Operator.HostExtensions.html#KubeOps_Operator_HostExtensions_RunOperatorAsync_Microsoft_Extensions_Hosting_IHost_System_String___
+  commentId: M:KubeOps.Operator.HostExtensions.RunOperatorAsync(Microsoft.Extensions.Hosting.IHost,System.String[])
+  name.vb: RunOperatorAsync(IHost, String())
+  fullName: KubeOps.Operator.HostExtensions.RunOperatorAsync(Microsoft.Extensions.Hosting.IHost, System.String[])
+  fullName.vb: KubeOps.Operator.HostExtensions.RunOperatorAsync(Microsoft.Extensions.Hosting.IHost, System.String())
+  nameWithType: HostExtensions.RunOperatorAsync(IHost, String[])
+  nameWithType.vb: HostExtensions.RunOperatorAsync(IHost, String())
+- uid: KubeOps.Operator.HostExtensions.RunOperatorAsync*
+  name: RunOperatorAsync
+  href: kube-ops/KubeOps.Operator.HostExtensions.html#KubeOps_Operator_HostExtensions_RunOperatorAsync_
+  commentId: Overload:KubeOps.Operator.HostExtensions.RunOperatorAsync
   isSpec: "True"
-  fullName: KubeOps.Operator.HostExtensions.RunOperator
-  nameWithType: HostExtensions.RunOperator
+  fullName: KubeOps.Operator.HostExtensions.RunOperatorAsync
+  nameWithType: HostExtensions.RunOperatorAsync
+- uid: KubeOps.Operator.Kubernetes
+  name: KubeOps.Operator.Kubernetes
+  href: kube-ops/KubeOps.Operator.Kubernetes.html
+  commentId: N:KubeOps.Operator.Kubernetes
+  fullName: KubeOps.Operator.Kubernetes
+  nameWithType: KubeOps.Operator.Kubernetes
+- uid: KubeOps.Operator.Kubernetes.ResourceEventType
+  name: ResourceEventType
+  href: kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html
+  commentId: T:KubeOps.Operator.Kubernetes.ResourceEventType
+  fullName: KubeOps.Operator.Kubernetes.ResourceEventType
+  nameWithType: ResourceEventType
+- uid: KubeOps.Operator.Kubernetes.ResourceEventType.Created
+  name: Created
+  href: kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_Created
+  commentId: F:KubeOps.Operator.Kubernetes.ResourceEventType.Created
+  fullName: KubeOps.Operator.Kubernetes.ResourceEventType.Created
+  nameWithType: ResourceEventType.Created
+- uid: KubeOps.Operator.Kubernetes.ResourceEventType.Deleted
+  name: Deleted
+  href: kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_Deleted
+  commentId: F:KubeOps.Operator.Kubernetes.ResourceEventType.Deleted
+  fullName: KubeOps.Operator.Kubernetes.ResourceEventType.Deleted
+  nameWithType: ResourceEventType.Deleted
+- uid: KubeOps.Operator.Kubernetes.ResourceEventType.FinalizerModified
+  name: FinalizerModified
+  href: kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_FinalizerModified
+  commentId: F:KubeOps.Operator.Kubernetes.ResourceEventType.FinalizerModified
+  fullName: KubeOps.Operator.Kubernetes.ResourceEventType.FinalizerModified
+  nameWithType: ResourceEventType.FinalizerModified
+- uid: KubeOps.Operator.Kubernetes.ResourceEventType.Finalizing
+  name: Finalizing
+  href: kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_Finalizing
+  commentId: F:KubeOps.Operator.Kubernetes.ResourceEventType.Finalizing
+  fullName: KubeOps.Operator.Kubernetes.ResourceEventType.Finalizing
+  nameWithType: ResourceEventType.Finalizing
+- uid: KubeOps.Operator.Kubernetes.ResourceEventType.NotModified
+  name: NotModified
+  href: kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_NotModified
+  commentId: F:KubeOps.Operator.Kubernetes.ResourceEventType.NotModified
+  fullName: KubeOps.Operator.Kubernetes.ResourceEventType.NotModified
+  nameWithType: ResourceEventType.NotModified
+- uid: KubeOps.Operator.Kubernetes.ResourceEventType.StatusUpdated
+  name: StatusUpdated
+  href: kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_StatusUpdated
+  commentId: F:KubeOps.Operator.Kubernetes.ResourceEventType.StatusUpdated
+  fullName: KubeOps.Operator.Kubernetes.ResourceEventType.StatusUpdated
+  nameWithType: ResourceEventType.StatusUpdated
+- uid: KubeOps.Operator.Kubernetes.ResourceEventType.Updated
+  name: Updated
+  href: kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_Updated
+  commentId: F:KubeOps.Operator.Kubernetes.ResourceEventType.Updated
+  fullName: KubeOps.Operator.Kubernetes.ResourceEventType.Updated
+  nameWithType: ResourceEventType.Updated
 - uid: KubeOps.Operator.Leadership
   name: KubeOps.Operator.Leadership
   href: kube-ops/KubeOps.Operator.Leadership.html
@@ -1725,22 +1405,16 @@ references:
 - uid: KubeOps.Operator.Leadership.ILeaderElection.LeadershipChange
   name: LeadershipChange
   href: kube-ops/KubeOps.Operator.Leadership.ILeaderElection.html#KubeOps_Operator_Leadership_ILeaderElection_LeadershipChange
-  commentId: E:KubeOps.Operator.Leadership.ILeaderElection.LeadershipChange
+  commentId: P:KubeOps.Operator.Leadership.ILeaderElection.LeadershipChange
   fullName: KubeOps.Operator.Leadership.ILeaderElection.LeadershipChange
   nameWithType: ILeaderElection.LeadershipChange
-- uid: KubeOps.Operator.Leadership.ILeaderElection.State
-  name: State
-  href: kube-ops/KubeOps.Operator.Leadership.ILeaderElection.html#KubeOps_Operator_Leadership_ILeaderElection_State
-  commentId: P:KubeOps.Operator.Leadership.ILeaderElection.State
-  fullName: KubeOps.Operator.Leadership.ILeaderElection.State
-  nameWithType: ILeaderElection.State
-- uid: KubeOps.Operator.Leadership.ILeaderElection.State*
-  name: State
-  href: kube-ops/KubeOps.Operator.Leadership.ILeaderElection.html#KubeOps_Operator_Leadership_ILeaderElection_State_
-  commentId: Overload:KubeOps.Operator.Leadership.ILeaderElection.State
+- uid: KubeOps.Operator.Leadership.ILeaderElection.LeadershipChange*
+  name: LeadershipChange
+  href: kube-ops/KubeOps.Operator.Leadership.ILeaderElection.html#KubeOps_Operator_Leadership_ILeaderElection_LeadershipChange_
+  commentId: Overload:KubeOps.Operator.Leadership.ILeaderElection.LeadershipChange
   isSpec: "True"
-  fullName: KubeOps.Operator.Leadership.ILeaderElection.State
-  nameWithType: ILeaderElection.State
+  fullName: KubeOps.Operator.Leadership.ILeaderElection.LeadershipChange
+  nameWithType: ILeaderElection.LeadershipChange
 - uid: KubeOps.Operator.Leadership.LeaderState
   name: LeaderState
   href: kube-ops/KubeOps.Operator.Leadership.LeaderState.html
@@ -1888,157 +1562,6 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.OperatorSettings.WatcherHttpTimeout
   nameWithType: OperatorSettings.WatcherHttpTimeout
-- uid: KubeOps.Operator.Queue
-  name: KubeOps.Operator.Queue
-  href: kube-ops/KubeOps.Operator.Queue.html
-  commentId: N:KubeOps.Operator.Queue
-  fullName: KubeOps.Operator.Queue
-  nameWithType: KubeOps.Operator.Queue
-- uid: KubeOps.Operator.Queue.IResourceEventQueue`1
-  name: IResourceEventQueue<TEntity>
-  href: kube-ops/KubeOps.Operator.Queue.IResourceEventQueue-1.html
-  commentId: T:KubeOps.Operator.Queue.IResourceEventQueue`1
-  name.vb: IResourceEventQueue(Of TEntity)
-  fullName: KubeOps.Operator.Queue.IResourceEventQueue<TEntity>
-  fullName.vb: KubeOps.Operator.Queue.IResourceEventQueue(Of TEntity)
-  nameWithType: IResourceEventQueue<TEntity>
-  nameWithType.vb: IResourceEventQueue(Of TEntity)
-- uid: KubeOps.Operator.Queue.IResourceEventQueue`1.ClearError(`0)
-  name: ClearError(TEntity)
-  href: kube-ops/KubeOps.Operator.Queue.IResourceEventQueue-1.html#KubeOps_Operator_Queue_IResourceEventQueue_1_ClearError__0_
-  commentId: M:KubeOps.Operator.Queue.IResourceEventQueue`1.ClearError(`0)
-  fullName: KubeOps.Operator.Queue.IResourceEventQueue<TEntity>.ClearError(TEntity)
-  fullName.vb: KubeOps.Operator.Queue.IResourceEventQueue(Of TEntity).ClearError(TEntity)
-  nameWithType: IResourceEventQueue<TEntity>.ClearError(TEntity)
-  nameWithType.vb: IResourceEventQueue(Of TEntity).ClearError(TEntity)
-- uid: KubeOps.Operator.Queue.IResourceEventQueue`1.ClearError*
-  name: ClearError
-  href: kube-ops/KubeOps.Operator.Queue.IResourceEventQueue-1.html#KubeOps_Operator_Queue_IResourceEventQueue_1_ClearError_
-  commentId: Overload:KubeOps.Operator.Queue.IResourceEventQueue`1.ClearError
-  isSpec: "True"
-  fullName: KubeOps.Operator.Queue.IResourceEventQueue<TEntity>.ClearError
-  fullName.vb: KubeOps.Operator.Queue.IResourceEventQueue(Of TEntity).ClearError
-  nameWithType: IResourceEventQueue<TEntity>.ClearError
-  nameWithType.vb: IResourceEventQueue(Of TEntity).ClearError
-- uid: KubeOps.Operator.Queue.IResourceEventQueue`1.Enqueue(`0,System.Nullable{System.TimeSpan})
-  name: Enqueue(TEntity, Nullable<TimeSpan>)
-  href: kube-ops/KubeOps.Operator.Queue.IResourceEventQueue-1.html#KubeOps_Operator_Queue_IResourceEventQueue_1_Enqueue__0_System_Nullable_System_TimeSpan__
-  commentId: M:KubeOps.Operator.Queue.IResourceEventQueue`1.Enqueue(`0,System.Nullable{System.TimeSpan})
-  name.vb: Enqueue(TEntity, Nullable(Of TimeSpan))
-  fullName: KubeOps.Operator.Queue.IResourceEventQueue<TEntity>.Enqueue(TEntity, System.Nullable<System.TimeSpan>)
-  fullName.vb: KubeOps.Operator.Queue.IResourceEventQueue(Of TEntity).Enqueue(TEntity, System.Nullable(Of System.TimeSpan))
-  nameWithType: IResourceEventQueue<TEntity>.Enqueue(TEntity, Nullable<TimeSpan>)
-  nameWithType.vb: IResourceEventQueue(Of TEntity).Enqueue(TEntity, Nullable(Of TimeSpan))
-- uid: KubeOps.Operator.Queue.IResourceEventQueue`1.Enqueue*
-  name: Enqueue
-  href: kube-ops/KubeOps.Operator.Queue.IResourceEventQueue-1.html#KubeOps_Operator_Queue_IResourceEventQueue_1_Enqueue_
-  commentId: Overload:KubeOps.Operator.Queue.IResourceEventQueue`1.Enqueue
-  isSpec: "True"
-  fullName: KubeOps.Operator.Queue.IResourceEventQueue<TEntity>.Enqueue
-  fullName.vb: KubeOps.Operator.Queue.IResourceEventQueue(Of TEntity).Enqueue
-  nameWithType: IResourceEventQueue<TEntity>.Enqueue
-  nameWithType.vb: IResourceEventQueue(Of TEntity).Enqueue
-- uid: KubeOps.Operator.Queue.IResourceEventQueue`1.EnqueueErrored(KubeOps.Operator.Queue.ResourceEventType,`0)
-  name: EnqueueErrored(ResourceEventType, TEntity)
-  href: kube-ops/KubeOps.Operator.Queue.IResourceEventQueue-1.html#KubeOps_Operator_Queue_IResourceEventQueue_1_EnqueueErrored_KubeOps_Operator_Queue_ResourceEventType__0_
-  commentId: M:KubeOps.Operator.Queue.IResourceEventQueue`1.EnqueueErrored(KubeOps.Operator.Queue.ResourceEventType,`0)
-  fullName: KubeOps.Operator.Queue.IResourceEventQueue<TEntity>.EnqueueErrored(KubeOps.Operator.Queue.ResourceEventType, TEntity)
-  fullName.vb: KubeOps.Operator.Queue.IResourceEventQueue(Of TEntity).EnqueueErrored(KubeOps.Operator.Queue.ResourceEventType, TEntity)
-  nameWithType: IResourceEventQueue<TEntity>.EnqueueErrored(ResourceEventType, TEntity)
-  nameWithType.vb: IResourceEventQueue(Of TEntity).EnqueueErrored(ResourceEventType, TEntity)
-- uid: KubeOps.Operator.Queue.IResourceEventQueue`1.EnqueueErrored*
-  name: EnqueueErrored
-  href: kube-ops/KubeOps.Operator.Queue.IResourceEventQueue-1.html#KubeOps_Operator_Queue_IResourceEventQueue_1_EnqueueErrored_
-  commentId: Overload:KubeOps.Operator.Queue.IResourceEventQueue`1.EnqueueErrored
-  isSpec: "True"
-  fullName: KubeOps.Operator.Queue.IResourceEventQueue<TEntity>.EnqueueErrored
-  fullName.vb: KubeOps.Operator.Queue.IResourceEventQueue(Of TEntity).EnqueueErrored
-  nameWithType: IResourceEventQueue<TEntity>.EnqueueErrored
-  nameWithType.vb: IResourceEventQueue(Of TEntity).EnqueueErrored
-- uid: KubeOps.Operator.Queue.IResourceEventQueue`1.ResourceEvent
-  name: ResourceEvent
-  href: kube-ops/KubeOps.Operator.Queue.IResourceEventQueue-1.html#KubeOps_Operator_Queue_IResourceEventQueue_1_ResourceEvent
-  commentId: E:KubeOps.Operator.Queue.IResourceEventQueue`1.ResourceEvent
-  fullName: KubeOps.Operator.Queue.IResourceEventQueue<TEntity>.ResourceEvent
-  fullName.vb: KubeOps.Operator.Queue.IResourceEventQueue(Of TEntity).ResourceEvent
-  nameWithType: IResourceEventQueue<TEntity>.ResourceEvent
-  nameWithType.vb: IResourceEventQueue(Of TEntity).ResourceEvent
-- uid: KubeOps.Operator.Queue.IResourceEventQueue`1.Start
-  name: Start()
-  href: kube-ops/KubeOps.Operator.Queue.IResourceEventQueue-1.html#KubeOps_Operator_Queue_IResourceEventQueue_1_Start
-  commentId: M:KubeOps.Operator.Queue.IResourceEventQueue`1.Start
-  fullName: KubeOps.Operator.Queue.IResourceEventQueue<TEntity>.Start()
-  fullName.vb: KubeOps.Operator.Queue.IResourceEventQueue(Of TEntity).Start()
-  nameWithType: IResourceEventQueue<TEntity>.Start()
-  nameWithType.vb: IResourceEventQueue(Of TEntity).Start()
-- uid: KubeOps.Operator.Queue.IResourceEventQueue`1.Start*
-  name: Start
-  href: kube-ops/KubeOps.Operator.Queue.IResourceEventQueue-1.html#KubeOps_Operator_Queue_IResourceEventQueue_1_Start_
-  commentId: Overload:KubeOps.Operator.Queue.IResourceEventQueue`1.Start
-  isSpec: "True"
-  fullName: KubeOps.Operator.Queue.IResourceEventQueue<TEntity>.Start
-  fullName.vb: KubeOps.Operator.Queue.IResourceEventQueue(Of TEntity).Start
-  nameWithType: IResourceEventQueue<TEntity>.Start
-  nameWithType.vb: IResourceEventQueue(Of TEntity).Start
-- uid: KubeOps.Operator.Queue.IResourceEventQueue`1.Stop
-  name: Stop()
-  href: kube-ops/KubeOps.Operator.Queue.IResourceEventQueue-1.html#KubeOps_Operator_Queue_IResourceEventQueue_1_Stop
-  commentId: M:KubeOps.Operator.Queue.IResourceEventQueue`1.Stop
-  fullName: KubeOps.Operator.Queue.IResourceEventQueue<TEntity>.Stop()
-  fullName.vb: KubeOps.Operator.Queue.IResourceEventQueue(Of TEntity).Stop()
-  nameWithType: IResourceEventQueue<TEntity>.Stop()
-  nameWithType.vb: IResourceEventQueue(Of TEntity).Stop()
-- uid: KubeOps.Operator.Queue.IResourceEventQueue`1.Stop*
-  name: Stop
-  href: kube-ops/KubeOps.Operator.Queue.IResourceEventQueue-1.html#KubeOps_Operator_Queue_IResourceEventQueue_1_Stop_
-  commentId: Overload:KubeOps.Operator.Queue.IResourceEventQueue`1.Stop
-  isSpec: "True"
-  fullName: KubeOps.Operator.Queue.IResourceEventQueue<TEntity>.Stop
-  fullName.vb: KubeOps.Operator.Queue.IResourceEventQueue(Of TEntity).Stop
-  nameWithType: IResourceEventQueue<TEntity>.Stop
-  nameWithType.vb: IResourceEventQueue(Of TEntity).Stop
-- uid: KubeOps.Operator.Queue.ResourceEventType
-  name: ResourceEventType
-  href: kube-ops/KubeOps.Operator.Queue.ResourceEventType.html
-  commentId: T:KubeOps.Operator.Queue.ResourceEventType
-  fullName: KubeOps.Operator.Queue.ResourceEventType
-  nameWithType: ResourceEventType
-- uid: KubeOps.Operator.Queue.ResourceEventType.Created
-  name: Created
-  href: kube-ops/KubeOps.Operator.Queue.ResourceEventType.html#KubeOps_Operator_Queue_ResourceEventType_Created
-  commentId: F:KubeOps.Operator.Queue.ResourceEventType.Created
-  fullName: KubeOps.Operator.Queue.ResourceEventType.Created
-  nameWithType: ResourceEventType.Created
-- uid: KubeOps.Operator.Queue.ResourceEventType.Deleted
-  name: Deleted
-  href: kube-ops/KubeOps.Operator.Queue.ResourceEventType.html#KubeOps_Operator_Queue_ResourceEventType_Deleted
-  commentId: F:KubeOps.Operator.Queue.ResourceEventType.Deleted
-  fullName: KubeOps.Operator.Queue.ResourceEventType.Deleted
-  nameWithType: ResourceEventType.Deleted
-- uid: KubeOps.Operator.Queue.ResourceEventType.Finalizing
-  name: Finalizing
-  href: kube-ops/KubeOps.Operator.Queue.ResourceEventType.html#KubeOps_Operator_Queue_ResourceEventType_Finalizing
-  commentId: F:KubeOps.Operator.Queue.ResourceEventType.Finalizing
-  fullName: KubeOps.Operator.Queue.ResourceEventType.Finalizing
-  nameWithType: ResourceEventType.Finalizing
-- uid: KubeOps.Operator.Queue.ResourceEventType.NotModified
-  name: NotModified
-  href: kube-ops/KubeOps.Operator.Queue.ResourceEventType.html#KubeOps_Operator_Queue_ResourceEventType_NotModified
-  commentId: F:KubeOps.Operator.Queue.ResourceEventType.NotModified
-  fullName: KubeOps.Operator.Queue.ResourceEventType.NotModified
-  nameWithType: ResourceEventType.NotModified
-- uid: KubeOps.Operator.Queue.ResourceEventType.StatusUpdated
-  name: StatusUpdated
-  href: kube-ops/KubeOps.Operator.Queue.ResourceEventType.html#KubeOps_Operator_Queue_ResourceEventType_StatusUpdated
-  commentId: F:KubeOps.Operator.Queue.ResourceEventType.StatusUpdated
-  fullName: KubeOps.Operator.Queue.ResourceEventType.StatusUpdated
-  nameWithType: ResourceEventType.StatusUpdated
-- uid: KubeOps.Operator.Queue.ResourceEventType.Updated
-  name: Updated
-  href: kube-ops/KubeOps.Operator.Queue.ResourceEventType.html#KubeOps_Operator_Queue_ResourceEventType_Updated
-  commentId: F:KubeOps.Operator.Queue.ResourceEventType.Updated
-  fullName: KubeOps.Operator.Queue.ResourceEventType.Updated
-  nameWithType: ResourceEventType.Updated
 - uid: KubeOps.Operator.Rbac
   name: KubeOps.Operator.Rbac
   href: kube-ops/KubeOps.Operator.Rbac.html
@@ -2239,222 +1762,12 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator
   nameWithType: ServiceCollectionExtensions.AddKubernetesOperator
-- uid: KubeOps.Operator.Services
-  name: KubeOps.Operator.Services
-  href: kube-ops/KubeOps.Operator.Services.html
-  commentId: N:KubeOps.Operator.Services
-  fullName: KubeOps.Operator.Services
-  nameWithType: KubeOps.Operator.Services
-- uid: KubeOps.Operator.Services.IResourceServices`1
-  name: IResourceServices<TEntity>
-  href: kube-ops/KubeOps.Operator.Services.IResourceServices-1.html
-  commentId: T:KubeOps.Operator.Services.IResourceServices`1
-  name.vb: IResourceServices(Of TEntity)
-  fullName: KubeOps.Operator.Services.IResourceServices<TEntity>
-  fullName.vb: KubeOps.Operator.Services.IResourceServices(Of TEntity)
-  nameWithType: IResourceServices<TEntity>
-  nameWithType.vb: IResourceServices(Of TEntity)
-- uid: KubeOps.Operator.Services.IResourceServices`1.Client
-  name: Client
-  href: kube-ops/KubeOps.Operator.Services.IResourceServices-1.html#KubeOps_Operator_Services_IResourceServices_1_Client
-  commentId: P:KubeOps.Operator.Services.IResourceServices`1.Client
-  fullName: KubeOps.Operator.Services.IResourceServices<TEntity>.Client
-  fullName.vb: KubeOps.Operator.Services.IResourceServices(Of TEntity).Client
-  nameWithType: IResourceServices<TEntity>.Client
-  nameWithType.vb: IResourceServices(Of TEntity).Client
-- uid: KubeOps.Operator.Services.IResourceServices`1.Client*
-  name: Client
-  href: kube-ops/KubeOps.Operator.Services.IResourceServices-1.html#KubeOps_Operator_Services_IResourceServices_1_Client_
-  commentId: Overload:KubeOps.Operator.Services.IResourceServices`1.Client
-  isSpec: "True"
-  fullName: KubeOps.Operator.Services.IResourceServices<TEntity>.Client
-  fullName.vb: KubeOps.Operator.Services.IResourceServices(Of TEntity).Client
-  nameWithType: IResourceServices<TEntity>.Client
-  nameWithType.vb: IResourceServices(Of TEntity).Client
-- uid: KubeOps.Operator.Services.IResourceServices`1.EventQueue
-  name: EventQueue
-  href: kube-ops/KubeOps.Operator.Services.IResourceServices-1.html#KubeOps_Operator_Services_IResourceServices_1_EventQueue
-  commentId: P:KubeOps.Operator.Services.IResourceServices`1.EventQueue
-  fullName: KubeOps.Operator.Services.IResourceServices<TEntity>.EventQueue
-  fullName.vb: KubeOps.Operator.Services.IResourceServices(Of TEntity).EventQueue
-  nameWithType: IResourceServices<TEntity>.EventQueue
-  nameWithType.vb: IResourceServices(Of TEntity).EventQueue
-- uid: KubeOps.Operator.Services.IResourceServices`1.EventQueue*
-  name: EventQueue
-  href: kube-ops/KubeOps.Operator.Services.IResourceServices-1.html#KubeOps_Operator_Services_IResourceServices_1_EventQueue_
-  commentId: Overload:KubeOps.Operator.Services.IResourceServices`1.EventQueue
-  isSpec: "True"
-  fullName: KubeOps.Operator.Services.IResourceServices<TEntity>.EventQueue
-  fullName.vb: KubeOps.Operator.Services.IResourceServices(Of TEntity).EventQueue
-  nameWithType: IResourceServices<TEntity>.EventQueue
-  nameWithType.vb: IResourceServices(Of TEntity).EventQueue
-- uid: KubeOps.Operator.Services.IResourceServices`1.Finalizers
-  name: Finalizers
-  href: kube-ops/KubeOps.Operator.Services.IResourceServices-1.html#KubeOps_Operator_Services_IResourceServices_1_Finalizers
-  commentId: P:KubeOps.Operator.Services.IResourceServices`1.Finalizers
-  fullName: KubeOps.Operator.Services.IResourceServices<TEntity>.Finalizers
-  fullName.vb: KubeOps.Operator.Services.IResourceServices(Of TEntity).Finalizers
-  nameWithType: IResourceServices<TEntity>.Finalizers
-  nameWithType.vb: IResourceServices(Of TEntity).Finalizers
-- uid: KubeOps.Operator.Services.IResourceServices`1.Finalizers*
-  name: Finalizers
-  href: kube-ops/KubeOps.Operator.Services.IResourceServices-1.html#KubeOps_Operator_Services_IResourceServices_1_Finalizers_
-  commentId: Overload:KubeOps.Operator.Services.IResourceServices`1.Finalizers
-  isSpec: "True"
-  fullName: KubeOps.Operator.Services.IResourceServices<TEntity>.Finalizers
-  fullName.vb: KubeOps.Operator.Services.IResourceServices(Of TEntity).Finalizers
-  nameWithType: IResourceServices<TEntity>.Finalizers
-  nameWithType.vb: IResourceServices(Of TEntity).Finalizers
-- uid: KubeOps.Operator.Services.IResourceServices`1.LeaderElection
-  name: LeaderElection
-  href: kube-ops/KubeOps.Operator.Services.IResourceServices-1.html#KubeOps_Operator_Services_IResourceServices_1_LeaderElection
-  commentId: P:KubeOps.Operator.Services.IResourceServices`1.LeaderElection
-  fullName: KubeOps.Operator.Services.IResourceServices<TEntity>.LeaderElection
-  fullName.vb: KubeOps.Operator.Services.IResourceServices(Of TEntity).LeaderElection
-  nameWithType: IResourceServices<TEntity>.LeaderElection
-  nameWithType.vb: IResourceServices(Of TEntity).LeaderElection
-- uid: KubeOps.Operator.Services.IResourceServices`1.LeaderElection*
-  name: LeaderElection
-  href: kube-ops/KubeOps.Operator.Services.IResourceServices-1.html#KubeOps_Operator_Services_IResourceServices_1_LeaderElection_
-  commentId: Overload:KubeOps.Operator.Services.IResourceServices`1.LeaderElection
-  isSpec: "True"
-  fullName: KubeOps.Operator.Services.IResourceServices<TEntity>.LeaderElection
-  fullName.vb: KubeOps.Operator.Services.IResourceServices(Of TEntity).LeaderElection
-  nameWithType: IResourceServices<TEntity>.LeaderElection
-  nameWithType.vb: IResourceServices(Of TEntity).LeaderElection
-- uid: KubeOps.Operator.Services.IResourceServices`1.LoggerFactory
-  name: LoggerFactory
-  href: kube-ops/KubeOps.Operator.Services.IResourceServices-1.html#KubeOps_Operator_Services_IResourceServices_1_LoggerFactory
-  commentId: P:KubeOps.Operator.Services.IResourceServices`1.LoggerFactory
-  fullName: KubeOps.Operator.Services.IResourceServices<TEntity>.LoggerFactory
-  fullName.vb: KubeOps.Operator.Services.IResourceServices(Of TEntity).LoggerFactory
-  nameWithType: IResourceServices<TEntity>.LoggerFactory
-  nameWithType.vb: IResourceServices(Of TEntity).LoggerFactory
-- uid: KubeOps.Operator.Services.IResourceServices`1.LoggerFactory*
-  name: LoggerFactory
-  href: kube-ops/KubeOps.Operator.Services.IResourceServices-1.html#KubeOps_Operator_Services_IResourceServices_1_LoggerFactory_
-  commentId: Overload:KubeOps.Operator.Services.IResourceServices`1.LoggerFactory
-  isSpec: "True"
-  fullName: KubeOps.Operator.Services.IResourceServices<TEntity>.LoggerFactory
-  fullName.vb: KubeOps.Operator.Services.IResourceServices(Of TEntity).LoggerFactory
-  nameWithType: IResourceServices<TEntity>.LoggerFactory
-  nameWithType.vb: IResourceServices(Of TEntity).LoggerFactory
-- uid: KubeOps.Operator.Services.IResourceServices`1.ResourceCache
-  name: ResourceCache
-  href: kube-ops/KubeOps.Operator.Services.IResourceServices-1.html#KubeOps_Operator_Services_IResourceServices_1_ResourceCache
-  commentId: P:KubeOps.Operator.Services.IResourceServices`1.ResourceCache
-  fullName: KubeOps.Operator.Services.IResourceServices<TEntity>.ResourceCache
-  fullName.vb: KubeOps.Operator.Services.IResourceServices(Of TEntity).ResourceCache
-  nameWithType: IResourceServices<TEntity>.ResourceCache
-  nameWithType.vb: IResourceServices(Of TEntity).ResourceCache
-- uid: KubeOps.Operator.Services.IResourceServices`1.ResourceCache*
-  name: ResourceCache
-  href: kube-ops/KubeOps.Operator.Services.IResourceServices-1.html#KubeOps_Operator_Services_IResourceServices_1_ResourceCache_
-  commentId: Overload:KubeOps.Operator.Services.IResourceServices`1.ResourceCache
-  isSpec: "True"
-  fullName: KubeOps.Operator.Services.IResourceServices<TEntity>.ResourceCache
-  fullName.vb: KubeOps.Operator.Services.IResourceServices(Of TEntity).ResourceCache
-  nameWithType: IResourceServices<TEntity>.ResourceCache
-  nameWithType.vb: IResourceServices(Of TEntity).ResourceCache
-- uid: KubeOps.Operator.Services.IResourceServices`1.Settings
-  name: Settings
-  href: kube-ops/KubeOps.Operator.Services.IResourceServices-1.html#KubeOps_Operator_Services_IResourceServices_1_Settings
-  commentId: P:KubeOps.Operator.Services.IResourceServices`1.Settings
-  fullName: KubeOps.Operator.Services.IResourceServices<TEntity>.Settings
-  fullName.vb: KubeOps.Operator.Services.IResourceServices(Of TEntity).Settings
-  nameWithType: IResourceServices<TEntity>.Settings
-  nameWithType.vb: IResourceServices(Of TEntity).Settings
-- uid: KubeOps.Operator.Services.IResourceServices`1.Settings*
-  name: Settings
-  href: kube-ops/KubeOps.Operator.Services.IResourceServices-1.html#KubeOps_Operator_Services_IResourceServices_1_Settings_
-  commentId: Overload:KubeOps.Operator.Services.IResourceServices`1.Settings
-  isSpec: "True"
-  fullName: KubeOps.Operator.Services.IResourceServices<TEntity>.Settings
-  fullName.vb: KubeOps.Operator.Services.IResourceServices(Of TEntity).Settings
-  nameWithType: IResourceServices<TEntity>.Settings
-  nameWithType.vb: IResourceServices(Of TEntity).Settings
-- uid: KubeOps.Operator.Watcher
-  name: KubeOps.Operator.Watcher
-  href: kube-ops/KubeOps.Operator.Watcher.html
-  commentId: N:KubeOps.Operator.Watcher
-  fullName: KubeOps.Operator.Watcher
-  nameWithType: KubeOps.Operator.Watcher
-- uid: KubeOps.Operator.Watcher.IResourceWatcher`1
-  name: IResourceWatcher<TEntity>
-  href: kube-ops/KubeOps.Operator.Watcher.IResourceWatcher-1.html
-  commentId: T:KubeOps.Operator.Watcher.IResourceWatcher`1
-  name.vb: IResourceWatcher(Of TEntity)
-  fullName: KubeOps.Operator.Watcher.IResourceWatcher<TEntity>
-  fullName.vb: KubeOps.Operator.Watcher.IResourceWatcher(Of TEntity)
-  nameWithType: IResourceWatcher<TEntity>
-  nameWithType.vb: IResourceWatcher(Of TEntity)
-- uid: KubeOps.Operator.Watcher.IResourceWatcher`1.Start
-  name: Start()
-  href: kube-ops/KubeOps.Operator.Watcher.IResourceWatcher-1.html#KubeOps_Operator_Watcher_IResourceWatcher_1_Start
-  commentId: M:KubeOps.Operator.Watcher.IResourceWatcher`1.Start
-  fullName: KubeOps.Operator.Watcher.IResourceWatcher<TEntity>.Start()
-  fullName.vb: KubeOps.Operator.Watcher.IResourceWatcher(Of TEntity).Start()
-  nameWithType: IResourceWatcher<TEntity>.Start()
-  nameWithType.vb: IResourceWatcher(Of TEntity).Start()
-- uid: KubeOps.Operator.Watcher.IResourceWatcher`1.Start*
-  name: Start
-  href: kube-ops/KubeOps.Operator.Watcher.IResourceWatcher-1.html#KubeOps_Operator_Watcher_IResourceWatcher_1_Start_
-  commentId: Overload:KubeOps.Operator.Watcher.IResourceWatcher`1.Start
-  isSpec: "True"
-  fullName: KubeOps.Operator.Watcher.IResourceWatcher<TEntity>.Start
-  fullName.vb: KubeOps.Operator.Watcher.IResourceWatcher(Of TEntity).Start
-  nameWithType: IResourceWatcher<TEntity>.Start
-  nameWithType.vb: IResourceWatcher(Of TEntity).Start
-- uid: KubeOps.Operator.Watcher.IResourceWatcher`1.Stop
-  name: Stop()
-  href: kube-ops/KubeOps.Operator.Watcher.IResourceWatcher-1.html#KubeOps_Operator_Watcher_IResourceWatcher_1_Stop
-  commentId: M:KubeOps.Operator.Watcher.IResourceWatcher`1.Stop
-  fullName: KubeOps.Operator.Watcher.IResourceWatcher<TEntity>.Stop()
-  fullName.vb: KubeOps.Operator.Watcher.IResourceWatcher(Of TEntity).Stop()
-  nameWithType: IResourceWatcher<TEntity>.Stop()
-  nameWithType.vb: IResourceWatcher(Of TEntity).Stop()
-- uid: KubeOps.Operator.Watcher.IResourceWatcher`1.Stop*
-  name: Stop
-  href: kube-ops/KubeOps.Operator.Watcher.IResourceWatcher-1.html#KubeOps_Operator_Watcher_IResourceWatcher_1_Stop_
-  commentId: Overload:KubeOps.Operator.Watcher.IResourceWatcher`1.Stop
-  isSpec: "True"
-  fullName: KubeOps.Operator.Watcher.IResourceWatcher<TEntity>.Stop
-  fullName.vb: KubeOps.Operator.Watcher.IResourceWatcher(Of TEntity).Stop
-  nameWithType: IResourceWatcher<TEntity>.Stop
-  nameWithType.vb: IResourceWatcher(Of TEntity).Stop
-- uid: KubeOps.Operator.Watcher.IResourceWatcher`1.WatcherEvent
-  name: WatcherEvent
-  href: kube-ops/KubeOps.Operator.Watcher.IResourceWatcher-1.html#KubeOps_Operator_Watcher_IResourceWatcher_1_WatcherEvent
-  commentId: E:KubeOps.Operator.Watcher.IResourceWatcher`1.WatcherEvent
-  fullName: KubeOps.Operator.Watcher.IResourceWatcher<TEntity>.WatcherEvent
-  fullName.vb: KubeOps.Operator.Watcher.IResourceWatcher(Of TEntity).WatcherEvent
-  nameWithType: IResourceWatcher<TEntity>.WatcherEvent
-  nameWithType.vb: IResourceWatcher(Of TEntity).WatcherEvent
 - uid: KubeOps.Operator.Webhooks
   name: KubeOps.Operator.Webhooks
   href: kube-ops/KubeOps.Operator.Webhooks.html
   commentId: N:KubeOps.Operator.Webhooks
   fullName: KubeOps.Operator.Webhooks
   nameWithType: KubeOps.Operator.Webhooks
-- uid: KubeOps.Operator.Webhooks.IValidationWebhook
-  name: IValidationWebhook
-  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook.html
-  commentId: T:KubeOps.Operator.Webhooks.IValidationWebhook
-  fullName: KubeOps.Operator.Webhooks.IValidationWebhook
-  nameWithType: IValidationWebhook
-- uid: KubeOps.Operator.Webhooks.IValidationWebhook.Operations
-  name: Operations
-  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook.html#KubeOps_Operator_Webhooks_IValidationWebhook_Operations
-  commentId: P:KubeOps.Operator.Webhooks.IValidationWebhook.Operations
-  fullName: KubeOps.Operator.Webhooks.IValidationWebhook.Operations
-  nameWithType: IValidationWebhook.Operations
-- uid: KubeOps.Operator.Webhooks.IValidationWebhook.Operations*
-  name: Operations
-  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook.html#KubeOps_Operator_Webhooks_IValidationWebhook_Operations_
-  commentId: Overload:KubeOps.Operator.Webhooks.IValidationWebhook.Operations
-  isSpec: "True"
-  fullName: KubeOps.Operator.Webhooks.IValidationWebhook.Operations
-  nameWithType: IValidationWebhook.Operations
 - uid: KubeOps.Operator.Webhooks.IValidationWebhook`1
   name: IValidationWebhook<TEntity>
   href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html
@@ -2532,6 +1845,23 @@ references:
   fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity).DeleteAsync
   nameWithType: IValidationWebhook<TEntity>.DeleteAsync
   nameWithType.vb: IValidationWebhook(Of TEntity).DeleteAsync
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook`1.Operations
+  name: Operations
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_Operations
+  commentId: P:KubeOps.Operator.Webhooks.IValidationWebhook`1.Operations
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook<TEntity>.Operations
+  fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity).Operations
+  nameWithType: IValidationWebhook<TEntity>.Operations
+  nameWithType.vb: IValidationWebhook(Of TEntity).Operations
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook`1.Operations*
+  name: Operations
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_Operations_
+  commentId: Overload:KubeOps.Operator.Webhooks.IValidationWebhook`1.Operations
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook<TEntity>.Operations
+  fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity).Operations
+  nameWithType: IValidationWebhook<TEntity>.Operations
+  nameWithType.vb: IValidationWebhook(Of TEntity).Operations
 - uid: KubeOps.Operator.Webhooks.IValidationWebhook`1.Update(`0,`0,System.Boolean)
   name: Update(TEntity, TEntity, Boolean)
   href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_Update__0__0_System_Boolean_
@@ -2744,24 +2074,42 @@ references:
   fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).CreateHostBuilder
   nameWithType: KubernetesOperatorFactory<TTestStartup>.CreateHostBuilder
   nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).CreateHostBuilder
-- uid: KubeOps.Testing.KubernetesOperatorFactory`1.GetMockedEventQueue*
-  name: GetMockedEventQueue
-  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_GetMockedEventQueue_
-  commentId: Overload:KubeOps.Testing.KubernetesOperatorFactory`1.GetMockedEventQueue
+- uid: KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueEvent*
+  name: EnqueueEvent
+  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_EnqueueEvent_
+  commentId: Overload:KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueEvent
   isSpec: "True"
-  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.GetMockedEventQueue
-  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).GetMockedEventQueue
-  nameWithType: KubernetesOperatorFactory<TTestStartup>.GetMockedEventQueue
-  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).GetMockedEventQueue
-- uid: KubeOps.Testing.KubernetesOperatorFactory`1.GetMockedEventQueue``1
-  name: GetMockedEventQueue<TEntity>()
-  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_GetMockedEventQueue__1
-  commentId: M:KubeOps.Testing.KubernetesOperatorFactory`1.GetMockedEventQueue``1
-  name.vb: GetMockedEventQueue(Of TEntity)()
-  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.GetMockedEventQueue<TEntity>()
-  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).GetMockedEventQueue(Of TEntity)()
-  nameWithType: KubernetesOperatorFactory<TTestStartup>.GetMockedEventQueue<TEntity>()
-  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).GetMockedEventQueue(Of TEntity)()
+  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.EnqueueEvent
+  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).EnqueueEvent
+  nameWithType: KubernetesOperatorFactory<TTestStartup>.EnqueueEvent
+  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).EnqueueEvent
+- uid: KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueEvent``1(KubeOps.Operator.Kubernetes.ResourceEventType,``0)
+  name: EnqueueEvent<TEntity>(ResourceEventType, TEntity)
+  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_EnqueueEvent__1_KubeOps_Operator_Kubernetes_ResourceEventType___0_
+  commentId: M:KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueEvent``1(KubeOps.Operator.Kubernetes.ResourceEventType,``0)
+  name.vb: EnqueueEvent(Of TEntity)(ResourceEventType, TEntity)
+  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.EnqueueEvent<TEntity>(KubeOps.Operator.Kubernetes.ResourceEventType, TEntity)
+  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).EnqueueEvent(Of TEntity)(KubeOps.Operator.Kubernetes.ResourceEventType, TEntity)
+  nameWithType: KubernetesOperatorFactory<TTestStartup>.EnqueueEvent<TEntity>(ResourceEventType, TEntity)
+  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).EnqueueEvent(Of TEntity)(ResourceEventType, TEntity)
+- uid: KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueFinalization*
+  name: EnqueueFinalization
+  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_EnqueueFinalization_
+  commentId: Overload:KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueFinalization
+  isSpec: "True"
+  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.EnqueueFinalization
+  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).EnqueueFinalization
+  nameWithType: KubernetesOperatorFactory<TTestStartup>.EnqueueFinalization
+  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).EnqueueFinalization
+- uid: KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueFinalization``1(``0)
+  name: EnqueueFinalization<TEntity>(TEntity)
+  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_EnqueueFinalization__1___0_
+  commentId: M:KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueFinalization``1(``0)
+  name.vb: EnqueueFinalization(Of TEntity)(TEntity)
+  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.EnqueueFinalization<TEntity>(TEntity)
+  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).EnqueueFinalization(Of TEntity)(TEntity)
+  nameWithType: KubernetesOperatorFactory<TTestStartup>.EnqueueFinalization<TEntity>(TEntity)
+  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).EnqueueFinalization(Of TEntity)(TEntity)
 - uid: KubeOps.Testing.KubernetesOperatorFactory`1.MockedKubernetesClient
   name: MockedKubernetesClient
   href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_MockedKubernetesClient
@@ -2840,14 +2188,14 @@ references:
   fullName: KubeOps.Testing.MockKubernetesClient.Create
   nameWithType: MockKubernetesClient.Create
 - uid: KubeOps.Testing.MockKubernetesClient.Create``1(``0)
-  name: Create<TResource>(TResource)
+  name: Create<TEntity>(TEntity)
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Create__1___0_
   commentId: M:KubeOps.Testing.MockKubernetesClient.Create``1(``0)
-  name.vb: Create(Of TResource)(TResource)
-  fullName: KubeOps.Testing.MockKubernetesClient.Create<TResource>(TResource)
-  fullName.vb: KubeOps.Testing.MockKubernetesClient.Create(Of TResource)(TResource)
-  nameWithType: MockKubernetesClient.Create<TResource>(TResource)
-  nameWithType.vb: MockKubernetesClient.Create(Of TResource)(TResource)
+  name.vb: Create(Of TEntity)(TEntity)
+  fullName: KubeOps.Testing.MockKubernetesClient.Create<TEntity>(TEntity)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Create(Of TEntity)(TEntity)
+  nameWithType: MockKubernetesClient.Create<TEntity>(TEntity)
+  nameWithType.vb: MockKubernetesClient.Create(Of TEntity)(TEntity)
 - uid: KubeOps.Testing.MockKubernetesClient.CreateResult
   name: CreateResult
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_CreateResult
@@ -2869,41 +2217,41 @@ references:
   fullName: KubeOps.Testing.MockKubernetesClient.Delete
   nameWithType: MockKubernetesClient.Delete
 - uid: KubeOps.Testing.MockKubernetesClient.Delete``1(``0)
-  name: Delete<TResource>(TResource)
+  name: Delete<TEntity>(TEntity)
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Delete__1___0_
   commentId: M:KubeOps.Testing.MockKubernetesClient.Delete``1(``0)
-  name.vb: Delete(Of TResource)(TResource)
-  fullName: KubeOps.Testing.MockKubernetesClient.Delete<TResource>(TResource)
-  fullName.vb: KubeOps.Testing.MockKubernetesClient.Delete(Of TResource)(TResource)
-  nameWithType: MockKubernetesClient.Delete<TResource>(TResource)
-  nameWithType.vb: MockKubernetesClient.Delete(Of TResource)(TResource)
+  name.vb: Delete(Of TEntity)(TEntity)
+  fullName: KubeOps.Testing.MockKubernetesClient.Delete<TEntity>(TEntity)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Delete(Of TEntity)(TEntity)
+  nameWithType: MockKubernetesClient.Delete<TEntity>(TEntity)
+  nameWithType.vb: MockKubernetesClient.Delete(Of TEntity)(TEntity)
 - uid: KubeOps.Testing.MockKubernetesClient.Delete``1(``0[])
-  name: Delete<TResource>(TResource[])
+  name: Delete<TEntity>(TEntity[])
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Delete__1___0___
   commentId: M:KubeOps.Testing.MockKubernetesClient.Delete``1(``0[])
-  name.vb: Delete(Of TResource)(TResource())
-  fullName: KubeOps.Testing.MockKubernetesClient.Delete<TResource>(TResource[])
-  fullName.vb: KubeOps.Testing.MockKubernetesClient.Delete(Of TResource)(TResource())
-  nameWithType: MockKubernetesClient.Delete<TResource>(TResource[])
-  nameWithType.vb: MockKubernetesClient.Delete(Of TResource)(TResource())
+  name.vb: Delete(Of TEntity)(TEntity())
+  fullName: KubeOps.Testing.MockKubernetesClient.Delete<TEntity>(TEntity[])
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Delete(Of TEntity)(TEntity())
+  nameWithType: MockKubernetesClient.Delete<TEntity>(TEntity[])
+  nameWithType.vb: MockKubernetesClient.Delete(Of TEntity)(TEntity())
 - uid: KubeOps.Testing.MockKubernetesClient.Delete``1(System.Collections.Generic.IEnumerable{``0})
-  name: Delete<TResource>(IEnumerable<TResource>)
+  name: Delete<TEntity>(IEnumerable<TEntity>)
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Delete__1_System_Collections_Generic_IEnumerable___0__
   commentId: M:KubeOps.Testing.MockKubernetesClient.Delete``1(System.Collections.Generic.IEnumerable{``0})
-  name.vb: Delete(Of TResource)(IEnumerable(Of TResource))
-  fullName: KubeOps.Testing.MockKubernetesClient.Delete<TResource>(System.Collections.Generic.IEnumerable<TResource>)
-  fullName.vb: KubeOps.Testing.MockKubernetesClient.Delete(Of TResource)(System.Collections.Generic.IEnumerable(Of TResource))
-  nameWithType: MockKubernetesClient.Delete<TResource>(IEnumerable<TResource>)
-  nameWithType.vb: MockKubernetesClient.Delete(Of TResource)(IEnumerable(Of TResource))
+  name.vb: Delete(Of TEntity)(IEnumerable(Of TEntity))
+  fullName: KubeOps.Testing.MockKubernetesClient.Delete<TEntity>(System.Collections.Generic.IEnumerable<TEntity>)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Delete(Of TEntity)(System.Collections.Generic.IEnumerable(Of TEntity))
+  nameWithType: MockKubernetesClient.Delete<TEntity>(IEnumerable<TEntity>)
+  nameWithType.vb: MockKubernetesClient.Delete(Of TEntity)(IEnumerable(Of TEntity))
 - uid: KubeOps.Testing.MockKubernetesClient.Delete``1(System.String,System.String)
-  name: Delete<TResource>(String, String)
+  name: Delete<TEntity>(String, String)
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Delete__1_System_String_System_String_
   commentId: M:KubeOps.Testing.MockKubernetesClient.Delete``1(System.String,System.String)
-  name.vb: Delete(Of TResource)(String, String)
-  fullName: KubeOps.Testing.MockKubernetesClient.Delete<TResource>(System.String, System.String)
-  fullName.vb: KubeOps.Testing.MockKubernetesClient.Delete(Of TResource)(System.String, System.String)
-  nameWithType: MockKubernetesClient.Delete<TResource>(String, String)
-  nameWithType.vb: MockKubernetesClient.Delete(Of TResource)(String, String)
+  name.vb: Delete(Of TEntity)(String, String)
+  fullName: KubeOps.Testing.MockKubernetesClient.Delete<TEntity>(System.String, System.String)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Delete(Of TEntity)(System.String, System.String)
+  nameWithType: MockKubernetesClient.Delete<TEntity>(String, String)
+  nameWithType.vb: MockKubernetesClient.Delete(Of TEntity)(String, String)
 - uid: KubeOps.Testing.MockKubernetesClient.Get*
   name: Get
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Get_
@@ -2912,14 +2260,14 @@ references:
   fullName: KubeOps.Testing.MockKubernetesClient.Get
   nameWithType: MockKubernetesClient.Get
 - uid: KubeOps.Testing.MockKubernetesClient.Get``1(System.String,System.String)
-  name: Get<TResource>(String, String)
+  name: Get<TEntity>(String, String)
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Get__1_System_String_System_String_
   commentId: M:KubeOps.Testing.MockKubernetesClient.Get``1(System.String,System.String)
-  name.vb: Get(Of TResource)(String, String)
-  fullName: KubeOps.Testing.MockKubernetesClient.Get<TResource>(System.String, System.String)
-  fullName.vb: KubeOps.Testing.MockKubernetesClient.Get(Of TResource)(System.String, System.String)
-  nameWithType: MockKubernetesClient.Get<TResource>(String, String)
-  nameWithType.vb: MockKubernetesClient.Get(Of TResource)(String, String)
+  name.vb: Get(Of TEntity)(String, String)
+  fullName: KubeOps.Testing.MockKubernetesClient.Get<TEntity>(System.String, System.String)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Get(Of TEntity)(System.String, System.String)
+  nameWithType: MockKubernetesClient.Get<TEntity>(String, String)
+  nameWithType.vb: MockKubernetesClient.Get(Of TEntity)(String, String)
 - uid: KubeOps.Testing.MockKubernetesClient.GetCurrentNamespace(System.String)
   name: GetCurrentNamespace(String)
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_GetCurrentNamespace_System_String_
@@ -2967,23 +2315,23 @@ references:
   fullName: KubeOps.Testing.MockKubernetesClient.List
   nameWithType: MockKubernetesClient.List
 - uid: KubeOps.Testing.MockKubernetesClient.List``1(System.String,DotnetKubernetesClient.LabelSelectors.ILabelSelector[])
-  name: List<TResource>(String, ILabelSelector[])
+  name: List<TEntity>(String, ILabelSelector[])
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_List__1_System_String_DotnetKubernetesClient_LabelSelectors_ILabelSelector___
   commentId: M:KubeOps.Testing.MockKubernetesClient.List``1(System.String,DotnetKubernetesClient.LabelSelectors.ILabelSelector[])
-  name.vb: List(Of TResource)(String, ILabelSelector())
-  fullName: KubeOps.Testing.MockKubernetesClient.List<TResource>(System.String, DotnetKubernetesClient.LabelSelectors.ILabelSelector[])
-  fullName.vb: KubeOps.Testing.MockKubernetesClient.List(Of TResource)(System.String, DotnetKubernetesClient.LabelSelectors.ILabelSelector())
-  nameWithType: MockKubernetesClient.List<TResource>(String, ILabelSelector[])
-  nameWithType.vb: MockKubernetesClient.List(Of TResource)(String, ILabelSelector())
+  name.vb: List(Of TEntity)(String, ILabelSelector())
+  fullName: KubeOps.Testing.MockKubernetesClient.List<TEntity>(System.String, DotnetKubernetesClient.LabelSelectors.ILabelSelector[])
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.List(Of TEntity)(System.String, DotnetKubernetesClient.LabelSelectors.ILabelSelector())
+  nameWithType: MockKubernetesClient.List<TEntity>(String, ILabelSelector[])
+  nameWithType.vb: MockKubernetesClient.List(Of TEntity)(String, ILabelSelector())
 - uid: KubeOps.Testing.MockKubernetesClient.List``1(System.String,System.String)
-  name: List<TResource>(String, String)
+  name: List<TEntity>(String, String)
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_List__1_System_String_System_String_
   commentId: M:KubeOps.Testing.MockKubernetesClient.List``1(System.String,System.String)
-  name.vb: List(Of TResource)(String, String)
-  fullName: KubeOps.Testing.MockKubernetesClient.List<TResource>(System.String, System.String)
-  fullName.vb: KubeOps.Testing.MockKubernetesClient.List(Of TResource)(System.String, System.String)
-  nameWithType: MockKubernetesClient.List<TResource>(String, String)
-  nameWithType.vb: MockKubernetesClient.List(Of TResource)(String, String)
+  name.vb: List(Of TEntity)(String, String)
+  fullName: KubeOps.Testing.MockKubernetesClient.List<TEntity>(System.String, System.String)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.List(Of TEntity)(System.String, System.String)
+  nameWithType: MockKubernetesClient.List<TEntity>(String, String)
+  nameWithType.vb: MockKubernetesClient.List(Of TEntity)(String, String)
 - uid: KubeOps.Testing.MockKubernetesClient.ListResult
   name: ListResult
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_ListResult
@@ -3005,14 +2353,14 @@ references:
   fullName: KubeOps.Testing.MockKubernetesClient.Save
   nameWithType: MockKubernetesClient.Save
 - uid: KubeOps.Testing.MockKubernetesClient.Save``1(``0)
-  name: Save<TResource>(TResource)
+  name: Save<TEntity>(TEntity)
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Save__1___0_
   commentId: M:KubeOps.Testing.MockKubernetesClient.Save``1(``0)
-  name.vb: Save(Of TResource)(TResource)
-  fullName: KubeOps.Testing.MockKubernetesClient.Save<TResource>(TResource)
-  fullName.vb: KubeOps.Testing.MockKubernetesClient.Save(Of TResource)(TResource)
-  nameWithType: MockKubernetesClient.Save<TResource>(TResource)
-  nameWithType.vb: MockKubernetesClient.Save(Of TResource)(TResource)
+  name.vb: Save(Of TEntity)(TEntity)
+  fullName: KubeOps.Testing.MockKubernetesClient.Save<TEntity>(TEntity)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Save(Of TEntity)(TEntity)
+  nameWithType: MockKubernetesClient.Save<TEntity>(TEntity)
+  nameWithType.vb: MockKubernetesClient.Save(Of TEntity)(TEntity)
 - uid: KubeOps.Testing.MockKubernetesClient.SaveResult
   name: SaveResult
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_SaveResult
@@ -3034,14 +2382,14 @@ references:
   fullName: KubeOps.Testing.MockKubernetesClient.Update
   nameWithType: MockKubernetesClient.Update
 - uid: KubeOps.Testing.MockKubernetesClient.Update``1(``0)
-  name: Update<TResource>(TResource)
+  name: Update<TEntity>(TEntity)
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Update__1___0_
   commentId: M:KubeOps.Testing.MockKubernetesClient.Update``1(``0)
-  name.vb: Update(Of TResource)(TResource)
-  fullName: KubeOps.Testing.MockKubernetesClient.Update<TResource>(TResource)
-  fullName.vb: KubeOps.Testing.MockKubernetesClient.Update(Of TResource)(TResource)
-  nameWithType: MockKubernetesClient.Update<TResource>(TResource)
-  nameWithType.vb: MockKubernetesClient.Update(Of TResource)(TResource)
+  name.vb: Update(Of TEntity)(TEntity)
+  fullName: KubeOps.Testing.MockKubernetesClient.Update<TEntity>(TEntity)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Update(Of TEntity)(TEntity)
+  nameWithType: MockKubernetesClient.Update<TEntity>(TEntity)
+  nameWithType.vb: MockKubernetesClient.Update(Of TEntity)(TEntity)
 - uid: KubeOps.Testing.MockKubernetesClient.UpdateResult
   name: UpdateResult
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_UpdateResult
@@ -3063,14 +2411,14 @@ references:
   fullName: KubeOps.Testing.MockKubernetesClient.UpdateStatus
   nameWithType: MockKubernetesClient.UpdateStatus
 - uid: KubeOps.Testing.MockKubernetesClient.UpdateStatus``1(``0)
-  name: UpdateStatus<TResource>(TResource)
+  name: UpdateStatus<TEntity>(TEntity)
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_UpdateStatus__1___0_
   commentId: M:KubeOps.Testing.MockKubernetesClient.UpdateStatus``1(``0)
-  name.vb: UpdateStatus(Of TResource)(TResource)
-  fullName: KubeOps.Testing.MockKubernetesClient.UpdateStatus<TResource>(TResource)
-  fullName.vb: KubeOps.Testing.MockKubernetesClient.UpdateStatus(Of TResource)(TResource)
-  nameWithType: MockKubernetesClient.UpdateStatus<TResource>(TResource)
-  nameWithType.vb: MockKubernetesClient.UpdateStatus(Of TResource)(TResource)
+  name.vb: UpdateStatus(Of TEntity)(TEntity)
+  fullName: KubeOps.Testing.MockKubernetesClient.UpdateStatus<TEntity>(TEntity)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.UpdateStatus(Of TEntity)(TEntity)
+  nameWithType: MockKubernetesClient.UpdateStatus<TEntity>(TEntity)
+  nameWithType.vb: MockKubernetesClient.UpdateStatus(Of TEntity)(TEntity)
 - uid: KubeOps.Testing.MockKubernetesClient.Watch*
   name: Watch
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Watch_
@@ -3079,347 +2427,20 @@ references:
   fullName: KubeOps.Testing.MockKubernetesClient.Watch
   nameWithType: MockKubernetesClient.Watch
 - uid: KubeOps.Testing.MockKubernetesClient.Watch``1(System.TimeSpan,System.Action{k8s.WatchEventType,``0},System.Action{System.Exception},System.Action,System.String,System.Threading.CancellationToken,DotnetKubernetesClient.LabelSelectors.ILabelSelector[])
-  name: Watch<TResource>(TimeSpan, Action<WatchEventType, TResource>, Action<Exception>, Action, String, CancellationToken, ILabelSelector[])
+  name: Watch<TEntity>(TimeSpan, Action<WatchEventType, TEntity>, Action<Exception>, Action, String, CancellationToken, ILabelSelector[])
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Watch__1_System_TimeSpan_System_Action_k8s_WatchEventType___0__System_Action_System_Exception__System_Action_System_String_System_Threading_CancellationToken_DotnetKubernetesClient_LabelSelectors_ILabelSelector___
   commentId: M:KubeOps.Testing.MockKubernetesClient.Watch``1(System.TimeSpan,System.Action{k8s.WatchEventType,``0},System.Action{System.Exception},System.Action,System.String,System.Threading.CancellationToken,DotnetKubernetesClient.LabelSelectors.ILabelSelector[])
-  name.vb: Watch(Of TResource)(TimeSpan, Action(Of WatchEventType, TResource), Action(Of Exception), Action, String, CancellationToken, ILabelSelector())
-  fullName: KubeOps.Testing.MockKubernetesClient.Watch<TResource>(System.TimeSpan, System.Action<k8s.WatchEventType, TResource>, System.Action<System.Exception>, System.Action, System.String, System.Threading.CancellationToken, DotnetKubernetesClient.LabelSelectors.ILabelSelector[])
-  fullName.vb: KubeOps.Testing.MockKubernetesClient.Watch(Of TResource)(System.TimeSpan, System.Action(Of k8s.WatchEventType, TResource), System.Action(Of System.Exception), System.Action, System.String, System.Threading.CancellationToken, DotnetKubernetesClient.LabelSelectors.ILabelSelector())
-  nameWithType: MockKubernetesClient.Watch<TResource>(TimeSpan, Action<WatchEventType, TResource>, Action<Exception>, Action, String, CancellationToken, ILabelSelector[])
-  nameWithType.vb: MockKubernetesClient.Watch(Of TResource)(TimeSpan, Action(Of WatchEventType, TResource), Action(Of Exception), Action, String, CancellationToken, ILabelSelector())
+  name.vb: Watch(Of TEntity)(TimeSpan, Action(Of WatchEventType, TEntity), Action(Of Exception), Action, String, CancellationToken, ILabelSelector())
+  fullName: KubeOps.Testing.MockKubernetesClient.Watch<TEntity>(System.TimeSpan, System.Action<k8s.WatchEventType, TEntity>, System.Action<System.Exception>, System.Action, System.String, System.Threading.CancellationToken, DotnetKubernetesClient.LabelSelectors.ILabelSelector[])
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Watch(Of TEntity)(System.TimeSpan, System.Action(Of k8s.WatchEventType, TEntity), System.Action(Of System.Exception), System.Action, System.String, System.Threading.CancellationToken, DotnetKubernetesClient.LabelSelectors.ILabelSelector())
+  nameWithType: MockKubernetesClient.Watch<TEntity>(TimeSpan, Action<WatchEventType, TEntity>, Action<Exception>, Action, String, CancellationToken, ILabelSelector[])
+  nameWithType.vb: MockKubernetesClient.Watch(Of TEntity)(TimeSpan, Action(Of WatchEventType, TEntity), Action(Of Exception), Action, String, CancellationToken, ILabelSelector())
 - uid: KubeOps.Testing.MockKubernetesClient.Watch``1(System.TimeSpan,System.Action{k8s.WatchEventType,``0},System.Action{System.Exception},System.Action,System.String,System.Threading.CancellationToken,System.String)
-  name: Watch<TResource>(TimeSpan, Action<WatchEventType, TResource>, Action<Exception>, Action, String, CancellationToken, String)
+  name: Watch<TEntity>(TimeSpan, Action<WatchEventType, TEntity>, Action<Exception>, Action, String, CancellationToken, String)
   href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Watch__1_System_TimeSpan_System_Action_k8s_WatchEventType___0__System_Action_System_Exception__System_Action_System_String_System_Threading_CancellationToken_System_String_
   commentId: M:KubeOps.Testing.MockKubernetesClient.Watch``1(System.TimeSpan,System.Action{k8s.WatchEventType,``0},System.Action{System.Exception},System.Action,System.String,System.Threading.CancellationToken,System.String)
-  name.vb: Watch(Of TResource)(TimeSpan, Action(Of WatchEventType, TResource), Action(Of Exception), Action, String, CancellationToken, String)
-  fullName: KubeOps.Testing.MockKubernetesClient.Watch<TResource>(System.TimeSpan, System.Action<k8s.WatchEventType, TResource>, System.Action<System.Exception>, System.Action, System.String, System.Threading.CancellationToken, System.String)
-  fullName.vb: KubeOps.Testing.MockKubernetesClient.Watch(Of TResource)(System.TimeSpan, System.Action(Of k8s.WatchEventType, TResource), System.Action(Of System.Exception), System.Action, System.String, System.Threading.CancellationToken, System.String)
-  nameWithType: MockKubernetesClient.Watch<TResource>(TimeSpan, Action<WatchEventType, TResource>, Action<Exception>, Action, String, CancellationToken, String)
-  nameWithType.vb: MockKubernetesClient.Watch(Of TResource)(TimeSpan, Action(Of WatchEventType, TResource), Action(Of Exception), Action, String, CancellationToken, String)
-- uid: KubeOps.Testing.MockResourceEventQueue`1
-  name: MockResourceEventQueue<TEntity>
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html
-  commentId: T:KubeOps.Testing.MockResourceEventQueue`1
-  name.vb: MockResourceEventQueue(Of TEntity)
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity)
-  nameWithType: MockResourceEventQueue<TEntity>
-  nameWithType.vb: MockResourceEventQueue(Of TEntity)
-- uid: KubeOps.Testing.MockResourceEventQueue`1.#ctor(KubeOps.Testing.MockResourceQueueCollection)
-  name: MockResourceEventQueue(MockResourceQueueCollection)
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1__ctor_KubeOps_Testing_MockResourceQueueCollection_
-  commentId: M:KubeOps.Testing.MockResourceEventQueue`1.#ctor(KubeOps.Testing.MockResourceQueueCollection)
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.MockResourceEventQueue(KubeOps.Testing.MockResourceQueueCollection)
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).MockResourceEventQueue(KubeOps.Testing.MockResourceQueueCollection)
-  nameWithType: MockResourceEventQueue<TEntity>.MockResourceEventQueue(MockResourceQueueCollection)
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).MockResourceEventQueue(MockResourceQueueCollection)
-- uid: KubeOps.Testing.MockResourceEventQueue`1.#ctor*
-  name: MockResourceEventQueue
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1__ctor_
-  commentId: Overload:KubeOps.Testing.MockResourceEventQueue`1.#ctor
-  isSpec: "True"
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.MockResourceEventQueue
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).MockResourceEventQueue
-  nameWithType: MockResourceEventQueue<TEntity>.MockResourceEventQueue
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).MockResourceEventQueue
-- uid: KubeOps.Testing.MockResourceEventQueue`1.ClearError(`0)
-  name: ClearError(TEntity)
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_ClearError__0_
-  commentId: M:KubeOps.Testing.MockResourceEventQueue`1.ClearError(`0)
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.ClearError(TEntity)
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).ClearError(TEntity)
-  nameWithType: MockResourceEventQueue<TEntity>.ClearError(TEntity)
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).ClearError(TEntity)
-- uid: KubeOps.Testing.MockResourceEventQueue`1.ClearError*
-  name: ClearError
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_ClearError_
-  commentId: Overload:KubeOps.Testing.MockResourceEventQueue`1.ClearError
-  isSpec: "True"
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.ClearError
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).ClearError
-  nameWithType: MockResourceEventQueue<TEntity>.ClearError
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).ClearError
-- uid: KubeOps.Testing.MockResourceEventQueue`1.Created(`0)
-  name: Created(TEntity)
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_Created__0_
-  commentId: M:KubeOps.Testing.MockResourceEventQueue`1.Created(`0)
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.Created(TEntity)
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).Created(TEntity)
-  nameWithType: MockResourceEventQueue<TEntity>.Created(TEntity)
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).Created(TEntity)
-- uid: KubeOps.Testing.MockResourceEventQueue`1.Created*
-  name: Created
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_Created_
-  commentId: Overload:KubeOps.Testing.MockResourceEventQueue`1.Created
-  isSpec: "True"
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.Created
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).Created
-  nameWithType: MockResourceEventQueue<TEntity>.Created
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).Created
-- uid: KubeOps.Testing.MockResourceEventQueue`1.Deleted(`0)
-  name: Deleted(TEntity)
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_Deleted__0_
-  commentId: M:KubeOps.Testing.MockResourceEventQueue`1.Deleted(`0)
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.Deleted(TEntity)
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).Deleted(TEntity)
-  nameWithType: MockResourceEventQueue<TEntity>.Deleted(TEntity)
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).Deleted(TEntity)
-- uid: KubeOps.Testing.MockResourceEventQueue`1.Deleted*
-  name: Deleted
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_Deleted_
-  commentId: Overload:KubeOps.Testing.MockResourceEventQueue`1.Deleted
-  isSpec: "True"
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.Deleted
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).Deleted
-  nameWithType: MockResourceEventQueue<TEntity>.Deleted
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).Deleted
-- uid: KubeOps.Testing.MockResourceEventQueue`1.Dispose
-  name: Dispose()
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_Dispose
-  commentId: M:KubeOps.Testing.MockResourceEventQueue`1.Dispose
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.Dispose()
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).Dispose()
-  nameWithType: MockResourceEventQueue<TEntity>.Dispose()
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).Dispose()
-- uid: KubeOps.Testing.MockResourceEventQueue`1.Dispose*
-  name: Dispose
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_Dispose_
-  commentId: Overload:KubeOps.Testing.MockResourceEventQueue`1.Dispose
-  isSpec: "True"
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.Dispose
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).Dispose
-  nameWithType: MockResourceEventQueue<TEntity>.Dispose
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).Dispose
-- uid: KubeOps.Testing.MockResourceEventQueue`1.Enqueue(`0,System.Nullable{System.TimeSpan})
-  name: Enqueue(TEntity, Nullable<TimeSpan>)
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_Enqueue__0_System_Nullable_System_TimeSpan__
-  commentId: M:KubeOps.Testing.MockResourceEventQueue`1.Enqueue(`0,System.Nullable{System.TimeSpan})
-  name.vb: Enqueue(TEntity, Nullable(Of TimeSpan))
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.Enqueue(TEntity, System.Nullable<System.TimeSpan>)
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).Enqueue(TEntity, System.Nullable(Of System.TimeSpan))
-  nameWithType: MockResourceEventQueue<TEntity>.Enqueue(TEntity, Nullable<TimeSpan>)
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).Enqueue(TEntity, Nullable(Of TimeSpan))
-- uid: KubeOps.Testing.MockResourceEventQueue`1.Enqueue*
-  name: Enqueue
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_Enqueue_
-  commentId: Overload:KubeOps.Testing.MockResourceEventQueue`1.Enqueue
-  isSpec: "True"
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.Enqueue
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).Enqueue
-  nameWithType: MockResourceEventQueue<TEntity>.Enqueue
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).Enqueue
-- uid: KubeOps.Testing.MockResourceEventQueue`1.Enqueued
-  name: Enqueued
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_Enqueued
-  commentId: P:KubeOps.Testing.MockResourceEventQueue`1.Enqueued
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.Enqueued
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).Enqueued
-  nameWithType: MockResourceEventQueue<TEntity>.Enqueued
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).Enqueued
-- uid: KubeOps.Testing.MockResourceEventQueue`1.Enqueued*
-  name: Enqueued
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_Enqueued_
-  commentId: Overload:KubeOps.Testing.MockResourceEventQueue`1.Enqueued
-  isSpec: "True"
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.Enqueued
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).Enqueued
-  nameWithType: MockResourceEventQueue<TEntity>.Enqueued
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).Enqueued
-- uid: KubeOps.Testing.MockResourceEventQueue`1.EnqueueErrored(KubeOps.Operator.Queue.ResourceEventType,`0)
-  name: EnqueueErrored(ResourceEventType, TEntity)
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_EnqueueErrored_KubeOps_Operator_Queue_ResourceEventType__0_
-  commentId: M:KubeOps.Testing.MockResourceEventQueue`1.EnqueueErrored(KubeOps.Operator.Queue.ResourceEventType,`0)
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.EnqueueErrored(KubeOps.Operator.Queue.ResourceEventType, TEntity)
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).EnqueueErrored(KubeOps.Operator.Queue.ResourceEventType, TEntity)
-  nameWithType: MockResourceEventQueue<TEntity>.EnqueueErrored(ResourceEventType, TEntity)
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).EnqueueErrored(ResourceEventType, TEntity)
-- uid: KubeOps.Testing.MockResourceEventQueue`1.EnqueueErrored*
-  name: EnqueueErrored
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_EnqueueErrored_
-  commentId: Overload:KubeOps.Testing.MockResourceEventQueue`1.EnqueueErrored
-  isSpec: "True"
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.EnqueueErrored
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).EnqueueErrored
-  nameWithType: MockResourceEventQueue<TEntity>.EnqueueErrored
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).EnqueueErrored
-- uid: KubeOps.Testing.MockResourceEventQueue`1.ErrorEnqueued
-  name: ErrorEnqueued
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_ErrorEnqueued
-  commentId: P:KubeOps.Testing.MockResourceEventQueue`1.ErrorEnqueued
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.ErrorEnqueued
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).ErrorEnqueued
-  nameWithType: MockResourceEventQueue<TEntity>.ErrorEnqueued
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).ErrorEnqueued
-- uid: KubeOps.Testing.MockResourceEventQueue`1.ErrorEnqueued*
-  name: ErrorEnqueued
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_ErrorEnqueued_
-  commentId: Overload:KubeOps.Testing.MockResourceEventQueue`1.ErrorEnqueued
-  isSpec: "True"
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.ErrorEnqueued
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).ErrorEnqueued
-  nameWithType: MockResourceEventQueue<TEntity>.ErrorEnqueued
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).ErrorEnqueued
-- uid: KubeOps.Testing.MockResourceEventQueue`1.Finalizing(`0)
-  name: Finalizing(TEntity)
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_Finalizing__0_
-  commentId: M:KubeOps.Testing.MockResourceEventQueue`1.Finalizing(`0)
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.Finalizing(TEntity)
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).Finalizing(TEntity)
-  nameWithType: MockResourceEventQueue<TEntity>.Finalizing(TEntity)
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).Finalizing(TEntity)
-- uid: KubeOps.Testing.MockResourceEventQueue`1.Finalizing*
-  name: Finalizing
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_Finalizing_
-  commentId: Overload:KubeOps.Testing.MockResourceEventQueue`1.Finalizing
-  isSpec: "True"
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.Finalizing
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).Finalizing
-  nameWithType: MockResourceEventQueue<TEntity>.Finalizing
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).Finalizing
-- uid: KubeOps.Testing.MockResourceEventQueue`1.NotModified(`0)
-  name: NotModified(TEntity)
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_NotModified__0_
-  commentId: M:KubeOps.Testing.MockResourceEventQueue`1.NotModified(`0)
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.NotModified(TEntity)
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).NotModified(TEntity)
-  nameWithType: MockResourceEventQueue<TEntity>.NotModified(TEntity)
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).NotModified(TEntity)
-- uid: KubeOps.Testing.MockResourceEventQueue`1.NotModified*
-  name: NotModified
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_NotModified_
-  commentId: Overload:KubeOps.Testing.MockResourceEventQueue`1.NotModified
-  isSpec: "True"
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.NotModified
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).NotModified
-  nameWithType: MockResourceEventQueue<TEntity>.NotModified
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).NotModified
-- uid: KubeOps.Testing.MockResourceEventQueue`1.ResourceEvent
-  name: ResourceEvent
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_ResourceEvent
-  commentId: E:KubeOps.Testing.MockResourceEventQueue`1.ResourceEvent
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.ResourceEvent
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).ResourceEvent
-  nameWithType: MockResourceEventQueue<TEntity>.ResourceEvent
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).ResourceEvent
-- uid: KubeOps.Testing.MockResourceEventQueue`1.Start
-  name: Start()
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_Start
-  commentId: M:KubeOps.Testing.MockResourceEventQueue`1.Start
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.Start()
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).Start()
-  nameWithType: MockResourceEventQueue<TEntity>.Start()
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).Start()
-- uid: KubeOps.Testing.MockResourceEventQueue`1.Start*
-  name: Start
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_Start_
-  commentId: Overload:KubeOps.Testing.MockResourceEventQueue`1.Start
-  isSpec: "True"
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.Start
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).Start
-  nameWithType: MockResourceEventQueue<TEntity>.Start
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).Start
-- uid: KubeOps.Testing.MockResourceEventQueue`1.StatusUpdated(`0)
-  name: StatusUpdated(TEntity)
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_StatusUpdated__0_
-  commentId: M:KubeOps.Testing.MockResourceEventQueue`1.StatusUpdated(`0)
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.StatusUpdated(TEntity)
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).StatusUpdated(TEntity)
-  nameWithType: MockResourceEventQueue<TEntity>.StatusUpdated(TEntity)
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).StatusUpdated(TEntity)
-- uid: KubeOps.Testing.MockResourceEventQueue`1.StatusUpdated*
-  name: StatusUpdated
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_StatusUpdated_
-  commentId: Overload:KubeOps.Testing.MockResourceEventQueue`1.StatusUpdated
-  isSpec: "True"
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.StatusUpdated
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).StatusUpdated
-  nameWithType: MockResourceEventQueue<TEntity>.StatusUpdated
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).StatusUpdated
-- uid: KubeOps.Testing.MockResourceEventQueue`1.Stop
-  name: Stop()
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_Stop
-  commentId: M:KubeOps.Testing.MockResourceEventQueue`1.Stop
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.Stop()
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).Stop()
-  nameWithType: MockResourceEventQueue<TEntity>.Stop()
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).Stop()
-- uid: KubeOps.Testing.MockResourceEventQueue`1.Stop*
-  name: Stop
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_Stop_
-  commentId: Overload:KubeOps.Testing.MockResourceEventQueue`1.Stop
-  isSpec: "True"
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.Stop
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).Stop
-  nameWithType: MockResourceEventQueue<TEntity>.Stop
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).Stop
-- uid: KubeOps.Testing.MockResourceEventQueue`1.Updated(`0)
-  name: Updated(TEntity)
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_Updated__0_
-  commentId: M:KubeOps.Testing.MockResourceEventQueue`1.Updated(`0)
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.Updated(TEntity)
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).Updated(TEntity)
-  nameWithType: MockResourceEventQueue<TEntity>.Updated(TEntity)
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).Updated(TEntity)
-- uid: KubeOps.Testing.MockResourceEventQueue`1.Updated*
-  name: Updated
-  href: kube-ops-testing/KubeOps.Testing.MockResourceEventQueue-1.html#KubeOps_Testing_MockResourceEventQueue_1_Updated_
-  commentId: Overload:KubeOps.Testing.MockResourceEventQueue`1.Updated
-  isSpec: "True"
-  fullName: KubeOps.Testing.MockResourceEventQueue<TEntity>.Updated
-  fullName.vb: KubeOps.Testing.MockResourceEventQueue(Of TEntity).Updated
-  nameWithType: MockResourceEventQueue<TEntity>.Updated
-  nameWithType.vb: MockResourceEventQueue(Of TEntity).Updated
-- uid: KubeOps.Testing.MockResourceQueueCollection
-  name: MockResourceQueueCollection
-  href: kube-ops-testing/KubeOps.Testing.MockResourceQueueCollection.html
-  commentId: T:KubeOps.Testing.MockResourceQueueCollection
-  fullName: KubeOps.Testing.MockResourceQueueCollection
-  nameWithType: MockResourceQueueCollection
-- uid: KubeOps.Testing.MockResourceQueueCollection.Get*
-  name: Get
-  href: kube-ops-testing/KubeOps.Testing.MockResourceQueueCollection.html#KubeOps_Testing_MockResourceQueueCollection_Get_
-  commentId: Overload:KubeOps.Testing.MockResourceQueueCollection.Get
-  isSpec: "True"
-  fullName: KubeOps.Testing.MockResourceQueueCollection.Get
-  nameWithType: MockResourceQueueCollection.Get
-- uid: KubeOps.Testing.MockResourceQueueCollection.Get``1
-  name: Get<TEntity>()
-  href: kube-ops-testing/KubeOps.Testing.MockResourceQueueCollection.html#KubeOps_Testing_MockResourceQueueCollection_Get__1
-  commentId: M:KubeOps.Testing.MockResourceQueueCollection.Get``1
-  name.vb: Get(Of TEntity)()
-  fullName: KubeOps.Testing.MockResourceQueueCollection.Get<TEntity>()
-  fullName.vb: KubeOps.Testing.MockResourceQueueCollection.Get(Of TEntity)()
-  nameWithType: MockResourceQueueCollection.Get<TEntity>()
-  nameWithType.vb: MockResourceQueueCollection.Get(Of TEntity)()
-- uid: KubeOps.Testing.MockResourceQueueCollection.Register*
-  name: Register
-  href: kube-ops-testing/KubeOps.Testing.MockResourceQueueCollection.html#KubeOps_Testing_MockResourceQueueCollection_Register_
-  commentId: Overload:KubeOps.Testing.MockResourceQueueCollection.Register
-  isSpec: "True"
-  fullName: KubeOps.Testing.MockResourceQueueCollection.Register
-  nameWithType: MockResourceQueueCollection.Register
-- uid: KubeOps.Testing.MockResourceQueueCollection.Register``1(KubeOps.Testing.MockResourceEventQueue{``0})
-  name: Register<TEntity>(MockResourceEventQueue<TEntity>)
-  href: kube-ops-testing/KubeOps.Testing.MockResourceQueueCollection.html#KubeOps_Testing_MockResourceQueueCollection_Register__1_KubeOps_Testing_MockResourceEventQueue___0__
-  commentId: M:KubeOps.Testing.MockResourceQueueCollection.Register``1(KubeOps.Testing.MockResourceEventQueue{``0})
-  name.vb: Register(Of TEntity)(MockResourceEventQueue(Of TEntity))
-  fullName: KubeOps.Testing.MockResourceQueueCollection.Register<TEntity>(KubeOps.Testing.MockResourceEventQueue<TEntity>)
-  fullName.vb: KubeOps.Testing.MockResourceQueueCollection.Register(Of TEntity)(KubeOps.Testing.MockResourceEventQueue(Of TEntity))
-  nameWithType: MockResourceQueueCollection.Register<TEntity>(MockResourceEventQueue<TEntity>)
-  nameWithType.vb: MockResourceQueueCollection.Register(Of TEntity)(MockResourceEventQueue(Of TEntity))
-- uid: KubeOps.Testing.MockResourceQueueCollection.Unregister*
-  name: Unregister
-  href: kube-ops-testing/KubeOps.Testing.MockResourceQueueCollection.html#KubeOps_Testing_MockResourceQueueCollection_Unregister_
-  commentId: Overload:KubeOps.Testing.MockResourceQueueCollection.Unregister
-  isSpec: "True"
-  fullName: KubeOps.Testing.MockResourceQueueCollection.Unregister
-  nameWithType: MockResourceQueueCollection.Unregister
-- uid: KubeOps.Testing.MockResourceQueueCollection.Unregister``1(KubeOps.Testing.MockResourceEventQueue{``0})
-  name: Unregister<TEntity>(MockResourceEventQueue<TEntity>)
-  href: kube-ops-testing/KubeOps.Testing.MockResourceQueueCollection.html#KubeOps_Testing_MockResourceQueueCollection_Unregister__1_KubeOps_Testing_MockResourceEventQueue___0__
-  commentId: M:KubeOps.Testing.MockResourceQueueCollection.Unregister``1(KubeOps.Testing.MockResourceEventQueue{``0})
-  name.vb: Unregister(Of TEntity)(MockResourceEventQueue(Of TEntity))
-  fullName: KubeOps.Testing.MockResourceQueueCollection.Unregister<TEntity>(KubeOps.Testing.MockResourceEventQueue<TEntity>)
-  fullName.vb: KubeOps.Testing.MockResourceQueueCollection.Unregister(Of TEntity)(KubeOps.Testing.MockResourceEventQueue(Of TEntity))
-  nameWithType: MockResourceQueueCollection.Unregister<TEntity>(MockResourceEventQueue<TEntity>)
-  nameWithType.vb: MockResourceQueueCollection.Unregister(Of TEntity)(MockResourceEventQueue(Of TEntity))
+  name.vb: Watch(Of TEntity)(TimeSpan, Action(Of WatchEventType, TEntity), Action(Of Exception), Action, String, CancellationToken, String)
+  fullName: KubeOps.Testing.MockKubernetesClient.Watch<TEntity>(System.TimeSpan, System.Action<k8s.WatchEventType, TEntity>, System.Action<System.Exception>, System.Action, System.String, System.Threading.CancellationToken, System.String)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Watch(Of TEntity)(System.TimeSpan, System.Action(Of k8s.WatchEventType, TEntity), System.Action(Of System.Exception), System.Action, System.String, System.Threading.CancellationToken, System.String)
+  nameWithType: MockKubernetesClient.Watch<TEntity>(TimeSpan, Action<WatchEventType, TEntity>, Action<Exception>, Action, String, CancellationToken, String)
+  nameWithType.vb: MockKubernetesClient.Watch(Of TEntity)(TimeSpan, Action(Of WatchEventType, TEntity), Action(Of Exception), Action, String, CancellationToken, String)

@@ -131,6 +131,10 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="custom-entities">Custom Entities</h1>
 
+<p>The words <code>entity</code> and <code>resource</code> are kind of interchangeable. It strongly
+depends on the context. The resource is the type of an object in kubernetes
+which is defined by the default api or a CRD. While an entity is a class
+in C# of such a resource. (CRD means &quot;custom resource definition&quot;).</p>
 <p>To write your own kubernetes entities, use the interfaces
 provided by <code>k8s</code> or use the <a class="xref" href="../kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity.html">CustomKubernetesEntity</a>.</p>
 <p>There are two overloads (<a class="xref" href="../kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity-1.html">CustomKubernetesEntity&lt;TSpec&gt;</a> and <a class="xref" href="../kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity-2.html">CustomKubernetesEntity&lt;TSpec, TStatus&gt;</a>) that provide
@@ -159,7 +163,7 @@ or via the cli commands.</p>
 <li><code>IKubernetesObject&lt;V1ObjectMeta&gt;</code></li>
 </ul>
 <h3 id="ignoring-entities">Ignoring Entities</h3>
-<p>There are usecases when you want to model / watch a custom entity from another
+<p>There are use-cases when you want to model / watch a custom entity from another
 software engineer that are not part of the base models in <code>k8s</code>.</p>
 <p>To prevent the generator from creating yamls for CRDs you don&#39;t own, use
 the <a class="xref" href="../kube-ops/KubeOps.Operator.Entities.Annotations.IgnoreEntityAttribute.html">IgnoreEntityAttribute</a>.</p>

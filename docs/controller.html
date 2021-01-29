@@ -136,22 +136,22 @@ The controller abstracts the general complexity of watching the
 resources on kubernetes and queueing of the events.</p>
 <p>When you want to create a controller for your (or any) entity,
 read the following instructions.</p>
-<p>When you have controllers, don&#39;t forget to register them with
-<a class="xref" href="../kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddController__1">AddController&lt;TController&gt;()</a>
-to the DI system.</p>
+<p>When you have controllers, they are automatically added to the
+DI system via their <a class="xref" href="../kube-ops/KubeOps.Operator.Controller.IResourceController-1.html">IResourceController&lt;TEntity&gt;</a> interface.</p>
+<p>Controllers are registered as <strong>scoped</strong> elements in the DI system.
+Which means, they basically behave like asp.net api controllers.
+You can use dependency injection with all types of dependencies.</p>
 <h2 id="controller-instance">Controller instance</h2>
 <p>After you created a custom entity (like described in <a href="entities.html">Entities</a>)
 or you want to reconcile a given entity (from the <code>k8s.Models</code> namespace,
 e.g. <code>V1ConfigMap</code>) you need to create a controller class
 as you would do for a MVC or API controller in asp.net.</p>
-<p>Make sure you have the correct baseclass
-(<a class="xref" href="../kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html">ResourceControllerBase&lt;TEntity&gt;</a>)
-inherited.</p>
+<p>Make sure you implement the <a class="xref" href="../kube-ops/KubeOps.Operator.Controller.IResourceController-1.html">IResourceController&lt;TEntity&gt;</a> interface.</p>
 <pre><code class="lang-csharp">[EntityRbac(typeof(MyCustomEntity), Verbs = RbacVerb.All)]
-public class FooCtrl: ResourceControllerBase&lt;MyCustomEntity&gt;
+public class FooCtrl : IResourceController&lt;MyCustomEntity&gt;
 {
-    protected override async Task&lt;TimeSpan?&gt; Created(MyCustomEntity resource){}
-    // overwrite other methods here.
+    // Implement the needed methods here.
+    // The interface provides default implementation which do a NOOP.
     // Possible overwrites:
     // &quot;Created&quot; (i.e. when the operator sees the entity for the first time),
     // &quot;Updated&quot; (i.e. when the operator knows the entity and it was updated),
@@ -189,41 +189,36 @@ which takes a list of api groups, resources, versions and a selection of
 <a class="xref" href="../kube-ops/KubeOps.Operator.Rbac.RbacVerb.html">RbacVerb</a>s to configure the rbac rule:</p>
 <pre><code class="lang-csharp">[GenericRbac(Groups = new {&quot;apps&quot;}, Resources = new {&quot;deployments&quot;}, Verbs = RbacVerb.All)]
 </code></pre><h2 id="requeue">Requeue</h2>
-<p>The controller&#39;s methods have a return value of <code>TimeSpan?</code>. This means
-you can return a time span to automatically requeue the event for the
-given entity. If requeued and nothing changed, it will most likely fire
-a <code>NotModified</code> event.</p>
-<p>This can be useful if you want to periodically check for a database
+<p>The controller&#39;s methods have a return value of <a class="xref" href="../kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html">ResourceControllerResult</a>.
+There are multiple ways how a result of a controller can be created:</p>
+<ul>
+<li><code>null</code>: The controller will not requeue your entity / event.</li>
+<li><a class="xref" href="../kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html#KubeOps_Operator_Controller_Results_ResourceControllerResult_RequeueEvent_System_TimeSpan_">RequeueEvent(TimeSpan)</a>:
+Return a result object with a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a> that will requeue
+the event and the entity after the time has passed.</li>
+</ul>
+<p>The requeue mechanism can be useful if you want to periodically check for a database
 connection for example and update the status of a given entity.</p>
-<p>If you return <code>null</code> in an event function, the event is not requeued.
-If you return a timespan, then the event is requeued after this delay.</p>
 <pre><code class="lang-csharp">/* snip... */
-protected override async Task&lt;TimeSpan?&gt; Created(MyCustomEntity resource){
-    // do something useful.
-    return TimeSpan.FromSeconds(15); // This will retrigger an event in 15 secs.
+public Task&lt;ResourceControllerResult&gt; CreatedAsync(V1TestEntity resource)
+{
+    return Task.FromResult(ResourceControllerResult.RequeueEvent(TimeSpan.FromSeconds(15)); // This will requeue the event in 15 seconds.
 }
 
-protected override async Task&lt;TimeSpan?&gt; Updated(MyCustomEntity resource){
-    // do something useful.
-    return null; // This will not retrigger an event.
+public Task&lt;ResourceControllerResult&gt; CreatedAsync(V1TestEntity resource)
+{
+    return Task.FromResult&lt;ResourceControllerResult&gt;(null); // This wont trigger a requeue.
 }
 /* snip... */
 </code></pre><h2 id="error-requeue">Error requeue</h2>
 <p>If the function throws an error, the event is requeued with an exponential backoff.</p>
 <pre><code class="lang-csharp">/* snip... */
-protected override async Task&lt;TimeSpan?&gt; Created(MyCustomEntity resource){
+public Task&lt;ResourceControllerResult&gt; CreatedAsync(V1TestEntity resource)
     // do something useful.
     throw new Exception(&quot;¯\\_(ツ)_/¯&quot;);
 }
 /* snip... */
-</code></pre><p>The backoff function is defined as follows:</p>
-<pre><code class="lang-csharp">private const double MaxRetrySeconds = 64;
-private TimeSpan ExponentialBackoff(int retryCount) =&gt; TimeSpan
-            .FromSeconds(Math.Min(Math.Pow(2, retryCount), MaxRetrySeconds))
-            .Add(TimeSpan.FromMilliseconds(_rnd.Next(0, 1000)));
-</code></pre><p>Which means with each retry, it calculates the new backoff time
-to a max of 64. To each of those times a random number of milliseconds
-is added to add a certain fuzzying.</p>
+</code></pre><p>Each event that errors will be retried <strong>four times</strong>.</p>
 </article>
           </div>
           

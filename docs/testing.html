@@ -140,7 +140,7 @@ have a look at the test code in the repository:
 For normal unit testing, you can just mock all the things.</p>
 </div>
 <p>The main entry point for testing your custom operator is the
-<a class="xref" href="../kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html">KubernetesOperatorFactory&lt;TTestStartup&gt;</a>. It is ment to be
+<a class="xref" href="../kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html">KubernetesOperatorFactory&lt;TTestStartup&gt;</a>. It is meant to be
 injected into your test.</p>
 <div class="NOTE"><h5>Note</h5><p>The following documentation assumes you are using xUnit as a
 testing framework. The techniques used should be present
@@ -150,15 +150,15 @@ with other testing frameworks as well.</p>
 <ul>
 <li>Create a <code>TestStartup.cs</code> file (or any other name you want)</li>
 <li>Inject the <a class="xref" href="../kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html">KubernetesOperatorFactory&lt;TTestStartup&gt;</a></li>
-<li>Use the mocked client / queues to test your operator</li>
+<li>Use the mocked client and helper functions to test your operator</li>
 </ul>
 <h2 id="test-startup">Test Startup</h2>
 <p>This file is very similar to a &quot;normal&quot; <code>Startup.cs</code> file of an
 asp.net application. Either you subclass it and replace your test mocked
 services, or you create a new one.</p>
-<pre><code class="lang-csharp" name="TestStartup.cs" highlight-lines="20-21">using KubeOps.Operator;
-using KubeOps.TestOperator.Controller;
-using KubeOps.TestOperator.Finalizer;
+<pre><code class="lang-csharp" name="TestStartup.cs">using System;
+using System.Reflection;
+using KubeOps.Operator;
 using KubeOps.TestOperator.TestManager;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
@@ -172,9 +172,7 @@ namespace KubeOps.TestOperator.Test
         {
             services
                 .AddKubernetesOperator(s =&gt; s.Name = &quot;test-operator&quot;)
-                .AddFinalizer&lt;TestEntityFinalizer&gt;()
-                .AddController&lt;TestController&gt;();
-
+                .AddResourceAssembly(Assembly.GetAssembly(typeof(Startup)) ?? throw new Exception(&quot;no assembly found&quot;));
             services.AddSingleton(new Mock&lt;IManager&gt;());
             services.AddSingleton(typeof(IManager), provider =&gt; provider.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;().Object);
         }
@@ -187,18 +185,18 @@ namespace KubeOps.TestOperator.Test
 }
 </code></pre><h2 id="mocked-elements">Mocked elements</h2>
 <p>The main part of this operator factory does mock the used kubernetes client
-and the resource event queues.</p>
+and helper functions to enqueue events and finalizer events.</p>
 <p>Both mocked elements can be retrieved via the operator factory with:</p>
 <ul>
-<li><a class="xref" href="../kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_GetMockedEventQueue__1">GetMockedEventQueue&lt;TEntity&gt;()</a></li>
 <li><a class="xref" href="../kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_MockedKubernetesClient">MockedKubernetesClient</a></li>
+<li><a class="xref" href="../kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_EnqueueEvent__1_KubeOps_Operator_Kubernetes_ResourceEventType___0_">EnqueueEvent&lt;TEntity&gt;(ResourceEventType, TEntity)</a></li>
+<li><a class="xref" href="../kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_EnqueueFinalization__1___0_">EnqueueFinalization&lt;TEntity&gt;(TEntity)</a></li>
 </ul>
-<h3 id="mocked-event-queue">Mocked event queue</h3>
-<p>The event queue does not use a channel to read and write event but directly fire
-the given events.</p>
-<p>Also, the <a class="xref" href="../kube-ops/KubeOps.Operator.Queue.IResourceEventQueue-1.html#KubeOps_Operator_Queue_IResourceEventQueue_1_Enqueue__0_System_Nullable_System_TimeSpan__">Enqueue(TEntity, Nullable&lt;TimeSpan&gt;)</a>
-method does not actually enqueue anything but just adds the resource to a list
-of resources.</p>
+<h3 id="mocked-events">Mocked events</h3>
+<p>With the mentioned factory functions (<a class="xref" href="../kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_EnqueueEvent__1_KubeOps_Operator_Kubernetes_ResourceEventType___0_">EnqueueEvent&lt;TEntity&gt;(ResourceEventType, TEntity)</a>
+and <a class="xref" href="../kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_EnqueueFinalization__1___0_">EnqueueFinalization&lt;TEntity&gt;(TEntity)</a>)
+one can fire events for entities. This can be used to test your controllers.</p>
+<p>The controllers are normally instantiated via the scope of the DI system.</p>
 <h3 id="mocked-ikubernetesclient">Mocked IKubernetesClient</h3>
 <p>The client is essentially an empty implementation of the interface.
 All methods do return <code>null</code> or the object that was passed
@@ -214,7 +212,18 @@ on those results.</p>
 You probably need to set the solution relative content root for
 asp.net testing. But then you can run the factory
 and create a test.</p>
-<pre><code class="lang-csharp" name="TestStartup.cs" highlight-lines="7,13">    public class TestControllerTest : IClassFixture&lt;KubernetesOperatorFactory&lt;TestStartup&gt;&gt;
+<pre><code class="lang-csharp" name="TestStartup.cs">using System.Threading.Tasks;
+using KubeOps.Operator.Kubernetes;
+using KubeOps.Testing;
+using KubeOps.TestOperator.Entities;
+using KubeOps.TestOperator.TestManager;
+using Microsoft.Extensions.DependencyInjection;
+using Moq;
+using Xunit;
+
+namespace KubeOps.TestOperator.Test
+{
+    public class TestControllerTest : IClassFixture&lt;KubernetesOperatorFactory&lt;TestStartup&gt;&gt;
     {
         private readonly KubernetesOperatorFactory&lt;TestStartup&gt; _factory;
 
@@ -224,18 +233,65 @@ and create a test.</p>
         }
 
         [Fact]
-        public void Test_If_Manager_Created_Is_Called()
+        public async Task Test_If_Manager_Created_Is_Called()
         {
             _factory.Run();
             var mock = _factory.Services.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;();
             mock.Reset();
             mock.Setup(o =&gt; o.Created(It.IsAny&lt;V1TestEntity&gt;()));
             mock.Verify(o =&gt; o.Created(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
-            var queue = _factory.GetMockedEventQueue&lt;V1TestEntity&gt;();
-            queue.Created(new V1TestEntity());
+            await _factory.EnqueueEvent(ResourceEventType.Created, new V1TestEntity());
             mock.Verify(o =&gt; o.Created(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
         }
 
+        [Fact]
+        public async Task Test_If_Manager_Updated_Is_Called()
+        {
+            _factory.Run();
+            var mock = _factory.Services.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;();
+            mock.Reset();
+            mock.Setup(o =&gt; o.Updated(It.IsAny&lt;V1TestEntity&gt;()));
+            mock.Verify(o =&gt; o.Updated(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
+            await _factory.EnqueueEvent(ResourceEventType.Updated, new V1TestEntity());
+            mock.Verify(o =&gt; o.Updated(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
+        }
+
+        [Fact]
+        public async Task Test_If_Manager_NotModified_Is_Called()
+        {
+            _factory.Run();
+            var mock = _factory.Services.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;();
+            mock.Reset();
+            mock.Setup(o =&gt; o.NotModified(It.IsAny&lt;V1TestEntity&gt;()));
+            mock.Verify(o =&gt; o.NotModified(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
+            await _factory.EnqueueEvent(ResourceEventType.NotModified, new V1TestEntity());
+            mock.Verify(o =&gt; o.NotModified(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
+        }
+
+        [Fact]
+        public async Task Test_If_Manager_StatusModified_Is_Called()
+        {
+            _factory.Run();
+            var mock = _factory.Services.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;();
+            mock.Reset();
+            mock.Setup(o =&gt; o.StatusModified(It.IsAny&lt;V1TestEntity&gt;()));
+            mock.Verify(o =&gt; o.StatusModified(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
+            await _factory.EnqueueEvent(ResourceEventType.StatusUpdated, new V1TestEntity());
+            mock.Verify(o =&gt; o.StatusModified(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
+        }
+
+        [Fact]
+        public async Task Test_If_Manager_Deleted_Is_Called()
+        {
+            _factory.Run();
+            var mock = _factory.Services.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;();
+            mock.Reset();
+            mock.Setup(o =&gt; o.Deleted(It.IsAny&lt;V1TestEntity&gt;()));
+            mock.Verify(o =&gt; o.Deleted(It.IsAny&lt;V1TestEntity&gt;()), Times.Never);
+            await _factory.EnqueueEvent(ResourceEventType.Deleted, new V1TestEntity());
+            mock.Verify(o =&gt; o.Deleted(It.IsAny&lt;V1TestEntity&gt;()), Times.Once);
+        }
+    }
 }
 </code></pre></article>
           </div>

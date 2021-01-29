@@ -133,36 +133,52 @@
 
 <p>A finalizer is a special type of software that can asynchronously
 cleanup stuff for an entity that is being deleted.</p>
-<p>A finalizer is registered as an identifier in the kubernetes
-resource (i.e. in the yaml / json structure) and an object
+<p>A finalizer is registered as an identifier in a kubernetes
+object (i.e. in the yaml / json structure) and the object
 wont be removed from the api until all finalizers are removed.</p>
-<p>If you write finalizer, don&#39;t forget to register them with
-<a class="xref" href="../kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddFinalizer__1">AddFinalizer&lt;TFinalizer&gt;()</a>
-to the DI system.</p>
+<p>If you write finalizer, they will be automatically added to the
+DI system via their type <a class="xref" href="../kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html">IResourceFinalizer&lt;TEntity&gt;</a></p>
 <h2 id="write-a-finalizer">Write a finalizer</h2>
-<p>Use the correct base class (<a class="xref" href="../kube-ops/KubeOps.Operator.Finalizer.ResourceFinalizerBase-1.html">ResourceFinalizerBase&lt;TResource&gt;</a>).</p>
+<p>Use the correct interface (<a class="xref" href="../kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html">IResourceFinalizer&lt;TEntity&gt;</a>).</p>
 <p>A finalizer can be as simple as:</p>
-<pre><code class="lang-csharp">public class FooFinalizer : ResourceFinalizerBase&lt;Foo&gt;
+<pre><code class="lang-csharp">public class TestEntityFinalizer : IResourceFinalizer&lt;V1TestEntity&gt;
 {
-    public override async Task Finalize(Foo resource)
+    private readonly IManager _manager;
+
+    public TestEntityFinalizer(IManager manager)
     {
-        // do something with the resource.
-        // like deleting a database.
+        _manager = manager;
+    }
+
+    public Task FinalizeAsync(V1TestEntity resource)
+    {
+        _manager.Finalized(resource);
+        return Task.CompletedTask;
     }
 }
-</code></pre><p>When the finalizer successfully completed his job, it is automatically removed
-from the finalizers list of the resource. The finalizers are registered
-as transient resources in DI.</p>
+</code></pre><p>The interface also provides a way of overwriting the
+<a class="xref" href="../kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html#KubeOps_Operator_Finalizer_IResourceFinalizer_1_Identifier">Identifier</a> of the finalizer if you feed like it.</p>
+<p>When the finalizer successfully completed his job, it is automatically removed
+from the finalizers list of the entity. The finalizers are registered
+as scoped resources in DI.</p>
 <h2 id="register-a-finalizer">Register a finalizer</h2>
 <p>To attach a finalizer for a resource, call the
-<a class="xref" href="../kube-ops/KubeOps.Operator.Controller.ResourceControllerBase-1.html#KubeOps_Operator_Controller_ResourceControllerBase_1_AttachFinalizer__1__0_">AttachFinalizer&lt;TFinalizer&gt;(TEntity)</a>
+<a class="xref" href="../kube-ops/KubeOps.Operator.Finalizer.IFinalizerManager-1.html#KubeOps_Operator_Finalizer_IFinalizerManager_1_RegisterFinalizerAsync__1__0_">RegisterFinalizerAsync&lt;TFinalizer&gt;(TEntity)</a>
 method in the controller during reconciliation.</p>
-<pre><code class="lang-csharp">public class TestController : ResourceControllerBase&lt;V1TestEntity&gt;
+<pre><code class="lang-csharp">public class TestController : IResourceController&lt;V1TestEntity&gt;
 {
-    protected override async Task&lt;TimeSpan?&gt; Created(V1TestEntity resource)
+    private readonly IFinalizerManager&lt;V1TestEntity&gt; _manager;
+
+    public TestController(IFinalizerManager&lt;V1TestEntity&gt; manager)
     {
-        await AttachFinalizer&lt;TestEntityFinalizer&gt;(resource);
-        return await base.Created(resource);
+        _manager = manager;
+    }
+
+    public async Task&lt;ResourceControllerResult&gt; CreatedAsync(V1TestEntity resource)
+    {
+        // The type MyFinalizer must be an IResourceFinalizer&lt;V1TestEntity&gt;
+        await _manager.RegisterFinalizerAsync&lt;MyFinalizer&gt;(resource);
+        return null;
     }
 }
 </code></pre></article>

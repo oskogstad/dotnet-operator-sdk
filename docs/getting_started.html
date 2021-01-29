@@ -139,13 +139,15 @@ So you&#39;ll find method extensions for <code>IServiceCollection</code> and <co
 that activate and start the operator as a web application.</p>
 <h2 id="terminology">Terminology</h2>
 <ul>
-<li><code>Entity</code>: A (C#) model - an entity - that is used in kubernetes. An entity defines the CRD.</li>
-<li><code>Resource</code>: An instance of an entity.</li>
+<li><code>Entity</code>: A (C#) model - an entity - that is used in kubernetes.
+An entity is the class for a kubernetes resource.</li>
+<li><code>Resource</code> (or <code>TResource</code>): The type of a kubernetes resource.</li>
 <li><code>Controller</code> or <code>ResourceController</code>: An instance of a resource manager
 that is responsible for the reconciliation of an entity.</li>
 <li><code>Finalizer</code>: A special resource manager that is attached to the entity
 via identifier. The finalizers are called when an entity is deleted
 on kubernetes.</li>
+<li><code>Validator</code>: An implementation for a validation admission webhook.</li>
 <li><code>CRD</code>: CustomResourceDefinition of kubernetes.</li>
 </ul>
 <h2 id="how-to-start">How To Start</h2>
@@ -195,9 +197,7 @@ possible via run flag.</p>
     public void ConfigureServices(IServiceCollection services)
     {
         services
-            .AddKubernetesOperator() // config / settings here
-            .AddFinalizer&lt;TestEntityFinalizer&gt;()
-            .AddController&lt;TestController&gt;(); // Add controllers / finalizers / ... here
+            .AddKubernetesOperator(); // config / settings here
 
         // your own dependencies
         services.AddTransient&lt;IManager, TestManager.TestManager&gt;();

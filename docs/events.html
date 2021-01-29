@@ -149,7 +149,7 @@ IEventManager manager = services.GetRequiredService&lt;IEventManager&gt;;
 // If the event was previously published, it is fetched
 // and the &quot;count&quot; number is increased. This essentially
 // creates an event-series.
-await manager.Publish(resource, &quot;reason&quot;, &quot;my fancy message&quot;);
+await manager.PublishAsync(resource, &quot;reason&quot;, &quot;my fancy message&quot;);
 </code></pre><p>If you want full control over the event:</p>
 <pre><code class="lang-c#">// fetch from DI, or inject into your controller.
 IEventManager manager = services.GetRequiredService&lt;IEventManager&gt;;
@@ -161,16 +161,16 @@ var @event = new Corev1Event
 
 // Publish the event.
 // This essentially calls IKubernetesClient.Save.
-await manager.Publish(@event);
+await manager.PublishAsync(@event);
 </code></pre><h3 id="use-publisher-delegates">Use publisher delegates</h3>
 <p>If you don&#39;t want to call the
-<a class="xref" href="../kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_Publish_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__System_String_System_String_KubeOps_Operator_Events_EventType_">Publish(IKubernetesObject&lt;V1ObjectMeta&gt;, String, String, EventType)</a>
+<a class="xref" href="../kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_PublishAsync_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__System_String_System_String_KubeOps_Operator_Events_EventType_">PublishAsync(IKubernetesObject&lt;V1ObjectMeta&gt;, String, String, EventType)</a>
 all the time with the same arguments, you can create delegates.</p>
 <p>There exist two different delegates:</p>
 <ul>
-<li><a class="xref" href="../kube-ops/KubeOps.Operator.Events.IEventManager.StaticPublisher.html">IEventManager.StaticPublisher</a>: Predefined event
+<li><a class="xref" href="../kube-ops/KubeOps.Operator.Events.IEventManager.AsyncStaticPublisher.html">IEventManager.AsyncStaticPublisher</a>: Predefined event
 on a predefined resource.</li>
-<li><a class="xref" href="../kube-ops/KubeOps.Operator.Events.IEventManager.Publisher.html">IEventManager.Publisher</a>: Predefined event
+<li><a class="xref" href="../kube-ops/KubeOps.Operator.Events.IEventManager.AsyncPublisher.html">IEventManager.AsyncPublisher</a>: Predefined event
 on a variable resource.</li>
 </ul>
 <p>Both are created with their specific overload:</p>
@@ -192,22 +192,21 @@ await publisher(resource);
 await publisher(resource); // again without specifying reason / message and so on.
 </code></pre><p>The dynamic publisher can be used to predefine the event for your resources.</p>
 <p>As an example in a controller:</p>
-<pre><code class="lang-c#">public class TestController : ResourceControllerBase&lt;V1TestEntity&gt;
+<pre><code class="lang-c#">public class TestController : IResourceController&lt;V1TestEntity&gt;
 {
     private readonly IEventManager.Publisher _publisher;
 
-    public TestController(IEventManager eventManager, IResourceServices&lt;V1TestEntity&gt; services)
-        : base(services)
+    public TestController(IEventManager eventManager)
     {
         _publisher = eventManager.CreatePublisher(&quot;reason&quot;, &quot;my fancy message&quot;);
     }
 
-    protected override async Task&lt;TimeSpan?&gt; Created(V1TestEntity resource)
+    public Task&lt;ResourceControllerResult&gt; CreatedAsync(V1TestEntity resource)
     {
         // Here, the event is published with predefined strings
         // but for a &quot;variable&quot; resource.
         await _publisher(resource);
-        return await base.Created(resource);
+        return Task.FromResult&lt;ResourceControllerResult&gt;(null);
     }
 }
 </code></pre></article>
