@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Namespace KubeOps.Operator.Webhooks
    | KubeOps Documentation ">
-    <meta name="generator" content="docfx 2.56.6.0">
+    <meta name="generator" content="docfx 2.56.7.0">
     
     <link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -306,10 +306,22 @@
                         
                         <ul class="nav level2">
                           <li class="">
+                            <a href="KubeOps.Operator.Webhooks.AdmissionOperations.html" title="AdmissionOperations" class="">AdmissionOperations</a>
+                          </li>
+                          <li class="">
+                            <a href="KubeOps.Operator.Webhooks.AdmissionResult.html" title="AdmissionResult" class="">AdmissionResult</a>
+                          </li>
+                          <li class="">
+                            <a href="KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html" title="IAdmissionWebhook&lt;TEntity, TResult&gt;" class="">IAdmissionWebhook&lt;TEntity, TResult&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="KubeOps.Operator.Webhooks.IMutationWebhook-1.html" title="IMutationWebhook&lt;TEntity&gt;" class="">IMutationWebhook&lt;TEntity&gt;</a>
+                          </li>
+                          <li class="">
                             <a href="KubeOps.Operator.Webhooks.IValidationWebhook-1.html" title="IValidationWebhook&lt;TEntity&gt;" class="">IValidationWebhook&lt;TEntity&gt;</a>
                           </li>
                           <li class="">
-                            <a href="KubeOps.Operator.Webhooks.ValidatedOperations.html" title="ValidatedOperations" class="">ValidatedOperations</a>
+                            <a href="KubeOps.Operator.Webhooks.MutationResult.html" title="MutationResult" class="">MutationResult</a>
                           </li>
                           <li class="">
                             <a href="KubeOps.Operator.Webhooks.ValidationResult.html" title="ValidationResult" class="">ValidationResult</a>
@@ -331,12 +343,53 @@
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
+      <h4><a class="xref" href="KubeOps.Operator.Webhooks.AdmissionResult.html">AdmissionResult</a></h4>
+      <section><p>Definition of an admission result for <a class="xref" href="KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html">IAdmissionWebhook&lt;TEntity, TResult&gt;</a>.</p>
+</section>
+      <h4><a class="xref" href="KubeOps.Operator.Webhooks.MutationResult.html">MutationResult</a></h4>
+      <section><p>Result that should be returned to kubernetes.
+This result gets translated to a result object that is then transmitted to kubernetes.
+Describes results of an <a class="xref" href="KubeOps.Operator.Webhooks.IMutationWebhook-1.html">IMutationWebhook&lt;TEntity&gt;</a>.</p>
+</section>
       <h4><a class="xref" href="KubeOps.Operator.Webhooks.ValidationResult.html">ValidationResult</a></h4>
       <section><p>Result that should be returned to kubernetes.
-This result gets translated to a result object that is then transmitted to kubernetes.</p>
+This result gets translated to a result object that is then transmitted to kubernetes.
+Describes results of an <a class="xref" href="KubeOps.Operator.Webhooks.IValidationWebhook-1.html">IValidationWebhook&lt;TEntity&gt;</a>.</p>
 </section>
     <h3 id="interfaces">Interfaces
   </h3>
+      <h4><a class="xref" href="KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html">IAdmissionWebhook&lt;TEntity, TResult&gt;</a></h4>
+      <section><p>Base interface for all admission webhooks.</p>
+</section>
+      <h4><a class="xref" href="KubeOps.Operator.Webhooks.IMutationWebhook-1.html">IMutationWebhook&lt;TEntity&gt;</a></h4>
+      <section><p>
+Mutation webhook for kubernetes.
+This is used by the <a href="https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/">https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/</a>.
+Implement a class with this interface, overwrite the needed functions.
+</p>
+<p>
+If there are <em>any</em> webhooks registered in the system, the build process
+will create the needed certificates for the CA and the service for the
+application to run.
+</p>
+<p>
+All methods have a default implementation. They <em>MUST</em> return in 10s, otherwise kubernetes will fail the call.
+The async methods do call the sync ones and the sync ones
+return a &quot;not implemented&quot; result by default.
+</p>
+<p>
+Overwrite the needed ones as defined in <a class="xref" href="KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html#KubeOps_Operator_Webhooks_IAdmissionWebhook_2_Operations">Operations</a>.
+The async implementations take precedence over the synchronous ones.
+</p>
+<p>
+Note that the operator must use HTTPS (in some form) to use mutators.
+For local development, this could be done with ngrok (<a href="https://ngrok.com/">https://ngrok.com/</a>).
+</p>
+<p>
+The operator generator (if enabled during build) will generate the CA certificate
+and the operator will generate the server certificate during pod startup.
+</p>
+</section>
       <h4><a class="xref" href="KubeOps.Operator.Webhooks.IValidationWebhook-1.html">IValidationWebhook&lt;TEntity&gt;</a></h4>
       <section><p>
 Validation webhook for kubernetes.
@@ -354,7 +407,7 @@ The async methods do call the sync ones and the sync ones
 return a &quot;not implemented&quot; result by default.
 </p>
 <p>
-Overwrite the needed ones as defined in <a class="xref" href="KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_Operations">Operations</a>.
+Overwrite the needed ones as defined in <a class="xref" href="KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html#KubeOps_Operator_Webhooks_IAdmissionWebhook_2_Operations">Operations</a>.
 The async implementations take precedence over the synchronous ones.
 </p>
 <p>
@@ -368,8 +421,8 @@ and the operator will generate the server certificate during pod startup.
 </section>
     <h3 id="enums">Enums
   </h3>
-      <h4><a class="xref" href="KubeOps.Operator.Webhooks.ValidatedOperations.html">ValidatedOperations</a></h4>
-      <section><p>Possible validator operations.
+      <h4><a class="xref" href="KubeOps.Operator.Webhooks.AdmissionOperations.html">AdmissionOperations</a></h4>
+      <section><p>Possible admission webhook operations.
 Those operations are watched by the kubernetes api and webhooks
 are called according to their registered operations.</p>
 </section>

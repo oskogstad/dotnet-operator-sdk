@@ -5,12 +5,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum ValidatedOperations
+    <title>Enum AdmissionOperations
    | KubeOps Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum ValidatedOperations
+    <meta name="title" content="Enum AdmissionOperations
    | KubeOps Documentation ">
-    <meta name="generator" content="docfx 2.56.6.0">
+    <meta name="generator" content="docfx 2.56.7.0">
     
     <link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -305,11 +305,23 @@
                       <a href="KubeOps.Operator.Webhooks.html" title="KubeOps.Operator.Webhooks" class="">KubeOps.Operator.Webhooks</a>
                         
                         <ul class="nav level2">
+                          <li class="active">
+                            <a href="KubeOps.Operator.Webhooks.AdmissionOperations.html" title="AdmissionOperations" class="active">AdmissionOperations</a>
+                          </li>
+                          <li class="">
+                            <a href="KubeOps.Operator.Webhooks.AdmissionResult.html" title="AdmissionResult" class="">AdmissionResult</a>
+                          </li>
+                          <li class="">
+                            <a href="KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html" title="IAdmissionWebhook&lt;TEntity, TResult&gt;" class="">IAdmissionWebhook&lt;TEntity, TResult&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="KubeOps.Operator.Webhooks.IMutationWebhook-1.html" title="IMutationWebhook&lt;TEntity&gt;" class="">IMutationWebhook&lt;TEntity&gt;</a>
+                          </li>
                           <li class="">
                             <a href="KubeOps.Operator.Webhooks.IValidationWebhook-1.html" title="IValidationWebhook&lt;TEntity&gt;" class="">IValidationWebhook&lt;TEntity&gt;</a>
                           </li>
-                          <li class="active">
-                            <a href="KubeOps.Operator.Webhooks.ValidatedOperations.html" title="ValidatedOperations" class="active">ValidatedOperations</a>
+                          <li class="">
+                            <a href="KubeOps.Operator.Webhooks.MutationResult.html" title="MutationResult" class="">MutationResult</a>
                           </li>
                           <li class="">
                             <a href="KubeOps.Operator.Webhooks.ValidationResult.html" title="ValidationResult" class="">ValidationResult</a>
@@ -322,22 +334,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="KubeOps.Operator.Webhooks.ValidatedOperations">
+            <article class="content wrap" id="_content" data-uid="KubeOps.Operator.Webhooks.AdmissionOperations">
   
   
-  <h1 id="KubeOps_Operator_Webhooks_ValidatedOperations" data-uid="KubeOps.Operator.Webhooks.ValidatedOperations" class="text-break">Enum ValidatedOperations
+  <h1 id="KubeOps_Operator_Webhooks_AdmissionOperations" data-uid="KubeOps.Operator.Webhooks.AdmissionOperations" class="text-break">Enum AdmissionOperations
   </h1>
-  <div class="markdown level0 summary"><p>Possible validator operations.
+  <div class="markdown level0 summary"><p>Possible admission webhook operations.
 Those operations are watched by the kubernetes api and webhooks
 are called according to their registered operations.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="KubeOps.Operator.Webhooks.html">KubeOps.Operator.Webhooks</a></h6>
   <h6><strong>Assembly</strong>: KubeOps.dll</h6>
-  <h5 id="KubeOps_Operator_Webhooks_ValidatedOperations_syntax">Syntax</h5>
+  <h5 id="KubeOps_Operator_Webhooks_AdmissionOperations_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Flags]
-public enum ValidatedOperations</code></pre>
+public enum AdmissionOperations</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -350,29 +362,29 @@ public enum ValidatedOperations</code></pre>
     <thead>
     <tbody>
       <tr>
-        <td id="KubeOps_Operator_Webhooks_ValidatedOperations_All">All</td>
+        <td id="KubeOps_Operator_Webhooks_AdmissionOperations_All">All</td>
         <td><p>All possible operations.</p>
 </td>
       </tr>
       <tr>
-        <td id="KubeOps_Operator_Webhooks_ValidatedOperations_Create">Create</td>
+        <td id="KubeOps_Operator_Webhooks_AdmissionOperations_Create">Create</td>
         <td><p>Create operations.
 This is fired when an entity is new.</p>
 </td>
       </tr>
       <tr>
-        <td id="KubeOps_Operator_Webhooks_ValidatedOperations_Delete">Delete</td>
+        <td id="KubeOps_Operator_Webhooks_AdmissionOperations_Delete">Delete</td>
         <td><p>Delete operations.
 This is fired when an entity gets deleted from the api.</p>
 </td>
       </tr>
       <tr>
-        <td id="KubeOps_Operator_Webhooks_ValidatedOperations_None">None</td>
+        <td id="KubeOps_Operator_Webhooks_AdmissionOperations_None">None</td>
         <td><p>Default value of &quot;none&quot;.</p>
 </td>
       </tr>
       <tr>
-        <td id="KubeOps_Operator_Webhooks_ValidatedOperations_Update">Update</td>
+        <td id="KubeOps_Operator_Webhooks_AdmissionOperations_Update">Update</td>
         <td><p>Update operations.
 This is fired when an entity is updated (e.g. kubectl edit ...).</p>
 </td>
@@ -387,10 +399,10 @@ This is fired when an entity is updated (e.g. kubectl edit ...).</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Webhooks_ValidatedOperations.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Webhooks.ValidatedOperations%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Webhooks_AdmissionOperations.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Webhooks.AdmissionOperations%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/ValidatedOperations.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/AdmissionOperations.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

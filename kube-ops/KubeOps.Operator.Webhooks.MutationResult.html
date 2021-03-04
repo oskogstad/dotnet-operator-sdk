@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class OperatorSettings
+    <title>Class MutationResult
    | KubeOps Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class OperatorSettings
+    <meta name="title" content="Class MutationResult
    | KubeOps Documentation ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -98,8 +98,8 @@
                           <li class="">
                             <a href="KubeOps.Operator.HostExtensions.html" title="HostExtensions" class="">HostExtensions</a>
                           </li>
-                          <li class="active">
-                            <a href="KubeOps.Operator.OperatorSettings.html" title="OperatorSettings" class="active">OperatorSettings</a>
+                          <li class="">
+                            <a href="KubeOps.Operator.OperatorSettings.html" title="OperatorSettings" class="">OperatorSettings</a>
                           </li>
                           <li class="">
                             <a href="KubeOps.Operator.ServiceCollectionExtensions.html" title="ServiceCollectionExtensions" class="">ServiceCollectionExtensions</a>
@@ -320,8 +320,8 @@
                           <li class="">
                             <a href="KubeOps.Operator.Webhooks.IValidationWebhook-1.html" title="IValidationWebhook&lt;TEntity&gt;" class="">IValidationWebhook&lt;TEntity&gt;</a>
                           </li>
-                          <li class="">
-                            <a href="KubeOps.Operator.Webhooks.MutationResult.html" title="MutationResult" class="">MutationResult</a>
+                          <li class="active">
+                            <a href="KubeOps.Operator.Webhooks.MutationResult.html" title="MutationResult" class="active">MutationResult</a>
                           </li>
                           <li class="">
                             <a href="KubeOps.Operator.Webhooks.ValidationResult.html" title="ValidationResult" class="">ValidationResult</a>
@@ -334,18 +334,21 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="KubeOps.Operator.OperatorSettings">
+            <article class="content wrap" id="_content" data-uid="KubeOps.Operator.Webhooks.MutationResult">
   
   
-  <h1 id="KubeOps_Operator_OperatorSettings" data-uid="KubeOps.Operator.OperatorSettings" class="text-break">Class OperatorSettings
+  <h1 id="KubeOps_Operator_Webhooks_MutationResult" data-uid="KubeOps.Operator.Webhooks.MutationResult" class="text-break">Class MutationResult
   </h1>
-  <div class="markdown level0 summary"><p>Operator settings.</p>
+  <div class="markdown level0 summary"><p>Result that should be returned to kubernetes.
+This result gets translated to a result object that is then transmitted to kubernetes.
+Describes results of an <a class="xref" href="KubeOps.Operator.Webhooks.IMutationWebhook-1.html">IMutationWebhook&lt;TEntity&gt;</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">OperatorSettings</span></div>
+    <div class="level1"><a class="xref" href="KubeOps.Operator.Webhooks.AdmissionResult.html">AdmissionResult</a></div>
+    <div class="level2"><span class="xref">MutationResult</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -371,32 +374,52 @@
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="KubeOps.Operator.html">KubeOps.Operator</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="KubeOps.Operator.Webhooks.html">KubeOps.Operator.Webhooks</a></h6>
   <h6><strong>Assembly</strong>: KubeOps.dll</h6>
-  <h5 id="KubeOps_Operator_OperatorSettings_syntax">Syntax</h5>
+  <h5 id="KubeOps_Operator_Webhooks_MutationResult_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class OperatorSettings</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class MutationResult : AdmissionResult</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_LeaderElectionCheckInterval.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.LeaderElectionCheckInterval%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Webhooks_MutationResult_Modified_System_Object_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Webhooks.MutationResult.Modified(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L57">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/MutationResult.cs/#L28">View Source</a>
   </span>
-  <a id="KubeOps_Operator_OperatorSettings_LeaderElectionCheckInterval_" data-uid="KubeOps.Operator.OperatorSettings.LeaderElectionCheckInterval*"></a>
-  <h4 id="KubeOps_Operator_OperatorSettings_LeaderElectionCheckInterval" data-uid="KubeOps.Operator.OperatorSettings.LeaderElectionCheckInterval">LeaderElectionCheckInterval</h4>
-  <div class="markdown level1 summary"><p>The interval in seconds in which this particular instance of the operator
-will check for leader election.</p>
+  <a id="KubeOps_Operator_Webhooks_MutationResult_Modified_" data-uid="KubeOps.Operator.Webhooks.MutationResult.Modified*"></a>
+  <h4 id="KubeOps_Operator_Webhooks_MutationResult_Modified_System_Object_" data-uid="KubeOps.Operator.Webhooks.MutationResult.Modified(System.Object)">Modified(Object)</h4>
+  <div class="markdown level1 summary"><p>Utility method that creates a return value that indicates that changes were made
+to the object that must be patched.
+This creates a json patch (<a href="http://jsonpatch.com/">jsonpatch.com</a>)
+that describes the diff from the original object to the modified object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ushort LeaderElectionCheckInterval { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static MutationResult Modified(object modifiedEntity)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">modifiedEntity</span></td>
+        <td><p>The modified object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -406,28 +429,29 @@ will check for leader election.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint16">UInt16</a></td>
-        <td></td>
+        <td><a class="xref" href="KubeOps.Operator.Webhooks.MutationResult.html">MutationResult</a></td>
+        <td><p>A <a class="xref" href="KubeOps.Operator.Webhooks.MutationResult.html">MutationResult</a> with a modified object.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_LeaderElectionLeaseDuration.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.LeaderElectionLeaseDuration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Webhooks_MutationResult_NoChanges.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Webhooks.MutationResult.NoChanges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L62">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/MutationResult.cs/#L18">View Source</a>
   </span>
-  <a id="KubeOps_Operator_OperatorSettings_LeaderElectionLeaseDuration_" data-uid="KubeOps.Operator.OperatorSettings.LeaderElectionLeaseDuration*"></a>
-  <h4 id="KubeOps_Operator_OperatorSettings_LeaderElectionLeaseDuration" data-uid="KubeOps.Operator.OperatorSettings.LeaderElectionLeaseDuration">LeaderElectionLeaseDuration</h4>
-  <div class="markdown level1 summary"><p>The duration in seconds in which the leader lease is valid.</p>
+  <a id="KubeOps_Operator_Webhooks_MutationResult_NoChanges_" data-uid="KubeOps.Operator.Webhooks.MutationResult.NoChanges*"></a>
+  <h4 id="KubeOps_Operator_Webhooks_MutationResult_NoChanges" data-uid="KubeOps.Operator.Webhooks.MutationResult.NoChanges">NoChanges()</h4>
+  <div class="markdown level1 summary"><p>Utility method that creates a return value that indicates that no changes must be applied.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ushort LeaderElectionLeaseDuration { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static MutationResult NoChanges()</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -437,242 +461,9 @@ will check for leader election.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint16">UInt16</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_LivenessEndpoint.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.LivenessEndpoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L46">View Source</a>
-  </span>
-  <a id="KubeOps_Operator_OperatorSettings_LivenessEndpoint_" data-uid="KubeOps.Operator.OperatorSettings.LivenessEndpoint*"></a>
-  <h4 id="KubeOps_Operator_OperatorSettings_LivenessEndpoint" data-uid="KubeOps.Operator.OperatorSettings.LivenessEndpoint">LivenessEndpoint</h4>
-  <div class="markdown level1 summary"><p>The http endpoint, where the liveness probes are exposed.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string LivenessEndpoint { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_MetricsEndpoint.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.MetricsEndpoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L41">View Source</a>
-  </span>
-  <a id="KubeOps_Operator_OperatorSettings_MetricsEndpoint_" data-uid="KubeOps.Operator.OperatorSettings.MetricsEndpoint*"></a>
-  <h4 id="KubeOps_Operator_OperatorSettings_MetricsEndpoint" data-uid="KubeOps.Operator.OperatorSettings.MetricsEndpoint">MetricsEndpoint</h4>
-  <div class="markdown level1 summary"><p>The http endpoint, where the metrics are exposed.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string MetricsEndpoint { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_Name.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L18">View Source</a>
-  </span>
-  <a id="KubeOps_Operator_OperatorSettings_Name_" data-uid="KubeOps.Operator.OperatorSettings.Name*"></a>
-  <h4 id="KubeOps_Operator_OperatorSettings_Name" data-uid="KubeOps.Operator.OperatorSettings.Name">Name</h4>
-  <div class="markdown level1 summary"><p>The name of the operator that appears in logs and other elements.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_Namespace.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.Namespace%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L36">View Source</a>
-  </span>
-  <a id="KubeOps_Operator_OperatorSettings_Namespace_" data-uid="KubeOps.Operator.OperatorSettings.Namespace*"></a>
-  <h4 id="KubeOps_Operator_OperatorSettings_Namespace" data-uid="KubeOps.Operator.OperatorSettings.Namespace">Namespace</h4>
-  <div class="markdown level1 summary"><p>
-Controls the namespace which is watched by the operator.
-If this field is left <code>null</code>, all namespaces are watched for
-CRD instances.
-</p>
-<p>
-The namespace could be passed to the software via environment
-variable or can be fetched via the <span class="xref">DotnetKubernetesClient.IKubernetesClient.GetCurrentNamespace(System.String)</span>
-method of the <span class="xref">DotnetKubernetesClient.IKubernetesClient</span>.
-</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Namespace { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_PreloadCache.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.PreloadCache%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L80">View Source</a>
-  </span>
-  <a id="KubeOps_Operator_OperatorSettings_PreloadCache_" data-uid="KubeOps.Operator.OperatorSettings.PreloadCache*"></a>
-  <h4 id="KubeOps_Operator_OperatorSettings_PreloadCache" data-uid="KubeOps.Operator.OperatorSettings.PreloadCache">PreloadCache</h4>
-  <div class="markdown level1 summary"><p>
-If set to true, controllers perform a search for already
-existing objects in the cluster and load them into the objects cache.
-</p>
-<p>
-This bears the risk of not catching elements when they are created
-during downtime of the operator.
-</p>
-<p>The search will be performed on each &quot;Start&quot; of the controller.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool PreloadCache { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_ReadinessEndpoint.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.ReadinessEndpoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L51">View Source</a>
-  </span>
-  <a id="KubeOps_Operator_OperatorSettings_ReadinessEndpoint_" data-uid="KubeOps.Operator.OperatorSettings.ReadinessEndpoint*"></a>
-  <h4 id="KubeOps_Operator_OperatorSettings_ReadinessEndpoint" data-uid="KubeOps.Operator.OperatorSettings.ReadinessEndpoint">ReadinessEndpoint</h4>
-  <div class="markdown level1 summary"><p>The http endpoint, where the readiness probes are exposed.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ReadinessEndpoint { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings_WatcherHttpTimeout.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings.WatcherHttpTimeout%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L67">View Source</a>
-  </span>
-  <a id="KubeOps_Operator_OperatorSettings_WatcherHttpTimeout_" data-uid="KubeOps.Operator.OperatorSettings.WatcherHttpTimeout*"></a>
-  <h4 id="KubeOps_Operator_OperatorSettings_WatcherHttpTimeout" data-uid="KubeOps.Operator.OperatorSettings.WatcherHttpTimeout">WatcherHttpTimeout</h4>
-  <div class="markdown level1 summary"><p>The timeout in seconds which the watcher has (after this timeout, the server will close the connection).</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ushort WatcherHttpTimeout { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint16">UInt16</a></td>
-        <td></td>
+        <td><a class="xref" href="KubeOps.Operator.Webhooks.MutationResult.html">MutationResult</a></td>
+        <td><p>A <a class="xref" href="KubeOps.Operator.Webhooks.MutationResult.html">MutationResult</a> with no changes.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -684,10 +475,10 @@ during downtime of the operator.
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_OperatorSettings.md&amp;value=---%0Auid%3A%20KubeOps.Operator.OperatorSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Webhooks_MutationResult.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Webhooks.MutationResult%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/OperatorSettings.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/MutationResult.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

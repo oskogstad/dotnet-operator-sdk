@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IResourceFinalizer&lt;TEntity&gt;
    | KubeOps Documentation ">
-    <meta name="generator" content="docfx 2.56.6.0">
+    <meta name="generator" content="docfx 2.56.7.0">
     
     <link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -306,10 +306,22 @@
                         
                         <ul class="nav level2">
                           <li class="">
+                            <a href="KubeOps.Operator.Webhooks.AdmissionOperations.html" title="AdmissionOperations" class="">AdmissionOperations</a>
+                          </li>
+                          <li class="">
+                            <a href="KubeOps.Operator.Webhooks.AdmissionResult.html" title="AdmissionResult" class="">AdmissionResult</a>
+                          </li>
+                          <li class="">
+                            <a href="KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html" title="IAdmissionWebhook&lt;TEntity, TResult&gt;" class="">IAdmissionWebhook&lt;TEntity, TResult&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="KubeOps.Operator.Webhooks.IMutationWebhook-1.html" title="IMutationWebhook&lt;TEntity&gt;" class="">IMutationWebhook&lt;TEntity&gt;</a>
+                          </li>
+                          <li class="">
                             <a href="KubeOps.Operator.Webhooks.IValidationWebhook-1.html" title="IValidationWebhook&lt;TEntity&gt;" class="">IValidationWebhook&lt;TEntity&gt;</a>
                           </li>
                           <li class="">
-                            <a href="KubeOps.Operator.Webhooks.ValidatedOperations.html" title="ValidatedOperations" class="">ValidatedOperations</a>
+                            <a href="KubeOps.Operator.Webhooks.MutationResult.html" title="MutationResult" class="">MutationResult</a>
                           </li>
                           <li class="">
                             <a href="KubeOps.Operator.Webhooks.ValidationResult.html" title="ValidationResult" class="">ValidationResult</a>
@@ -406,7 +418,7 @@ Defaults to <code>&amp;quot;{Typename}.{crd.Singular}.finalizers.{crd.Group}&amp
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task FinalizeAsync(TEntity resource)</code></pre>
+    <pre><code class="lang-csharp hljs">Task FinalizeAsync(TEntity entity)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -420,8 +432,8 @@ Defaults to <code>&amp;quot;{Typename}.{crd.Singular}.finalizers.{crd.Group}&amp
     <tbody>
       <tr>
         <td><span class="xref">TEntity</span></td>
-        <td><span class="parametername">resource</span></td>
-        <td><p>The kubernetes resource that needs to be finalized.</p>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The kubernetes entity that needs to be finalized.</p>
 </td>
       </tr>
     </tbody>

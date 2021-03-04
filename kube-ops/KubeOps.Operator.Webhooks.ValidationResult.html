@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ValidationResult
    | KubeOps Documentation ">
-    <meta name="generator" content="docfx 2.56.6.0">
+    <meta name="generator" content="docfx 2.56.7.0">
     
     <link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -306,10 +306,22 @@
                         
                         <ul class="nav level2">
                           <li class="">
+                            <a href="KubeOps.Operator.Webhooks.AdmissionOperations.html" title="AdmissionOperations" class="">AdmissionOperations</a>
+                          </li>
+                          <li class="">
+                            <a href="KubeOps.Operator.Webhooks.AdmissionResult.html" title="AdmissionResult" class="">AdmissionResult</a>
+                          </li>
+                          <li class="">
+                            <a href="KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html" title="IAdmissionWebhook&lt;TEntity, TResult&gt;" class="">IAdmissionWebhook&lt;TEntity, TResult&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="KubeOps.Operator.Webhooks.IMutationWebhook-1.html" title="IMutationWebhook&lt;TEntity&gt;" class="">IMutationWebhook&lt;TEntity&gt;</a>
+                          </li>
+                          <li class="">
                             <a href="KubeOps.Operator.Webhooks.IValidationWebhook-1.html" title="IValidationWebhook&lt;TEntity&gt;" class="">IValidationWebhook&lt;TEntity&gt;</a>
                           </li>
                           <li class="">
-                            <a href="KubeOps.Operator.Webhooks.ValidatedOperations.html" title="ValidatedOperations" class="">ValidatedOperations</a>
+                            <a href="KubeOps.Operator.Webhooks.MutationResult.html" title="MutationResult" class="">MutationResult</a>
                           </li>
                           <li class="active">
                             <a href="KubeOps.Operator.Webhooks.ValidationResult.html" title="ValidationResult" class="active">ValidationResult</a>
@@ -328,13 +340,15 @@
   <h1 id="KubeOps_Operator_Webhooks_ValidationResult" data-uid="KubeOps.Operator.Webhooks.ValidationResult" class="text-break">Class ValidationResult
   </h1>
   <div class="markdown level0 summary"><p>Result that should be returned to kubernetes.
-This result gets translated to a result object that is then transmitted to kubernetes.</p>
+This result gets translated to a result object that is then transmitted to kubernetes.
+Describes results of an <a class="xref" href="KubeOps.Operator.Webhooks.IValidationWebhook-1.html">IValidationWebhook&lt;TEntity&gt;</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">ValidationResult</span></div>
+    <div class="level1"><a class="xref" href="KubeOps.Operator.Webhooks.AdmissionResult.html">AdmissionResult</a></div>
+    <div class="level2"><span class="xref">ValidationResult</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -364,137 +378,8 @@ This result gets translated to a result object that is then transmitted to kuber
   <h6><strong>Assembly</strong>: KubeOps.dll</h6>
   <h5 id="KubeOps_Operator_Webhooks_ValidationResult_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class ValidationResult</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class ValidationResult : AdmissionResult</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Webhooks_ValidationResult_StatusCode.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Webhooks.ValidationResult.StatusCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/ValidationResult.cs/#L29">View Source</a>
-  </span>
-  <a id="KubeOps_Operator_Webhooks_ValidationResult_StatusCode_" data-uid="KubeOps.Operator.Webhooks.ValidationResult.StatusCode*"></a>
-  <h4 id="KubeOps_Operator_Webhooks_ValidationResult_StatusCode" data-uid="KubeOps.Operator.Webhooks.ValidationResult.StatusCode">StatusCode</h4>
-  <div class="markdown level1 summary"><p>If &quot;invalid&quot;, the validator can customize the returned HTTP status code here.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? StatusCode { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Webhooks_ValidationResult_StatusMessage.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Webhooks.ValidationResult.StatusMessage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/ValidationResult.cs/#L34">View Source</a>
-  </span>
-  <a id="KubeOps_Operator_Webhooks_ValidationResult_StatusMessage_" data-uid="KubeOps.Operator.Webhooks.ValidationResult.StatusMessage*"></a>
-  <h4 id="KubeOps_Operator_Webhooks_ValidationResult_StatusMessage" data-uid="KubeOps.Operator.Webhooks.ValidationResult.StatusMessage">StatusMessage</h4>
-  <div class="markdown level1 summary"><p>If &quot;invalid&quot;, the validator can customize the returned error message here.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string StatusMessage { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Webhooks_ValidationResult_Valid.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Webhooks.ValidationResult.Valid%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/ValidationResult.cs/#L16">View Source</a>
-  </span>
-  <a id="KubeOps_Operator_Webhooks_ValidationResult_Valid_" data-uid="KubeOps.Operator.Webhooks.ValidationResult.Valid*"></a>
-  <h4 id="KubeOps_Operator_Webhooks_ValidationResult_Valid" data-uid="KubeOps.Operator.Webhooks.ValidationResult.Valid">Valid</h4>
-  <div class="markdown level1 summary"><p>Indicates if the result of the validation is &quot;valid&quot; or &quot;invalid&quot;.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Valid { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Webhooks_ValidationResult_Warnings.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Webhooks.ValidationResult.Warnings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/ValidationResult.cs/#L24">View Source</a>
-  </span>
-  <a id="KubeOps_Operator_Webhooks_ValidationResult_Warnings_" data-uid="KubeOps.Operator.Webhooks.ValidationResult.Warnings*"></a>
-  <h4 id="KubeOps_Operator_Webhooks_ValidationResult_Warnings" data-uid="KubeOps.Operator.Webhooks.ValidationResult.Warnings">Warnings</h4>
-  <div class="markdown level1 summary"><p>Despite being &quot;valid&quot;, the validation can add a list of warnings to the user.
-If this is not yet supported by the cluster, the field is ignored.
-Warnings may contain up to 256 characters but they should be limited to 120 characters.
-If more than 4096 characters are submitted, additional messages are ignored.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IList&lt;string&gt; Warnings { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
@@ -502,7 +387,7 @@ If more than 4096 characters are submitted, additional messages are ignored.</p>
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Webhooks_ValidationResult_Fail.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Webhooks.ValidationResult.Fail%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/ValidationResult.cs/#L48">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/ValidationResult.cs/#L22">View Source</a>
   </span>
   <a id="KubeOps_Operator_Webhooks_ValidationResult_Fail_" data-uid="KubeOps.Operator.Webhooks.ValidationResult.Fail*"></a>
   <h4 id="KubeOps_Operator_Webhooks_ValidationResult_Fail" data-uid="KubeOps.Operator.Webhooks.ValidationResult.Fail">Fail()</h4>
@@ -534,7 +419,7 @@ If more than 4096 characters are submitted, additional messages are ignored.</p>
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Webhooks_ValidationResult_Fail_System_Int32_System_String_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Webhooks.ValidationResult.Fail(System.Int32%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/ValidationResult.cs/#L57">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/ValidationResult.cs/#L31">View Source</a>
   </span>
   <a id="KubeOps_Operator_Webhooks_ValidationResult_Fail_" data-uid="KubeOps.Operator.Webhooks.ValidationResult.Fail*"></a>
   <h4 id="KubeOps_Operator_Webhooks_ValidationResult_Fail_System_Int32_System_String_" data-uid="KubeOps.Operator.Webhooks.ValidationResult.Fail(System.Int32,System.String)">Fail(Int32, String)</h4>
@@ -591,7 +476,7 @@ and status message.</p>
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Webhooks_ValidationResult_Success_System_String___.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Webhooks.ValidationResult.Success(System.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/ValidationResult.cs/#L42">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/ValidationResult.cs/#L16">View Source</a>
   </span>
   <a id="KubeOps_Operator_Webhooks_ValidationResult_Success_" data-uid="KubeOps.Operator.Webhooks.ValidationResult.Success*"></a>
   <h4 id="KubeOps_Operator_Webhooks_ValidationResult_Success_System_String___" data-uid="KubeOps.Operator.Webhooks.ValidationResult.Success(System.String[])">Success(String[])</h4>
@@ -648,7 +533,7 @@ list of warnings.</p>
                     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Webhooks_ValidationResult.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Webhooks.ValidationResult%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/ValidationResult.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/ValidationResult.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
