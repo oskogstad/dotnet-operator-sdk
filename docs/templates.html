@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>MS Build extensions | KubeOps Documentation </title>
+    <title>Dotnet New Templates | KubeOps Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="MS Build extensions | KubeOps Documentation ">
+    <meta name="title" content="Dotnet New Templates | KubeOps Documentation ">
     <meta name="generator" content="docfx 2.57.2.0">
     
     <link rel="shortcut icon" href="../images/favicon.png">
@@ -115,14 +115,14 @@
                     <li class="">
                       <a href="commands.html" title="CLI Commands" class="">CLI Commands</a>
                     </li>
-                    <li class="active">
-                      <a href="ms_build.html" title="MS Build extensions" class="active">MS Build extensions</a>
+                    <li class="">
+                      <a href="ms_build.html" title="MS Build extensions" class="">MS Build extensions</a>
                     </li>
                     <li class="">
                       <a href="testing.html" title="Testing" class="">Testing</a>
                     </li>
-                    <li class="">
-                      <a href="templates.html" title="Dotnet New Templates" class="">Dotnet New Templates</a>
+                    <li class="active">
+                      <a href="templates.html" title="Dotnet New Templates" class="active">Dotnet New Templates</a>
                     </li>
                   </ul>        </div>
               </div>
@@ -132,130 +132,55 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="ms-build-extensions">MS Build extensions</h1>
+<h1 id="dotnet-new-templates">Dotnet New Templates</h1>
 
-<p>This project extends the default build process of dotnet with some
-code generation targets after the build.</p>
-<p>You&#39;ll find the configurations and targets here:</p>
+<p>To use the operator SDK as easy as possible, there exists a
+<a href="https://www.nuget.org/packages/KubeOps.Templates">Nuget Package</a>
+that contains <code>dotnet new</code> templates.
+These templates enable developers to create Kubernetes operators.</p>
+<h2 id="installation">Installation</h2>
+<p>To install the template package, use the <code>dotnet</code> cli
+(or you may use the exact version as provided in the link above):</p>
+<pre><code class="lang-bash">dotnet new --install KubeOps.Templates::*
+</code></pre><p>As soon as the templates are installed, you may use them with:</p>
+<pre><code class="lang-bash">dotnet new operator
+#or
+dotnet new operator-empty
+</code></pre><p>Note that several of the templates are available in multiple languages
+of the .NET framework (i.e. C# and F#) and you may switch the
+language with the <code>-lang</code> flag of <code>dotnet new</code>.</p>
+<h2 id="templates">Templates</h2>
+<h3 id="empty-operator">Empty Operator</h3>
+<p><em>Available Languages</em>: C#, F#</p>
+<p><em>Type</em>: Generate a project</p>
+<p><em>Templatename</em>: <code>operator-empty</code></p>
+<p><em>Example installation</em>: <code>dotnet new -n MyOperator operator-empty</code></p>
+<p><em>Description</em>:
+This template contains the well known <code>Program.cs</code>
+and <code>Startup.cs</code> files of any other <code>ASP.NET</code> project
+and configures the startup file to use KubeObs.
+No additional code is provided.</p>
+<h3 id="demo-operator">Demo Operator</h3>
+<p><em>Available Languages</em>: C#, F#</p>
+<p><em>Type</em>: Generate a project</p>
+<p><em>Templatename</em>: <code>operator</code></p>
+<p><em>Example installation</em>: <code>dotnet new -n MyOperator operator</code></p>
+<p><em>Description</em>:
+This template contains the well known <code>Program.cs</code>
+and <code>Startup.cs</code> files of any other <code>ASP.NET</code> project
+and configures the startup file to use KubeObs.
+In addition to the empty operator, an example file
+for each &quot;concept&quot; is provided. You&#39;ll find an
+example implementation of:</p>
 <ul>
-<li><a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Build/KubeOps.targets">KubeOps.targets</a>: defines the additional build targets</li>
+<li>A resource controller</li>
+<li>A custom entity (that generates a CRD)</li>
+<li>A finalizer</li>
+<li>A validation webhook</li>
+<li>A mutation webhook</li>
 </ul>
-<p>An example of such a target is:</p>
-<pre><code class="lang-xml" name="KubeOps.targets" highlight-lines="2-7">&lt;Target Name=&quot;GenerateDockerfile&quot; DependsOnTargets=&quot;BaseConfig&quot;&gt;
-    &lt;Message Text=&quot;Generating Dockerfile&quot; Importance=&quot;high&quot; /&gt;
-    &lt;Message Text=&quot;Dockerfile path: $(KubeOpsDockerfilePath)&quot; Importance=&quot;normal&quot; /&gt;
-
-    &lt;Message Condition=&quot;Exists(&#39;$(KubeOpsDockerfilePath)&#39;)&quot; Text=&quot;Dockerfile already exists. Don&#39;t overwrite.&quot;
-             Importance=&quot;high&quot; /&gt;
-    &lt;Exec Condition=&quot;!Exists(&#39;$(KubeOpsDockerfilePath)&#39;)&quot;
-          Command=&quot;dotnet $(OutputPath)$(TargetFileName) generator docker --out $(KubeOpsDockerfilePath) --dotnet-tag $(KubeOpsDockerTag) --solution-dir $(SolutionDir) --target-file $(TargetFileName) --project-path $(ProjectPath)&quot; /&gt;
-&lt;/Target&gt;
-</code></pre><p>They can be configured with the prop settings described below.
-The props file just defines the defaults.</p>
-<h2 id="prop-settings">Prop Settings</h2>
-<p>You can overwrite the default behaviour of the building parts with the following
-variables that you can add in a <code>&lt;PropertyGroup&gt;</code> in your <code>csproj</code> file:</p>
-<table>
-<thead>
-<tr>
-<th>Property</th>
-<th>Description</th>
-<th>Default Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>KubeOpsBasePath</td>
-<td>Base path for all other elements</td>
-<td><code>$(MSBuildProjectDirectory)</code></td>
-</tr>
-<tr>
-<td>KubeOpsDockerfilePath</td>
-<td>The path of the dockerfile</td>
-<td><code>$(KubeOpsBasePath)\Dockerfile</code></td>
-</tr>
-<tr>
-<td>KubeOpsDockerTag</td>
-<td>Which dotnet sdk / run tag should be used</td>
-<td><code>latest</code></td>
-</tr>
-<tr>
-<td>KubeOpsConfigRoot</td>
-<td>The base directory for generated elements</td>
-<td><code>$(KubeOpsBasePath)\config</code></td>
-</tr>
-<tr>
-<td>KubeOpsCrdDir</td>
-<td>The directory for the generated crds</td>
-<td><code>$(KubeOpsConfigRoot)\crds</code></td>
-</tr>
-<tr>
-<td>KubeOpsCrdFormat</td>
-<td>Output format for crds</td>
-<td><code>Yaml</code></td>
-</tr>
-<tr>
-<td>KubeOpsCrdUseOldCrds</td>
-<td>Use V1Beta version of crd instead of V1<br>(for kubernetes version &lt; 1.16)</td>
-<td><code>false</code></td>
-</tr>
-<tr>
-<td>KubeOpsRbacDir</td>
-<td>Where to put the roles</td>
-<td><code>$(KubeOpsConfigRoot)\rbac</code></td>
-</tr>
-<tr>
-<td>KubeOpsRbacFormat</td>
-<td>Output format for rbac</td>
-<td><code>Yaml</code></td>
-</tr>
-<tr>
-<td>KubeOpsOperatorDir</td>
-<td>Where to put operator related elements<br>(e.g. Deployment)</td>
-<td><code>$(KubeOpsConfigRoot)\operator</code></td>
-</tr>
-<tr>
-<td>KubeOpsOperatorFormat</td>
-<td>Output format for the operator</td>
-<td><code>Yaml</code></td>
-</tr>
-<tr>
-<td>KubeOpsInstallerDir</td>
-<td>Where to put the installation files<br>(e.g. Namespace / Kustomization)</td>
-<td><code>$(KubeOpsConfigRoot)\install</code></td>
-</tr>
-<tr>
-<td>KubeOpsInstallerFormat</td>
-<td>Output format for the installation files</td>
-<td><code>Yaml</code></td>
-</tr>
-<tr>
-<td>KubeOpsSkipDockerfile</td>
-<td>Skip dockerfile during build</td>
-<td><code>&quot;&quot;</code></td>
-</tr>
-<tr>
-<td>KubeOpsSkipCrds</td>
-<td>Skip crd generation during build</td>
-<td><code>&quot;&quot;</code></td>
-</tr>
-<tr>
-<td>KubeOpsSkipRbac</td>
-<td>Skip rbac generation during build</td>
-<td><code>&quot;&quot;</code></td>
-</tr>
-<tr>
-<td>KubeOpsSkipOperator</td>
-<td>Skip operator generation during build</td>
-<td><code>&quot;&quot;</code></td>
-</tr>
-<tr>
-<td>KubeOpsSkipInstaller</td>
-<td>Skip installer generation during build</td>
-<td><code>&quot;&quot;</code></td>
-</tr>
-</tbody>
-</table>
+<p>This template is meant to show all possible elements
+of KubeOps in one go.</p>
 </article>
           </div>
           
@@ -264,7 +189,7 @@ variables that you can add in a <code>&lt;PropertyGroup&gt;</code> in your <code
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/docs/docs/ms_build.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/docs/docs/templates.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

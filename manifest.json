@@ -12,7 +12,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/commands.html",
-          "hash": "+TSKvYlhp/GRcNki4uoBlNilkAm/THAXPiCM5PpCa1E="
+          "hash": "99MTb7qumggZhM2wjIDfcFa1MHnW/v2U4ZlJWYYV9bI="
         }
       },
       "is_incremental": false,
@@ -24,7 +24,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/controller.html",
-          "hash": "67uiNV63Uw4+bQggZ/VYy53qQJb8kaARNfT3zQqEiFg="
+          "hash": "ylO3fa+6jyaN0zSt9i3b3WxO2iTrCaUZk8PxAdB3APQ="
         }
       },
       "is_incremental": false,
@@ -36,7 +36,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/entities.html",
-          "hash": "FAntbAqTUP6ZqIK2cWNFfW4DGmFklEE06Y5BmKdQgZ4="
+          "hash": "qRuqxqfiV8dlTs0CX4mLjE4jRjLUYV7frsRsYK0N2fE="
         }
       },
       "is_incremental": false,
@@ -48,7 +48,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/events.html",
-          "hash": "W4i4ujW2n7tiJNLOOpk7PDW5BVzRZTyIVCLaD8ixYnw="
+          "hash": "SBloAekIDFBM19nNY3wQBEz2yTTt02On/kzNw0tmuTw="
         }
       },
       "is_incremental": false,
@@ -60,7 +60,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/features.html",
-          "hash": "CjzrEIKomQPoc5r4JF3/SOXEXr01tPX1echAN6VVRv4="
+          "hash": "ks5j5pvhBNrxrUJQgoH/Hvy/LoAhrNwMPQFoW9Vjsck="
         }
       },
       "is_incremental": false,
@@ -72,7 +72,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/finalizer.html",
-          "hash": "Xzn5h/p2g9zXb0e6T9hW8Vo3EMO/CJ3xl0cNvMZqDy0="
+          "hash": "wCYWfQgpYwHvhVsBagyBZ7wof58LAAB32bnQjaE3uEk="
         }
       },
       "is_incremental": false,
@@ -84,7 +84,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/getting_started.html",
-          "hash": "yegRYcKs9SCQa25+TddmDeBo9IAaYLYdpq40mHZpUnQ="
+          "hash": "N4END1kb8mSp5okawZzpO4jjyOc+kfS61/X2xsxmDy0="
         }
       },
       "is_incremental": false,
@@ -96,7 +96,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/ms_build.html",
-          "hash": "K6BRasAd3F+BwEiVwtMsTGg2hYE/hOjqscmj+om0uJw="
+          "hash": "v0G1HM7GTYzo6A3arx4oG1V+Z2FFyHRfBbdc7Fx2MYk="
         }
       },
       "is_incremental": false,
@@ -108,7 +108,19 @@
       "output": {
         ".html": {
           "relative_path": "docs/settings.html",
-          "hash": "UaZgxGdc+A5W/Quf9WUDskMaNEhCHOjF3c2h9TqQYO4="
+          "hash": "IUBjaFX2ZMSNrVTfHDRSsVVgQxLulmvYZ1pMTpkH7Uo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/templates.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/templates.html",
+          "hash": "uUSZ7ochwkIpeiSgXm1BO4LHPsISi2mI4fuAp+TAJ+Y="
         }
       },
       "is_incremental": false,
@@ -120,7 +132,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/testing.html",
-          "hash": "VpFogusMe9YJrhOmWXma9lmche4zhiEYHkpsR1/upx8="
+          "hash": "og+E83Uh9Rv2RxvOGoDAG3IcwyZ6Vfvhd2H5bt4BNmM="
         }
       },
       "is_incremental": false,
@@ -132,7 +144,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/utilities.html",
-          "hash": "RidJ1AoOkdqTq8+H85e1aVENNexCGXGAZmw8C0aCC1s="
+          "hash": "NRMor1pkEQqzXrnyP3ae2fABPX51IxrVlj/sDIwiKLU="
         }
       },
       "is_incremental": false,
@@ -144,7 +156,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/webhooks.html",
-          "hash": "oRVhk6ZsnrGsDRXMHAvv412/NAIP2uJZYa1ESmZIqDs="
+          "hash": "eLFSfh4YYErNsEcE1j30DikxVv1wY6OT9vnhbvjweqA="
         }
       },
       "is_incremental": false,
@@ -1040,7 +1052,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 15,
+          "total_file_count": 16,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
