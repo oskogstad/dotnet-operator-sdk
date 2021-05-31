@@ -19,24 +19,30 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "UidNotFound"
+      ],
       "type": "Conceptual",
       "source_relative_path": "docs/controller.md",
       "output": {
         ".html": {
           "relative_path": "docs/controller.html",
-          "hash": "ylO3fa+6jyaN0zSt9i3b3WxO2iTrCaUZk8PxAdB3APQ="
+          "hash": "wxuAZ+EjmK1jMX3Q5VcsrtreLOOyNQNEuPCnkn+3Rk8="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "UidNotFound"
+      ],
       "type": "Conceptual",
       "source_relative_path": "docs/entities.md",
       "output": {
         ".html": {
           "relative_path": "docs/entities.html",
-          "hash": "qRuqxqfiV8dlTs0CX4mLjE4jRjLUYV7frsRsYK0N2fE="
+          "hash": "SuXFypG2nANPMaNUM3KixokctA5hla7ztJ/QFL0U+I8="
         }
       },
       "is_incremental": false,
@@ -48,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/events.html",
-          "hash": "SBloAekIDFBM19nNY3wQBEz2yTTt02On/kzNw0tmuTw="
+          "hash": "31USqkm7QLW4dUv9zKoSXtA+KfTfSujmY/OQUq7en2g="
         }
       },
       "is_incremental": false,
@@ -67,12 +73,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "UidNotFound"
+      ],
       "type": "Conceptual",
       "source_relative_path": "docs/finalizer.md",
       "output": {
         ".html": {
           "relative_path": "docs/finalizer.html",
-          "hash": "wCYWfQgpYwHvhVsBagyBZ7wof58LAAB32bnQjaE3uEk="
+          "hash": "AssLZk2wv5HhdH5wXPGikTLRzITrVtq1o0yljuVep9s="
         }
       },
       "is_incremental": false,
@@ -108,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/settings.html",
-          "hash": "IUBjaFX2ZMSNrVTfHDRSsVVgQxLulmvYZ1pMTpkH7Uo="
+          "hash": "g5BvGiC/XenWMHQumZe8NKH3wWw/PzMmiwypx1GTZOg="
         }
       },
       "is_incremental": false,
@@ -132,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/testing.html",
-          "hash": "og+E83Uh9Rv2RxvOGoDAG3IcwyZ6Vfvhd2H5bt4BNmM="
+          "hash": "kThOcliXZvAR17nQBI8hWhqklQZz1NRnkY5cNHKGKNo="
         }
       },
       "is_incremental": false,
@@ -144,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/utilities.html",
-          "hash": "NRMor1pkEQqzXrnyP3ae2fABPX51IxrVlj/sDIwiKLU="
+          "hash": "YTakNtQ09j/eTVaPcsY1SichSOmc9ijj+YRYoULFWec="
         }
       },
       "is_incremental": false,
@@ -156,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "docs/webhooks.html",
-          "hash": "eLFSfh4YYErNsEcE1j30DikxVv1wY6OT9vnhbvjweqA="
+          "hash": "tKs+vlf0PD3D/+oFr67Q4evsltz04W6OFGO9HWJOmoc="
         }
       },
       "is_incremental": false,
@@ -186,840 +195,12 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html",
-          "hash": "btPr2QFhxVObqQu9ekVkIJPWpPVZlhEKPR/mtDxbhgg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops-testing/KubeOps.Testing.MockKubernetesClient.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html",
-          "hash": "zQn1x18ajf69ovWnZ7COH0D4g1vIWdddkyrpjMDgIpU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops-testing/KubeOps.Testing.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops-testing/KubeOps.Testing.html",
-          "hash": "BHIx84LaX+DPjS3KfPTzkYvT46vgyzE/3F5Sk2r5Olo="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "kube-ops-testing/index.md",
       "output": {
         ".html": {
           "relative_path": "kube-ops-testing/index.html",
-          "hash": "iiF9jKw7ro7E8kQw+Yjsm/v+YtP1Ti218B4S4N//0Rk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.ApplicationBuilderExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.ApplicationBuilderExtensions.html",
-          "hash": "VQls+dhM8GZsTm4goMfEgMUHtYPB4fApGPl0CIgAgpk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html",
-          "hash": "rQqOcTLLU8y8pOwFnqUcoXJX0Y/S915PLCa77Vov23k="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Builder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Builder.html",
-          "hash": "Tq8JP/SP72FgD6UshREBO/facUuqZ8gHPB9vNlioxHg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Controller.IResourceController-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Controller.IResourceController-1.html",
-          "hash": "Vmgo8zkN6n9YjqmMee43OnLusTWduwv/hEhIxtK7lLI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html",
-          "hash": "dJTIkxNOiLJyUk8t10fvTf95dQTt1xrffu86pMxfc4Q="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Controller.Results.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Controller.Results.html",
-          "hash": "3iHk0sBWI3BKkgM0pWn8ZZiG/7+d1Je4O2PEgRJKJik="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Controller.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Controller.html",
-          "hash": "6XAOAL8Y29iKu1ptlkFnLLSQHaP8K+lQ3o4YwBmKdg0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.html",
-          "hash": "MYZLgZzimMDNILUk0D+Z1QBwX6AmUUkVxf8u0Vmw6Wo="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.DescriptionAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.DescriptionAttribute.html",
-          "hash": "htMK6J9QJe8JaLCOXGSGz1Ae4NMBM8a58c3Sg97wLSk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.EmbeddedResourceAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.EmbeddedResourceAttribute.html",
-          "hash": "Wrehw5fONDH7lm5OvAc063sODkzgFMPeNyRLexmxD/I="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.html",
-          "hash": "9780Ns++syl8cs/gY/xKKf8PbJ64XxNQg+puBRBKgV4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html",
-          "hash": "eTF6FEbgewUa4PNboQnEisWthaX+T513TcVViEMGYhM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.IgnoreEntityAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.IgnoreEntityAttribute.html",
-          "hash": "RAFJezsvPqP3spcYzuUmMngx9gnRLN+qBTJAMtjhkAE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.ItemsAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.ItemsAttribute.html",
-          "hash": "COC7aCRf7vxUlEpQgHIGczXxVyJbsWpeqo77usw/9jo="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.LengthAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.LengthAttribute.html",
-          "hash": "iR5llRZRrQT5CZm650cAcggAklr1jAxSW8MC69IOEEs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.html",
-          "hash": "J6VzO8Ul91FRFHZj6qy8mwwIbrlO9vsWIo1ZMimyt5w="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.PatternAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.PatternAttribute.html",
-          "hash": "uOJEGkEj3iThRfFZONH7Ot7WXenBTuokKDb86RfDLvk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.PreserveUnknownFieldsAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.PreserveUnknownFieldsAttribute.html",
-          "hash": "90VA+vSfZpBOXKqloe1BY6vbqee10uM0npOUnfGln1E="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.html",
-          "hash": "Bjn8fYiT6gtv3pESFtUe25TMpKFFUz1BwuzPZRNVL0I="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.html",
-          "hash": "s4VyipidZt62kxGyDesOVaYuk+wfENLo8jmMKbEDwD8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.RequiredAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.RequiredAttribute.html",
-          "hash": "hwjwIMozHgsYkVIEa7xS1U1nVYHwHN4O9DSv+k3qi94="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.StorageVersionAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.StorageVersionAttribute.html",
-          "hash": "LWv/DMbLFjClGXTNBl60s5hpnKP77h8HzZdHjCITDS8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Annotations.html",
-          "hash": "W9cxL+t6/UaZrijk7TpOJTpoUkalK2oERhJE6qd1yvA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity-1.html",
-          "hash": "GHT2FftcHUtHpQbZBNWKdeb6tSMbKld8ypVf8XlNZUI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity-2.html",
-          "hash": "4L7J+qyRXz+i5QDADtfiKu4I+YvIFiaSv3DKd5SmKY0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity.html",
-          "hash": "uaXSwEHi4f2KffxWFtugtd8u1uq9E2oqZZtxPjr46oM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.EntityList-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.EntityList-1.html",
-          "hash": "GxjyQEqCk1T5vLcio6G535bu4/t3oKUxiK9R6FjRDRs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.EntityScope.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.EntityScope.html",
-          "hash": "bF4BkxQAiRyMsF2SSWvH1P7B7s5CIpsaC6cfuYe/E2c="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.EntityScopeAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.EntityScopeAttribute.html",
-          "hash": "xibBEYtrl0VzkDrC0nQb2h2C3lvITeY297diGEBK52k="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html",
-          "hash": "3FgLBC6oRsdLKXwlXfQZVrT+Sh3A5dgh2qb8Zd5gdgg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Extensions.V1SecretExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Extensions.V1SecretExtensions.html",
-          "hash": "Fe1oRmi7Pstnc/57/e65dY/yUCke16Hy66YBBDS0Dlk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Extensions.html",
-          "hash": "QvsGlfsaCBpc6FxtYwghr6oPCGFxQUH4lnkYoqjs83w="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html",
-          "hash": "IJ7zVavnU24RHPsSbtiC5NFemC086cMko4WcO5hKW4E="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.html",
-          "hash": "BGdD49gXb+thjDIwL8Q90fzHMrUuIrWqAwstkzEAi8s="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationImage.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationImage.html",
-          "hash": "BDfZw7Wi41B5K692HwVW7Vr7VwbSw7faIYqK0MhouSg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.Kustomize.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.Kustomize.html",
-          "hash": "vhz2H0vii8eeUm0RubOo3loWh+5+uuDn4ztcVgFgulo="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Entities.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Entities.html",
-          "hash": "fXLYcuvP58CSxJtZ9GudrR4Yl5BMLBfLfy91StSKsNQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Events.EventType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Events.EventType.html",
-          "hash": "3G8wiT3e5uE8O2uhI1vpMO8xMVgKfshlHNmsvczl5hU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Events.IEventManager.AsyncPublisher.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Events.IEventManager.AsyncPublisher.html",
-          "hash": "fwkxpJbTzRa+CdYKbNVYOg9DlyEB5l2KulxKfGAEVKE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Events.IEventManager.AsyncStaticPublisher.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Events.IEventManager.AsyncStaticPublisher.html",
-          "hash": "vUt2EIAIBouQLEJxEef2jkywAg3LbBxvyp0OWUJuyWc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Events.IEventManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Events.IEventManager.html",
-          "hash": "1GLMVocnbxiGYW7HGAef3JU6tb1CFWTMjzBhQNZv00c="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Events.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Events.html",
-          "hash": "GOnJM/v8ZhCYweIiufOPN2i6QiGQV4s/nLR9YOqEQsU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Finalizer.IFinalizerManager-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Finalizer.IFinalizerManager-1.html",
-          "hash": "pnaUOmHqHL0rPTePpw0g5aLFmB1Oh+ixUbNsRrKTs7w="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html",
-          "hash": "Msv9I9LFBXQKNWHUJ0Yn5HT9WSiQCogqg6NBotpk6tU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Finalizer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Finalizer.html",
-          "hash": "OyCNfG4lM+MMOCJo+Sasgvu7fA9vTzJUBQFs8Xj0cEY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.HostExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.HostExtensions.html",
-          "hash": "Gw69T1VC2bLt2+PRdA0Yi8uv5iWBlN5vLvRX+t5e5E4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html",
-          "hash": "S8w9fQ1jqvy5nPUWDnSYOjY/niL5zV6vORXu5R7zHgk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Kubernetes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Kubernetes.html",
-          "hash": "lDibO4j/KMpFTMsVCZ9A5sj0fkTkCo4lq4SibmKGw2c="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Leadership.ILeaderElection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Leadership.ILeaderElection.html",
-          "hash": "Ru+9TrzXDG0NSL2EqgJino/BaLmTDK1hZkVO4HtAN9M="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Leadership.LeaderState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Leadership.LeaderState.html",
-          "hash": "albg6HEFefzS3R3ZyCzM8IGehX7k8ocCx0sG9Kb2NIM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Leadership.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Leadership.html",
-          "hash": "tUlfP/+VsMKhzg/5FmG+86QJLpnSKkveb5mrCYXaUak="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.OperatorSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.OperatorSettings.html",
-          "hash": "4ARzhVWPmYp4lXVKhK4ENTI0w5GXt2hVwq/JakkihHA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Rbac.EntityRbacAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Rbac.EntityRbacAttribute.html",
-          "hash": "GoOoWPEMsxJ+hYiUiqX+5fGoYG36jY/q+qKIuqPXOJE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Rbac.GenericRbacAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Rbac.GenericRbacAttribute.html",
-          "hash": "Jpdx9XqD5zdEUhc5vfV5t+Fdgpkl57Bvvp1UnYcn1L4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Rbac.RbacVerb.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Rbac.RbacVerb.html",
-          "hash": "IXQ6kt2nLnwF6S8sRvIWiSidG5lpuIGFnrI3JchmEwA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Rbac.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Rbac.html",
-          "hash": "ORy0aMaqNN4kgz6a8CV2h1GNVn2qQynpkncQkj8E+7s="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.ServiceCollectionExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.ServiceCollectionExtensions.html",
-          "hash": "LVMYA38QmIItQg8WIboH1yU+Mn3zL1QEEEg5iTRJZX4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Webhooks.AdmissionOperations.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Webhooks.AdmissionOperations.html",
-          "hash": "0bWnSd1lvQy9KIHV+Pu+PcDNRi6hKyPJO/g2ilp5IuA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Webhooks.AdmissionResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Webhooks.AdmissionResult.html",
-          "hash": "qgGXK/q/yXl4juNkUHE/gfpvm5xxBBsR2HqZ03CKFMA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Webhooks.IAdmissionWebhook-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html",
-          "hash": "+N+OEnTbUJVky38hjmG1es11ZV7W7olRxsv7ADefOC4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Webhooks.IMutationWebhook-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Webhooks.IMutationWebhook-1.html",
-          "hash": "A/wxd9NvHTBeiXu6fWRkUKzcDQ7SvtD3jefEM3Wmnd8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html",
-          "hash": "ZqjnVuQ2wjTv0bf0GChViKzKXJeDhZVBttOpP65HCJI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Webhooks.MutationResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Webhooks.MutationResult.html",
-          "hash": "M8tYDM/5mUwxYRz03rPiBnbbATF8t1yEOBHVBx8v8fw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Webhooks.ValidationResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html",
-          "hash": "wNPao5HfbnN9Jmu2LA6SWrGMJv8n7VStArLVk002wvM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.Webhooks.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.Webhooks.html",
-          "hash": "7Qyvmk3fRh9ORX6Y12GG08rs2ypyTtCzeXKlPoR7P+M="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "kube-ops/KubeOps.Operator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "kube-ops/KubeOps.Operator.html",
-          "hash": "B/Pp+JUVHCXVPB81ndhoVUlSZtiH9OwcIqTlkRu/XN8="
+          "hash": "L4C2o3cLpZyWRCpAH/VALAXEHKcsEGfEDIRAs/ifwQU="
         }
       },
       "is_incremental": false,
@@ -1031,7 +212,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/index.html",
-          "hash": "bcs+h0lgT/hAopyRaNgpKJ2897PzY6DVMZn3lPpoqo4="
+          "hash": "FAAv66PPVn/PPQKUn6XIN9mk4vmWHaSbcVE6gQG2UOU="
         }
       },
       "is_incremental": false,
@@ -1053,12 +234,6 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 16,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 69,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

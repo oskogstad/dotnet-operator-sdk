@@ -207,8 +207,8 @@ They behave like asp.net api controller.</p>
 <p>The implementation of a validator is fairly simple:</p>
 <ul>
 <li>Create a class somewhere in your project.</li>
-<li>Implement the <a class="xref" href="../kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html">IValidationWebhook&lt;TEntity&gt;</a> interface.</li>
-<li>Define the <a class="xref" href="../kube-ops/KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html#KubeOps_Operator_Webhooks_IAdmissionWebhook_2_Operations">Operations</a>
+<li>Implement the @&quot;KubeOps.Operator.Webhooks.IValidationWebhook`1&quot; interface.</li>
+<li>Define the @&quot;KubeOps.Operator.Webhooks.IAdmissionWebhook`2.Operations&quot;
 (from the interface) that the validator is interested in.</li>
 <li>Overwrite the corresponding methods.</li>
 </ul>
@@ -219,7 +219,7 @@ result.
 The async methods take precedence over the synchronous ones.</p>
 </div>
 <p>The return value of the validation methods are
-<a class="xref" href="../kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html">ValidationResult</a>
+@&quot;KubeOps.Operator.Webhooks.ValidationResult&quot;
 objects. A result contains a boolean flag if the entity / operation
 is valid or not. It may contain additional warnings (if it is valid)
 that are presented to the user if the kubernetes api supports it.
@@ -251,8 +251,8 @@ API.</p>
 <p>The implementation of a mutator is fairly simple:</p>
 <ul>
 <li>Create a class somewhere in your project.</li>
-<li>Implement the <a class="xref" href="../kube-ops/KubeOps.Operator.Webhooks.IMutationWebhook-1.html">IMutationWebhook&lt;TEntity&gt;</a> interface.</li>
-<li>Define the <a class="xref" href="../kube-ops/KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html#KubeOps_Operator_Webhooks_IAdmissionWebhook_2_Operations">Operations</a>
+<li>Implement the @&quot;KubeOps.Operator.Webhooks.IMutationWebhook`1&quot; interface.</li>
+<li>Define the @&quot;KubeOps.Operator.Webhooks.IAdmissionWebhook`2.Operations&quot;
 (from the interface) that the validator is interested in.</li>
 <li>Overwrite the corresponding methods.</li>
 </ul>
@@ -264,10 +264,10 @@ The async methods take precedence over the synchronous ones.</p>
 </div>
 <p>The return value of the mutation methods do indicate if
 there has been a change in the model or not. If there is no
-change, return a result from <a class="xref" href="../kube-ops/KubeOps.Operator.Webhooks.MutationResult.html#KubeOps_Operator_Webhooks_MutationResult_NoChanges">NoChanges()</a>
+change, return a result from @&quot;KubeOps.Operator.Webhooks.MutationResult.NoChanges&quot;
 and if there are changes, modify the object that is passed to the
 method and return the changed object with
-<a class="xref" href="../kube-ops/KubeOps.Operator.Webhooks.MutationResult.html#KubeOps_Operator_Webhooks_MutationResult_Modified_System_Object_">Modified(Object)</a>.
+@&quot;KubeOps.Operator.Webhooks.MutationResult.Modified(System.Object)&quot;.
 The system then calculates the diff and creates a JSON patch for
 the object.</p>
 </article>

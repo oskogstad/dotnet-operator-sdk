@@ -140,9 +140,9 @@ cleanup stuff for an entity that is being deleted.</p>
 object (i.e. in the yaml / json structure) and the object
 wont be removed from the api until all finalizers are removed.</p>
 <p>If you write finalizer, they will be automatically added to the
-DI system via their type <a class="xref" href="../kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html">IResourceFinalizer&lt;TEntity&gt;</a></p>
+DI system via their type &lt;xref:KubeOps.Operator.Finalizer.IResourceFinalizer`1&gt;</p>
 <h2 id="write-a-finalizer">Write a finalizer</h2>
-<p>Use the correct interface (<a class="xref" href="../kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html">IResourceFinalizer&lt;TEntity&gt;</a>).</p>
+<p>Use the correct interface (&lt;xref:KubeOps.Operator.Finalizer.IResourceFinalizer`1&gt;).</p>
 <p>A finalizer can be as simple as:</p>
 <pre><code class="lang-csharp">public class TestEntityFinalizer : IResourceFinalizer&lt;V1TestEntity&gt;
 {
@@ -160,13 +160,13 @@ DI system via their type <a class="xref" href="../kube-ops/KubeOps.Operator.Fina
     }
 }
 </code></pre><p>The interface also provides a way of overwriting the
-<a class="xref" href="../kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html#KubeOps_Operator_Finalizer_IResourceFinalizer_1_Identifier">Identifier</a> of the finalizer if you feed like it.</p>
+&lt;xref:KubeOps.Operator.Finalizer.IResourceFinalizer`1.Identifier&gt; of the finalizer if you feed like it.</p>
 <p>When the finalizer successfully completed his job, it is automatically removed
 from the finalizers list of the entity. The finalizers are registered
 as scoped resources in DI.</p>
 <h2 id="register-a-finalizer">Register a finalizer</h2>
 <p>To attach a finalizer for a resource, call the
-<a class="xref" href="../kube-ops/KubeOps.Operator.Finalizer.IFinalizerManager-1.html#KubeOps_Operator_Finalizer_IFinalizerManager_1_RegisterFinalizerAsync__1__0_">RegisterFinalizerAsync&lt;TFinalizer&gt;(TEntity)</a>
+&lt;xref:KubeOps.Operator.Finalizer.IFinalizerManager`1.RegisterFinalizerAsync``1(`0)&gt;
 method in the controller during reconciliation.</p>
 <pre><code class="lang-csharp">public class TestController : IResourceController&lt;V1TestEntity&gt;
 {

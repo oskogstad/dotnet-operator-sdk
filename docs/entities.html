@@ -139,8 +139,8 @@ depends on the context. The resource is the type of an object in kubernetes
 which is defined by the default api or a CRD. While an entity is a class
 in C# of such a resource. (CRD means &quot;custom resource definition&quot;).</p>
 <p>To write your own kubernetes entities, use the interfaces
-provided by <code>k8s</code> or use the <a class="xref" href="../kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity.html">CustomKubernetesEntity</a>.</p>
-<p>There are two overloads (<a class="xref" href="../kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity-1.html">CustomKubernetesEntity&lt;TSpec&gt;</a> and <a class="xref" href="../kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity-2.html">CustomKubernetesEntity&lt;TSpec, TStatus&gt;</a>) that provide
+provided by <code>k8s</code> or use the &lt;xref:KubeOps.Operator.Entities.CustomKubernetesEntity&gt;.</p>
+<p>There are two overloads (&lt;xref:KubeOps.Operator.Entities.CustomKubernetesEntity`1&gt; and &lt;xref:KubeOps.Operator.Entities.CustomKubernetesEntity`2&gt;) that provide
 generics for the <code>Spec</code> and <code>Status</code> resource values.</p>
 <p>A &quot;normal&quot; entity does not provide any real value (i.e. most of the time).
 Normally you need some kind of <code>Spec</code> to have data in your entity.</p>
@@ -160,7 +160,7 @@ public class Foo : CustomKubernetesEntity&lt;FooSpec&gt;
 }
 </code></pre><p>Now a CRD for your &quot;Foo&quot; class is generated on build
 or via the cli commands.</p>
-<p>If you don&#39;t use the <a class="xref" href="../kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity-1.html">CustomKubernetesEntity&lt;TSpec&gt;</a> base class, you need to - at least - use the appropriate interfaces from <code>k8s</code>:</p>
+<p>If you don&#39;t use the &lt;xref:KubeOps.Operator.Entities.CustomKubernetesEntity`1&gt; base class, you need to - at least - use the appropriate interfaces from <code>k8s</code>:</p>
 <ul>
 <li><code>KubernetesObject</code></li>
 <li><code>IKubernetesObject&lt;V1ObjectMeta&gt;</code></li>
@@ -169,7 +169,7 @@ or via the cli commands.</p>
 <p>There are use-cases when you want to model / watch a custom entity from another
 software engineer that are not part of the base models in <code>k8s</code>.</p>
 <p>To prevent the generator from creating yamls for CRDs you don&#39;t own, use
-the <a class="xref" href="../kube-ops/KubeOps.Operator.Entities.Annotations.IgnoreEntityAttribute.html">IgnoreEntityAttribute</a>.</p>
+the &lt;xref:KubeOps.Operator.Entities.Annotations.IgnoreEntityAttribute&gt;.</p>
 <p>So as an example, one could try to watch for Ambassador-Mappings with
 the following entity:</p>
 <pre><code class="lang-csharp">public class MappingSpec
@@ -245,8 +245,8 @@ to the following version priority:</p>
 <p>To determine the storage version (of which one, and exactly one must exist)
 the system uses the previously mentioned version priority to sort the versions
 and picking the first one. To overwrite this behaviour, use the
-<a class="xref" href="../kube-ops/KubeOps.Operator.Entities.Annotations.StorageVersionAttribute.html">StorageVersionAttribute</a>.</p>
-<div class="WARNING"><h5>Warning</h5><p>when multiple <a class="xref" href="../kube-ops/KubeOps.Operator.Entities.Annotations.StorageVersionAttribute.html">StorageVersionAttribute</a>
+&lt;xref:KubeOps.Operator.Entities.Annotations.StorageVersionAttribute&gt;.</p>
+<div class="WARNING"><h5>Warning</h5><p>when multiple &lt;xref:KubeOps.Operator.Entities.Annotations.StorageVersionAttribute&gt;
 are used, the system will thrown an error.</p>
 </div>
 <p>To overwrite a version, annotate the entity class with the attribute.</p>
