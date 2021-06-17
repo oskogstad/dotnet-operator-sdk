@@ -8,7 +8,7 @@
     <title>Events / Event Series | KubeOps Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Events / Event Series | KubeOps Documentation ">
-    <meta name="generator" content="docfx 2.57.2.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -136,7 +136,7 @@
 
 <p>Kubernetes knows &quot;Events&quot; which can be sort of attached to a resource
 (i.e. a Kubernetes object).</p>
-<p>To create and use events, inject the @&quot;KubeOps.Operator.Events.IEventManager&quot;
+<p>To create and use events, inject the <a class="xref" href="../kube-ops/KubeOps.Operator.Events.IEventManager.html">IEventManager</a>
 into your controller. It is registered as a transient resource in the DI
 container.</p>
 <h2 id="ieventmanager">IEventManager</h2>
@@ -167,19 +167,19 @@ var @event = new Corev1Event
 await manager.PublishAsync(@event);
 </code></pre><h3 id="use-publisher-delegates">Use publisher delegates</h3>
 <p>If you don&#39;t want to call the
-@&quot;KubeOps.Operator.Events.IEventManager.PublishAsync(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta},System.String,System.String,KubeOps.Operator.Events.EventType)&quot;
+<a class="xref" href="../kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_PublishAsync_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__System_String_System_String_KubeOps_Operator_Events_EventType_">PublishAsync(IKubernetesObject&lt;V1ObjectMeta&gt;, String, String, EventType)</a>
 all the time with the same arguments, you can create delegates.</p>
 <p>There exist two different delegates:</p>
 <ul>
-<li>@&quot;KubeOps.Operator.Events.IEventManager.AsyncStaticPublisher&quot;: Predefined event
+<li><a class="xref" href="../kube-ops/KubeOps.Operator.Events.IEventManager.AsyncStaticPublisher.html">IEventManager.AsyncStaticPublisher</a>: Predefined event
 on a predefined resource.</li>
-<li>@&quot;KubeOps.Operator.Events.IEventManager.AsyncPublisher&quot;: Predefined event
+<li><a class="xref" href="../kube-ops/KubeOps.Operator.Events.IEventManager.AsyncPublisher.html">IEventManager.AsyncPublisher</a>: Predefined event
 on a variable resource.</li>
 </ul>
 <p>Both are created with their specific overload:</p>
 <ul>
-<li>@&quot;KubeOps.Operator.Events.IEventManager.CreatePublisher(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta},System.String,System.String,KubeOps.Operator.Events.EventType)&quot;</li>
-<li>@&quot;KubeOps.Operator.Events.IEventManager.CreatePublisher(System.String,System.String,KubeOps.Operator.Events.EventType)&quot;</li>
+<li><a class="xref" href="../kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_CreatePublisher_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__System_String_System_String_KubeOps_Operator_Events_EventType_">CreatePublisher(IKubernetesObject&lt;V1ObjectMeta&gt;, String, String, EventType)</a></li>
+<li><a class="xref" href="../kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_CreatePublisher_System_String_System_String_KubeOps_Operator_Events_EventType_">CreatePublisher(String, String, EventType)</a></li>
 </ul>
 <p>To use the static publisher:</p>
 <pre><code class="lang-c#">var publisher = manager.CreatePublisher(resource, &quot;reason&quot;, &quot;message&quot;);

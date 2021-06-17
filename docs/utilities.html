@@ -8,7 +8,7 @@
     <title>Operator utils | KubeOps Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Operator utils | KubeOps Documentation ">
-    <meta name="generator" content="docfx 2.57.2.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -144,18 +144,18 @@
 it and splits them up into <code>Liveness</code> and <code>Readiness</code> checks.</p>
 <p>With the appropriate methods, you can add an <code>IHealthCheck</code> interface
 to either <code>/ready</code>, <code>/health</code> or both.</p>
-<p>The urls can be configured via @&quot;KubeOps.Operator.OperatorSettings&quot;.</p>
+<p>The urls can be configured via <a class="xref" href="../kube-ops/KubeOps.Operator.OperatorSettings.html">OperatorSettings</a>.</p>
 <ul>
-<li>@&quot;KubeOps.Operator.Builder.IOperatorBuilder.AddHealthCheck``1(System.String)&quot;:
+<li><a class="xref" href="../kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddHealthCheck__1_System_String_">AddHealthCheck&lt;THealthCheck&gt;(String)</a>:
 adds a healthcheck to ready and liveness</li>
-<li>@&quot;KubeOps.Operator.Builder.IOperatorBuilder.AddLivenessCheck``1(System.String)&quot;:
+<li><a class="xref" href="../kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddLivenessCheck__1_System_String_">AddLivenessCheck&lt;TLivenessCheck&gt;(String)</a>:
 adds a healthcheck to the liveness route only</li>
-<li>@&quot;KubeOps.Operator.Builder.IOperatorBuilder.AddReadinessCheck``1(System.String)&quot;:
+<li><a class="xref" href="../kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddReadinessCheck__1_System_String_">AddReadinessCheck&lt;TReadinessCheck&gt;(String)</a>:
 adds a healthcheck to the readiness route only</li>
 </ul>
 <h2 id="metrics">Metrics</h2>
 <p>By default, the operator lists some interessting metrics on the
-<code>/metrics</code> route. The url can be configured via @&quot;KubeOps.Operator.OperatorSettings&quot;.</p>
+<code>/metrics</code> route. The url can be configured via <a class="xref" href="../kube-ops/KubeOps.Operator.OperatorSettings.html">OperatorSettings</a>.</p>
 <p>There are many counters on how many elements have been reconciled, if the
 controllers and queues are up and how many elements are in timed requeue state.</p>
 <p>Please have a look at the metrics if you run your operator locally or online
@@ -166,9 +166,9 @@ implementation: <a href="https://github.com/buehler/dotnet-operator-sdk/tree/mas
 <p>There are several method extensions that help with day to day resource
 handling. Head over to their documentation to see that they do:</p>
 <ul>
-<li>@&quot;KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeObjectReference(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta})&quot;</li>
-<li>@&quot;KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeOwnerReference(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta})&quot;</li>
-<li>@&quot;KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference``1(``0,k8s.IKubernetesObject{k8s.Models.V1ObjectMeta})&quot;</li>
+<li><a class="xref" href="../kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html#KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_MakeObjectReference_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__">MakeObjectReference(IKubernetesObject&lt;V1ObjectMeta&gt;)</a></li>
+<li><a class="xref" href="../kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html#KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_MakeOwnerReference_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__">MakeOwnerReference(IKubernetesObject&lt;V1ObjectMeta&gt;)</a></li>
+<li><a class="xref" href="../kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html#KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_WithOwnerReference__1___0_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__">WithOwnerReference&lt;TEntity&gt;(TEntity, IKubernetesObject&lt;V1ObjectMeta&gt;)</a></li>
 </ul>
 </article>
           </div>

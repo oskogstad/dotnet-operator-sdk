@@ -8,7 +8,7 @@
     <title>Resource Controller | KubeOps Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Resource Controller | KubeOps Documentation ">
-    <meta name="generator" content="docfx 2.57.2.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -140,7 +140,7 @@ resources on kubernetes and queueing of the events.</p>
 <p>When you want to create a controller for your (or any) entity,
 read the following instructions.</p>
 <p>When you have controllers, they are automatically added to the
-DI system via their &lt;xref:KubeOps.Operator.Controller.IResourceController`1&gt; interface.</p>
+DI system via their <a class="xref" href="../kube-ops/KubeOps.Operator.Controller.IResourceController-1.html">IResourceController&lt;TEntity&gt;</a> interface.</p>
 <p>Controllers are registered as <strong>scoped</strong> elements in the DI system.
 Which means, they basically behave like asp.net api controllers.
 You can use dependency injection with all types of dependencies.</p>
@@ -149,7 +149,7 @@ You can use dependency injection with all types of dependencies.</p>
 or you want to reconcile a given entity (from the <code>k8s.Models</code> namespace,
 e.g. <code>V1ConfigMap</code>) you need to create a controller class
 as you would do for a MVC or API controller in asp.net.</p>
-<p>Make sure you implement the &lt;xref:KubeOps.Operator.Controller.IResourceController`1&gt; interface.</p>
+<p>Make sure you implement the <a class="xref" href="../kube-ops/KubeOps.Operator.Controller.IResourceController-1.html">IResourceController&lt;TEntity&gt;</a> interface.</p>
 <pre><code class="lang-csharp">[EntityRbac(typeof(MyCustomEntity), Verbs = RbacVerb.All)]
 public class FooCtrl : IResourceController&lt;MyCustomEntity&gt;
 {
@@ -164,7 +164,7 @@ public class FooCtrl : IResourceController&lt;MyCustomEntity&gt;
 }
 </code></pre><h2 id="namespaced-controller">Namespaced controller</h2>
 <p>To limit the operator (and therefore all controllers) to a specific
-namespace in kubernetes, use the @&quot;KubeOps.Operator.OperatorSettings&quot;
+namespace in kubernetes, use the <a class="xref" href="../kube-ops/KubeOps.Operator.OperatorSettings.html">OperatorSettings</a>
 and configure a specific namespace when it is predefined.</p>
 <p>To use namespacing dynamically, run the application with the <code>--namespaced</code>
 option. When given a name (i.e. <code>--namespaced=foobar</code>) the defined
@@ -178,25 +178,25 @@ operator with such an entity rbac attribute. This generates
 the rbac roles / role bindings for your operator and therefore
 for the service account associated with the operator.</p>
 <h3 id="entityrbac">EntityRbac</h3>
-<p>The first possibility to configure rbac is with the &lt;xref:KubeOps.Operator.Rbac.EntityRbacAttribute&gt;
+<p>The first possibility to configure rbac is with the <a class="xref" href="../kube-ops/KubeOps.Operator.Rbac.EntityRbacAttribute.html">EntityRbacAttribute</a>
 attribute.</p>
-<p>The attribute takes a list of types (your entities) and a &lt;xref:KubeOps.Operator.Rbac.RbacVerb&gt;.
+<p>The attribute takes a list of types (your entities) and a <a class="xref" href="../kube-ops/KubeOps.Operator.Rbac.RbacVerb.html">RbacVerb</a>.
 The verbs define the needed permissions and roles for the given entity(ies).</p>
 <p>You can configure multiple types and even well known entities from kubernetes:</p>
 <pre><code class="lang-csharp">[EntityRbac(typeof(MyCustomEntity), Verbs = RbacVerb.All)]
 [EntityRbac(typeof(V1Secret), typeof(V1ConfigMap), Verbs = RbacVerb.Get | RbacVerb.List)]
 [EntityRbac(typeof(V1Deployment), Verbs = RbacVerb.Create | RbacVerb.Update | RbacVerb.Delete)]
 </code></pre><h3 id="genericrbac">GenericRbac</h3>
-<p>The second possibility is to use the &lt;xref:KubeOps.Operator.Rbac.GenericRbacAttribute&gt;
+<p>The second possibility is to use the <a class="xref" href="../kube-ops/KubeOps.Operator.Rbac.GenericRbacAttribute.html">GenericRbacAttribute</a>
 which takes a list of api groups, resources, versions and a selection of
-&lt;xref:KubeOps.Operator.Rbac.RbacVerb&gt;s to configure the rbac rule:</p>
+<a class="xref" href="../kube-ops/KubeOps.Operator.Rbac.RbacVerb.html">RbacVerb</a>s to configure the rbac rule:</p>
 <pre><code class="lang-csharp">[GenericRbac(Groups = new {&quot;apps&quot;}, Resources = new {&quot;deployments&quot;}, Verbs = RbacVerb.All)]
 </code></pre><h2 id="requeue">Requeue</h2>
-<p>The controller&#39;s methods have a return value of &lt;xref:KubeOps.Operator.Controller.Results.ResourceControllerResult&gt;.
+<p>The controller&#39;s methods have a return value of <a class="xref" href="../kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html">ResourceControllerResult</a>.
 There are multiple ways how a result of a controller can be created:</p>
 <ul>
 <li><code>null</code>: The controller will not requeue your entity / event.</li>
-<li>&lt;xref:KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueEvent(System.TimeSpan)&gt;:
+<li><a class="xref" href="../kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html#KubeOps_Operator_Controller_Results_ResourceControllerResult_RequeueEvent_System_TimeSpan_">RequeueEvent(TimeSpan)</a>:
 Return a result object with a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a> that will requeue
 the event and the entity after the time has passed.</li>
 </ul>

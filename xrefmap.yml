@@ -1,3 +1,2564 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: KubeOps.Operator
+  name: KubeOps.Operator
+  href: kube-ops/KubeOps.Operator.html
+  commentId: N:KubeOps.Operator
+  fullName: KubeOps.Operator
+  nameWithType: KubeOps.Operator
+- uid: KubeOps.Operator.ApplicationBuilderExtensions
+  name: ApplicationBuilderExtensions
+  href: kube-ops/KubeOps.Operator.ApplicationBuilderExtensions.html
+  commentId: T:KubeOps.Operator.ApplicationBuilderExtensions
+  fullName: KubeOps.Operator.ApplicationBuilderExtensions
+  nameWithType: ApplicationBuilderExtensions
+- uid: KubeOps.Operator.ApplicationBuilderExtensions.UseKubernetesOperator(Microsoft.AspNetCore.Builder.IApplicationBuilder)
+  name: UseKubernetesOperator(IApplicationBuilder)
+  href: kube-ops/KubeOps.Operator.ApplicationBuilderExtensions.html#KubeOps_Operator_ApplicationBuilderExtensions_UseKubernetesOperator_Microsoft_AspNetCore_Builder_IApplicationBuilder_
+  commentId: M:KubeOps.Operator.ApplicationBuilderExtensions.UseKubernetesOperator(Microsoft.AspNetCore.Builder.IApplicationBuilder)
+  fullName: KubeOps.Operator.ApplicationBuilderExtensions.UseKubernetesOperator(Microsoft.AspNetCore.Builder.IApplicationBuilder)
+  nameWithType: ApplicationBuilderExtensions.UseKubernetesOperator(IApplicationBuilder)
+- uid: KubeOps.Operator.ApplicationBuilderExtensions.UseKubernetesOperator*
+  name: UseKubernetesOperator
+  href: kube-ops/KubeOps.Operator.ApplicationBuilderExtensions.html#KubeOps_Operator_ApplicationBuilderExtensions_UseKubernetesOperator_
+  commentId: Overload:KubeOps.Operator.ApplicationBuilderExtensions.UseKubernetesOperator
+  isSpec: "True"
+  fullName: KubeOps.Operator.ApplicationBuilderExtensions.UseKubernetesOperator
+  nameWithType: ApplicationBuilderExtensions.UseKubernetesOperator
+- uid: KubeOps.Operator.Builder
+  name: KubeOps.Operator.Builder
+  href: kube-ops/KubeOps.Operator.Builder.html
+  commentId: N:KubeOps.Operator.Builder
+  fullName: KubeOps.Operator.Builder
+  nameWithType: KubeOps.Operator.Builder
+- uid: KubeOps.Operator.Builder.IOperatorBuilder
+  name: IOperatorBuilder
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html
+  commentId: T:KubeOps.Operator.Builder.IOperatorBuilder
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder
+  nameWithType: IOperatorBuilder
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddHealthCheck*
+  name: AddHealthCheck
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddHealthCheck_
+  commentId: Overload:KubeOps.Operator.Builder.IOperatorBuilder.AddHealthCheck
+  isSpec: "True"
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddHealthCheck
+  nameWithType: IOperatorBuilder.AddHealthCheck
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddHealthCheck``1(System.String)
+  name: AddHealthCheck<THealthCheck>(String)
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddHealthCheck__1_System_String_
+  commentId: M:KubeOps.Operator.Builder.IOperatorBuilder.AddHealthCheck``1(System.String)
+  name.vb: AddHealthCheck(Of THealthCheck)(String)
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddHealthCheck<THealthCheck>(System.String)
+  fullName.vb: KubeOps.Operator.Builder.IOperatorBuilder.AddHealthCheck(Of THealthCheck)(System.String)
+  nameWithType: IOperatorBuilder.AddHealthCheck<THealthCheck>(String)
+  nameWithType.vb: IOperatorBuilder.AddHealthCheck(Of THealthCheck)(String)
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddLivenessCheck*
+  name: AddLivenessCheck
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddLivenessCheck_
+  commentId: Overload:KubeOps.Operator.Builder.IOperatorBuilder.AddLivenessCheck
+  isSpec: "True"
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddLivenessCheck
+  nameWithType: IOperatorBuilder.AddLivenessCheck
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddLivenessCheck``1(System.String)
+  name: AddLivenessCheck<TLivenessCheck>(String)
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddLivenessCheck__1_System_String_
+  commentId: M:KubeOps.Operator.Builder.IOperatorBuilder.AddLivenessCheck``1(System.String)
+  name.vb: AddLivenessCheck(Of TLivenessCheck)(String)
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddLivenessCheck<TLivenessCheck>(System.String)
+  fullName.vb: KubeOps.Operator.Builder.IOperatorBuilder.AddLivenessCheck(Of TLivenessCheck)(System.String)
+  nameWithType: IOperatorBuilder.AddLivenessCheck<TLivenessCheck>(String)
+  nameWithType.vb: IOperatorBuilder.AddLivenessCheck(Of TLivenessCheck)(String)
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddReadinessCheck*
+  name: AddReadinessCheck
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddReadinessCheck_
+  commentId: Overload:KubeOps.Operator.Builder.IOperatorBuilder.AddReadinessCheck
+  isSpec: "True"
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddReadinessCheck
+  nameWithType: IOperatorBuilder.AddReadinessCheck
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddReadinessCheck``1(System.String)
+  name: AddReadinessCheck<TReadinessCheck>(String)
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddReadinessCheck__1_System_String_
+  commentId: M:KubeOps.Operator.Builder.IOperatorBuilder.AddReadinessCheck``1(System.String)
+  name.vb: AddReadinessCheck(Of TReadinessCheck)(String)
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddReadinessCheck<TReadinessCheck>(System.String)
+  fullName.vb: KubeOps.Operator.Builder.IOperatorBuilder.AddReadinessCheck(Of TReadinessCheck)(System.String)
+  nameWithType: IOperatorBuilder.AddReadinessCheck<TReadinessCheck>(String)
+  nameWithType.vb: IOperatorBuilder.AddReadinessCheck(Of TReadinessCheck)(String)
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddResourceAssembly(System.Reflection.Assembly)
+  name: AddResourceAssembly(Assembly)
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddResourceAssembly_System_Reflection_Assembly_
+  commentId: M:KubeOps.Operator.Builder.IOperatorBuilder.AddResourceAssembly(System.Reflection.Assembly)
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddResourceAssembly(System.Reflection.Assembly)
+  nameWithType: IOperatorBuilder.AddResourceAssembly(Assembly)
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddResourceAssembly*
+  name: AddResourceAssembly
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddResourceAssembly_
+  commentId: Overload:KubeOps.Operator.Builder.IOperatorBuilder.AddResourceAssembly
+  isSpec: "True"
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddResourceAssembly
+  nameWithType: IOperatorBuilder.AddResourceAssembly
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.Services
+  name: Services
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_Services
+  commentId: P:KubeOps.Operator.Builder.IOperatorBuilder.Services
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.Services
+  nameWithType: IOperatorBuilder.Services
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.Services*
+  name: Services
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_Services_
+  commentId: Overload:KubeOps.Operator.Builder.IOperatorBuilder.Services
+  isSpec: "True"
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.Services
+  nameWithType: IOperatorBuilder.Services
+- uid: KubeOps.Operator.Controller
+  name: KubeOps.Operator.Controller
+  href: kube-ops/KubeOps.Operator.Controller.html
+  commentId: N:KubeOps.Operator.Controller
+  fullName: KubeOps.Operator.Controller
+  nameWithType: KubeOps.Operator.Controller
+- uid: KubeOps.Operator.Controller.IResourceController`1
+  name: IResourceController<TEntity>
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html
+  commentId: T:KubeOps.Operator.Controller.IResourceController`1
+  name.vb: IResourceController(Of TEntity)
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity)
+  nameWithType: IResourceController<TEntity>
+  nameWithType.vb: IResourceController(Of TEntity)
+- uid: KubeOps.Operator.Controller.IResourceController`1.CreatedAsync(`0)
+  name: CreatedAsync(TEntity)
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_CreatedAsync__0_
+  commentId: M:KubeOps.Operator.Controller.IResourceController`1.CreatedAsync(`0)
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.CreatedAsync(TEntity)
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).CreatedAsync(TEntity)
+  nameWithType: IResourceController<TEntity>.CreatedAsync(TEntity)
+  nameWithType.vb: IResourceController(Of TEntity).CreatedAsync(TEntity)
+- uid: KubeOps.Operator.Controller.IResourceController`1.CreatedAsync*
+  name: CreatedAsync
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_CreatedAsync_
+  commentId: Overload:KubeOps.Operator.Controller.IResourceController`1.CreatedAsync
+  isSpec: "True"
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.CreatedAsync
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).CreatedAsync
+  nameWithType: IResourceController<TEntity>.CreatedAsync
+  nameWithType.vb: IResourceController(Of TEntity).CreatedAsync
+- uid: KubeOps.Operator.Controller.IResourceController`1.DeletedAsync(`0)
+  name: DeletedAsync(TEntity)
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_DeletedAsync__0_
+  commentId: M:KubeOps.Operator.Controller.IResourceController`1.DeletedAsync(`0)
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.DeletedAsync(TEntity)
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).DeletedAsync(TEntity)
+  nameWithType: IResourceController<TEntity>.DeletedAsync(TEntity)
+  nameWithType.vb: IResourceController(Of TEntity).DeletedAsync(TEntity)
+- uid: KubeOps.Operator.Controller.IResourceController`1.DeletedAsync*
+  name: DeletedAsync
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_DeletedAsync_
+  commentId: Overload:KubeOps.Operator.Controller.IResourceController`1.DeletedAsync
+  isSpec: "True"
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.DeletedAsync
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).DeletedAsync
+  nameWithType: IResourceController<TEntity>.DeletedAsync
+  nameWithType.vb: IResourceController(Of TEntity).DeletedAsync
+- uid: KubeOps.Operator.Controller.IResourceController`1.NotModifiedAsync(`0)
+  name: NotModifiedAsync(TEntity)
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_NotModifiedAsync__0_
+  commentId: M:KubeOps.Operator.Controller.IResourceController`1.NotModifiedAsync(`0)
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.NotModifiedAsync(TEntity)
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).NotModifiedAsync(TEntity)
+  nameWithType: IResourceController<TEntity>.NotModifiedAsync(TEntity)
+  nameWithType.vb: IResourceController(Of TEntity).NotModifiedAsync(TEntity)
+- uid: KubeOps.Operator.Controller.IResourceController`1.NotModifiedAsync*
+  name: NotModifiedAsync
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_NotModifiedAsync_
+  commentId: Overload:KubeOps.Operator.Controller.IResourceController`1.NotModifiedAsync
+  isSpec: "True"
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.NotModifiedAsync
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).NotModifiedAsync
+  nameWithType: IResourceController<TEntity>.NotModifiedAsync
+  nameWithType.vb: IResourceController(Of TEntity).NotModifiedAsync
+- uid: KubeOps.Operator.Controller.IResourceController`1.StatusModifiedAsync(`0)
+  name: StatusModifiedAsync(TEntity)
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_StatusModifiedAsync__0_
+  commentId: M:KubeOps.Operator.Controller.IResourceController`1.StatusModifiedAsync(`0)
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.StatusModifiedAsync(TEntity)
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).StatusModifiedAsync(TEntity)
+  nameWithType: IResourceController<TEntity>.StatusModifiedAsync(TEntity)
+  nameWithType.vb: IResourceController(Of TEntity).StatusModifiedAsync(TEntity)
+- uid: KubeOps.Operator.Controller.IResourceController`1.StatusModifiedAsync*
+  name: StatusModifiedAsync
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_StatusModifiedAsync_
+  commentId: Overload:KubeOps.Operator.Controller.IResourceController`1.StatusModifiedAsync
+  isSpec: "True"
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.StatusModifiedAsync
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).StatusModifiedAsync
+  nameWithType: IResourceController<TEntity>.StatusModifiedAsync
+  nameWithType.vb: IResourceController(Of TEntity).StatusModifiedAsync
+- uid: KubeOps.Operator.Controller.IResourceController`1.UpdatedAsync(`0)
+  name: UpdatedAsync(TEntity)
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_UpdatedAsync__0_
+  commentId: M:KubeOps.Operator.Controller.IResourceController`1.UpdatedAsync(`0)
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.UpdatedAsync(TEntity)
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).UpdatedAsync(TEntity)
+  nameWithType: IResourceController<TEntity>.UpdatedAsync(TEntity)
+  nameWithType.vb: IResourceController(Of TEntity).UpdatedAsync(TEntity)
+- uid: KubeOps.Operator.Controller.IResourceController`1.UpdatedAsync*
+  name: UpdatedAsync
+  href: kube-ops/KubeOps.Operator.Controller.IResourceController-1.html#KubeOps_Operator_Controller_IResourceController_1_UpdatedAsync_
+  commentId: Overload:KubeOps.Operator.Controller.IResourceController`1.UpdatedAsync
+  isSpec: "True"
+  fullName: KubeOps.Operator.Controller.IResourceController<TEntity>.UpdatedAsync
+  fullName.vb: KubeOps.Operator.Controller.IResourceController(Of TEntity).UpdatedAsync
+  nameWithType: IResourceController<TEntity>.UpdatedAsync
+  nameWithType.vb: IResourceController(Of TEntity).UpdatedAsync
+- uid: KubeOps.Operator.Controller.Results
+  name: KubeOps.Operator.Controller.Results
+  href: kube-ops/KubeOps.Operator.Controller.Results.html
+  commentId: N:KubeOps.Operator.Controller.Results
+  fullName: KubeOps.Operator.Controller.Results
+  nameWithType: KubeOps.Operator.Controller.Results
+- uid: KubeOps.Operator.Controller.Results.ResourceControllerResult
+  name: ResourceControllerResult
+  href: kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html
+  commentId: T:KubeOps.Operator.Controller.Results.ResourceControllerResult
+  fullName: KubeOps.Operator.Controller.Results.ResourceControllerResult
+  nameWithType: ResourceControllerResult
+- uid: KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueEvent(System.TimeSpan)
+  name: RequeueEvent(TimeSpan)
+  href: kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html#KubeOps_Operator_Controller_Results_ResourceControllerResult_RequeueEvent_System_TimeSpan_
+  commentId: M:KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueEvent(System.TimeSpan)
+  fullName: KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueEvent(System.TimeSpan)
+  nameWithType: ResourceControllerResult.RequeueEvent(TimeSpan)
+- uid: KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueEvent*
+  name: RequeueEvent
+  href: kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html#KubeOps_Operator_Controller_Results_ResourceControllerResult_RequeueEvent_
+  commentId: Overload:KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueEvent
+  isSpec: "True"
+  fullName: KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueEvent
+  nameWithType: ResourceControllerResult.RequeueEvent
+- uid: KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueIn
+  name: RequeueIn
+  href: kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html#KubeOps_Operator_Controller_Results_ResourceControllerResult_RequeueIn
+  commentId: P:KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueIn
+  fullName: KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueIn
+  nameWithType: ResourceControllerResult.RequeueIn
+- uid: KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueIn*
+  name: RequeueIn
+  href: kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html#KubeOps_Operator_Controller_Results_ResourceControllerResult_RequeueIn_
+  commentId: Overload:KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueIn
+  isSpec: "True"
+  fullName: KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueIn
+  nameWithType: ResourceControllerResult.RequeueIn
+- uid: KubeOps.Operator.Entities
+  name: KubeOps.Operator.Entities
+  href: kube-ops/KubeOps.Operator.Entities.html
+  commentId: N:KubeOps.Operator.Entities
+  fullName: KubeOps.Operator.Entities
+  nameWithType: KubeOps.Operator.Entities
+- uid: KubeOps.Operator.Entities.Annotations
+  name: KubeOps.Operator.Entities.Annotations
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.html
+  commentId: N:KubeOps.Operator.Entities.Annotations
+  fullName: KubeOps.Operator.Entities.Annotations
+  nameWithType: KubeOps.Operator.Entities.Annotations
+- uid: KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute
+  name: AdditionalPrinterColumnAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.html
+  commentId: T:KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute
+  fullName: KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute
+  nameWithType: AdditionalPrinterColumnAttribute
+- uid: KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Name
+  name: Name
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_AdditionalPrinterColumnAttribute_Name
+  commentId: P:KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Name
+  fullName: KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Name
+  nameWithType: AdditionalPrinterColumnAttribute.Name
+- uid: KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Name*
+  name: Name
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_AdditionalPrinterColumnAttribute_Name_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Name
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Name
+  nameWithType: AdditionalPrinterColumnAttribute.Name
+- uid: KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Priority
+  name: Priority
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_AdditionalPrinterColumnAttribute_Priority
+  commentId: P:KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Priority
+  fullName: KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Priority
+  nameWithType: AdditionalPrinterColumnAttribute.Priority
+- uid: KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Priority*
+  name: Priority
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_AdditionalPrinterColumnAttribute_Priority_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Priority
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.AdditionalPrinterColumnAttribute.Priority
+  nameWithType: AdditionalPrinterColumnAttribute.Priority
+- uid: KubeOps.Operator.Entities.Annotations.DescriptionAttribute
+  name: DescriptionAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.DescriptionAttribute.html
+  commentId: T:KubeOps.Operator.Entities.Annotations.DescriptionAttribute
+  fullName: KubeOps.Operator.Entities.Annotations.DescriptionAttribute
+  nameWithType: DescriptionAttribute
+- uid: KubeOps.Operator.Entities.Annotations.DescriptionAttribute.#ctor(System.String)
+  name: DescriptionAttribute(String)
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.DescriptionAttribute.html#KubeOps_Operator_Entities_Annotations_DescriptionAttribute__ctor_System_String_
+  commentId: M:KubeOps.Operator.Entities.Annotations.DescriptionAttribute.#ctor(System.String)
+  fullName: KubeOps.Operator.Entities.Annotations.DescriptionAttribute.DescriptionAttribute(System.String)
+  nameWithType: DescriptionAttribute.DescriptionAttribute(String)
+- uid: KubeOps.Operator.Entities.Annotations.DescriptionAttribute.#ctor*
+  name: DescriptionAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.DescriptionAttribute.html#KubeOps_Operator_Entities_Annotations_DescriptionAttribute__ctor_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.DescriptionAttribute.#ctor
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.DescriptionAttribute.DescriptionAttribute
+  nameWithType: DescriptionAttribute.DescriptionAttribute
+- uid: KubeOps.Operator.Entities.Annotations.DescriptionAttribute.Description
+  name: Description
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.DescriptionAttribute.html#KubeOps_Operator_Entities_Annotations_DescriptionAttribute_Description
+  commentId: P:KubeOps.Operator.Entities.Annotations.DescriptionAttribute.Description
+  fullName: KubeOps.Operator.Entities.Annotations.DescriptionAttribute.Description
+  nameWithType: DescriptionAttribute.Description
+- uid: KubeOps.Operator.Entities.Annotations.DescriptionAttribute.Description*
+  name: Description
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.DescriptionAttribute.html#KubeOps_Operator_Entities_Annotations_DescriptionAttribute_Description_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.DescriptionAttribute.Description
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.DescriptionAttribute.Description
+  nameWithType: DescriptionAttribute.Description
+- uid: KubeOps.Operator.Entities.Annotations.EmbeddedResourceAttribute
+  name: EmbeddedResourceAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.EmbeddedResourceAttribute.html
+  commentId: T:KubeOps.Operator.Entities.Annotations.EmbeddedResourceAttribute
+  fullName: KubeOps.Operator.Entities.Annotations.EmbeddedResourceAttribute
+  nameWithType: EmbeddedResourceAttribute
+- uid: KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute
+  name: ExternalDocsAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.html
+  commentId: T:KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute
+  fullName: KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute
+  nameWithType: ExternalDocsAttribute
+- uid: KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.#ctor(System.String,System.String)
+  name: ExternalDocsAttribute(String, String)
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.html#KubeOps_Operator_Entities_Annotations_ExternalDocsAttribute__ctor_System_String_System_String_
+  commentId: M:KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.#ctor(System.String,System.String)
+  fullName: KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.ExternalDocsAttribute(System.String, System.String)
+  nameWithType: ExternalDocsAttribute.ExternalDocsAttribute(String, String)
+- uid: KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.#ctor*
+  name: ExternalDocsAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.html#KubeOps_Operator_Entities_Annotations_ExternalDocsAttribute__ctor_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.#ctor
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.ExternalDocsAttribute
+  nameWithType: ExternalDocsAttribute.ExternalDocsAttribute
+- uid: KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.Description
+  name: Description
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.html#KubeOps_Operator_Entities_Annotations_ExternalDocsAttribute_Description
+  commentId: P:KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.Description
+  fullName: KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.Description
+  nameWithType: ExternalDocsAttribute.Description
+- uid: KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.Description*
+  name: Description
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.html#KubeOps_Operator_Entities_Annotations_ExternalDocsAttribute_Description_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.Description
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.Description
+  nameWithType: ExternalDocsAttribute.Description
+- uid: KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.Url
+  name: Url
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.html#KubeOps_Operator_Entities_Annotations_ExternalDocsAttribute_Url
+  commentId: P:KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.Url
+  fullName: KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.Url
+  nameWithType: ExternalDocsAttribute.Url
+- uid: KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.Url*
+  name: Url
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.html#KubeOps_Operator_Entities_Annotations_ExternalDocsAttribute_Url_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.Url
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.ExternalDocsAttribute.Url
+  nameWithType: ExternalDocsAttribute.Url
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute
+  name: GenericAdditionalPrinterColumnAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html
+  commentId: T:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute
+  nameWithType: GenericAdditionalPrinterColumnAttribute
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.#ctor(System.String,System.String,System.String)
+  name: GenericAdditionalPrinterColumnAttribute(String, String, String)
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute__ctor_System_String_System_String_System_String_
+  commentId: M:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.#ctor(System.String,System.String,System.String)
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.GenericAdditionalPrinterColumnAttribute(System.String, System.String, System.String)
+  nameWithType: GenericAdditionalPrinterColumnAttribute.GenericAdditionalPrinterColumnAttribute(String, String, String)
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.#ctor*
+  name: GenericAdditionalPrinterColumnAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute__ctor_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.#ctor
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.GenericAdditionalPrinterColumnAttribute
+  nameWithType: GenericAdditionalPrinterColumnAttribute.GenericAdditionalPrinterColumnAttribute
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Description
+  name: Description
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_Description
+  commentId: P:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Description
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Description
+  nameWithType: GenericAdditionalPrinterColumnAttribute.Description
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Description*
+  name: Description
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_Description_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Description
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Description
+  nameWithType: GenericAdditionalPrinterColumnAttribute.Description
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Format
+  name: Format
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_Format
+  commentId: P:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Format
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Format
+  nameWithType: GenericAdditionalPrinterColumnAttribute.Format
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Format*
+  name: Format
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_Format_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Format
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Format
+  nameWithType: GenericAdditionalPrinterColumnAttribute.Format
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.JsonPath
+  name: JsonPath
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_JsonPath
+  commentId: P:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.JsonPath
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.JsonPath
+  nameWithType: GenericAdditionalPrinterColumnAttribute.JsonPath
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.JsonPath*
+  name: JsonPath
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_JsonPath_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.JsonPath
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.JsonPath
+  nameWithType: GenericAdditionalPrinterColumnAttribute.JsonPath
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Name
+  name: Name
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_Name
+  commentId: P:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Name
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Name
+  nameWithType: GenericAdditionalPrinterColumnAttribute.Name
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Name*
+  name: Name
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_Name_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Name
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Name
+  nameWithType: GenericAdditionalPrinterColumnAttribute.Name
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Priority
+  name: Priority
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_Priority
+  commentId: P:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Priority
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Priority
+  nameWithType: GenericAdditionalPrinterColumnAttribute.Priority
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Priority*
+  name: Priority
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_Priority_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Priority
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Priority
+  nameWithType: GenericAdditionalPrinterColumnAttribute.Priority
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Type
+  name: Type
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_Type
+  commentId: P:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Type
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Type
+  nameWithType: GenericAdditionalPrinterColumnAttribute.Type
+- uid: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Type*
+  name: Type
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.html#KubeOps_Operator_Entities_Annotations_GenericAdditionalPrinterColumnAttribute_Type_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Type
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.GenericAdditionalPrinterColumnAttribute.Type
+  nameWithType: GenericAdditionalPrinterColumnAttribute.Type
+- uid: KubeOps.Operator.Entities.Annotations.IgnoreEntityAttribute
+  name: IgnoreEntityAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.IgnoreEntityAttribute.html
+  commentId: T:KubeOps.Operator.Entities.Annotations.IgnoreEntityAttribute
+  fullName: KubeOps.Operator.Entities.Annotations.IgnoreEntityAttribute
+  nameWithType: IgnoreEntityAttribute
+- uid: KubeOps.Operator.Entities.Annotations.ItemsAttribute
+  name: ItemsAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.ItemsAttribute.html
+  commentId: T:KubeOps.Operator.Entities.Annotations.ItemsAttribute
+  fullName: KubeOps.Operator.Entities.Annotations.ItemsAttribute
+  nameWithType: ItemsAttribute
+- uid: KubeOps.Operator.Entities.Annotations.ItemsAttribute.MaxItems
+  name: MaxItems
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.ItemsAttribute.html#KubeOps_Operator_Entities_Annotations_ItemsAttribute_MaxItems
+  commentId: P:KubeOps.Operator.Entities.Annotations.ItemsAttribute.MaxItems
+  fullName: KubeOps.Operator.Entities.Annotations.ItemsAttribute.MaxItems
+  nameWithType: ItemsAttribute.MaxItems
+- uid: KubeOps.Operator.Entities.Annotations.ItemsAttribute.MaxItems*
+  name: MaxItems
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.ItemsAttribute.html#KubeOps_Operator_Entities_Annotations_ItemsAttribute_MaxItems_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.ItemsAttribute.MaxItems
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.ItemsAttribute.MaxItems
+  nameWithType: ItemsAttribute.MaxItems
+- uid: KubeOps.Operator.Entities.Annotations.ItemsAttribute.MinItems
+  name: MinItems
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.ItemsAttribute.html#KubeOps_Operator_Entities_Annotations_ItemsAttribute_MinItems
+  commentId: P:KubeOps.Operator.Entities.Annotations.ItemsAttribute.MinItems
+  fullName: KubeOps.Operator.Entities.Annotations.ItemsAttribute.MinItems
+  nameWithType: ItemsAttribute.MinItems
+- uid: KubeOps.Operator.Entities.Annotations.ItemsAttribute.MinItems*
+  name: MinItems
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.ItemsAttribute.html#KubeOps_Operator_Entities_Annotations_ItemsAttribute_MinItems_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.ItemsAttribute.MinItems
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.ItemsAttribute.MinItems
+  nameWithType: ItemsAttribute.MinItems
+- uid: KubeOps.Operator.Entities.Annotations.LengthAttribute
+  name: LengthAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.LengthAttribute.html
+  commentId: T:KubeOps.Operator.Entities.Annotations.LengthAttribute
+  fullName: KubeOps.Operator.Entities.Annotations.LengthAttribute
+  nameWithType: LengthAttribute
+- uid: KubeOps.Operator.Entities.Annotations.LengthAttribute.MaxLength
+  name: MaxLength
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.LengthAttribute.html#KubeOps_Operator_Entities_Annotations_LengthAttribute_MaxLength
+  commentId: P:KubeOps.Operator.Entities.Annotations.LengthAttribute.MaxLength
+  fullName: KubeOps.Operator.Entities.Annotations.LengthAttribute.MaxLength
+  nameWithType: LengthAttribute.MaxLength
+- uid: KubeOps.Operator.Entities.Annotations.LengthAttribute.MaxLength*
+  name: MaxLength
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.LengthAttribute.html#KubeOps_Operator_Entities_Annotations_LengthAttribute_MaxLength_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.LengthAttribute.MaxLength
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.LengthAttribute.MaxLength
+  nameWithType: LengthAttribute.MaxLength
+- uid: KubeOps.Operator.Entities.Annotations.LengthAttribute.MinLength
+  name: MinLength
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.LengthAttribute.html#KubeOps_Operator_Entities_Annotations_LengthAttribute_MinLength
+  commentId: P:KubeOps.Operator.Entities.Annotations.LengthAttribute.MinLength
+  fullName: KubeOps.Operator.Entities.Annotations.LengthAttribute.MinLength
+  nameWithType: LengthAttribute.MinLength
+- uid: KubeOps.Operator.Entities.Annotations.LengthAttribute.MinLength*
+  name: MinLength
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.LengthAttribute.html#KubeOps_Operator_Entities_Annotations_LengthAttribute_MinLength_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.LengthAttribute.MinLength
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.LengthAttribute.MinLength
+  nameWithType: LengthAttribute.MinLength
+- uid: KubeOps.Operator.Entities.Annotations.MultipleOfAttribute
+  name: MultipleOfAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.html
+  commentId: T:KubeOps.Operator.Entities.Annotations.MultipleOfAttribute
+  fullName: KubeOps.Operator.Entities.Annotations.MultipleOfAttribute
+  nameWithType: MultipleOfAttribute
+- uid: KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.#ctor(System.Double)
+  name: MultipleOfAttribute(Double)
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.html#KubeOps_Operator_Entities_Annotations_MultipleOfAttribute__ctor_System_Double_
+  commentId: M:KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.#ctor(System.Double)
+  fullName: KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.MultipleOfAttribute(System.Double)
+  nameWithType: MultipleOfAttribute.MultipleOfAttribute(Double)
+- uid: KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.#ctor*
+  name: MultipleOfAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.html#KubeOps_Operator_Entities_Annotations_MultipleOfAttribute__ctor_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.#ctor
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.MultipleOfAttribute
+  nameWithType: MultipleOfAttribute.MultipleOfAttribute
+- uid: KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.Value
+  name: Value
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.html#KubeOps_Operator_Entities_Annotations_MultipleOfAttribute_Value
+  commentId: P:KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.Value
+  fullName: KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.Value
+  nameWithType: MultipleOfAttribute.Value
+- uid: KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.Value*
+  name: Value
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.html#KubeOps_Operator_Entities_Annotations_MultipleOfAttribute_Value_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.Value
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.MultipleOfAttribute.Value
+  nameWithType: MultipleOfAttribute.Value
+- uid: KubeOps.Operator.Entities.Annotations.PatternAttribute
+  name: PatternAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.PatternAttribute.html
+  commentId: T:KubeOps.Operator.Entities.Annotations.PatternAttribute
+  fullName: KubeOps.Operator.Entities.Annotations.PatternAttribute
+  nameWithType: PatternAttribute
+- uid: KubeOps.Operator.Entities.Annotations.PatternAttribute.#ctor(System.String)
+  name: PatternAttribute(String)
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.PatternAttribute.html#KubeOps_Operator_Entities_Annotations_PatternAttribute__ctor_System_String_
+  commentId: M:KubeOps.Operator.Entities.Annotations.PatternAttribute.#ctor(System.String)
+  fullName: KubeOps.Operator.Entities.Annotations.PatternAttribute.PatternAttribute(System.String)
+  nameWithType: PatternAttribute.PatternAttribute(String)
+- uid: KubeOps.Operator.Entities.Annotations.PatternAttribute.#ctor*
+  name: PatternAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.PatternAttribute.html#KubeOps_Operator_Entities_Annotations_PatternAttribute__ctor_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.PatternAttribute.#ctor
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.PatternAttribute.PatternAttribute
+  nameWithType: PatternAttribute.PatternAttribute
+- uid: KubeOps.Operator.Entities.Annotations.PatternAttribute.RegexPattern
+  name: RegexPattern
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.PatternAttribute.html#KubeOps_Operator_Entities_Annotations_PatternAttribute_RegexPattern
+  commentId: P:KubeOps.Operator.Entities.Annotations.PatternAttribute.RegexPattern
+  fullName: KubeOps.Operator.Entities.Annotations.PatternAttribute.RegexPattern
+  nameWithType: PatternAttribute.RegexPattern
+- uid: KubeOps.Operator.Entities.Annotations.PatternAttribute.RegexPattern*
+  name: RegexPattern
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.PatternAttribute.html#KubeOps_Operator_Entities_Annotations_PatternAttribute_RegexPattern_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.PatternAttribute.RegexPattern
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.PatternAttribute.RegexPattern
+  nameWithType: PatternAttribute.RegexPattern
+- uid: KubeOps.Operator.Entities.Annotations.PreserveUnknownFieldsAttribute
+  name: PreserveUnknownFieldsAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.PreserveUnknownFieldsAttribute.html
+  commentId: T:KubeOps.Operator.Entities.Annotations.PreserveUnknownFieldsAttribute
+  fullName: KubeOps.Operator.Entities.Annotations.PreserveUnknownFieldsAttribute
+  nameWithType: PreserveUnknownFieldsAttribute
+- uid: KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute
+  name: RangeMaximumAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.html
+  commentId: T:KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute
+  fullName: KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute
+  nameWithType: RangeMaximumAttribute
+- uid: KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.ExclusiveMaximum
+  name: ExclusiveMaximum
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.html#KubeOps_Operator_Entities_Annotations_RangeMaximumAttribute_ExclusiveMaximum
+  commentId: P:KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.ExclusiveMaximum
+  fullName: KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.ExclusiveMaximum
+  nameWithType: RangeMaximumAttribute.ExclusiveMaximum
+- uid: KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.ExclusiveMaximum*
+  name: ExclusiveMaximum
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.html#KubeOps_Operator_Entities_Annotations_RangeMaximumAttribute_ExclusiveMaximum_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.ExclusiveMaximum
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.ExclusiveMaximum
+  nameWithType: RangeMaximumAttribute.ExclusiveMaximum
+- uid: KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.Maximum
+  name: Maximum
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.html#KubeOps_Operator_Entities_Annotations_RangeMaximumAttribute_Maximum
+  commentId: P:KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.Maximum
+  fullName: KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.Maximum
+  nameWithType: RangeMaximumAttribute.Maximum
+- uid: KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.Maximum*
+  name: Maximum
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.html#KubeOps_Operator_Entities_Annotations_RangeMaximumAttribute_Maximum_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.Maximum
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.RangeMaximumAttribute.Maximum
+  nameWithType: RangeMaximumAttribute.Maximum
+- uid: KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute
+  name: RangeMinimumAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.html
+  commentId: T:KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute
+  fullName: KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute
+  nameWithType: RangeMinimumAttribute
+- uid: KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.ExclusiveMinimum
+  name: ExclusiveMinimum
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.html#KubeOps_Operator_Entities_Annotations_RangeMinimumAttribute_ExclusiveMinimum
+  commentId: P:KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.ExclusiveMinimum
+  fullName: KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.ExclusiveMinimum
+  nameWithType: RangeMinimumAttribute.ExclusiveMinimum
+- uid: KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.ExclusiveMinimum*
+  name: ExclusiveMinimum
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.html#KubeOps_Operator_Entities_Annotations_RangeMinimumAttribute_ExclusiveMinimum_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.ExclusiveMinimum
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.ExclusiveMinimum
+  nameWithType: RangeMinimumAttribute.ExclusiveMinimum
+- uid: KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.Minimum
+  name: Minimum
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.html#KubeOps_Operator_Entities_Annotations_RangeMinimumAttribute_Minimum
+  commentId: P:KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.Minimum
+  fullName: KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.Minimum
+  nameWithType: RangeMinimumAttribute.Minimum
+- uid: KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.Minimum*
+  name: Minimum
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.html#KubeOps_Operator_Entities_Annotations_RangeMinimumAttribute_Minimum_
+  commentId: Overload:KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.Minimum
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Annotations.RangeMinimumAttribute.Minimum
+  nameWithType: RangeMinimumAttribute.Minimum
+- uid: KubeOps.Operator.Entities.Annotations.RequiredAttribute
+  name: RequiredAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.RequiredAttribute.html
+  commentId: T:KubeOps.Operator.Entities.Annotations.RequiredAttribute
+  fullName: KubeOps.Operator.Entities.Annotations.RequiredAttribute
+  nameWithType: RequiredAttribute
+- uid: KubeOps.Operator.Entities.Annotations.StorageVersionAttribute
+  name: StorageVersionAttribute
+  href: kube-ops/KubeOps.Operator.Entities.Annotations.StorageVersionAttribute.html
+  commentId: T:KubeOps.Operator.Entities.Annotations.StorageVersionAttribute
+  fullName: KubeOps.Operator.Entities.Annotations.StorageVersionAttribute
+  nameWithType: StorageVersionAttribute
+- uid: KubeOps.Operator.Entities.CustomKubernetesEntity
+  name: CustomKubernetesEntity
+  href: kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity.html
+  commentId: T:KubeOps.Operator.Entities.CustomKubernetesEntity
+  fullName: KubeOps.Operator.Entities.CustomKubernetesEntity
+  nameWithType: CustomKubernetesEntity
+- uid: KubeOps.Operator.Entities.CustomKubernetesEntity.Metadata
+  name: Metadata
+  href: kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity.html#KubeOps_Operator_Entities_CustomKubernetesEntity_Metadata
+  commentId: P:KubeOps.Operator.Entities.CustomKubernetesEntity.Metadata
+  fullName: KubeOps.Operator.Entities.CustomKubernetesEntity.Metadata
+  nameWithType: CustomKubernetesEntity.Metadata
+- uid: KubeOps.Operator.Entities.CustomKubernetesEntity.Metadata*
+  name: Metadata
+  href: kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity.html#KubeOps_Operator_Entities_CustomKubernetesEntity_Metadata_
+  commentId: Overload:KubeOps.Operator.Entities.CustomKubernetesEntity.Metadata
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.CustomKubernetesEntity.Metadata
+  nameWithType: CustomKubernetesEntity.Metadata
+- uid: KubeOps.Operator.Entities.CustomKubernetesEntity`1
+  name: CustomKubernetesEntity<TSpec>
+  href: kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity-1.html
+  commentId: T:KubeOps.Operator.Entities.CustomKubernetesEntity`1
+  name.vb: CustomKubernetesEntity(Of TSpec)
+  fullName: KubeOps.Operator.Entities.CustomKubernetesEntity<TSpec>
+  fullName.vb: KubeOps.Operator.Entities.CustomKubernetesEntity(Of TSpec)
+  nameWithType: CustomKubernetesEntity<TSpec>
+  nameWithType.vb: CustomKubernetesEntity(Of TSpec)
+- uid: KubeOps.Operator.Entities.CustomKubernetesEntity`1.Spec
+  name: Spec
+  href: kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity-1.html#KubeOps_Operator_Entities_CustomKubernetesEntity_1_Spec
+  commentId: P:KubeOps.Operator.Entities.CustomKubernetesEntity`1.Spec
+  fullName: KubeOps.Operator.Entities.CustomKubernetesEntity<TSpec>.Spec
+  fullName.vb: KubeOps.Operator.Entities.CustomKubernetesEntity(Of TSpec).Spec
+  nameWithType: CustomKubernetesEntity<TSpec>.Spec
+  nameWithType.vb: CustomKubernetesEntity(Of TSpec).Spec
+- uid: KubeOps.Operator.Entities.CustomKubernetesEntity`1.Spec*
+  name: Spec
+  href: kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity-1.html#KubeOps_Operator_Entities_CustomKubernetesEntity_1_Spec_
+  commentId: Overload:KubeOps.Operator.Entities.CustomKubernetesEntity`1.Spec
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.CustomKubernetesEntity<TSpec>.Spec
+  fullName.vb: KubeOps.Operator.Entities.CustomKubernetesEntity(Of TSpec).Spec
+  nameWithType: CustomKubernetesEntity<TSpec>.Spec
+  nameWithType.vb: CustomKubernetesEntity(Of TSpec).Spec
+- uid: KubeOps.Operator.Entities.CustomKubernetesEntity`2
+  name: CustomKubernetesEntity<TSpec, TStatus>
+  href: kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity-2.html
+  commentId: T:KubeOps.Operator.Entities.CustomKubernetesEntity`2
+  name.vb: CustomKubernetesEntity(Of TSpec, TStatus)
+  fullName: KubeOps.Operator.Entities.CustomKubernetesEntity<TSpec, TStatus>
+  fullName.vb: KubeOps.Operator.Entities.CustomKubernetesEntity(Of TSpec, TStatus)
+  nameWithType: CustomKubernetesEntity<TSpec, TStatus>
+  nameWithType.vb: CustomKubernetesEntity(Of TSpec, TStatus)
+- uid: KubeOps.Operator.Entities.CustomKubernetesEntity`2.Status
+  name: Status
+  href: kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity-2.html#KubeOps_Operator_Entities_CustomKubernetesEntity_2_Status
+  commentId: P:KubeOps.Operator.Entities.CustomKubernetesEntity`2.Status
+  fullName: KubeOps.Operator.Entities.CustomKubernetesEntity<TSpec, TStatus>.Status
+  fullName.vb: KubeOps.Operator.Entities.CustomKubernetesEntity(Of TSpec, TStatus).Status
+  nameWithType: CustomKubernetesEntity<TSpec, TStatus>.Status
+  nameWithType.vb: CustomKubernetesEntity(Of TSpec, TStatus).Status
+- uid: KubeOps.Operator.Entities.CustomKubernetesEntity`2.Status*
+  name: Status
+  href: kube-ops/KubeOps.Operator.Entities.CustomKubernetesEntity-2.html#KubeOps_Operator_Entities_CustomKubernetesEntity_2_Status_
+  commentId: Overload:KubeOps.Operator.Entities.CustomKubernetesEntity`2.Status
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.CustomKubernetesEntity<TSpec, TStatus>.Status
+  fullName.vb: KubeOps.Operator.Entities.CustomKubernetesEntity(Of TSpec, TStatus).Status
+  nameWithType: CustomKubernetesEntity<TSpec, TStatus>.Status
+  nameWithType.vb: CustomKubernetesEntity(Of TSpec, TStatus).Status
+- uid: KubeOps.Operator.Entities.EntityList`1
+  name: EntityList<T>
+  href: kube-ops/KubeOps.Operator.Entities.EntityList-1.html
+  commentId: T:KubeOps.Operator.Entities.EntityList`1
+  name.vb: EntityList(Of T)
+  fullName: KubeOps.Operator.Entities.EntityList<T>
+  fullName.vb: KubeOps.Operator.Entities.EntityList(Of T)
+  nameWithType: EntityList<T>
+  nameWithType.vb: EntityList(Of T)
+- uid: KubeOps.Operator.Entities.EntityList`1.Items
+  name: Items
+  href: kube-ops/KubeOps.Operator.Entities.EntityList-1.html#KubeOps_Operator_Entities_EntityList_1_Items
+  commentId: P:KubeOps.Operator.Entities.EntityList`1.Items
+  fullName: KubeOps.Operator.Entities.EntityList<T>.Items
+  fullName.vb: KubeOps.Operator.Entities.EntityList(Of T).Items
+  nameWithType: EntityList<T>.Items
+  nameWithType.vb: EntityList(Of T).Items
+- uid: KubeOps.Operator.Entities.EntityList`1.Items*
+  name: Items
+  href: kube-ops/KubeOps.Operator.Entities.EntityList-1.html#KubeOps_Operator_Entities_EntityList_1_Items_
+  commentId: Overload:KubeOps.Operator.Entities.EntityList`1.Items
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.EntityList<T>.Items
+  fullName.vb: KubeOps.Operator.Entities.EntityList(Of T).Items
+  nameWithType: EntityList<T>.Items
+  nameWithType.vb: EntityList(Of T).Items
+- uid: KubeOps.Operator.Entities.EntityList`1.Metadata
+  name: Metadata
+  href: kube-ops/KubeOps.Operator.Entities.EntityList-1.html#KubeOps_Operator_Entities_EntityList_1_Metadata
+  commentId: P:KubeOps.Operator.Entities.EntityList`1.Metadata
+  fullName: KubeOps.Operator.Entities.EntityList<T>.Metadata
+  fullName.vb: KubeOps.Operator.Entities.EntityList(Of T).Metadata
+  nameWithType: EntityList<T>.Metadata
+  nameWithType.vb: EntityList(Of T).Metadata
+- uid: KubeOps.Operator.Entities.EntityList`1.Metadata*
+  name: Metadata
+  href: kube-ops/KubeOps.Operator.Entities.EntityList-1.html#KubeOps_Operator_Entities_EntityList_1_Metadata_
+  commentId: Overload:KubeOps.Operator.Entities.EntityList`1.Metadata
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.EntityList<T>.Metadata
+  fullName.vb: KubeOps.Operator.Entities.EntityList(Of T).Metadata
+  nameWithType: EntityList<T>.Metadata
+  nameWithType.vb: EntityList(Of T).Metadata
+- uid: KubeOps.Operator.Entities.EntityScope
+  name: EntityScope
+  href: kube-ops/KubeOps.Operator.Entities.EntityScope.html
+  commentId: T:KubeOps.Operator.Entities.EntityScope
+  fullName: KubeOps.Operator.Entities.EntityScope
+  nameWithType: EntityScope
+- uid: KubeOps.Operator.Entities.EntityScope.Cluster
+  name: Cluster
+  href: kube-ops/KubeOps.Operator.Entities.EntityScope.html#KubeOps_Operator_Entities_EntityScope_Cluster
+  commentId: F:KubeOps.Operator.Entities.EntityScope.Cluster
+  fullName: KubeOps.Operator.Entities.EntityScope.Cluster
+  nameWithType: EntityScope.Cluster
+- uid: KubeOps.Operator.Entities.EntityScope.Namespaced
+  name: Namespaced
+  href: kube-ops/KubeOps.Operator.Entities.EntityScope.html#KubeOps_Operator_Entities_EntityScope_Namespaced
+  commentId: F:KubeOps.Operator.Entities.EntityScope.Namespaced
+  fullName: KubeOps.Operator.Entities.EntityScope.Namespaced
+  nameWithType: EntityScope.Namespaced
+- uid: KubeOps.Operator.Entities.EntityScopeAttribute
+  name: EntityScopeAttribute
+  href: kube-ops/KubeOps.Operator.Entities.EntityScopeAttribute.html
+  commentId: T:KubeOps.Operator.Entities.EntityScopeAttribute
+  fullName: KubeOps.Operator.Entities.EntityScopeAttribute
+  nameWithType: EntityScopeAttribute
+- uid: KubeOps.Operator.Entities.EntityScopeAttribute.#ctor(KubeOps.Operator.Entities.EntityScope)
+  name: EntityScopeAttribute(EntityScope)
+  href: kube-ops/KubeOps.Operator.Entities.EntityScopeAttribute.html#KubeOps_Operator_Entities_EntityScopeAttribute__ctor_KubeOps_Operator_Entities_EntityScope_
+  commentId: M:KubeOps.Operator.Entities.EntityScopeAttribute.#ctor(KubeOps.Operator.Entities.EntityScope)
+  fullName: KubeOps.Operator.Entities.EntityScopeAttribute.EntityScopeAttribute(KubeOps.Operator.Entities.EntityScope)
+  nameWithType: EntityScopeAttribute.EntityScopeAttribute(EntityScope)
+- uid: KubeOps.Operator.Entities.EntityScopeAttribute.#ctor*
+  name: EntityScopeAttribute
+  href: kube-ops/KubeOps.Operator.Entities.EntityScopeAttribute.html#KubeOps_Operator_Entities_EntityScopeAttribute__ctor_
+  commentId: Overload:KubeOps.Operator.Entities.EntityScopeAttribute.#ctor
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.EntityScopeAttribute.EntityScopeAttribute
+  nameWithType: EntityScopeAttribute.EntityScopeAttribute
+- uid: KubeOps.Operator.Entities.EntityScopeAttribute.Scope
+  name: Scope
+  href: kube-ops/KubeOps.Operator.Entities.EntityScopeAttribute.html#KubeOps_Operator_Entities_EntityScopeAttribute_Scope
+  commentId: P:KubeOps.Operator.Entities.EntityScopeAttribute.Scope
+  fullName: KubeOps.Operator.Entities.EntityScopeAttribute.Scope
+  nameWithType: EntityScopeAttribute.Scope
+- uid: KubeOps.Operator.Entities.EntityScopeAttribute.Scope*
+  name: Scope
+  href: kube-ops/KubeOps.Operator.Entities.EntityScopeAttribute.html#KubeOps_Operator_Entities_EntityScopeAttribute_Scope_
+  commentId: Overload:KubeOps.Operator.Entities.EntityScopeAttribute.Scope
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.EntityScopeAttribute.Scope
+  nameWithType: EntityScopeAttribute.Scope
+- uid: KubeOps.Operator.Entities.Extensions
+  name: KubeOps.Operator.Entities.Extensions
+  href: kube-ops/KubeOps.Operator.Entities.Extensions.html
+  commentId: N:KubeOps.Operator.Entities.Extensions
+  fullName: KubeOps.Operator.Entities.Extensions
+  nameWithType: KubeOps.Operator.Entities.Extensions
+- uid: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions
+  name: KubernetesObjectExtensions
+  href: kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html
+  commentId: T:KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions
+  fullName: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions
+  nameWithType: KubernetesObjectExtensions
+- uid: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeObjectReference(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta})
+  name: MakeObjectReference(IKubernetesObject<V1ObjectMeta>)
+  href: kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html#KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_MakeObjectReference_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__
+  commentId: M:KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeObjectReference(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta})
+  name.vb: MakeObjectReference(IKubernetesObject(Of V1ObjectMeta))
+  fullName: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeObjectReference(k8s.IKubernetesObject<k8s.Models.V1ObjectMeta>)
+  fullName.vb: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeObjectReference(k8s.IKubernetesObject(Of k8s.Models.V1ObjectMeta))
+  nameWithType: KubernetesObjectExtensions.MakeObjectReference(IKubernetesObject<V1ObjectMeta>)
+  nameWithType.vb: KubernetesObjectExtensions.MakeObjectReference(IKubernetesObject(Of V1ObjectMeta))
+- uid: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeObjectReference*
+  name: MakeObjectReference
+  href: kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html#KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_MakeObjectReference_
+  commentId: Overload:KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeObjectReference
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeObjectReference
+  nameWithType: KubernetesObjectExtensions.MakeObjectReference
+- uid: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeOwnerReference(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta})
+  name: MakeOwnerReference(IKubernetesObject<V1ObjectMeta>)
+  href: kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html#KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_MakeOwnerReference_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__
+  commentId: M:KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeOwnerReference(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta})
+  name.vb: MakeOwnerReference(IKubernetesObject(Of V1ObjectMeta))
+  fullName: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeOwnerReference(k8s.IKubernetesObject<k8s.Models.V1ObjectMeta>)
+  fullName.vb: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeOwnerReference(k8s.IKubernetesObject(Of k8s.Models.V1ObjectMeta))
+  nameWithType: KubernetesObjectExtensions.MakeOwnerReference(IKubernetesObject<V1ObjectMeta>)
+  nameWithType.vb: KubernetesObjectExtensions.MakeOwnerReference(IKubernetesObject(Of V1ObjectMeta))
+- uid: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeOwnerReference*
+  name: MakeOwnerReference
+  href: kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html#KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_MakeOwnerReference_
+  commentId: Overload:KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeOwnerReference
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.MakeOwnerReference
+  nameWithType: KubernetesObjectExtensions.MakeOwnerReference
+- uid: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference*
+  name: WithOwnerReference
+  href: kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html#KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_WithOwnerReference_
+  commentId: Overload:KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference
+  nameWithType: KubernetesObjectExtensions.WithOwnerReference
+- uid: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference``1(``0,k8s.IKubernetesObject{k8s.Models.V1ObjectMeta})
+  name: WithOwnerReference<TEntity>(TEntity, IKubernetesObject<V1ObjectMeta>)
+  href: kube-ops/KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.html#KubeOps_Operator_Entities_Extensions_KubernetesObjectExtensions_WithOwnerReference__1___0_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__
+  commentId: M:KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference``1(``0,k8s.IKubernetesObject{k8s.Models.V1ObjectMeta})
+  name.vb: WithOwnerReference(Of TEntity)(TEntity, IKubernetesObject(Of V1ObjectMeta))
+  fullName: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference<TEntity>(TEntity, k8s.IKubernetesObject<k8s.Models.V1ObjectMeta>)
+  fullName.vb: KubeOps.Operator.Entities.Extensions.KubernetesObjectExtensions.WithOwnerReference(Of TEntity)(TEntity, k8s.IKubernetesObject(Of k8s.Models.V1ObjectMeta))
+  nameWithType: KubernetesObjectExtensions.WithOwnerReference<TEntity>(TEntity, IKubernetesObject<V1ObjectMeta>)
+  nameWithType.vb: KubernetesObjectExtensions.WithOwnerReference(Of TEntity)(TEntity, IKubernetesObject(Of V1ObjectMeta))
+- uid: KubeOps.Operator.Entities.Extensions.V1SecretExtensions
+  name: V1SecretExtensions
+  href: kube-ops/KubeOps.Operator.Entities.Extensions.V1SecretExtensions.html
+  commentId: T:KubeOps.Operator.Entities.Extensions.V1SecretExtensions
+  fullName: KubeOps.Operator.Entities.Extensions.V1SecretExtensions
+  nameWithType: V1SecretExtensions
+- uid: KubeOps.Operator.Entities.Extensions.V1SecretExtensions.ReadData(k8s.Models.V1Secret,System.String)
+  name: ReadData(V1Secret, String)
+  href: kube-ops/KubeOps.Operator.Entities.Extensions.V1SecretExtensions.html#KubeOps_Operator_Entities_Extensions_V1SecretExtensions_ReadData_k8s_Models_V1Secret_System_String_
+  commentId: M:KubeOps.Operator.Entities.Extensions.V1SecretExtensions.ReadData(k8s.Models.V1Secret,System.String)
+  fullName: KubeOps.Operator.Entities.Extensions.V1SecretExtensions.ReadData(k8s.Models.V1Secret, System.String)
+  nameWithType: V1SecretExtensions.ReadData(V1Secret, String)
+- uid: KubeOps.Operator.Entities.Extensions.V1SecretExtensions.ReadData*
+  name: ReadData
+  href: kube-ops/KubeOps.Operator.Entities.Extensions.V1SecretExtensions.html#KubeOps_Operator_Entities_Extensions_V1SecretExtensions_ReadData_
+  commentId: Overload:KubeOps.Operator.Entities.Extensions.V1SecretExtensions.ReadData
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Extensions.V1SecretExtensions.ReadData
+  nameWithType: V1SecretExtensions.ReadData
+- uid: KubeOps.Operator.Entities.Extensions.V1SecretExtensions.WriteData(k8s.Models.V1Secret,System.String,System.String)
+  name: WriteData(V1Secret, String, String)
+  href: kube-ops/KubeOps.Operator.Entities.Extensions.V1SecretExtensions.html#KubeOps_Operator_Entities_Extensions_V1SecretExtensions_WriteData_k8s_Models_V1Secret_System_String_System_String_
+  commentId: M:KubeOps.Operator.Entities.Extensions.V1SecretExtensions.WriteData(k8s.Models.V1Secret,System.String,System.String)
+  fullName: KubeOps.Operator.Entities.Extensions.V1SecretExtensions.WriteData(k8s.Models.V1Secret, System.String, System.String)
+  nameWithType: V1SecretExtensions.WriteData(V1Secret, String, String)
+- uid: KubeOps.Operator.Entities.Extensions.V1SecretExtensions.WriteData*
+  name: WriteData
+  href: kube-ops/KubeOps.Operator.Entities.Extensions.V1SecretExtensions.html#KubeOps_Operator_Entities_Extensions_V1SecretExtensions_WriteData_
+  commentId: Overload:KubeOps.Operator.Entities.Extensions.V1SecretExtensions.WriteData
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Extensions.V1SecretExtensions.WriteData
+  nameWithType: V1SecretExtensions.WriteData
+- uid: KubeOps.Operator.Entities.Kustomize
+  name: KubeOps.Operator.Entities.Kustomize
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.html
+  commentId: N:KubeOps.Operator.Entities.Kustomize
+  fullName: KubeOps.Operator.Entities.Kustomize
+  nameWithType: KubeOps.Operator.Entities.Kustomize
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfig
+  name: KustomizationConfig
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html
+  commentId: T:KubeOps.Operator.Entities.Kustomize.KustomizationConfig
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfig
+  nameWithType: KustomizationConfig
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.#ctor
+  name: KustomizationConfig()
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfig__ctor
+  commentId: M:KubeOps.Operator.Entities.Kustomize.KustomizationConfig.#ctor
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.KustomizationConfig()
+  nameWithType: KustomizationConfig.KustomizationConfig()
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.#ctor*
+  name: KustomizationConfig
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfig__ctor_
+  commentId: Overload:KubeOps.Operator.Entities.Kustomize.KustomizationConfig.#ctor
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.KustomizationConfig
+  nameWithType: KustomizationConfig.KustomizationConfig
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.CommonLabels
+  name: CommonLabels
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfig_CommonLabels
+  commentId: P:KubeOps.Operator.Entities.Kustomize.KustomizationConfig.CommonLabels
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.CommonLabels
+  nameWithType: KustomizationConfig.CommonLabels
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.CommonLabels*
+  name: CommonLabels
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfig_CommonLabels_
+  commentId: Overload:KubeOps.Operator.Entities.Kustomize.KustomizationConfig.CommonLabels
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.CommonLabels
+  nameWithType: KustomizationConfig.CommonLabels
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.ConfigMapGenerator
+  name: ConfigMapGenerator
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfig_ConfigMapGenerator
+  commentId: P:KubeOps.Operator.Entities.Kustomize.KustomizationConfig.ConfigMapGenerator
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.ConfigMapGenerator
+  nameWithType: KustomizationConfig.ConfigMapGenerator
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.ConfigMapGenerator*
+  name: ConfigMapGenerator
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfig_ConfigMapGenerator_
+  commentId: Overload:KubeOps.Operator.Entities.Kustomize.KustomizationConfig.ConfigMapGenerator
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.ConfigMapGenerator
+  nameWithType: KustomizationConfig.ConfigMapGenerator
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.Images
+  name: Images
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfig_Images
+  commentId: P:KubeOps.Operator.Entities.Kustomize.KustomizationConfig.Images
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.Images
+  nameWithType: KustomizationConfig.Images
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.Images*
+  name: Images
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfig_Images_
+  commentId: Overload:KubeOps.Operator.Entities.Kustomize.KustomizationConfig.Images
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.Images
+  nameWithType: KustomizationConfig.Images
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.NamePrefix
+  name: NamePrefix
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfig_NamePrefix
+  commentId: P:KubeOps.Operator.Entities.Kustomize.KustomizationConfig.NamePrefix
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.NamePrefix
+  nameWithType: KustomizationConfig.NamePrefix
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.NamePrefix*
+  name: NamePrefix
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfig_NamePrefix_
+  commentId: Overload:KubeOps.Operator.Entities.Kustomize.KustomizationConfig.NamePrefix
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.NamePrefix
+  nameWithType: KustomizationConfig.NamePrefix
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.Namespace
+  name: Namespace
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfig_Namespace
+  commentId: P:KubeOps.Operator.Entities.Kustomize.KustomizationConfig.Namespace
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.Namespace
+  nameWithType: KustomizationConfig.Namespace
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.Namespace*
+  name: Namespace
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfig_Namespace_
+  commentId: Overload:KubeOps.Operator.Entities.Kustomize.KustomizationConfig.Namespace
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.Namespace
+  nameWithType: KustomizationConfig.Namespace
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.PatchesStrategicMerge
+  name: PatchesStrategicMerge
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfig_PatchesStrategicMerge
+  commentId: P:KubeOps.Operator.Entities.Kustomize.KustomizationConfig.PatchesStrategicMerge
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.PatchesStrategicMerge
+  nameWithType: KustomizationConfig.PatchesStrategicMerge
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.PatchesStrategicMerge*
+  name: PatchesStrategicMerge
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfig_PatchesStrategicMerge_
+  commentId: Overload:KubeOps.Operator.Entities.Kustomize.KustomizationConfig.PatchesStrategicMerge
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.PatchesStrategicMerge
+  nameWithType: KustomizationConfig.PatchesStrategicMerge
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.Resources
+  name: Resources
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfig_Resources
+  commentId: P:KubeOps.Operator.Entities.Kustomize.KustomizationConfig.Resources
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.Resources
+  nameWithType: KustomizationConfig.Resources
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.Resources*
+  name: Resources
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfig.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfig_Resources_
+  commentId: Overload:KubeOps.Operator.Entities.Kustomize.KustomizationConfig.Resources
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfig.Resources
+  nameWithType: KustomizationConfig.Resources
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator
+  name: KustomizationConfigMapGenerator
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.html
+  commentId: T:KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator
+  nameWithType: KustomizationConfigMapGenerator
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Files
+  name: Files
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfigMapGenerator_Files
+  commentId: P:KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Files
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Files
+  nameWithType: KustomizationConfigMapGenerator.Files
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Files*
+  name: Files
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfigMapGenerator_Files_
+  commentId: Overload:KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Files
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Files
+  nameWithType: KustomizationConfigMapGenerator.Files
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Literals
+  name: Literals
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfigMapGenerator_Literals
+  commentId: P:KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Literals
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Literals
+  nameWithType: KustomizationConfigMapGenerator.Literals
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Literals*
+  name: Literals
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfigMapGenerator_Literals_
+  commentId: Overload:KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Literals
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Literals
+  nameWithType: KustomizationConfigMapGenerator.Literals
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Name
+  name: Name
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfigMapGenerator_Name
+  commentId: P:KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Name
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Name
+  nameWithType: KustomizationConfigMapGenerator.Name
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Name*
+  name: Name
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.html#KubeOps_Operator_Entities_Kustomize_KustomizationConfigMapGenerator_Name_
+  commentId: Overload:KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Name
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationConfigMapGenerator.Name
+  nameWithType: KustomizationConfigMapGenerator.Name
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationImage
+  name: KustomizationImage
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationImage.html
+  commentId: T:KubeOps.Operator.Entities.Kustomize.KustomizationImage
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationImage
+  nameWithType: KustomizationImage
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationImage.Name
+  name: Name
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationImage.html#KubeOps_Operator_Entities_Kustomize_KustomizationImage_Name
+  commentId: P:KubeOps.Operator.Entities.Kustomize.KustomizationImage.Name
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationImage.Name
+  nameWithType: KustomizationImage.Name
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationImage.Name*
+  name: Name
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationImage.html#KubeOps_Operator_Entities_Kustomize_KustomizationImage_Name_
+  commentId: Overload:KubeOps.Operator.Entities.Kustomize.KustomizationImage.Name
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationImage.Name
+  nameWithType: KustomizationImage.Name
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationImage.NewName
+  name: NewName
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationImage.html#KubeOps_Operator_Entities_Kustomize_KustomizationImage_NewName
+  commentId: P:KubeOps.Operator.Entities.Kustomize.KustomizationImage.NewName
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationImage.NewName
+  nameWithType: KustomizationImage.NewName
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationImage.NewName*
+  name: NewName
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationImage.html#KubeOps_Operator_Entities_Kustomize_KustomizationImage_NewName_
+  commentId: Overload:KubeOps.Operator.Entities.Kustomize.KustomizationImage.NewName
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationImage.NewName
+  nameWithType: KustomizationImage.NewName
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationImage.NewTag
+  name: NewTag
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationImage.html#KubeOps_Operator_Entities_Kustomize_KustomizationImage_NewTag
+  commentId: P:KubeOps.Operator.Entities.Kustomize.KustomizationImage.NewTag
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationImage.NewTag
+  nameWithType: KustomizationImage.NewTag
+- uid: KubeOps.Operator.Entities.Kustomize.KustomizationImage.NewTag*
+  name: NewTag
+  href: kube-ops/KubeOps.Operator.Entities.Kustomize.KustomizationImage.html#KubeOps_Operator_Entities_Kustomize_KustomizationImage_NewTag_
+  commentId: Overload:KubeOps.Operator.Entities.Kustomize.KustomizationImage.NewTag
+  isSpec: "True"
+  fullName: KubeOps.Operator.Entities.Kustomize.KustomizationImage.NewTag
+  nameWithType: KustomizationImage.NewTag
+- uid: KubeOps.Operator.Events
+  name: KubeOps.Operator.Events
+  href: kube-ops/KubeOps.Operator.Events.html
+  commentId: N:KubeOps.Operator.Events
+  fullName: KubeOps.Operator.Events
+  nameWithType: KubeOps.Operator.Events
+- uid: KubeOps.Operator.Events.EventType
+  name: EventType
+  href: kube-ops/KubeOps.Operator.Events.EventType.html
+  commentId: T:KubeOps.Operator.Events.EventType
+  fullName: KubeOps.Operator.Events.EventType
+  nameWithType: EventType
+- uid: KubeOps.Operator.Events.EventType.Normal
+  name: Normal
+  href: kube-ops/KubeOps.Operator.Events.EventType.html#KubeOps_Operator_Events_EventType_Normal
+  commentId: F:KubeOps.Operator.Events.EventType.Normal
+  fullName: KubeOps.Operator.Events.EventType.Normal
+  nameWithType: EventType.Normal
+- uid: KubeOps.Operator.Events.EventType.Warning
+  name: Warning
+  href: kube-ops/KubeOps.Operator.Events.EventType.html#KubeOps_Operator_Events_EventType_Warning
+  commentId: F:KubeOps.Operator.Events.EventType.Warning
+  fullName: KubeOps.Operator.Events.EventType.Warning
+  nameWithType: EventType.Warning
+- uid: KubeOps.Operator.Events.IEventManager
+  name: IEventManager
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.html
+  commentId: T:KubeOps.Operator.Events.IEventManager
+  fullName: KubeOps.Operator.Events.IEventManager
+  nameWithType: IEventManager
+- uid: KubeOps.Operator.Events.IEventManager.AsyncPublisher
+  name: IEventManager.AsyncPublisher
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.AsyncPublisher.html
+  commentId: T:KubeOps.Operator.Events.IEventManager.AsyncPublisher
+  fullName: KubeOps.Operator.Events.IEventManager.AsyncPublisher
+  nameWithType: IEventManager.AsyncPublisher
+- uid: KubeOps.Operator.Events.IEventManager.AsyncStaticPublisher
+  name: IEventManager.AsyncStaticPublisher
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.AsyncStaticPublisher.html
+  commentId: T:KubeOps.Operator.Events.IEventManager.AsyncStaticPublisher
+  fullName: KubeOps.Operator.Events.IEventManager.AsyncStaticPublisher
+  nameWithType: IEventManager.AsyncStaticPublisher
+- uid: KubeOps.Operator.Events.IEventManager.CreatePublisher(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta},System.String,System.String,KubeOps.Operator.Events.EventType)
+  name: CreatePublisher(IKubernetesObject<V1ObjectMeta>, String, String, EventType)
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_CreatePublisher_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__System_String_System_String_KubeOps_Operator_Events_EventType_
+  commentId: M:KubeOps.Operator.Events.IEventManager.CreatePublisher(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta},System.String,System.String,KubeOps.Operator.Events.EventType)
+  name.vb: CreatePublisher(IKubernetesObject(Of V1ObjectMeta), String, String, EventType)
+  fullName: KubeOps.Operator.Events.IEventManager.CreatePublisher(k8s.IKubernetesObject<k8s.Models.V1ObjectMeta>, System.String, System.String, KubeOps.Operator.Events.EventType)
+  fullName.vb: KubeOps.Operator.Events.IEventManager.CreatePublisher(k8s.IKubernetesObject(Of k8s.Models.V1ObjectMeta), System.String, System.String, KubeOps.Operator.Events.EventType)
+  nameWithType: IEventManager.CreatePublisher(IKubernetesObject<V1ObjectMeta>, String, String, EventType)
+  nameWithType.vb: IEventManager.CreatePublisher(IKubernetesObject(Of V1ObjectMeta), String, String, EventType)
+- uid: KubeOps.Operator.Events.IEventManager.CreatePublisher(System.String,System.String,KubeOps.Operator.Events.EventType)
+  name: CreatePublisher(String, String, EventType)
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_CreatePublisher_System_String_System_String_KubeOps_Operator_Events_EventType_
+  commentId: M:KubeOps.Operator.Events.IEventManager.CreatePublisher(System.String,System.String,KubeOps.Operator.Events.EventType)
+  fullName: KubeOps.Operator.Events.IEventManager.CreatePublisher(System.String, System.String, KubeOps.Operator.Events.EventType)
+  nameWithType: IEventManager.CreatePublisher(String, String, EventType)
+- uid: KubeOps.Operator.Events.IEventManager.CreatePublisher*
+  name: CreatePublisher
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_CreatePublisher_
+  commentId: Overload:KubeOps.Operator.Events.IEventManager.CreatePublisher
+  isSpec: "True"
+  fullName: KubeOps.Operator.Events.IEventManager.CreatePublisher
+  nameWithType: IEventManager.CreatePublisher
+- uid: KubeOps.Operator.Events.IEventManager.PublishAsync(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta},System.String,System.String,KubeOps.Operator.Events.EventType)
+  name: PublishAsync(IKubernetesObject<V1ObjectMeta>, String, String, EventType)
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_PublishAsync_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__System_String_System_String_KubeOps_Operator_Events_EventType_
+  commentId: M:KubeOps.Operator.Events.IEventManager.PublishAsync(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta},System.String,System.String,KubeOps.Operator.Events.EventType)
+  name.vb: PublishAsync(IKubernetesObject(Of V1ObjectMeta), String, String, EventType)
+  fullName: KubeOps.Operator.Events.IEventManager.PublishAsync(k8s.IKubernetesObject<k8s.Models.V1ObjectMeta>, System.String, System.String, KubeOps.Operator.Events.EventType)
+  fullName.vb: KubeOps.Operator.Events.IEventManager.PublishAsync(k8s.IKubernetesObject(Of k8s.Models.V1ObjectMeta), System.String, System.String, KubeOps.Operator.Events.EventType)
+  nameWithType: IEventManager.PublishAsync(IKubernetesObject<V1ObjectMeta>, String, String, EventType)
+  nameWithType.vb: IEventManager.PublishAsync(IKubernetesObject(Of V1ObjectMeta), String, String, EventType)
+- uid: KubeOps.Operator.Events.IEventManager.PublishAsync(k8s.Models.Corev1Event)
+  name: PublishAsync(Corev1Event)
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_PublishAsync_k8s_Models_Corev1Event_
+  commentId: M:KubeOps.Operator.Events.IEventManager.PublishAsync(k8s.Models.Corev1Event)
+  fullName: KubeOps.Operator.Events.IEventManager.PublishAsync(k8s.Models.Corev1Event)
+  nameWithType: IEventManager.PublishAsync(Corev1Event)
+- uid: KubeOps.Operator.Events.IEventManager.PublishAsync*
+  name: PublishAsync
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_PublishAsync_
+  commentId: Overload:KubeOps.Operator.Events.IEventManager.PublishAsync
+  isSpec: "True"
+  fullName: KubeOps.Operator.Events.IEventManager.PublishAsync
+  nameWithType: IEventManager.PublishAsync
+- uid: KubeOps.Operator.Finalizer
+  name: KubeOps.Operator.Finalizer
+  href: kube-ops/KubeOps.Operator.Finalizer.html
+  commentId: N:KubeOps.Operator.Finalizer
+  fullName: KubeOps.Operator.Finalizer
+  nameWithType: KubeOps.Operator.Finalizer
+- uid: KubeOps.Operator.Finalizer.IFinalizerManager`1
+  name: IFinalizerManager<TEntity>
+  href: kube-ops/KubeOps.Operator.Finalizer.IFinalizerManager-1.html
+  commentId: T:KubeOps.Operator.Finalizer.IFinalizerManager`1
+  name.vb: IFinalizerManager(Of TEntity)
+  fullName: KubeOps.Operator.Finalizer.IFinalizerManager<TEntity>
+  fullName.vb: KubeOps.Operator.Finalizer.IFinalizerManager(Of TEntity)
+  nameWithType: IFinalizerManager<TEntity>
+  nameWithType.vb: IFinalizerManager(Of TEntity)
+- uid: KubeOps.Operator.Finalizer.IFinalizerManager`1.RegisterFinalizerAsync*
+  name: RegisterFinalizerAsync
+  href: kube-ops/KubeOps.Operator.Finalizer.IFinalizerManager-1.html#KubeOps_Operator_Finalizer_IFinalizerManager_1_RegisterFinalizerAsync_
+  commentId: Overload:KubeOps.Operator.Finalizer.IFinalizerManager`1.RegisterFinalizerAsync
+  isSpec: "True"
+  fullName: KubeOps.Operator.Finalizer.IFinalizerManager<TEntity>.RegisterFinalizerAsync
+  fullName.vb: KubeOps.Operator.Finalizer.IFinalizerManager(Of TEntity).RegisterFinalizerAsync
+  nameWithType: IFinalizerManager<TEntity>.RegisterFinalizerAsync
+  nameWithType.vb: IFinalizerManager(Of TEntity).RegisterFinalizerAsync
+- uid: KubeOps.Operator.Finalizer.IFinalizerManager`1.RegisterFinalizerAsync``1(`0)
+  name: RegisterFinalizerAsync<TFinalizer>(TEntity)
+  href: kube-ops/KubeOps.Operator.Finalizer.IFinalizerManager-1.html#KubeOps_Operator_Finalizer_IFinalizerManager_1_RegisterFinalizerAsync__1__0_
+  commentId: M:KubeOps.Operator.Finalizer.IFinalizerManager`1.RegisterFinalizerAsync``1(`0)
+  name.vb: RegisterFinalizerAsync(Of TFinalizer)(TEntity)
+  fullName: KubeOps.Operator.Finalizer.IFinalizerManager<TEntity>.RegisterFinalizerAsync<TFinalizer>(TEntity)
+  fullName.vb: KubeOps.Operator.Finalizer.IFinalizerManager(Of TEntity).RegisterFinalizerAsync(Of TFinalizer)(TEntity)
+  nameWithType: IFinalizerManager<TEntity>.RegisterFinalizerAsync<TFinalizer>(TEntity)
+  nameWithType.vb: IFinalizerManager(Of TEntity).RegisterFinalizerAsync(Of TFinalizer)(TEntity)
+- uid: KubeOps.Operator.Finalizer.IResourceFinalizer`1
+  name: IResourceFinalizer<TEntity>
+  href: kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html
+  commentId: T:KubeOps.Operator.Finalizer.IResourceFinalizer`1
+  name.vb: IResourceFinalizer(Of TEntity)
+  fullName: KubeOps.Operator.Finalizer.IResourceFinalizer<TEntity>
+  fullName.vb: KubeOps.Operator.Finalizer.IResourceFinalizer(Of TEntity)
+  nameWithType: IResourceFinalizer<TEntity>
+  nameWithType.vb: IResourceFinalizer(Of TEntity)
+- uid: KubeOps.Operator.Finalizer.IResourceFinalizer`1.FinalizeAsync(`0)
+  name: FinalizeAsync(TEntity)
+  href: kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html#KubeOps_Operator_Finalizer_IResourceFinalizer_1_FinalizeAsync__0_
+  commentId: M:KubeOps.Operator.Finalizer.IResourceFinalizer`1.FinalizeAsync(`0)
+  fullName: KubeOps.Operator.Finalizer.IResourceFinalizer<TEntity>.FinalizeAsync(TEntity)
+  fullName.vb: KubeOps.Operator.Finalizer.IResourceFinalizer(Of TEntity).FinalizeAsync(TEntity)
+  nameWithType: IResourceFinalizer<TEntity>.FinalizeAsync(TEntity)
+  nameWithType.vb: IResourceFinalizer(Of TEntity).FinalizeAsync(TEntity)
+- uid: KubeOps.Operator.Finalizer.IResourceFinalizer`1.FinalizeAsync*
+  name: FinalizeAsync
+  href: kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html#KubeOps_Operator_Finalizer_IResourceFinalizer_1_FinalizeAsync_
+  commentId: Overload:KubeOps.Operator.Finalizer.IResourceFinalizer`1.FinalizeAsync
+  isSpec: "True"
+  fullName: KubeOps.Operator.Finalizer.IResourceFinalizer<TEntity>.FinalizeAsync
+  fullName.vb: KubeOps.Operator.Finalizer.IResourceFinalizer(Of TEntity).FinalizeAsync
+  nameWithType: IResourceFinalizer<TEntity>.FinalizeAsync
+  nameWithType.vb: IResourceFinalizer(Of TEntity).FinalizeAsync
+- uid: KubeOps.Operator.Finalizer.IResourceFinalizer`1.Identifier
+  name: Identifier
+  href: kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html#KubeOps_Operator_Finalizer_IResourceFinalizer_1_Identifier
+  commentId: P:KubeOps.Operator.Finalizer.IResourceFinalizer`1.Identifier
+  fullName: KubeOps.Operator.Finalizer.IResourceFinalizer<TEntity>.Identifier
+  fullName.vb: KubeOps.Operator.Finalizer.IResourceFinalizer(Of TEntity).Identifier
+  nameWithType: IResourceFinalizer<TEntity>.Identifier
+  nameWithType.vb: IResourceFinalizer(Of TEntity).Identifier
+- uid: KubeOps.Operator.Finalizer.IResourceFinalizer`1.Identifier*
+  name: Identifier
+  href: kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html#KubeOps_Operator_Finalizer_IResourceFinalizer_1_Identifier_
+  commentId: Overload:KubeOps.Operator.Finalizer.IResourceFinalizer`1.Identifier
+  isSpec: "True"
+  fullName: KubeOps.Operator.Finalizer.IResourceFinalizer<TEntity>.Identifier
+  fullName.vb: KubeOps.Operator.Finalizer.IResourceFinalizer(Of TEntity).Identifier
+  nameWithType: IResourceFinalizer<TEntity>.Identifier
+  nameWithType.vb: IResourceFinalizer(Of TEntity).Identifier
+- uid: KubeOps.Operator.HostExtensions
+  name: HostExtensions
+  href: kube-ops/KubeOps.Operator.HostExtensions.html
+  commentId: T:KubeOps.Operator.HostExtensions
+  fullName: KubeOps.Operator.HostExtensions
+  nameWithType: HostExtensions
+- uid: KubeOps.Operator.HostExtensions.RunOperatorAsync(Microsoft.Extensions.Hosting.IHost,System.String[])
+  name: RunOperatorAsync(IHost, String[])
+  href: kube-ops/KubeOps.Operator.HostExtensions.html#KubeOps_Operator_HostExtensions_RunOperatorAsync_Microsoft_Extensions_Hosting_IHost_System_String___
+  commentId: M:KubeOps.Operator.HostExtensions.RunOperatorAsync(Microsoft.Extensions.Hosting.IHost,System.String[])
+  name.vb: RunOperatorAsync(IHost, String())
+  fullName: KubeOps.Operator.HostExtensions.RunOperatorAsync(Microsoft.Extensions.Hosting.IHost, System.String[])
+  fullName.vb: KubeOps.Operator.HostExtensions.RunOperatorAsync(Microsoft.Extensions.Hosting.IHost, System.String())
+  nameWithType: HostExtensions.RunOperatorAsync(IHost, String[])
+  nameWithType.vb: HostExtensions.RunOperatorAsync(IHost, String())
+- uid: KubeOps.Operator.HostExtensions.RunOperatorAsync*
+  name: RunOperatorAsync
+  href: kube-ops/KubeOps.Operator.HostExtensions.html#KubeOps_Operator_HostExtensions_RunOperatorAsync_
+  commentId: Overload:KubeOps.Operator.HostExtensions.RunOperatorAsync
+  isSpec: "True"
+  fullName: KubeOps.Operator.HostExtensions.RunOperatorAsync
+  nameWithType: HostExtensions.RunOperatorAsync
+- uid: KubeOps.Operator.Kubernetes
+  name: KubeOps.Operator.Kubernetes
+  href: kube-ops/KubeOps.Operator.Kubernetes.html
+  commentId: N:KubeOps.Operator.Kubernetes
+  fullName: KubeOps.Operator.Kubernetes
+  nameWithType: KubeOps.Operator.Kubernetes
+- uid: KubeOps.Operator.Kubernetes.ResourceEventType
+  name: ResourceEventType
+  href: kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html
+  commentId: T:KubeOps.Operator.Kubernetes.ResourceEventType
+  fullName: KubeOps.Operator.Kubernetes.ResourceEventType
+  nameWithType: ResourceEventType
+- uid: KubeOps.Operator.Kubernetes.ResourceEventType.Created
+  name: Created
+  href: kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_Created
+  commentId: F:KubeOps.Operator.Kubernetes.ResourceEventType.Created
+  fullName: KubeOps.Operator.Kubernetes.ResourceEventType.Created
+  nameWithType: ResourceEventType.Created
+- uid: KubeOps.Operator.Kubernetes.ResourceEventType.Deleted
+  name: Deleted
+  href: kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_Deleted
+  commentId: F:KubeOps.Operator.Kubernetes.ResourceEventType.Deleted
+  fullName: KubeOps.Operator.Kubernetes.ResourceEventType.Deleted
+  nameWithType: ResourceEventType.Deleted
+- uid: KubeOps.Operator.Kubernetes.ResourceEventType.FinalizerModified
+  name: FinalizerModified
+  href: kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_FinalizerModified
+  commentId: F:KubeOps.Operator.Kubernetes.ResourceEventType.FinalizerModified
+  fullName: KubeOps.Operator.Kubernetes.ResourceEventType.FinalizerModified
+  nameWithType: ResourceEventType.FinalizerModified
+- uid: KubeOps.Operator.Kubernetes.ResourceEventType.Finalizing
+  name: Finalizing
+  href: kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_Finalizing
+  commentId: F:KubeOps.Operator.Kubernetes.ResourceEventType.Finalizing
+  fullName: KubeOps.Operator.Kubernetes.ResourceEventType.Finalizing
+  nameWithType: ResourceEventType.Finalizing
+- uid: KubeOps.Operator.Kubernetes.ResourceEventType.NotModified
+  name: NotModified
+  href: kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_NotModified
+  commentId: F:KubeOps.Operator.Kubernetes.ResourceEventType.NotModified
+  fullName: KubeOps.Operator.Kubernetes.ResourceEventType.NotModified
+  nameWithType: ResourceEventType.NotModified
+- uid: KubeOps.Operator.Kubernetes.ResourceEventType.StatusUpdated
+  name: StatusUpdated
+  href: kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_StatusUpdated
+  commentId: F:KubeOps.Operator.Kubernetes.ResourceEventType.StatusUpdated
+  fullName: KubeOps.Operator.Kubernetes.ResourceEventType.StatusUpdated
+  nameWithType: ResourceEventType.StatusUpdated
+- uid: KubeOps.Operator.Kubernetes.ResourceEventType.Updated
+  name: Updated
+  href: kube-ops/KubeOps.Operator.Kubernetes.ResourceEventType.html#KubeOps_Operator_Kubernetes_ResourceEventType_Updated
+  commentId: F:KubeOps.Operator.Kubernetes.ResourceEventType.Updated
+  fullName: KubeOps.Operator.Kubernetes.ResourceEventType.Updated
+  nameWithType: ResourceEventType.Updated
+- uid: KubeOps.Operator.Leadership
+  name: KubeOps.Operator.Leadership
+  href: kube-ops/KubeOps.Operator.Leadership.html
+  commentId: N:KubeOps.Operator.Leadership
+  fullName: KubeOps.Operator.Leadership
+  nameWithType: KubeOps.Operator.Leadership
+- uid: KubeOps.Operator.Leadership.ILeaderElection
+  name: ILeaderElection
+  href: kube-ops/KubeOps.Operator.Leadership.ILeaderElection.html
+  commentId: T:KubeOps.Operator.Leadership.ILeaderElection
+  fullName: KubeOps.Operator.Leadership.ILeaderElection
+  nameWithType: ILeaderElection
+- uid: KubeOps.Operator.Leadership.ILeaderElection.LeadershipChange
+  name: LeadershipChange
+  href: kube-ops/KubeOps.Operator.Leadership.ILeaderElection.html#KubeOps_Operator_Leadership_ILeaderElection_LeadershipChange
+  commentId: P:KubeOps.Operator.Leadership.ILeaderElection.LeadershipChange
+  fullName: KubeOps.Operator.Leadership.ILeaderElection.LeadershipChange
+  nameWithType: ILeaderElection.LeadershipChange
+- uid: KubeOps.Operator.Leadership.ILeaderElection.LeadershipChange*
+  name: LeadershipChange
+  href: kube-ops/KubeOps.Operator.Leadership.ILeaderElection.html#KubeOps_Operator_Leadership_ILeaderElection_LeadershipChange_
+  commentId: Overload:KubeOps.Operator.Leadership.ILeaderElection.LeadershipChange
+  isSpec: "True"
+  fullName: KubeOps.Operator.Leadership.ILeaderElection.LeadershipChange
+  nameWithType: ILeaderElection.LeadershipChange
+- uid: KubeOps.Operator.Leadership.LeaderState
+  name: LeaderState
+  href: kube-ops/KubeOps.Operator.Leadership.LeaderState.html
+  commentId: T:KubeOps.Operator.Leadership.LeaderState
+  fullName: KubeOps.Operator.Leadership.LeaderState
+  nameWithType: LeaderState
+- uid: KubeOps.Operator.Leadership.LeaderState.Candidate
+  name: Candidate
+  href: kube-ops/KubeOps.Operator.Leadership.LeaderState.html#KubeOps_Operator_Leadership_LeaderState_Candidate
+  commentId: F:KubeOps.Operator.Leadership.LeaderState.Candidate
+  fullName: KubeOps.Operator.Leadership.LeaderState.Candidate
+  nameWithType: LeaderState.Candidate
+- uid: KubeOps.Operator.Leadership.LeaderState.Leader
+  name: Leader
+  href: kube-ops/KubeOps.Operator.Leadership.LeaderState.html#KubeOps_Operator_Leadership_LeaderState_Leader
+  commentId: F:KubeOps.Operator.Leadership.LeaderState.Leader
+  fullName: KubeOps.Operator.Leadership.LeaderState.Leader
+  nameWithType: LeaderState.Leader
+- uid: KubeOps.Operator.Leadership.LeaderState.None
+  name: None
+  href: kube-ops/KubeOps.Operator.Leadership.LeaderState.html#KubeOps_Operator_Leadership_LeaderState_None
+  commentId: F:KubeOps.Operator.Leadership.LeaderState.None
+  fullName: KubeOps.Operator.Leadership.LeaderState.None
+  nameWithType: LeaderState.None
+- uid: KubeOps.Operator.OperatorSettings
+  name: OperatorSettings
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html
+  commentId: T:KubeOps.Operator.OperatorSettings
+  fullName: KubeOps.Operator.OperatorSettings
+  nameWithType: OperatorSettings
+- uid: KubeOps.Operator.OperatorSettings.LeaderElectionCheckInterval
+  name: LeaderElectionCheckInterval
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_LeaderElectionCheckInterval
+  commentId: P:KubeOps.Operator.OperatorSettings.LeaderElectionCheckInterval
+  fullName: KubeOps.Operator.OperatorSettings.LeaderElectionCheckInterval
+  nameWithType: OperatorSettings.LeaderElectionCheckInterval
+- uid: KubeOps.Operator.OperatorSettings.LeaderElectionCheckInterval*
+  name: LeaderElectionCheckInterval
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_LeaderElectionCheckInterval_
+  commentId: Overload:KubeOps.Operator.OperatorSettings.LeaderElectionCheckInterval
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorSettings.LeaderElectionCheckInterval
+  nameWithType: OperatorSettings.LeaderElectionCheckInterval
+- uid: KubeOps.Operator.OperatorSettings.LeaderElectionLeaseDuration
+  name: LeaderElectionLeaseDuration
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_LeaderElectionLeaseDuration
+  commentId: P:KubeOps.Operator.OperatorSettings.LeaderElectionLeaseDuration
+  fullName: KubeOps.Operator.OperatorSettings.LeaderElectionLeaseDuration
+  nameWithType: OperatorSettings.LeaderElectionLeaseDuration
+- uid: KubeOps.Operator.OperatorSettings.LeaderElectionLeaseDuration*
+  name: LeaderElectionLeaseDuration
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_LeaderElectionLeaseDuration_
+  commentId: Overload:KubeOps.Operator.OperatorSettings.LeaderElectionLeaseDuration
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorSettings.LeaderElectionLeaseDuration
+  nameWithType: OperatorSettings.LeaderElectionLeaseDuration
+- uid: KubeOps.Operator.OperatorSettings.LivenessEndpoint
+  name: LivenessEndpoint
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_LivenessEndpoint
+  commentId: P:KubeOps.Operator.OperatorSettings.LivenessEndpoint
+  fullName: KubeOps.Operator.OperatorSettings.LivenessEndpoint
+  nameWithType: OperatorSettings.LivenessEndpoint
+- uid: KubeOps.Operator.OperatorSettings.LivenessEndpoint*
+  name: LivenessEndpoint
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_LivenessEndpoint_
+  commentId: Overload:KubeOps.Operator.OperatorSettings.LivenessEndpoint
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorSettings.LivenessEndpoint
+  nameWithType: OperatorSettings.LivenessEndpoint
+- uid: KubeOps.Operator.OperatorSettings.MetricsEndpoint
+  name: MetricsEndpoint
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_MetricsEndpoint
+  commentId: P:KubeOps.Operator.OperatorSettings.MetricsEndpoint
+  fullName: KubeOps.Operator.OperatorSettings.MetricsEndpoint
+  nameWithType: OperatorSettings.MetricsEndpoint
+- uid: KubeOps.Operator.OperatorSettings.MetricsEndpoint*
+  name: MetricsEndpoint
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_MetricsEndpoint_
+  commentId: Overload:KubeOps.Operator.OperatorSettings.MetricsEndpoint
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorSettings.MetricsEndpoint
+  nameWithType: OperatorSettings.MetricsEndpoint
+- uid: KubeOps.Operator.OperatorSettings.Name
+  name: Name
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_Name
+  commentId: P:KubeOps.Operator.OperatorSettings.Name
+  fullName: KubeOps.Operator.OperatorSettings.Name
+  nameWithType: OperatorSettings.Name
+- uid: KubeOps.Operator.OperatorSettings.Name*
+  name: Name
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_Name_
+  commentId: Overload:KubeOps.Operator.OperatorSettings.Name
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorSettings.Name
+  nameWithType: OperatorSettings.Name
+- uid: KubeOps.Operator.OperatorSettings.Namespace
+  name: Namespace
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_Namespace
+  commentId: P:KubeOps.Operator.OperatorSettings.Namespace
+  fullName: KubeOps.Operator.OperatorSettings.Namespace
+  nameWithType: OperatorSettings.Namespace
+- uid: KubeOps.Operator.OperatorSettings.Namespace*
+  name: Namespace
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_Namespace_
+  commentId: Overload:KubeOps.Operator.OperatorSettings.Namespace
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorSettings.Namespace
+  nameWithType: OperatorSettings.Namespace
+- uid: KubeOps.Operator.OperatorSettings.PreloadCache
+  name: PreloadCache
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_PreloadCache
+  commentId: P:KubeOps.Operator.OperatorSettings.PreloadCache
+  fullName: KubeOps.Operator.OperatorSettings.PreloadCache
+  nameWithType: OperatorSettings.PreloadCache
+- uid: KubeOps.Operator.OperatorSettings.PreloadCache*
+  name: PreloadCache
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_PreloadCache_
+  commentId: Overload:KubeOps.Operator.OperatorSettings.PreloadCache
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorSettings.PreloadCache
+  nameWithType: OperatorSettings.PreloadCache
+- uid: KubeOps.Operator.OperatorSettings.ReadinessEndpoint
+  name: ReadinessEndpoint
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_ReadinessEndpoint
+  commentId: P:KubeOps.Operator.OperatorSettings.ReadinessEndpoint
+  fullName: KubeOps.Operator.OperatorSettings.ReadinessEndpoint
+  nameWithType: OperatorSettings.ReadinessEndpoint
+- uid: KubeOps.Operator.OperatorSettings.ReadinessEndpoint*
+  name: ReadinessEndpoint
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_ReadinessEndpoint_
+  commentId: Overload:KubeOps.Operator.OperatorSettings.ReadinessEndpoint
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorSettings.ReadinessEndpoint
+  nameWithType: OperatorSettings.ReadinessEndpoint
+- uid: KubeOps.Operator.OperatorSettings.WatcherHttpTimeout
+  name: WatcherHttpTimeout
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_WatcherHttpTimeout
+  commentId: P:KubeOps.Operator.OperatorSettings.WatcherHttpTimeout
+  fullName: KubeOps.Operator.OperatorSettings.WatcherHttpTimeout
+  nameWithType: OperatorSettings.WatcherHttpTimeout
+- uid: KubeOps.Operator.OperatorSettings.WatcherHttpTimeout*
+  name: WatcherHttpTimeout
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_WatcherHttpTimeout_
+  commentId: Overload:KubeOps.Operator.OperatorSettings.WatcherHttpTimeout
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorSettings.WatcherHttpTimeout
+  nameWithType: OperatorSettings.WatcherHttpTimeout
+- uid: KubeOps.Operator.Rbac
+  name: KubeOps.Operator.Rbac
+  href: kube-ops/KubeOps.Operator.Rbac.html
+  commentId: N:KubeOps.Operator.Rbac
+  fullName: KubeOps.Operator.Rbac
+  nameWithType: KubeOps.Operator.Rbac
+- uid: KubeOps.Operator.Rbac.EntityRbacAttribute
+  name: EntityRbacAttribute
+  href: kube-ops/KubeOps.Operator.Rbac.EntityRbacAttribute.html
+  commentId: T:KubeOps.Operator.Rbac.EntityRbacAttribute
+  fullName: KubeOps.Operator.Rbac.EntityRbacAttribute
+  nameWithType: EntityRbacAttribute
+- uid: KubeOps.Operator.Rbac.EntityRbacAttribute.#ctor(System.Type[])
+  name: EntityRbacAttribute(Type[])
+  href: kube-ops/KubeOps.Operator.Rbac.EntityRbacAttribute.html#KubeOps_Operator_Rbac_EntityRbacAttribute__ctor_System_Type___
+  commentId: M:KubeOps.Operator.Rbac.EntityRbacAttribute.#ctor(System.Type[])
+  name.vb: EntityRbacAttribute(Type())
+  fullName: KubeOps.Operator.Rbac.EntityRbacAttribute.EntityRbacAttribute(System.Type[])
+  fullName.vb: KubeOps.Operator.Rbac.EntityRbacAttribute.EntityRbacAttribute(System.Type())
+  nameWithType: EntityRbacAttribute.EntityRbacAttribute(Type[])
+  nameWithType.vb: EntityRbacAttribute.EntityRbacAttribute(Type())
+- uid: KubeOps.Operator.Rbac.EntityRbacAttribute.#ctor*
+  name: EntityRbacAttribute
+  href: kube-ops/KubeOps.Operator.Rbac.EntityRbacAttribute.html#KubeOps_Operator_Rbac_EntityRbacAttribute__ctor_
+  commentId: Overload:KubeOps.Operator.Rbac.EntityRbacAttribute.#ctor
+  isSpec: "True"
+  fullName: KubeOps.Operator.Rbac.EntityRbacAttribute.EntityRbacAttribute
+  nameWithType: EntityRbacAttribute.EntityRbacAttribute
+- uid: KubeOps.Operator.Rbac.EntityRbacAttribute.Entities
+  name: Entities
+  href: kube-ops/KubeOps.Operator.Rbac.EntityRbacAttribute.html#KubeOps_Operator_Rbac_EntityRbacAttribute_Entities
+  commentId: P:KubeOps.Operator.Rbac.EntityRbacAttribute.Entities
+  fullName: KubeOps.Operator.Rbac.EntityRbacAttribute.Entities
+  nameWithType: EntityRbacAttribute.Entities
+- uid: KubeOps.Operator.Rbac.EntityRbacAttribute.Entities*
+  name: Entities
+  href: kube-ops/KubeOps.Operator.Rbac.EntityRbacAttribute.html#KubeOps_Operator_Rbac_EntityRbacAttribute_Entities_
+  commentId: Overload:KubeOps.Operator.Rbac.EntityRbacAttribute.Entities
+  isSpec: "True"
+  fullName: KubeOps.Operator.Rbac.EntityRbacAttribute.Entities
+  nameWithType: EntityRbacAttribute.Entities
+- uid: KubeOps.Operator.Rbac.EntityRbacAttribute.Verbs
+  name: Verbs
+  href: kube-ops/KubeOps.Operator.Rbac.EntityRbacAttribute.html#KubeOps_Operator_Rbac_EntityRbacAttribute_Verbs
+  commentId: P:KubeOps.Operator.Rbac.EntityRbacAttribute.Verbs
+  fullName: KubeOps.Operator.Rbac.EntityRbacAttribute.Verbs
+  nameWithType: EntityRbacAttribute.Verbs
+- uid: KubeOps.Operator.Rbac.EntityRbacAttribute.Verbs*
+  name: Verbs
+  href: kube-ops/KubeOps.Operator.Rbac.EntityRbacAttribute.html#KubeOps_Operator_Rbac_EntityRbacAttribute_Verbs_
+  commentId: Overload:KubeOps.Operator.Rbac.EntityRbacAttribute.Verbs
+  isSpec: "True"
+  fullName: KubeOps.Operator.Rbac.EntityRbacAttribute.Verbs
+  nameWithType: EntityRbacAttribute.Verbs
+- uid: KubeOps.Operator.Rbac.GenericRbacAttribute
+  name: GenericRbacAttribute
+  href: kube-ops/KubeOps.Operator.Rbac.GenericRbacAttribute.html
+  commentId: T:KubeOps.Operator.Rbac.GenericRbacAttribute
+  fullName: KubeOps.Operator.Rbac.GenericRbacAttribute
+  nameWithType: GenericRbacAttribute
+- uid: KubeOps.Operator.Rbac.GenericRbacAttribute.Groups
+  name: Groups
+  href: kube-ops/KubeOps.Operator.Rbac.GenericRbacAttribute.html#KubeOps_Operator_Rbac_GenericRbacAttribute_Groups
+  commentId: P:KubeOps.Operator.Rbac.GenericRbacAttribute.Groups
+  fullName: KubeOps.Operator.Rbac.GenericRbacAttribute.Groups
+  nameWithType: GenericRbacAttribute.Groups
+- uid: KubeOps.Operator.Rbac.GenericRbacAttribute.Groups*
+  name: Groups
+  href: kube-ops/KubeOps.Operator.Rbac.GenericRbacAttribute.html#KubeOps_Operator_Rbac_GenericRbacAttribute_Groups_
+  commentId: Overload:KubeOps.Operator.Rbac.GenericRbacAttribute.Groups
+  isSpec: "True"
+  fullName: KubeOps.Operator.Rbac.GenericRbacAttribute.Groups
+  nameWithType: GenericRbacAttribute.Groups
+- uid: KubeOps.Operator.Rbac.GenericRbacAttribute.Resources
+  name: Resources
+  href: kube-ops/KubeOps.Operator.Rbac.GenericRbacAttribute.html#KubeOps_Operator_Rbac_GenericRbacAttribute_Resources
+  commentId: P:KubeOps.Operator.Rbac.GenericRbacAttribute.Resources
+  fullName: KubeOps.Operator.Rbac.GenericRbacAttribute.Resources
+  nameWithType: GenericRbacAttribute.Resources
+- uid: KubeOps.Operator.Rbac.GenericRbacAttribute.Resources*
+  name: Resources
+  href: kube-ops/KubeOps.Operator.Rbac.GenericRbacAttribute.html#KubeOps_Operator_Rbac_GenericRbacAttribute_Resources_
+  commentId: Overload:KubeOps.Operator.Rbac.GenericRbacAttribute.Resources
+  isSpec: "True"
+  fullName: KubeOps.Operator.Rbac.GenericRbacAttribute.Resources
+  nameWithType: GenericRbacAttribute.Resources
+- uid: KubeOps.Operator.Rbac.GenericRbacAttribute.Urls
+  name: Urls
+  href: kube-ops/KubeOps.Operator.Rbac.GenericRbacAttribute.html#KubeOps_Operator_Rbac_GenericRbacAttribute_Urls
+  commentId: P:KubeOps.Operator.Rbac.GenericRbacAttribute.Urls
+  fullName: KubeOps.Operator.Rbac.GenericRbacAttribute.Urls
+  nameWithType: GenericRbacAttribute.Urls
+- uid: KubeOps.Operator.Rbac.GenericRbacAttribute.Urls*
+  name: Urls
+  href: kube-ops/KubeOps.Operator.Rbac.GenericRbacAttribute.html#KubeOps_Operator_Rbac_GenericRbacAttribute_Urls_
+  commentId: Overload:KubeOps.Operator.Rbac.GenericRbacAttribute.Urls
+  isSpec: "True"
+  fullName: KubeOps.Operator.Rbac.GenericRbacAttribute.Urls
+  nameWithType: GenericRbacAttribute.Urls
+- uid: KubeOps.Operator.Rbac.GenericRbacAttribute.Verbs
+  name: Verbs
+  href: kube-ops/KubeOps.Operator.Rbac.GenericRbacAttribute.html#KubeOps_Operator_Rbac_GenericRbacAttribute_Verbs
+  commentId: P:KubeOps.Operator.Rbac.GenericRbacAttribute.Verbs
+  fullName: KubeOps.Operator.Rbac.GenericRbacAttribute.Verbs
+  nameWithType: GenericRbacAttribute.Verbs
+- uid: KubeOps.Operator.Rbac.GenericRbacAttribute.Verbs*
+  name: Verbs
+  href: kube-ops/KubeOps.Operator.Rbac.GenericRbacAttribute.html#KubeOps_Operator_Rbac_GenericRbacAttribute_Verbs_
+  commentId: Overload:KubeOps.Operator.Rbac.GenericRbacAttribute.Verbs
+  isSpec: "True"
+  fullName: KubeOps.Operator.Rbac.GenericRbacAttribute.Verbs
+  nameWithType: GenericRbacAttribute.Verbs
+- uid: KubeOps.Operator.Rbac.RbacVerb
+  name: RbacVerb
+  href: kube-ops/KubeOps.Operator.Rbac.RbacVerb.html
+  commentId: T:KubeOps.Operator.Rbac.RbacVerb
+  fullName: KubeOps.Operator.Rbac.RbacVerb
+  nameWithType: RbacVerb
+- uid: KubeOps.Operator.Rbac.RbacVerb.All
+  name: All
+  href: kube-ops/KubeOps.Operator.Rbac.RbacVerb.html#KubeOps_Operator_Rbac_RbacVerb_All
+  commentId: F:KubeOps.Operator.Rbac.RbacVerb.All
+  fullName: KubeOps.Operator.Rbac.RbacVerb.All
+  nameWithType: RbacVerb.All
+- uid: KubeOps.Operator.Rbac.RbacVerb.Create
+  name: Create
+  href: kube-ops/KubeOps.Operator.Rbac.RbacVerb.html#KubeOps_Operator_Rbac_RbacVerb_Create
+  commentId: F:KubeOps.Operator.Rbac.RbacVerb.Create
+  fullName: KubeOps.Operator.Rbac.RbacVerb.Create
+  nameWithType: RbacVerb.Create
+- uid: KubeOps.Operator.Rbac.RbacVerb.Delete
+  name: Delete
+  href: kube-ops/KubeOps.Operator.Rbac.RbacVerb.html#KubeOps_Operator_Rbac_RbacVerb_Delete
+  commentId: F:KubeOps.Operator.Rbac.RbacVerb.Delete
+  fullName: KubeOps.Operator.Rbac.RbacVerb.Delete
+  nameWithType: RbacVerb.Delete
+- uid: KubeOps.Operator.Rbac.RbacVerb.Get
+  name: Get
+  href: kube-ops/KubeOps.Operator.Rbac.RbacVerb.html#KubeOps_Operator_Rbac_RbacVerb_Get
+  commentId: F:KubeOps.Operator.Rbac.RbacVerb.Get
+  fullName: KubeOps.Operator.Rbac.RbacVerb.Get
+  nameWithType: RbacVerb.Get
+- uid: KubeOps.Operator.Rbac.RbacVerb.List
+  name: List
+  href: kube-ops/KubeOps.Operator.Rbac.RbacVerb.html#KubeOps_Operator_Rbac_RbacVerb_List
+  commentId: F:KubeOps.Operator.Rbac.RbacVerb.List
+  fullName: KubeOps.Operator.Rbac.RbacVerb.List
+  nameWithType: RbacVerb.List
+- uid: KubeOps.Operator.Rbac.RbacVerb.None
+  name: None
+  href: kube-ops/KubeOps.Operator.Rbac.RbacVerb.html#KubeOps_Operator_Rbac_RbacVerb_None
+  commentId: F:KubeOps.Operator.Rbac.RbacVerb.None
+  fullName: KubeOps.Operator.Rbac.RbacVerb.None
+  nameWithType: RbacVerb.None
+- uid: KubeOps.Operator.Rbac.RbacVerb.Patch
+  name: Patch
+  href: kube-ops/KubeOps.Operator.Rbac.RbacVerb.html#KubeOps_Operator_Rbac_RbacVerb_Patch
+  commentId: F:KubeOps.Operator.Rbac.RbacVerb.Patch
+  fullName: KubeOps.Operator.Rbac.RbacVerb.Patch
+  nameWithType: RbacVerb.Patch
+- uid: KubeOps.Operator.Rbac.RbacVerb.Update
+  name: Update
+  href: kube-ops/KubeOps.Operator.Rbac.RbacVerb.html#KubeOps_Operator_Rbac_RbacVerb_Update
+  commentId: F:KubeOps.Operator.Rbac.RbacVerb.Update
+  fullName: KubeOps.Operator.Rbac.RbacVerb.Update
+  nameWithType: RbacVerb.Update
+- uid: KubeOps.Operator.Rbac.RbacVerb.Watch
+  name: Watch
+  href: kube-ops/KubeOps.Operator.Rbac.RbacVerb.html#KubeOps_Operator_Rbac_RbacVerb_Watch
+  commentId: F:KubeOps.Operator.Rbac.RbacVerb.Watch
+  fullName: KubeOps.Operator.Rbac.RbacVerb.Watch
+  nameWithType: RbacVerb.Watch
+- uid: KubeOps.Operator.ServiceCollectionExtensions
+  name: ServiceCollectionExtensions
+  href: kube-ops/KubeOps.Operator.ServiceCollectionExtensions.html
+  commentId: T:KubeOps.Operator.ServiceCollectionExtensions
+  fullName: KubeOps.Operator.ServiceCollectionExtensions
+  nameWithType: ServiceCollectionExtensions
+- uid: KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(Microsoft.Extensions.DependencyInjection.IServiceCollection,KubeOps.Operator.OperatorSettings)
+  name: AddKubernetesOperator(IServiceCollection, OperatorSettings)
+  href: kube-ops/KubeOps.Operator.ServiceCollectionExtensions.html#KubeOps_Operator_ServiceCollectionExtensions_AddKubernetesOperator_Microsoft_Extensions_DependencyInjection_IServiceCollection_KubeOps_Operator_OperatorSettings_
+  commentId: M:KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(Microsoft.Extensions.DependencyInjection.IServiceCollection,KubeOps.Operator.OperatorSettings)
+  fullName: KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(Microsoft.Extensions.DependencyInjection.IServiceCollection, KubeOps.Operator.OperatorSettings)
+  nameWithType: ServiceCollectionExtensions.AddKubernetesOperator(IServiceCollection, OperatorSettings)
+- uid: KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{KubeOps.Operator.OperatorSettings})
+  name: AddKubernetesOperator(IServiceCollection, Action<OperatorSettings>)
+  href: kube-ops/KubeOps.Operator.ServiceCollectionExtensions.html#KubeOps_Operator_ServiceCollectionExtensions_AddKubernetesOperator_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_KubeOps_Operator_OperatorSettings__
+  commentId: M:KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{KubeOps.Operator.OperatorSettings})
+  name.vb: AddKubernetesOperator(IServiceCollection, Action(Of OperatorSettings))
+  fullName: KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<KubeOps.Operator.OperatorSettings>)
+  fullName.vb: KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of KubeOps.Operator.OperatorSettings))
+  nameWithType: ServiceCollectionExtensions.AddKubernetesOperator(IServiceCollection, Action<OperatorSettings>)
+  nameWithType.vb: ServiceCollectionExtensions.AddKubernetesOperator(IServiceCollection, Action(Of OperatorSettings))
+- uid: KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator*
+  name: AddKubernetesOperator
+  href: kube-ops/KubeOps.Operator.ServiceCollectionExtensions.html#KubeOps_Operator_ServiceCollectionExtensions_AddKubernetesOperator_
+  commentId: Overload:KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator
+  isSpec: "True"
+  fullName: KubeOps.Operator.ServiceCollectionExtensions.AddKubernetesOperator
+  nameWithType: ServiceCollectionExtensions.AddKubernetesOperator
+- uid: KubeOps.Operator.Webhooks
+  name: KubeOps.Operator.Webhooks
+  href: kube-ops/KubeOps.Operator.Webhooks.html
+  commentId: N:KubeOps.Operator.Webhooks
+  fullName: KubeOps.Operator.Webhooks
+  nameWithType: KubeOps.Operator.Webhooks
+- uid: KubeOps.Operator.Webhooks.AdmissionOperations
+  name: AdmissionOperations
+  href: kube-ops/KubeOps.Operator.Webhooks.AdmissionOperations.html
+  commentId: T:KubeOps.Operator.Webhooks.AdmissionOperations
+  fullName: KubeOps.Operator.Webhooks.AdmissionOperations
+  nameWithType: AdmissionOperations
+- uid: KubeOps.Operator.Webhooks.AdmissionOperations.All
+  name: All
+  href: kube-ops/KubeOps.Operator.Webhooks.AdmissionOperations.html#KubeOps_Operator_Webhooks_AdmissionOperations_All
+  commentId: F:KubeOps.Operator.Webhooks.AdmissionOperations.All
+  fullName: KubeOps.Operator.Webhooks.AdmissionOperations.All
+  nameWithType: AdmissionOperations.All
+- uid: KubeOps.Operator.Webhooks.AdmissionOperations.Create
+  name: Create
+  href: kube-ops/KubeOps.Operator.Webhooks.AdmissionOperations.html#KubeOps_Operator_Webhooks_AdmissionOperations_Create
+  commentId: F:KubeOps.Operator.Webhooks.AdmissionOperations.Create
+  fullName: KubeOps.Operator.Webhooks.AdmissionOperations.Create
+  nameWithType: AdmissionOperations.Create
+- uid: KubeOps.Operator.Webhooks.AdmissionOperations.Delete
+  name: Delete
+  href: kube-ops/KubeOps.Operator.Webhooks.AdmissionOperations.html#KubeOps_Operator_Webhooks_AdmissionOperations_Delete
+  commentId: F:KubeOps.Operator.Webhooks.AdmissionOperations.Delete
+  fullName: KubeOps.Operator.Webhooks.AdmissionOperations.Delete
+  nameWithType: AdmissionOperations.Delete
+- uid: KubeOps.Operator.Webhooks.AdmissionOperations.None
+  name: None
+  href: kube-ops/KubeOps.Operator.Webhooks.AdmissionOperations.html#KubeOps_Operator_Webhooks_AdmissionOperations_None
+  commentId: F:KubeOps.Operator.Webhooks.AdmissionOperations.None
+  fullName: KubeOps.Operator.Webhooks.AdmissionOperations.None
+  nameWithType: AdmissionOperations.None
+- uid: KubeOps.Operator.Webhooks.AdmissionOperations.Update
+  name: Update
+  href: kube-ops/KubeOps.Operator.Webhooks.AdmissionOperations.html#KubeOps_Operator_Webhooks_AdmissionOperations_Update
+  commentId: F:KubeOps.Operator.Webhooks.AdmissionOperations.Update
+  fullName: KubeOps.Operator.Webhooks.AdmissionOperations.Update
+  nameWithType: AdmissionOperations.Update
+- uid: KubeOps.Operator.Webhooks.AdmissionResult
+  name: AdmissionResult
+  href: kube-ops/KubeOps.Operator.Webhooks.AdmissionResult.html
+  commentId: T:KubeOps.Operator.Webhooks.AdmissionResult
+  fullName: KubeOps.Operator.Webhooks.AdmissionResult
+  nameWithType: AdmissionResult
+- uid: KubeOps.Operator.Webhooks.IAdmissionWebhook`2
+  name: IAdmissionWebhook<TEntity, TResult>
+  href: kube-ops/KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html
+  commentId: T:KubeOps.Operator.Webhooks.IAdmissionWebhook`2
+  name.vb: IAdmissionWebhook(Of TEntity, TResult)
+  fullName: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, TResult>
+  fullName.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook(Of TEntity, TResult)
+  nameWithType: IAdmissionWebhook<TEntity, TResult>
+  nameWithType.vb: IAdmissionWebhook(Of TEntity, TResult)
+- uid: KubeOps.Operator.Webhooks.IAdmissionWebhook`2.Create(`0,System.Boolean)
+  name: Create(TEntity, Boolean)
+  href: kube-ops/KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html#KubeOps_Operator_Webhooks_IAdmissionWebhook_2_Create__0_System_Boolean_
+  commentId: M:KubeOps.Operator.Webhooks.IAdmissionWebhook`2.Create(`0,System.Boolean)
+  fullName: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, TResult>.Create(TEntity, System.Boolean)
+  fullName.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook(Of TEntity, TResult).Create(TEntity, System.Boolean)
+  nameWithType: IAdmissionWebhook<TEntity, TResult>.Create(TEntity, Boolean)
+  nameWithType.vb: IAdmissionWebhook(Of TEntity, TResult).Create(TEntity, Boolean)
+- uid: KubeOps.Operator.Webhooks.IAdmissionWebhook`2.Create*
+  name: Create
+  href: kube-ops/KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html#KubeOps_Operator_Webhooks_IAdmissionWebhook_2_Create_
+  commentId: Overload:KubeOps.Operator.Webhooks.IAdmissionWebhook`2.Create
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, TResult>.Create
+  fullName.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook(Of TEntity, TResult).Create
+  nameWithType: IAdmissionWebhook<TEntity, TResult>.Create
+  nameWithType.vb: IAdmissionWebhook(Of TEntity, TResult).Create
+- uid: KubeOps.Operator.Webhooks.IAdmissionWebhook`2.CreateAsync(`0,System.Boolean)
+  name: CreateAsync(TEntity, Boolean)
+  href: kube-ops/KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html#KubeOps_Operator_Webhooks_IAdmissionWebhook_2_CreateAsync__0_System_Boolean_
+  commentId: M:KubeOps.Operator.Webhooks.IAdmissionWebhook`2.CreateAsync(`0,System.Boolean)
+  fullName: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, TResult>.CreateAsync(TEntity, System.Boolean)
+  fullName.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook(Of TEntity, TResult).CreateAsync(TEntity, System.Boolean)
+  nameWithType: IAdmissionWebhook<TEntity, TResult>.CreateAsync(TEntity, Boolean)
+  nameWithType.vb: IAdmissionWebhook(Of TEntity, TResult).CreateAsync(TEntity, Boolean)
+- uid: KubeOps.Operator.Webhooks.IAdmissionWebhook`2.CreateAsync*
+  name: CreateAsync
+  href: kube-ops/KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html#KubeOps_Operator_Webhooks_IAdmissionWebhook_2_CreateAsync_
+  commentId: Overload:KubeOps.Operator.Webhooks.IAdmissionWebhook`2.CreateAsync
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, TResult>.CreateAsync
+  fullName.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook(Of TEntity, TResult).CreateAsync
+  nameWithType: IAdmissionWebhook<TEntity, TResult>.CreateAsync
+  nameWithType.vb: IAdmissionWebhook(Of TEntity, TResult).CreateAsync
+- uid: KubeOps.Operator.Webhooks.IAdmissionWebhook`2.Delete(`0,System.Boolean)
+  name: Delete(TEntity, Boolean)
+  href: kube-ops/KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html#KubeOps_Operator_Webhooks_IAdmissionWebhook_2_Delete__0_System_Boolean_
+  commentId: M:KubeOps.Operator.Webhooks.IAdmissionWebhook`2.Delete(`0,System.Boolean)
+  fullName: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, TResult>.Delete(TEntity, System.Boolean)
+  fullName.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook(Of TEntity, TResult).Delete(TEntity, System.Boolean)
+  nameWithType: IAdmissionWebhook<TEntity, TResult>.Delete(TEntity, Boolean)
+  nameWithType.vb: IAdmissionWebhook(Of TEntity, TResult).Delete(TEntity, Boolean)
+- uid: KubeOps.Operator.Webhooks.IAdmissionWebhook`2.Delete*
+  name: Delete
+  href: kube-ops/KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html#KubeOps_Operator_Webhooks_IAdmissionWebhook_2_Delete_
+  commentId: Overload:KubeOps.Operator.Webhooks.IAdmissionWebhook`2.Delete
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, TResult>.Delete
+  fullName.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook(Of TEntity, TResult).Delete
+  nameWithType: IAdmissionWebhook<TEntity, TResult>.Delete
+  nameWithType.vb: IAdmissionWebhook(Of TEntity, TResult).Delete
+- uid: KubeOps.Operator.Webhooks.IAdmissionWebhook`2.DeleteAsync(`0,System.Boolean)
+  name: DeleteAsync(TEntity, Boolean)
+  href: kube-ops/KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html#KubeOps_Operator_Webhooks_IAdmissionWebhook_2_DeleteAsync__0_System_Boolean_
+  commentId: M:KubeOps.Operator.Webhooks.IAdmissionWebhook`2.DeleteAsync(`0,System.Boolean)
+  fullName: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, TResult>.DeleteAsync(TEntity, System.Boolean)
+  fullName.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook(Of TEntity, TResult).DeleteAsync(TEntity, System.Boolean)
+  nameWithType: IAdmissionWebhook<TEntity, TResult>.DeleteAsync(TEntity, Boolean)
+  nameWithType.vb: IAdmissionWebhook(Of TEntity, TResult).DeleteAsync(TEntity, Boolean)
+- uid: KubeOps.Operator.Webhooks.IAdmissionWebhook`2.DeleteAsync*
+  name: DeleteAsync
+  href: kube-ops/KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html#KubeOps_Operator_Webhooks_IAdmissionWebhook_2_DeleteAsync_
+  commentId: Overload:KubeOps.Operator.Webhooks.IAdmissionWebhook`2.DeleteAsync
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, TResult>.DeleteAsync
+  fullName.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook(Of TEntity, TResult).DeleteAsync
+  nameWithType: IAdmissionWebhook<TEntity, TResult>.DeleteAsync
+  nameWithType.vb: IAdmissionWebhook(Of TEntity, TResult).DeleteAsync
+- uid: KubeOps.Operator.Webhooks.IAdmissionWebhook`2.Operations
+  name: Operations
+  href: kube-ops/KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html#KubeOps_Operator_Webhooks_IAdmissionWebhook_2_Operations
+  commentId: P:KubeOps.Operator.Webhooks.IAdmissionWebhook`2.Operations
+  fullName: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, TResult>.Operations
+  fullName.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook(Of TEntity, TResult).Operations
+  nameWithType: IAdmissionWebhook<TEntity, TResult>.Operations
+  nameWithType.vb: IAdmissionWebhook(Of TEntity, TResult).Operations
+- uid: KubeOps.Operator.Webhooks.IAdmissionWebhook`2.Operations*
+  name: Operations
+  href: kube-ops/KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html#KubeOps_Operator_Webhooks_IAdmissionWebhook_2_Operations_
+  commentId: Overload:KubeOps.Operator.Webhooks.IAdmissionWebhook`2.Operations
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, TResult>.Operations
+  fullName.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook(Of TEntity, TResult).Operations
+  nameWithType: IAdmissionWebhook<TEntity, TResult>.Operations
+  nameWithType.vb: IAdmissionWebhook(Of TEntity, TResult).Operations
+- uid: KubeOps.Operator.Webhooks.IAdmissionWebhook`2.Update(`0,`0,System.Boolean)
+  name: Update(TEntity, TEntity, Boolean)
+  href: kube-ops/KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html#KubeOps_Operator_Webhooks_IAdmissionWebhook_2_Update__0__0_System_Boolean_
+  commentId: M:KubeOps.Operator.Webhooks.IAdmissionWebhook`2.Update(`0,`0,System.Boolean)
+  fullName: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, TResult>.Update(TEntity, TEntity, System.Boolean)
+  fullName.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook(Of TEntity, TResult).Update(TEntity, TEntity, System.Boolean)
+  nameWithType: IAdmissionWebhook<TEntity, TResult>.Update(TEntity, TEntity, Boolean)
+  nameWithType.vb: IAdmissionWebhook(Of TEntity, TResult).Update(TEntity, TEntity, Boolean)
+- uid: KubeOps.Operator.Webhooks.IAdmissionWebhook`2.Update*
+  name: Update
+  href: kube-ops/KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html#KubeOps_Operator_Webhooks_IAdmissionWebhook_2_Update_
+  commentId: Overload:KubeOps.Operator.Webhooks.IAdmissionWebhook`2.Update
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, TResult>.Update
+  fullName.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook(Of TEntity, TResult).Update
+  nameWithType: IAdmissionWebhook<TEntity, TResult>.Update
+  nameWithType.vb: IAdmissionWebhook(Of TEntity, TResult).Update
+- uid: KubeOps.Operator.Webhooks.IAdmissionWebhook`2.UpdateAsync(`0,`0,System.Boolean)
+  name: UpdateAsync(TEntity, TEntity, Boolean)
+  href: kube-ops/KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html#KubeOps_Operator_Webhooks_IAdmissionWebhook_2_UpdateAsync__0__0_System_Boolean_
+  commentId: M:KubeOps.Operator.Webhooks.IAdmissionWebhook`2.UpdateAsync(`0,`0,System.Boolean)
+  fullName: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, TResult>.UpdateAsync(TEntity, TEntity, System.Boolean)
+  fullName.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook(Of TEntity, TResult).UpdateAsync(TEntity, TEntity, System.Boolean)
+  nameWithType: IAdmissionWebhook<TEntity, TResult>.UpdateAsync(TEntity, TEntity, Boolean)
+  nameWithType.vb: IAdmissionWebhook(Of TEntity, TResult).UpdateAsync(TEntity, TEntity, Boolean)
+- uid: KubeOps.Operator.Webhooks.IAdmissionWebhook`2.UpdateAsync*
+  name: UpdateAsync
+  href: kube-ops/KubeOps.Operator.Webhooks.IAdmissionWebhook-2.html#KubeOps_Operator_Webhooks_IAdmissionWebhook_2_UpdateAsync_
+  commentId: Overload:KubeOps.Operator.Webhooks.IAdmissionWebhook`2.UpdateAsync
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, TResult>.UpdateAsync
+  fullName.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook(Of TEntity, TResult).UpdateAsync
+  nameWithType: IAdmissionWebhook<TEntity, TResult>.UpdateAsync
+  nameWithType.vb: IAdmissionWebhook(Of TEntity, TResult).UpdateAsync
+- uid: KubeOps.Operator.Webhooks.IMutationWebhook`1
+  name: IMutationWebhook<TEntity>
+  href: kube-ops/KubeOps.Operator.Webhooks.IMutationWebhook-1.html
+  commentId: T:KubeOps.Operator.Webhooks.IMutationWebhook`1
+  name.vb: IMutationWebhook(Of TEntity)
+  fullName: KubeOps.Operator.Webhooks.IMutationWebhook<TEntity>
+  fullName.vb: KubeOps.Operator.Webhooks.IMutationWebhook(Of TEntity)
+  nameWithType: IMutationWebhook<TEntity>
+  nameWithType.vb: IMutationWebhook(Of TEntity)
+- uid: KubeOps.Operator.Webhooks.IMutationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#MutationResult}#Create(`0,System.Boolean)
+  name: IAdmissionWebhook<TEntity, MutationResult>.Create(TEntity, Boolean)
+  href: kube-ops/KubeOps.Operator.Webhooks.IMutationWebhook-1.html#KubeOps_Operator_Webhooks_IMutationWebhook_1_KubeOps_Operator_Webhooks_IAdmissionWebhook_TEntity_KubeOps_Operator_Webhooks_MutationResult__Create__0_System_Boolean_
+  commentId: M:KubeOps.Operator.Webhooks.IMutationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#MutationResult}#Create(`0,System.Boolean)
+  name.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.MutationResult>.Create(TEntity, Boolean)
+  fullName: KubeOps.Operator.Webhooks.IMutationWebhook<TEntity>.KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, KubeOps.Operator.Webhooks.MutationResult>.Create(TEntity, System.Boolean)
+  fullName.vb: KubeOps.Operator.Webhooks.IMutationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.MutationResult>.Create(TEntity, System.Boolean)
+  nameWithType: IMutationWebhook<TEntity>.IAdmissionWebhook<TEntity, MutationResult>.Create(TEntity, Boolean)
+  nameWithType.vb: IMutationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.MutationResult>.Create(TEntity, Boolean)
+- uid: KubeOps.Operator.Webhooks.IMutationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#MutationResult}#Create*
+  name: IAdmissionWebhook<TEntity, MutationResult>.Create
+  href: kube-ops/KubeOps.Operator.Webhooks.IMutationWebhook-1.html#KubeOps_Operator_Webhooks_IMutationWebhook_1_KubeOps_Operator_Webhooks_IAdmissionWebhook_TEntity_KubeOps_Operator_Webhooks_MutationResult__Create_
+  commentId: Overload:KubeOps.Operator.Webhooks.IMutationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#MutationResult}#Create
+  isSpec: "True"
+  name.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.MutationResult>.Create
+  fullName: KubeOps.Operator.Webhooks.IMutationWebhook<TEntity>.KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, KubeOps.Operator.Webhooks.MutationResult>.Create
+  fullName.vb: KubeOps.Operator.Webhooks.IMutationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.MutationResult>.Create
+  nameWithType: IMutationWebhook<TEntity>.IAdmissionWebhook<TEntity, MutationResult>.Create
+  nameWithType.vb: IMutationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.MutationResult>.Create
+- uid: KubeOps.Operator.Webhooks.IMutationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#MutationResult}#Delete(`0,System.Boolean)
+  name: IAdmissionWebhook<TEntity, MutationResult>.Delete(TEntity, Boolean)
+  href: kube-ops/KubeOps.Operator.Webhooks.IMutationWebhook-1.html#KubeOps_Operator_Webhooks_IMutationWebhook_1_KubeOps_Operator_Webhooks_IAdmissionWebhook_TEntity_KubeOps_Operator_Webhooks_MutationResult__Delete__0_System_Boolean_
+  commentId: M:KubeOps.Operator.Webhooks.IMutationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#MutationResult}#Delete(`0,System.Boolean)
+  name.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.MutationResult>.Delete(TEntity, Boolean)
+  fullName: KubeOps.Operator.Webhooks.IMutationWebhook<TEntity>.KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, KubeOps.Operator.Webhooks.MutationResult>.Delete(TEntity, System.Boolean)
+  fullName.vb: KubeOps.Operator.Webhooks.IMutationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.MutationResult>.Delete(TEntity, System.Boolean)
+  nameWithType: IMutationWebhook<TEntity>.IAdmissionWebhook<TEntity, MutationResult>.Delete(TEntity, Boolean)
+  nameWithType.vb: IMutationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.MutationResult>.Delete(TEntity, Boolean)
+- uid: KubeOps.Operator.Webhooks.IMutationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#MutationResult}#Delete*
+  name: IAdmissionWebhook<TEntity, MutationResult>.Delete
+  href: kube-ops/KubeOps.Operator.Webhooks.IMutationWebhook-1.html#KubeOps_Operator_Webhooks_IMutationWebhook_1_KubeOps_Operator_Webhooks_IAdmissionWebhook_TEntity_KubeOps_Operator_Webhooks_MutationResult__Delete_
+  commentId: Overload:KubeOps.Operator.Webhooks.IMutationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#MutationResult}#Delete
+  isSpec: "True"
+  name.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.MutationResult>.Delete
+  fullName: KubeOps.Operator.Webhooks.IMutationWebhook<TEntity>.KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, KubeOps.Operator.Webhooks.MutationResult>.Delete
+  fullName.vb: KubeOps.Operator.Webhooks.IMutationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.MutationResult>.Delete
+  nameWithType: IMutationWebhook<TEntity>.IAdmissionWebhook<TEntity, MutationResult>.Delete
+  nameWithType.vb: IMutationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.MutationResult>.Delete
+- uid: KubeOps.Operator.Webhooks.IMutationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#MutationResult}#Update(`0,`0,System.Boolean)
+  name: IAdmissionWebhook<TEntity, MutationResult>.Update(TEntity, TEntity, Boolean)
+  href: kube-ops/KubeOps.Operator.Webhooks.IMutationWebhook-1.html#KubeOps_Operator_Webhooks_IMutationWebhook_1_KubeOps_Operator_Webhooks_IAdmissionWebhook_TEntity_KubeOps_Operator_Webhooks_MutationResult__Update__0__0_System_Boolean_
+  commentId: M:KubeOps.Operator.Webhooks.IMutationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#MutationResult}#Update(`0,`0,System.Boolean)
+  name.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.MutationResult>.Update(TEntity, TEntity, Boolean)
+  fullName: KubeOps.Operator.Webhooks.IMutationWebhook<TEntity>.KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, KubeOps.Operator.Webhooks.MutationResult>.Update(TEntity, TEntity, System.Boolean)
+  fullName.vb: KubeOps.Operator.Webhooks.IMutationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.MutationResult>.Update(TEntity, TEntity, System.Boolean)
+  nameWithType: IMutationWebhook<TEntity>.IAdmissionWebhook<TEntity, MutationResult>.Update(TEntity, TEntity, Boolean)
+  nameWithType.vb: IMutationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.MutationResult>.Update(TEntity, TEntity, Boolean)
+- uid: KubeOps.Operator.Webhooks.IMutationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#MutationResult}#Update*
+  name: IAdmissionWebhook<TEntity, MutationResult>.Update
+  href: kube-ops/KubeOps.Operator.Webhooks.IMutationWebhook-1.html#KubeOps_Operator_Webhooks_IMutationWebhook_1_KubeOps_Operator_Webhooks_IAdmissionWebhook_TEntity_KubeOps_Operator_Webhooks_MutationResult__Update_
+  commentId: Overload:KubeOps.Operator.Webhooks.IMutationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#MutationResult}#Update
+  isSpec: "True"
+  name.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.MutationResult>.Update
+  fullName: KubeOps.Operator.Webhooks.IMutationWebhook<TEntity>.KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, KubeOps.Operator.Webhooks.MutationResult>.Update
+  fullName.vb: KubeOps.Operator.Webhooks.IMutationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.MutationResult>.Update
+  nameWithType: IMutationWebhook<TEntity>.IAdmissionWebhook<TEntity, MutationResult>.Update
+  nameWithType.vb: IMutationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.MutationResult>.Update
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook`1
+  name: IValidationWebhook<TEntity>
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html
+  commentId: T:KubeOps.Operator.Webhooks.IValidationWebhook`1
+  name.vb: IValidationWebhook(Of TEntity)
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook<TEntity>
+  fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity)
+  nameWithType: IValidationWebhook<TEntity>
+  nameWithType.vb: IValidationWebhook(Of TEntity)
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#ValidationResult}#Create(`0,System.Boolean)
+  name: IAdmissionWebhook<TEntity, ValidationResult>.Create(TEntity, Boolean)
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_KubeOps_Operator_Webhooks_IAdmissionWebhook_TEntity_KubeOps_Operator_Webhooks_ValidationResult__Create__0_System_Boolean_
+  commentId: M:KubeOps.Operator.Webhooks.IValidationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#ValidationResult}#Create(`0,System.Boolean)
+  name.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.ValidationResult>.Create(TEntity, Boolean)
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook<TEntity>.KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, KubeOps.Operator.Webhooks.ValidationResult>.Create(TEntity, System.Boolean)
+  fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.ValidationResult>.Create(TEntity, System.Boolean)
+  nameWithType: IValidationWebhook<TEntity>.IAdmissionWebhook<TEntity, ValidationResult>.Create(TEntity, Boolean)
+  nameWithType.vb: IValidationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.ValidationResult>.Create(TEntity, Boolean)
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#ValidationResult}#Create*
+  name: IAdmissionWebhook<TEntity, ValidationResult>.Create
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_KubeOps_Operator_Webhooks_IAdmissionWebhook_TEntity_KubeOps_Operator_Webhooks_ValidationResult__Create_
+  commentId: Overload:KubeOps.Operator.Webhooks.IValidationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#ValidationResult}#Create
+  isSpec: "True"
+  name.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.ValidationResult>.Create
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook<TEntity>.KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, KubeOps.Operator.Webhooks.ValidationResult>.Create
+  fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.ValidationResult>.Create
+  nameWithType: IValidationWebhook<TEntity>.IAdmissionWebhook<TEntity, ValidationResult>.Create
+  nameWithType.vb: IValidationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.ValidationResult>.Create
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#ValidationResult}#Delete(`0,System.Boolean)
+  name: IAdmissionWebhook<TEntity, ValidationResult>.Delete(TEntity, Boolean)
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_KubeOps_Operator_Webhooks_IAdmissionWebhook_TEntity_KubeOps_Operator_Webhooks_ValidationResult__Delete__0_System_Boolean_
+  commentId: M:KubeOps.Operator.Webhooks.IValidationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#ValidationResult}#Delete(`0,System.Boolean)
+  name.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.ValidationResult>.Delete(TEntity, Boolean)
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook<TEntity>.KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, KubeOps.Operator.Webhooks.ValidationResult>.Delete(TEntity, System.Boolean)
+  fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.ValidationResult>.Delete(TEntity, System.Boolean)
+  nameWithType: IValidationWebhook<TEntity>.IAdmissionWebhook<TEntity, ValidationResult>.Delete(TEntity, Boolean)
+  nameWithType.vb: IValidationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.ValidationResult>.Delete(TEntity, Boolean)
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#ValidationResult}#Delete*
+  name: IAdmissionWebhook<TEntity, ValidationResult>.Delete
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_KubeOps_Operator_Webhooks_IAdmissionWebhook_TEntity_KubeOps_Operator_Webhooks_ValidationResult__Delete_
+  commentId: Overload:KubeOps.Operator.Webhooks.IValidationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#ValidationResult}#Delete
+  isSpec: "True"
+  name.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.ValidationResult>.Delete
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook<TEntity>.KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, KubeOps.Operator.Webhooks.ValidationResult>.Delete
+  fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.ValidationResult>.Delete
+  nameWithType: IValidationWebhook<TEntity>.IAdmissionWebhook<TEntity, ValidationResult>.Delete
+  nameWithType.vb: IValidationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.ValidationResult>.Delete
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#ValidationResult}#Update(`0,`0,System.Boolean)
+  name: IAdmissionWebhook<TEntity, ValidationResult>.Update(TEntity, TEntity, Boolean)
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_KubeOps_Operator_Webhooks_IAdmissionWebhook_TEntity_KubeOps_Operator_Webhooks_ValidationResult__Update__0__0_System_Boolean_
+  commentId: M:KubeOps.Operator.Webhooks.IValidationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#ValidationResult}#Update(`0,`0,System.Boolean)
+  name.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.ValidationResult>.Update(TEntity, TEntity, Boolean)
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook<TEntity>.KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, KubeOps.Operator.Webhooks.ValidationResult>.Update(TEntity, TEntity, System.Boolean)
+  fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.ValidationResult>.Update(TEntity, TEntity, System.Boolean)
+  nameWithType: IValidationWebhook<TEntity>.IAdmissionWebhook<TEntity, ValidationResult>.Update(TEntity, TEntity, Boolean)
+  nameWithType.vb: IValidationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.ValidationResult>.Update(TEntity, TEntity, Boolean)
+- uid: KubeOps.Operator.Webhooks.IValidationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#ValidationResult}#Update*
+  name: IAdmissionWebhook<TEntity, ValidationResult>.Update
+  href: kube-ops/KubeOps.Operator.Webhooks.IValidationWebhook-1.html#KubeOps_Operator_Webhooks_IValidationWebhook_1_KubeOps_Operator_Webhooks_IAdmissionWebhook_TEntity_KubeOps_Operator_Webhooks_ValidationResult__Update_
+  commentId: Overload:KubeOps.Operator.Webhooks.IValidationWebhook`1.KubeOps#Operator#Webhooks#IAdmissionWebhook{TEntity,KubeOps#Operator#Webhooks#ValidationResult}#Update
+  isSpec: "True"
+  name.vb: KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.ValidationResult>.Update
+  fullName: KubeOps.Operator.Webhooks.IValidationWebhook<TEntity>.KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity, KubeOps.Operator.Webhooks.ValidationResult>.Update
+  fullName.vb: KubeOps.Operator.Webhooks.IValidationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.ValidationResult>.Update
+  nameWithType: IValidationWebhook<TEntity>.IAdmissionWebhook<TEntity, ValidationResult>.Update
+  nameWithType.vb: IValidationWebhook(Of TEntity).KubeOps.Operator.Webhooks.IAdmissionWebhook<TEntity,KubeOps.Operator.Webhooks.ValidationResult>.Update
+- uid: KubeOps.Operator.Webhooks.MutationResult
+  name: MutationResult
+  href: kube-ops/KubeOps.Operator.Webhooks.MutationResult.html
+  commentId: T:KubeOps.Operator.Webhooks.MutationResult
+  fullName: KubeOps.Operator.Webhooks.MutationResult
+  nameWithType: MutationResult
+- uid: KubeOps.Operator.Webhooks.MutationResult.Modified(System.Object)
+  name: Modified(Object)
+  href: kube-ops/KubeOps.Operator.Webhooks.MutationResult.html#KubeOps_Operator_Webhooks_MutationResult_Modified_System_Object_
+  commentId: M:KubeOps.Operator.Webhooks.MutationResult.Modified(System.Object)
+  fullName: KubeOps.Operator.Webhooks.MutationResult.Modified(System.Object)
+  nameWithType: MutationResult.Modified(Object)
+- uid: KubeOps.Operator.Webhooks.MutationResult.Modified*
+  name: Modified
+  href: kube-ops/KubeOps.Operator.Webhooks.MutationResult.html#KubeOps_Operator_Webhooks_MutationResult_Modified_
+  commentId: Overload:KubeOps.Operator.Webhooks.MutationResult.Modified
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.MutationResult.Modified
+  nameWithType: MutationResult.Modified
+- uid: KubeOps.Operator.Webhooks.MutationResult.NoChanges
+  name: NoChanges()
+  href: kube-ops/KubeOps.Operator.Webhooks.MutationResult.html#KubeOps_Operator_Webhooks_MutationResult_NoChanges
+  commentId: M:KubeOps.Operator.Webhooks.MutationResult.NoChanges
+  fullName: KubeOps.Operator.Webhooks.MutationResult.NoChanges()
+  nameWithType: MutationResult.NoChanges()
+- uid: KubeOps.Operator.Webhooks.MutationResult.NoChanges*
+  name: NoChanges
+  href: kube-ops/KubeOps.Operator.Webhooks.MutationResult.html#KubeOps_Operator_Webhooks_MutationResult_NoChanges_
+  commentId: Overload:KubeOps.Operator.Webhooks.MutationResult.NoChanges
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.MutationResult.NoChanges
+  nameWithType: MutationResult.NoChanges
+- uid: KubeOps.Operator.Webhooks.ValidationResult
+  name: ValidationResult
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html
+  commentId: T:KubeOps.Operator.Webhooks.ValidationResult
+  fullName: KubeOps.Operator.Webhooks.ValidationResult
+  nameWithType: ValidationResult
+- uid: KubeOps.Operator.Webhooks.ValidationResult.Fail
+  name: Fail()
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html#KubeOps_Operator_Webhooks_ValidationResult_Fail
+  commentId: M:KubeOps.Operator.Webhooks.ValidationResult.Fail
+  fullName: KubeOps.Operator.Webhooks.ValidationResult.Fail()
+  nameWithType: ValidationResult.Fail()
+- uid: KubeOps.Operator.Webhooks.ValidationResult.Fail(System.Int32,System.String)
+  name: Fail(Int32, String)
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html#KubeOps_Operator_Webhooks_ValidationResult_Fail_System_Int32_System_String_
+  commentId: M:KubeOps.Operator.Webhooks.ValidationResult.Fail(System.Int32,System.String)
+  fullName: KubeOps.Operator.Webhooks.ValidationResult.Fail(System.Int32, System.String)
+  nameWithType: ValidationResult.Fail(Int32, String)
+- uid: KubeOps.Operator.Webhooks.ValidationResult.Fail*
+  name: Fail
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html#KubeOps_Operator_Webhooks_ValidationResult_Fail_
+  commentId: Overload:KubeOps.Operator.Webhooks.ValidationResult.Fail
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.ValidationResult.Fail
+  nameWithType: ValidationResult.Fail
+- uid: KubeOps.Operator.Webhooks.ValidationResult.Success(System.String[])
+  name: Success(String[])
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html#KubeOps_Operator_Webhooks_ValidationResult_Success_System_String___
+  commentId: M:KubeOps.Operator.Webhooks.ValidationResult.Success(System.String[])
+  name.vb: Success(String())
+  fullName: KubeOps.Operator.Webhooks.ValidationResult.Success(System.String[])
+  fullName.vb: KubeOps.Operator.Webhooks.ValidationResult.Success(System.String())
+  nameWithType: ValidationResult.Success(String[])
+  nameWithType.vb: ValidationResult.Success(String())
+- uid: KubeOps.Operator.Webhooks.ValidationResult.Success*
+  name: Success
+  href: kube-ops/KubeOps.Operator.Webhooks.ValidationResult.html#KubeOps_Operator_Webhooks_ValidationResult_Success_
+  commentId: Overload:KubeOps.Operator.Webhooks.ValidationResult.Success
+  isSpec: "True"
+  fullName: KubeOps.Operator.Webhooks.ValidationResult.Success
+  nameWithType: ValidationResult.Success
+- uid: KubeOps.Testing
+  name: KubeOps.Testing
+  href: kube-ops-testing/KubeOps.Testing.html
+  commentId: N:KubeOps.Testing
+  fullName: KubeOps.Testing
+  nameWithType: KubeOps.Testing
+- uid: KubeOps.Testing.KubernetesOperatorFactory`1
+  name: KubernetesOperatorFactory<TTestStartup>
+  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html
+  commentId: T:KubeOps.Testing.KubernetesOperatorFactory`1
+  name.vb: KubernetesOperatorFactory(Of TTestStartup)
+  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>
+  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup)
+  nameWithType: KubernetesOperatorFactory<TTestStartup>
+  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup)
+- uid: KubeOps.Testing.KubernetesOperatorFactory`1.ConfigureWebHost(Microsoft.AspNetCore.Hosting.IWebHostBuilder)
+  name: ConfigureWebHost(IWebHostBuilder)
+  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_ConfigureWebHost_Microsoft_AspNetCore_Hosting_IWebHostBuilder_
+  commentId: M:KubeOps.Testing.KubernetesOperatorFactory`1.ConfigureWebHost(Microsoft.AspNetCore.Hosting.IWebHostBuilder)
+  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.ConfigureWebHost(Microsoft.AspNetCore.Hosting.IWebHostBuilder)
+  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).ConfigureWebHost(Microsoft.AspNetCore.Hosting.IWebHostBuilder)
+  nameWithType: KubernetesOperatorFactory<TTestStartup>.ConfigureWebHost(IWebHostBuilder)
+  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).ConfigureWebHost(IWebHostBuilder)
+- uid: KubeOps.Testing.KubernetesOperatorFactory`1.ConfigureWebHost*
+  name: ConfigureWebHost
+  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_ConfigureWebHost_
+  commentId: Overload:KubeOps.Testing.KubernetesOperatorFactory`1.ConfigureWebHost
+  isSpec: "True"
+  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.ConfigureWebHost
+  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).ConfigureWebHost
+  nameWithType: KubernetesOperatorFactory<TTestStartup>.ConfigureWebHost
+  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).ConfigureWebHost
+- uid: KubeOps.Testing.KubernetesOperatorFactory`1.CreateHostBuilder
+  name: CreateHostBuilder()
+  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_CreateHostBuilder
+  commentId: M:KubeOps.Testing.KubernetesOperatorFactory`1.CreateHostBuilder
+  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.CreateHostBuilder()
+  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).CreateHostBuilder()
+  nameWithType: KubernetesOperatorFactory<TTestStartup>.CreateHostBuilder()
+  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).CreateHostBuilder()
+- uid: KubeOps.Testing.KubernetesOperatorFactory`1.CreateHostBuilder*
+  name: CreateHostBuilder
+  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_CreateHostBuilder_
+  commentId: Overload:KubeOps.Testing.KubernetesOperatorFactory`1.CreateHostBuilder
+  isSpec: "True"
+  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.CreateHostBuilder
+  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).CreateHostBuilder
+  nameWithType: KubernetesOperatorFactory<TTestStartup>.CreateHostBuilder
+  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).CreateHostBuilder
+- uid: KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueEvent*
+  name: EnqueueEvent
+  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_EnqueueEvent_
+  commentId: Overload:KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueEvent
+  isSpec: "True"
+  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.EnqueueEvent
+  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).EnqueueEvent
+  nameWithType: KubernetesOperatorFactory<TTestStartup>.EnqueueEvent
+  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).EnqueueEvent
+- uid: KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueEvent``1(KubeOps.Operator.Kubernetes.ResourceEventType,``0)
+  name: EnqueueEvent<TEntity>(ResourceEventType, TEntity)
+  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_EnqueueEvent__1_KubeOps_Operator_Kubernetes_ResourceEventType___0_
+  commentId: M:KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueEvent``1(KubeOps.Operator.Kubernetes.ResourceEventType,``0)
+  name.vb: EnqueueEvent(Of TEntity)(ResourceEventType, TEntity)
+  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.EnqueueEvent<TEntity>(KubeOps.Operator.Kubernetes.ResourceEventType, TEntity)
+  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).EnqueueEvent(Of TEntity)(KubeOps.Operator.Kubernetes.ResourceEventType, TEntity)
+  nameWithType: KubernetesOperatorFactory<TTestStartup>.EnqueueEvent<TEntity>(ResourceEventType, TEntity)
+  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).EnqueueEvent(Of TEntity)(ResourceEventType, TEntity)
+- uid: KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueFinalization*
+  name: EnqueueFinalization
+  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_EnqueueFinalization_
+  commentId: Overload:KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueFinalization
+  isSpec: "True"
+  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.EnqueueFinalization
+  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).EnqueueFinalization
+  nameWithType: KubernetesOperatorFactory<TTestStartup>.EnqueueFinalization
+  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).EnqueueFinalization
+- uid: KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueFinalization``1(``0)
+  name: EnqueueFinalization<TEntity>(TEntity)
+  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_EnqueueFinalization__1___0_
+  commentId: M:KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueFinalization``1(``0)
+  name.vb: EnqueueFinalization(Of TEntity)(TEntity)
+  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.EnqueueFinalization<TEntity>(TEntity)
+  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).EnqueueFinalization(Of TEntity)(TEntity)
+  nameWithType: KubernetesOperatorFactory<TTestStartup>.EnqueueFinalization<TEntity>(TEntity)
+  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).EnqueueFinalization(Of TEntity)(TEntity)
+- uid: KubeOps.Testing.KubernetesOperatorFactory`1.MockedKubernetesClient
+  name: MockedKubernetesClient
+  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_MockedKubernetesClient
+  commentId: P:KubeOps.Testing.KubernetesOperatorFactory`1.MockedKubernetesClient
+  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.MockedKubernetesClient
+  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).MockedKubernetesClient
+  nameWithType: KubernetesOperatorFactory<TTestStartup>.MockedKubernetesClient
+  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).MockedKubernetesClient
+- uid: KubeOps.Testing.KubernetesOperatorFactory`1.MockedKubernetesClient*
+  name: MockedKubernetesClient
+  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_MockedKubernetesClient_
+  commentId: Overload:KubeOps.Testing.KubernetesOperatorFactory`1.MockedKubernetesClient
+  isSpec: "True"
+  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.MockedKubernetesClient
+  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).MockedKubernetesClient
+  nameWithType: KubernetesOperatorFactory<TTestStartup>.MockedKubernetesClient
+  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).MockedKubernetesClient
+- uid: KubeOps.Testing.KubernetesOperatorFactory`1.Run
+  name: Run()
+  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_Run
+  commentId: M:KubeOps.Testing.KubernetesOperatorFactory`1.Run
+  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.Run()
+  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).Run()
+  nameWithType: KubernetesOperatorFactory<TTestStartup>.Run()
+  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).Run()
+- uid: KubeOps.Testing.KubernetesOperatorFactory`1.Run*
+  name: Run
+  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_Run_
+  commentId: Overload:KubeOps.Testing.KubernetesOperatorFactory`1.Run
+  isSpec: "True"
+  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.Run
+  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).Run
+  nameWithType: KubernetesOperatorFactory<TTestStartup>.Run
+  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).Run
+- uid: KubeOps.Testing.KubernetesOperatorFactory`1.WithSolutionRelativeContentRoot(System.String)
+  name: WithSolutionRelativeContentRoot(String)
+  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_WithSolutionRelativeContentRoot_System_String_
+  commentId: M:KubeOps.Testing.KubernetesOperatorFactory`1.WithSolutionRelativeContentRoot(System.String)
+  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.WithSolutionRelativeContentRoot(System.String)
+  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).WithSolutionRelativeContentRoot(System.String)
+  nameWithType: KubernetesOperatorFactory<TTestStartup>.WithSolutionRelativeContentRoot(String)
+  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).WithSolutionRelativeContentRoot(String)
+- uid: KubeOps.Testing.KubernetesOperatorFactory`1.WithSolutionRelativeContentRoot*
+  name: WithSolutionRelativeContentRoot
+  href: kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_WithSolutionRelativeContentRoot_
+  commentId: Overload:KubeOps.Testing.KubernetesOperatorFactory`1.WithSolutionRelativeContentRoot
+  isSpec: "True"
+  fullName: KubeOps.Testing.KubernetesOperatorFactory<TTestStartup>.WithSolutionRelativeContentRoot
+  fullName.vb: KubeOps.Testing.KubernetesOperatorFactory(Of TTestStartup).WithSolutionRelativeContentRoot
+  nameWithType: KubernetesOperatorFactory<TTestStartup>.WithSolutionRelativeContentRoot
+  nameWithType.vb: KubernetesOperatorFactory(Of TTestStartup).WithSolutionRelativeContentRoot
+- uid: KubeOps.Testing.MockKubernetesClient
+  name: MockKubernetesClient
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html
+  commentId: T:KubeOps.Testing.MockKubernetesClient
+  fullName: KubeOps.Testing.MockKubernetesClient
+  nameWithType: MockKubernetesClient
+- uid: KubeOps.Testing.MockKubernetesClient.ApiClient
+  name: ApiClient
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_ApiClient
+  commentId: P:KubeOps.Testing.MockKubernetesClient.ApiClient
+  fullName: KubeOps.Testing.MockKubernetesClient.ApiClient
+  nameWithType: MockKubernetesClient.ApiClient
+- uid: KubeOps.Testing.MockKubernetesClient.ApiClient*
+  name: ApiClient
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_ApiClient_
+  commentId: Overload:KubeOps.Testing.MockKubernetesClient.ApiClient
+  isSpec: "True"
+  fullName: KubeOps.Testing.MockKubernetesClient.ApiClient
+  nameWithType: MockKubernetesClient.ApiClient
+- uid: KubeOps.Testing.MockKubernetesClient.Create*
+  name: Create
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Create_
+  commentId: Overload:KubeOps.Testing.MockKubernetesClient.Create
+  isSpec: "True"
+  fullName: KubeOps.Testing.MockKubernetesClient.Create
+  nameWithType: MockKubernetesClient.Create
+- uid: KubeOps.Testing.MockKubernetesClient.Create``1(``0)
+  name: Create<TEntity>(TEntity)
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Create__1___0_
+  commentId: M:KubeOps.Testing.MockKubernetesClient.Create``1(``0)
+  name.vb: Create(Of TEntity)(TEntity)
+  fullName: KubeOps.Testing.MockKubernetesClient.Create<TEntity>(TEntity)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Create(Of TEntity)(TEntity)
+  nameWithType: MockKubernetesClient.Create<TEntity>(TEntity)
+  nameWithType.vb: MockKubernetesClient.Create(Of TEntity)(TEntity)
+- uid: KubeOps.Testing.MockKubernetesClient.CreateResult
+  name: CreateResult
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_CreateResult
+  commentId: P:KubeOps.Testing.MockKubernetesClient.CreateResult
+  fullName: KubeOps.Testing.MockKubernetesClient.CreateResult
+  nameWithType: MockKubernetesClient.CreateResult
+- uid: KubeOps.Testing.MockKubernetesClient.CreateResult*
+  name: CreateResult
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_CreateResult_
+  commentId: Overload:KubeOps.Testing.MockKubernetesClient.CreateResult
+  isSpec: "True"
+  fullName: KubeOps.Testing.MockKubernetesClient.CreateResult
+  nameWithType: MockKubernetesClient.CreateResult
+- uid: KubeOps.Testing.MockKubernetesClient.Delete*
+  name: Delete
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Delete_
+  commentId: Overload:KubeOps.Testing.MockKubernetesClient.Delete
+  isSpec: "True"
+  fullName: KubeOps.Testing.MockKubernetesClient.Delete
+  nameWithType: MockKubernetesClient.Delete
+- uid: KubeOps.Testing.MockKubernetesClient.Delete``1(``0)
+  name: Delete<TEntity>(TEntity)
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Delete__1___0_
+  commentId: M:KubeOps.Testing.MockKubernetesClient.Delete``1(``0)
+  name.vb: Delete(Of TEntity)(TEntity)
+  fullName: KubeOps.Testing.MockKubernetesClient.Delete<TEntity>(TEntity)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Delete(Of TEntity)(TEntity)
+  nameWithType: MockKubernetesClient.Delete<TEntity>(TEntity)
+  nameWithType.vb: MockKubernetesClient.Delete(Of TEntity)(TEntity)
+- uid: KubeOps.Testing.MockKubernetesClient.Delete``1(``0[])
+  name: Delete<TEntity>(TEntity[])
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Delete__1___0___
+  commentId: M:KubeOps.Testing.MockKubernetesClient.Delete``1(``0[])
+  name.vb: Delete(Of TEntity)(TEntity())
+  fullName: KubeOps.Testing.MockKubernetesClient.Delete<TEntity>(TEntity[])
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Delete(Of TEntity)(TEntity())
+  nameWithType: MockKubernetesClient.Delete<TEntity>(TEntity[])
+  nameWithType.vb: MockKubernetesClient.Delete(Of TEntity)(TEntity())
+- uid: KubeOps.Testing.MockKubernetesClient.Delete``1(System.Collections.Generic.IEnumerable{``0})
+  name: Delete<TEntity>(IEnumerable<TEntity>)
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Delete__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:KubeOps.Testing.MockKubernetesClient.Delete``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: Delete(Of TEntity)(IEnumerable(Of TEntity))
+  fullName: KubeOps.Testing.MockKubernetesClient.Delete<TEntity>(System.Collections.Generic.IEnumerable<TEntity>)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Delete(Of TEntity)(System.Collections.Generic.IEnumerable(Of TEntity))
+  nameWithType: MockKubernetesClient.Delete<TEntity>(IEnumerable<TEntity>)
+  nameWithType.vb: MockKubernetesClient.Delete(Of TEntity)(IEnumerable(Of TEntity))
+- uid: KubeOps.Testing.MockKubernetesClient.Delete``1(System.String,System.String)
+  name: Delete<TEntity>(String, String)
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Delete__1_System_String_System_String_
+  commentId: M:KubeOps.Testing.MockKubernetesClient.Delete``1(System.String,System.String)
+  name.vb: Delete(Of TEntity)(String, String)
+  fullName: KubeOps.Testing.MockKubernetesClient.Delete<TEntity>(System.String, System.String)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Delete(Of TEntity)(System.String, System.String)
+  nameWithType: MockKubernetesClient.Delete<TEntity>(String, String)
+  nameWithType.vb: MockKubernetesClient.Delete(Of TEntity)(String, String)
+- uid: KubeOps.Testing.MockKubernetesClient.Get*
+  name: Get
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Get_
+  commentId: Overload:KubeOps.Testing.MockKubernetesClient.Get
+  isSpec: "True"
+  fullName: KubeOps.Testing.MockKubernetesClient.Get
+  nameWithType: MockKubernetesClient.Get
+- uid: KubeOps.Testing.MockKubernetesClient.Get``1(System.String,System.String)
+  name: Get<TEntity>(String, String)
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Get__1_System_String_System_String_
+  commentId: M:KubeOps.Testing.MockKubernetesClient.Get``1(System.String,System.String)
+  name.vb: Get(Of TEntity)(String, String)
+  fullName: KubeOps.Testing.MockKubernetesClient.Get<TEntity>(System.String, System.String)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Get(Of TEntity)(System.String, System.String)
+  nameWithType: MockKubernetesClient.Get<TEntity>(String, String)
+  nameWithType.vb: MockKubernetesClient.Get(Of TEntity)(String, String)
+- uid: KubeOps.Testing.MockKubernetesClient.GetCurrentNamespace(System.String)
+  name: GetCurrentNamespace(String)
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_GetCurrentNamespace_System_String_
+  commentId: M:KubeOps.Testing.MockKubernetesClient.GetCurrentNamespace(System.String)
+  fullName: KubeOps.Testing.MockKubernetesClient.GetCurrentNamespace(System.String)
+  nameWithType: MockKubernetesClient.GetCurrentNamespace(String)
+- uid: KubeOps.Testing.MockKubernetesClient.GetCurrentNamespace*
+  name: GetCurrentNamespace
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_GetCurrentNamespace_
+  commentId: Overload:KubeOps.Testing.MockKubernetesClient.GetCurrentNamespace
+  isSpec: "True"
+  fullName: KubeOps.Testing.MockKubernetesClient.GetCurrentNamespace
+  nameWithType: MockKubernetesClient.GetCurrentNamespace
+- uid: KubeOps.Testing.MockKubernetesClient.GetResult
+  name: GetResult
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_GetResult
+  commentId: P:KubeOps.Testing.MockKubernetesClient.GetResult
+  fullName: KubeOps.Testing.MockKubernetesClient.GetResult
+  nameWithType: MockKubernetesClient.GetResult
+- uid: KubeOps.Testing.MockKubernetesClient.GetResult*
+  name: GetResult
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_GetResult_
+  commentId: Overload:KubeOps.Testing.MockKubernetesClient.GetResult
+  isSpec: "True"
+  fullName: KubeOps.Testing.MockKubernetesClient.GetResult
+  nameWithType: MockKubernetesClient.GetResult
+- uid: KubeOps.Testing.MockKubernetesClient.GetServerVersion
+  name: GetServerVersion()
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_GetServerVersion
+  commentId: M:KubeOps.Testing.MockKubernetesClient.GetServerVersion
+  fullName: KubeOps.Testing.MockKubernetesClient.GetServerVersion()
+  nameWithType: MockKubernetesClient.GetServerVersion()
+- uid: KubeOps.Testing.MockKubernetesClient.GetServerVersion*
+  name: GetServerVersion
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_GetServerVersion_
+  commentId: Overload:KubeOps.Testing.MockKubernetesClient.GetServerVersion
+  isSpec: "True"
+  fullName: KubeOps.Testing.MockKubernetesClient.GetServerVersion
+  nameWithType: MockKubernetesClient.GetServerVersion
+- uid: KubeOps.Testing.MockKubernetesClient.List*
+  name: List
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_List_
+  commentId: Overload:KubeOps.Testing.MockKubernetesClient.List
+  isSpec: "True"
+  fullName: KubeOps.Testing.MockKubernetesClient.List
+  nameWithType: MockKubernetesClient.List
+- uid: KubeOps.Testing.MockKubernetesClient.List``1(System.String,DotnetKubernetesClient.LabelSelectors.ILabelSelector[])
+  name: List<TEntity>(String, ILabelSelector[])
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_List__1_System_String_DotnetKubernetesClient_LabelSelectors_ILabelSelector___
+  commentId: M:KubeOps.Testing.MockKubernetesClient.List``1(System.String,DotnetKubernetesClient.LabelSelectors.ILabelSelector[])
+  name.vb: List(Of TEntity)(String, ILabelSelector())
+  fullName: KubeOps.Testing.MockKubernetesClient.List<TEntity>(System.String, DotnetKubernetesClient.LabelSelectors.ILabelSelector[])
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.List(Of TEntity)(System.String, DotnetKubernetesClient.LabelSelectors.ILabelSelector())
+  nameWithType: MockKubernetesClient.List<TEntity>(String, ILabelSelector[])
+  nameWithType.vb: MockKubernetesClient.List(Of TEntity)(String, ILabelSelector())
+- uid: KubeOps.Testing.MockKubernetesClient.List``1(System.String,System.String)
+  name: List<TEntity>(String, String)
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_List__1_System_String_System_String_
+  commentId: M:KubeOps.Testing.MockKubernetesClient.List``1(System.String,System.String)
+  name.vb: List(Of TEntity)(String, String)
+  fullName: KubeOps.Testing.MockKubernetesClient.List<TEntity>(System.String, System.String)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.List(Of TEntity)(System.String, System.String)
+  nameWithType: MockKubernetesClient.List<TEntity>(String, String)
+  nameWithType.vb: MockKubernetesClient.List(Of TEntity)(String, String)
+- uid: KubeOps.Testing.MockKubernetesClient.ListResult
+  name: ListResult
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_ListResult
+  commentId: P:KubeOps.Testing.MockKubernetesClient.ListResult
+  fullName: KubeOps.Testing.MockKubernetesClient.ListResult
+  nameWithType: MockKubernetesClient.ListResult
+- uid: KubeOps.Testing.MockKubernetesClient.ListResult*
+  name: ListResult
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_ListResult_
+  commentId: Overload:KubeOps.Testing.MockKubernetesClient.ListResult
+  isSpec: "True"
+  fullName: KubeOps.Testing.MockKubernetesClient.ListResult
+  nameWithType: MockKubernetesClient.ListResult
+- uid: KubeOps.Testing.MockKubernetesClient.Save*
+  name: Save
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Save_
+  commentId: Overload:KubeOps.Testing.MockKubernetesClient.Save
+  isSpec: "True"
+  fullName: KubeOps.Testing.MockKubernetesClient.Save
+  nameWithType: MockKubernetesClient.Save
+- uid: KubeOps.Testing.MockKubernetesClient.Save``1(``0)
+  name: Save<TEntity>(TEntity)
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Save__1___0_
+  commentId: M:KubeOps.Testing.MockKubernetesClient.Save``1(``0)
+  name.vb: Save(Of TEntity)(TEntity)
+  fullName: KubeOps.Testing.MockKubernetesClient.Save<TEntity>(TEntity)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Save(Of TEntity)(TEntity)
+  nameWithType: MockKubernetesClient.Save<TEntity>(TEntity)
+  nameWithType.vb: MockKubernetesClient.Save(Of TEntity)(TEntity)
+- uid: KubeOps.Testing.MockKubernetesClient.SaveResult
+  name: SaveResult
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_SaveResult
+  commentId: P:KubeOps.Testing.MockKubernetesClient.SaveResult
+  fullName: KubeOps.Testing.MockKubernetesClient.SaveResult
+  nameWithType: MockKubernetesClient.SaveResult
+- uid: KubeOps.Testing.MockKubernetesClient.SaveResult*
+  name: SaveResult
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_SaveResult_
+  commentId: Overload:KubeOps.Testing.MockKubernetesClient.SaveResult
+  isSpec: "True"
+  fullName: KubeOps.Testing.MockKubernetesClient.SaveResult
+  nameWithType: MockKubernetesClient.SaveResult
+- uid: KubeOps.Testing.MockKubernetesClient.Update*
+  name: Update
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Update_
+  commentId: Overload:KubeOps.Testing.MockKubernetesClient.Update
+  isSpec: "True"
+  fullName: KubeOps.Testing.MockKubernetesClient.Update
+  nameWithType: MockKubernetesClient.Update
+- uid: KubeOps.Testing.MockKubernetesClient.Update``1(``0)
+  name: Update<TEntity>(TEntity)
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Update__1___0_
+  commentId: M:KubeOps.Testing.MockKubernetesClient.Update``1(``0)
+  name.vb: Update(Of TEntity)(TEntity)
+  fullName: KubeOps.Testing.MockKubernetesClient.Update<TEntity>(TEntity)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Update(Of TEntity)(TEntity)
+  nameWithType: MockKubernetesClient.Update<TEntity>(TEntity)
+  nameWithType.vb: MockKubernetesClient.Update(Of TEntity)(TEntity)
+- uid: KubeOps.Testing.MockKubernetesClient.UpdateResult
+  name: UpdateResult
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_UpdateResult
+  commentId: P:KubeOps.Testing.MockKubernetesClient.UpdateResult
+  fullName: KubeOps.Testing.MockKubernetesClient.UpdateResult
+  nameWithType: MockKubernetesClient.UpdateResult
+- uid: KubeOps.Testing.MockKubernetesClient.UpdateResult*
+  name: UpdateResult
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_UpdateResult_
+  commentId: Overload:KubeOps.Testing.MockKubernetesClient.UpdateResult
+  isSpec: "True"
+  fullName: KubeOps.Testing.MockKubernetesClient.UpdateResult
+  nameWithType: MockKubernetesClient.UpdateResult
+- uid: KubeOps.Testing.MockKubernetesClient.UpdateStatus*
+  name: UpdateStatus
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_UpdateStatus_
+  commentId: Overload:KubeOps.Testing.MockKubernetesClient.UpdateStatus
+  isSpec: "True"
+  fullName: KubeOps.Testing.MockKubernetesClient.UpdateStatus
+  nameWithType: MockKubernetesClient.UpdateStatus
+- uid: KubeOps.Testing.MockKubernetesClient.UpdateStatus``1(``0)
+  name: UpdateStatus<TEntity>(TEntity)
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_UpdateStatus__1___0_
+  commentId: M:KubeOps.Testing.MockKubernetesClient.UpdateStatus``1(``0)
+  name.vb: UpdateStatus(Of TEntity)(TEntity)
+  fullName: KubeOps.Testing.MockKubernetesClient.UpdateStatus<TEntity>(TEntity)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.UpdateStatus(Of TEntity)(TEntity)
+  nameWithType: MockKubernetesClient.UpdateStatus<TEntity>(TEntity)
+  nameWithType.vb: MockKubernetesClient.UpdateStatus(Of TEntity)(TEntity)
+- uid: KubeOps.Testing.MockKubernetesClient.Watch*
+  name: Watch
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Watch_
+  commentId: Overload:KubeOps.Testing.MockKubernetesClient.Watch
+  isSpec: "True"
+  fullName: KubeOps.Testing.MockKubernetesClient.Watch
+  nameWithType: MockKubernetesClient.Watch
+- uid: KubeOps.Testing.MockKubernetesClient.Watch``1(System.TimeSpan,System.Action{k8s.WatchEventType,``0},System.Action{System.Exception},System.Action,System.String,System.Threading.CancellationToken,DotnetKubernetesClient.LabelSelectors.ILabelSelector[])
+  name: Watch<TEntity>(TimeSpan, Action<WatchEventType, TEntity>, Action<Exception>, Action, String, CancellationToken, ILabelSelector[])
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Watch__1_System_TimeSpan_System_Action_k8s_WatchEventType___0__System_Action_System_Exception__System_Action_System_String_System_Threading_CancellationToken_DotnetKubernetesClient_LabelSelectors_ILabelSelector___
+  commentId: M:KubeOps.Testing.MockKubernetesClient.Watch``1(System.TimeSpan,System.Action{k8s.WatchEventType,``0},System.Action{System.Exception},System.Action,System.String,System.Threading.CancellationToken,DotnetKubernetesClient.LabelSelectors.ILabelSelector[])
+  name.vb: Watch(Of TEntity)(TimeSpan, Action(Of WatchEventType, TEntity), Action(Of Exception), Action, String, CancellationToken, ILabelSelector())
+  fullName: KubeOps.Testing.MockKubernetesClient.Watch<TEntity>(System.TimeSpan, System.Action<k8s.WatchEventType, TEntity>, System.Action<System.Exception>, System.Action, System.String, System.Threading.CancellationToken, DotnetKubernetesClient.LabelSelectors.ILabelSelector[])
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Watch(Of TEntity)(System.TimeSpan, System.Action(Of k8s.WatchEventType, TEntity), System.Action(Of System.Exception), System.Action, System.String, System.Threading.CancellationToken, DotnetKubernetesClient.LabelSelectors.ILabelSelector())
+  nameWithType: MockKubernetesClient.Watch<TEntity>(TimeSpan, Action<WatchEventType, TEntity>, Action<Exception>, Action, String, CancellationToken, ILabelSelector[])
+  nameWithType.vb: MockKubernetesClient.Watch(Of TEntity)(TimeSpan, Action(Of WatchEventType, TEntity), Action(Of Exception), Action, String, CancellationToken, ILabelSelector())
+- uid: KubeOps.Testing.MockKubernetesClient.Watch``1(System.TimeSpan,System.Action{k8s.WatchEventType,``0},System.Action{System.Exception},System.Action,System.String,System.Threading.CancellationToken,System.String)
+  name: Watch<TEntity>(TimeSpan, Action<WatchEventType, TEntity>, Action<Exception>, Action, String, CancellationToken, String)
+  href: kube-ops-testing/KubeOps.Testing.MockKubernetesClient.html#KubeOps_Testing_MockKubernetesClient_Watch__1_System_TimeSpan_System_Action_k8s_WatchEventType___0__System_Action_System_Exception__System_Action_System_String_System_Threading_CancellationToken_System_String_
+  commentId: M:KubeOps.Testing.MockKubernetesClient.Watch``1(System.TimeSpan,System.Action{k8s.WatchEventType,``0},System.Action{System.Exception},System.Action,System.String,System.Threading.CancellationToken,System.String)
+  name.vb: Watch(Of TEntity)(TimeSpan, Action(Of WatchEventType, TEntity), Action(Of Exception), Action, String, CancellationToken, String)
+  fullName: KubeOps.Testing.MockKubernetesClient.Watch<TEntity>(System.TimeSpan, System.Action<k8s.WatchEventType, TEntity>, System.Action<System.Exception>, System.Action, System.String, System.Threading.CancellationToken, System.String)
+  fullName.vb: KubeOps.Testing.MockKubernetesClient.Watch(Of TEntity)(System.TimeSpan, System.Action(Of k8s.WatchEventType, TEntity), System.Action(Of System.Exception), System.Action, System.String, System.Threading.CancellationToken, System.String)
+  nameWithType: MockKubernetesClient.Watch<TEntity>(TimeSpan, Action<WatchEventType, TEntity>, Action<Exception>, Action, String, CancellationToken, String)
+  nameWithType.vb: MockKubernetesClient.Watch(Of TEntity)(TimeSpan, Action(Of WatchEventType, TEntity), Action(Of Exception), Action, String, CancellationToken, String)

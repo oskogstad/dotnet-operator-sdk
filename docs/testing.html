@@ -8,7 +8,7 @@
     <title>Test your operator | KubeOps Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Test your operator | KubeOps Documentation ">
-    <meta name="generator" content="docfx 2.57.2.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -143,7 +143,7 @@ have a look at the test code in the repository:
 For normal unit testing, you can just mock all the things.</p>
 </div>
 <p>The main entry point for testing your custom operator is the
-@&quot;KubeOps.Testing.KubernetesOperatorFactory`1&quot;. It is meant to be
+<a class="xref" href="../kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html">KubernetesOperatorFactory&lt;TTestStartup&gt;</a>. It is meant to be
 injected into your test.</p>
 <div class="NOTE"><h5>Note</h5><p>The following documentation assumes you are using xUnit as a
 testing framework. The techniques used should be present
@@ -152,7 +152,7 @@ with other testing frameworks as well.</p>
 <p>The following steps are needed for integration testing the controller:</p>
 <ul>
 <li>Create a <code>TestStartup.cs</code> file (or any other name you want)</li>
-<li>Inject the @&quot;KubeOps.Testing.KubernetesOperatorFactory`1&quot;</li>
+<li>Inject the <a class="xref" href="../kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html">KubernetesOperatorFactory&lt;TTestStartup&gt;</a></li>
 <li>Use the mocked client and helper functions to test your operator</li>
 </ul>
 <h2 id="test-startup">Test Startup</h2>
@@ -191,13 +191,13 @@ namespace KubeOps.TestOperator.Test
 and helper functions to enqueue events and finalizer events.</p>
 <p>Both mocked elements can be retrieved via the operator factory with:</p>
 <ul>
-<li>@&quot;KubeOps.Testing.KubernetesOperatorFactory`1.MockedKubernetesClient&quot;</li>
-<li>@&quot;KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueEvent``1(KubeOps.Operator.Kubernetes.ResourceEventType,``0)&quot;</li>
-<li>@&quot;KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueFinalization``1(``0)&quot;</li>
+<li><a class="xref" href="../kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_MockedKubernetesClient">MockedKubernetesClient</a></li>
+<li><a class="xref" href="../kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_EnqueueEvent__1_KubeOps_Operator_Kubernetes_ResourceEventType___0_">EnqueueEvent&lt;TEntity&gt;(ResourceEventType, TEntity)</a></li>
+<li><a class="xref" href="../kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_EnqueueFinalization__1___0_">EnqueueFinalization&lt;TEntity&gt;(TEntity)</a></li>
 </ul>
 <h3 id="mocked-events">Mocked events</h3>
-<p>With the mentioned factory functions (@&quot;KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueEvent``1(KubeOps.Operator.Kubernetes.ResourceEventType,``0)&quot;
-and @&quot;KubeOps.Testing.KubernetesOperatorFactory`1.EnqueueFinalization``1(``0)&quot;)
+<p>With the mentioned factory functions (<a class="xref" href="../kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_EnqueueEvent__1_KubeOps_Operator_Kubernetes_ResourceEventType___0_">EnqueueEvent&lt;TEntity&gt;(ResourceEventType, TEntity)</a>
+and <a class="xref" href="../kube-ops-testing/KubeOps.Testing.KubernetesOperatorFactory-1.html#KubeOps_Testing_KubernetesOperatorFactory_1_EnqueueFinalization__1___0_">EnqueueFinalization&lt;TEntity&gt;(TEntity)</a>)
 one can fire events for entities. This can be used to test your controllers.</p>
 <p>The controllers are normally instantiated via the scope of the DI system.</p>
 <h3 id="mocked-ikubernetesclient">Mocked IKubernetesClient</h3>
