@@ -170,14 +170,14 @@ please note that the output type of the application must be an &quot;exe&quot;:
 <h3 id="install-the-package">Install the package</h3>
 <pre><code class="lang-bash">dotnet add package KubeOps
 </code></pre><p>That&#39;s it.</p>
-<h3 id="replace-the-run-function">Replace the Run function</h3>
+<h3 id="update-entrypoint">Update Entrypoint</h3>
 <p>In your <code>Program.cs</code> file, replace <code>Build().Run()</code> with <code>Build().RunOperator(args)</code>:</p>
 <pre><code class="lang-csharp">public static class Program
 {
     public static Task&lt;int&gt; Main(string[] args) =&gt;
         CreateHostBuilder(args)
             .Build()
-            .RunOperator(args);
+            .RunOperatorAsync(args);
 
     private static IHostBuilder CreateHostBuilder(string[] args) =&gt;
         Host.CreateDefaultBuilder(args)
