@@ -755,7 +755,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.HostExtensions.html",
-          "hash": "MoOGEp9F8IspUVkwq1v3y4WuPAusMGiK65d67eanSVk="
+          "hash": "5AJp0XLwZTLvPnjjdRpouvd7wDCO83GVE661E5FKn8g="
         }
       },
       "is_incremental": false,
@@ -827,7 +827,7 @@
       "output": {
         ".html": {
           "relative_path": "kube-ops/KubeOps.Operator.OperatorSettings.html",
-          "hash": "TFexy0Ba9HnXeaNbLaxUxASVg3+9M93jGP8I0ubXh4w="
+          "hash": "lIzEJFFVaNyyGVq3MH0fFEkECsYlPASOu5ShRIFTja0="
         }
       },
       "is_incremental": false,
