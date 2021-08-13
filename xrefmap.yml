@@ -224,12 +224,31 @@ references:
   commentId: T:KubeOps.Operator.Controller.Results.ResourceControllerResult
   fullName: KubeOps.Operator.Controller.Results.ResourceControllerResult
   nameWithType: ResourceControllerResult
+- uid: KubeOps.Operator.Controller.Results.ResourceControllerResult.EventType
+  name: EventType
+  href: kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html#KubeOps_Operator_Controller_Results_ResourceControllerResult_EventType
+  commentId: P:KubeOps.Operator.Controller.Results.ResourceControllerResult.EventType
+  fullName: KubeOps.Operator.Controller.Results.ResourceControllerResult.EventType
+  nameWithType: ResourceControllerResult.EventType
+- uid: KubeOps.Operator.Controller.Results.ResourceControllerResult.EventType*
+  name: EventType
+  href: kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html#KubeOps_Operator_Controller_Results_ResourceControllerResult_EventType_
+  commentId: Overload:KubeOps.Operator.Controller.Results.ResourceControllerResult.EventType
+  isSpec: "True"
+  fullName: KubeOps.Operator.Controller.Results.ResourceControllerResult.EventType
+  nameWithType: ResourceControllerResult.EventType
 - uid: KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueEvent(System.TimeSpan)
   name: RequeueEvent(TimeSpan)
   href: kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html#KubeOps_Operator_Controller_Results_ResourceControllerResult_RequeueEvent_System_TimeSpan_
   commentId: M:KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueEvent(System.TimeSpan)
   fullName: KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueEvent(System.TimeSpan)
   nameWithType: ResourceControllerResult.RequeueEvent(TimeSpan)
+- uid: KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueEvent(System.TimeSpan,KubeOps.Operator.Kubernetes.ResourceEventType)
+  name: RequeueEvent(TimeSpan, ResourceEventType)
+  href: kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html#KubeOps_Operator_Controller_Results_ResourceControllerResult_RequeueEvent_System_TimeSpan_KubeOps_Operator_Kubernetes_ResourceEventType_
+  commentId: M:KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueEvent(System.TimeSpan,KubeOps.Operator.Kubernetes.ResourceEventType)
+  fullName: KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueEvent(System.TimeSpan, KubeOps.Operator.Kubernetes.ResourceEventType)
+  nameWithType: ResourceControllerResult.RequeueEvent(TimeSpan, ResourceEventType)
 - uid: KubeOps.Operator.Controller.Results.ResourceControllerResult.RequeueEvent*
   name: RequeueEvent
   href: kube-ops/KubeOps.Operator.Controller.Results.ResourceControllerResult.html#KubeOps_Operator_Controller_Results_ResourceControllerResult_RequeueEvent_
@@ -1395,6 +1414,19 @@ references:
   commentId: T:KubeOps.Operator.OperatorSettings
   fullName: KubeOps.Operator.OperatorSettings
   nameWithType: OperatorSettings
+- uid: KubeOps.Operator.OperatorSettings.DefaultRequeueAsSameType
+  name: DefaultRequeueAsSameType
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_DefaultRequeueAsSameType
+  commentId: P:KubeOps.Operator.OperatorSettings.DefaultRequeueAsSameType
+  fullName: KubeOps.Operator.OperatorSettings.DefaultRequeueAsSameType
+  nameWithType: OperatorSettings.DefaultRequeueAsSameType
+- uid: KubeOps.Operator.OperatorSettings.DefaultRequeueAsSameType*
+  name: DefaultRequeueAsSameType
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_DefaultRequeueAsSameType_
+  commentId: Overload:KubeOps.Operator.OperatorSettings.DefaultRequeueAsSameType
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorSettings.DefaultRequeueAsSameType
+  nameWithType: OperatorSettings.DefaultRequeueAsSameType
 - uid: KubeOps.Operator.OperatorSettings.LeaderElectionCheckInterval
   name: LeaderElectionCheckInterval
   href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_LeaderElectionCheckInterval
