@@ -38,6 +38,54 @@ references:
   commentId: T:KubeOps.Operator.Builder.IOperatorBuilder
   fullName: KubeOps.Operator.Builder.IOperatorBuilder
   nameWithType: IOperatorBuilder
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddController*
+  name: AddController
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddController_
+  commentId: Overload:KubeOps.Operator.Builder.IOperatorBuilder.AddController
+  isSpec: "True"
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddController
+  nameWithType: IOperatorBuilder.AddController
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddController``2
+  name: AddController<TImplementation, TEntity>()
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddController__2
+  commentId: M:KubeOps.Operator.Builder.IOperatorBuilder.AddController``2
+  name.vb: AddController(Of TImplementation, TEntity)()
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddController<TImplementation, TEntity>()
+  fullName.vb: KubeOps.Operator.Builder.IOperatorBuilder.AddController(Of TImplementation, TEntity)()
+  nameWithType: IOperatorBuilder.AddController<TImplementation, TEntity>()
+  nameWithType.vb: IOperatorBuilder.AddController(Of TImplementation, TEntity)()
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddEntity*
+  name: AddEntity
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddEntity_
+  commentId: Overload:KubeOps.Operator.Builder.IOperatorBuilder.AddEntity
+  isSpec: "True"
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddEntity
+  nameWithType: IOperatorBuilder.AddEntity
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddEntity``1
+  name: AddEntity<TEntity>()
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddEntity__1
+  commentId: M:KubeOps.Operator.Builder.IOperatorBuilder.AddEntity``1
+  name.vb: AddEntity(Of TEntity)()
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddEntity<TEntity>()
+  fullName.vb: KubeOps.Operator.Builder.IOperatorBuilder.AddEntity(Of TEntity)()
+  nameWithType: IOperatorBuilder.AddEntity<TEntity>()
+  nameWithType.vb: IOperatorBuilder.AddEntity(Of TEntity)()
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddFinalizer*
+  name: AddFinalizer
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddFinalizer_
+  commentId: Overload:KubeOps.Operator.Builder.IOperatorBuilder.AddFinalizer
+  isSpec: "True"
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddFinalizer
+  nameWithType: IOperatorBuilder.AddFinalizer
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddFinalizer``2
+  name: AddFinalizer<TImplementation, TEntity>()
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddFinalizer__2
+  commentId: M:KubeOps.Operator.Builder.IOperatorBuilder.AddFinalizer``2
+  name.vb: AddFinalizer(Of TImplementation, TEntity)()
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddFinalizer<TImplementation, TEntity>()
+  fullName.vb: KubeOps.Operator.Builder.IOperatorBuilder.AddFinalizer(Of TImplementation, TEntity)()
+  nameWithType: IOperatorBuilder.AddFinalizer<TImplementation, TEntity>()
+  nameWithType.vb: IOperatorBuilder.AddFinalizer(Of TImplementation, TEntity)()
 - uid: KubeOps.Operator.Builder.IOperatorBuilder.AddHealthCheck*
   name: AddHealthCheck
   href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddHealthCheck_
@@ -70,6 +118,22 @@ references:
   fullName.vb: KubeOps.Operator.Builder.IOperatorBuilder.AddLivenessCheck(Of TLivenessCheck)(System.String)
   nameWithType: IOperatorBuilder.AddLivenessCheck<TLivenessCheck>(String)
   nameWithType.vb: IOperatorBuilder.AddLivenessCheck(Of TLivenessCheck)(String)
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddMutationWebhook*
+  name: AddMutationWebhook
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddMutationWebhook_
+  commentId: Overload:KubeOps.Operator.Builder.IOperatorBuilder.AddMutationWebhook
+  isSpec: "True"
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddMutationWebhook
+  nameWithType: IOperatorBuilder.AddMutationWebhook
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddMutationWebhook``2
+  name: AddMutationWebhook<TImplementation, TEntity>()
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddMutationWebhook__2
+  commentId: M:KubeOps.Operator.Builder.IOperatorBuilder.AddMutationWebhook``2
+  name.vb: AddMutationWebhook(Of TImplementation, TEntity)()
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddMutationWebhook<TImplementation, TEntity>()
+  fullName.vb: KubeOps.Operator.Builder.IOperatorBuilder.AddMutationWebhook(Of TImplementation, TEntity)()
+  nameWithType: IOperatorBuilder.AddMutationWebhook<TImplementation, TEntity>()
+  nameWithType.vb: IOperatorBuilder.AddMutationWebhook(Of TImplementation, TEntity)()
 - uid: KubeOps.Operator.Builder.IOperatorBuilder.AddReadinessCheck*
   name: AddReadinessCheck
   href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddReadinessCheck_
@@ -99,6 +163,22 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddResourceAssembly
   nameWithType: IOperatorBuilder.AddResourceAssembly
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddValidationWebhook*
+  name: AddValidationWebhook
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddValidationWebhook_
+  commentId: Overload:KubeOps.Operator.Builder.IOperatorBuilder.AddValidationWebhook
+  isSpec: "True"
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddValidationWebhook
+  nameWithType: IOperatorBuilder.AddValidationWebhook
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddValidationWebhook``2
+  name: AddValidationWebhook<TImplementation, TEntity>()
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddValidationWebhook__2
+  commentId: M:KubeOps.Operator.Builder.IOperatorBuilder.AddValidationWebhook``2
+  name.vb: AddValidationWebhook(Of TImplementation, TEntity)()
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddValidationWebhook<TImplementation, TEntity>()
+  fullName.vb: KubeOps.Operator.Builder.IOperatorBuilder.AddValidationWebhook(Of TImplementation, TEntity)()
+  nameWithType: IOperatorBuilder.AddValidationWebhook<TImplementation, TEntity>()
+  nameWithType.vb: IOperatorBuilder.AddValidationWebhook(Of TImplementation, TEntity)()
 - uid: KubeOps.Operator.Builder.IOperatorBuilder.Services
   name: Services
   href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_Services
@@ -1222,6 +1302,23 @@ references:
   fullName.vb: KubeOps.Operator.Finalizer.IFinalizerManager(Of TEntity)
   nameWithType: IFinalizerManager<TEntity>
   nameWithType.vb: IFinalizerManager(Of TEntity)
+- uid: KubeOps.Operator.Finalizer.IFinalizerManager`1.RegisterAllFinalizersAsync(`0)
+  name: RegisterAllFinalizersAsync(TEntity)
+  href: kube-ops/KubeOps.Operator.Finalizer.IFinalizerManager-1.html#KubeOps_Operator_Finalizer_IFinalizerManager_1_RegisterAllFinalizersAsync__0_
+  commentId: M:KubeOps.Operator.Finalizer.IFinalizerManager`1.RegisterAllFinalizersAsync(`0)
+  fullName: KubeOps.Operator.Finalizer.IFinalizerManager<TEntity>.RegisterAllFinalizersAsync(TEntity)
+  fullName.vb: KubeOps.Operator.Finalizer.IFinalizerManager(Of TEntity).RegisterAllFinalizersAsync(TEntity)
+  nameWithType: IFinalizerManager<TEntity>.RegisterAllFinalizersAsync(TEntity)
+  nameWithType.vb: IFinalizerManager(Of TEntity).RegisterAllFinalizersAsync(TEntity)
+- uid: KubeOps.Operator.Finalizer.IFinalizerManager`1.RegisterAllFinalizersAsync*
+  name: RegisterAllFinalizersAsync
+  href: kube-ops/KubeOps.Operator.Finalizer.IFinalizerManager-1.html#KubeOps_Operator_Finalizer_IFinalizerManager_1_RegisterAllFinalizersAsync_
+  commentId: Overload:KubeOps.Operator.Finalizer.IFinalizerManager`1.RegisterAllFinalizersAsync
+  isSpec: "True"
+  fullName: KubeOps.Operator.Finalizer.IFinalizerManager<TEntity>.RegisterAllFinalizersAsync
+  fullName.vb: KubeOps.Operator.Finalizer.IFinalizerManager(Of TEntity).RegisterAllFinalizersAsync
+  nameWithType: IFinalizerManager<TEntity>.RegisterAllFinalizersAsync
+  nameWithType.vb: IFinalizerManager(Of TEntity).RegisterAllFinalizersAsync
 - uid: KubeOps.Operator.Finalizer.IFinalizerManager`1.RegisterFinalizerAsync*
   name: RegisterFinalizerAsync
   href: kube-ops/KubeOps.Operator.Finalizer.IFinalizerManager-1.html#KubeOps_Operator_Finalizer_IFinalizerManager_1_RegisterFinalizerAsync_
@@ -1408,6 +1505,76 @@ references:
   commentId: F:KubeOps.Operator.Leadership.LeaderState.None
   fullName: KubeOps.Operator.Leadership.LeaderState.None
   nameWithType: LeaderState.None
+- uid: KubeOps.Operator.OperatorBuilderExtensions
+  name: OperatorBuilderExtensions
+  href: kube-ops/KubeOps.Operator.OperatorBuilderExtensions.html
+  commentId: T:KubeOps.Operator.OperatorBuilderExtensions
+  fullName: KubeOps.Operator.OperatorBuilderExtensions
+  nameWithType: OperatorBuilderExtensions
+- uid: KubeOps.Operator.OperatorBuilderExtensions.AddController*
+  name: AddController
+  href: kube-ops/KubeOps.Operator.OperatorBuilderExtensions.html#KubeOps_Operator_OperatorBuilderExtensions_AddController_
+  commentId: Overload:KubeOps.Operator.OperatorBuilderExtensions.AddController
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorBuilderExtensions.AddController
+  nameWithType: OperatorBuilderExtensions.AddController
+- uid: KubeOps.Operator.OperatorBuilderExtensions.AddController``1(KubeOps.Operator.Builder.IOperatorBuilder)
+  name: AddController<TImplementation>(IOperatorBuilder)
+  href: kube-ops/KubeOps.Operator.OperatorBuilderExtensions.html#KubeOps_Operator_OperatorBuilderExtensions_AddController__1_KubeOps_Operator_Builder_IOperatorBuilder_
+  commentId: M:KubeOps.Operator.OperatorBuilderExtensions.AddController``1(KubeOps.Operator.Builder.IOperatorBuilder)
+  name.vb: AddController(Of TImplementation)(IOperatorBuilder)
+  fullName: KubeOps.Operator.OperatorBuilderExtensions.AddController<TImplementation>(KubeOps.Operator.Builder.IOperatorBuilder)
+  fullName.vb: KubeOps.Operator.OperatorBuilderExtensions.AddController(Of TImplementation)(KubeOps.Operator.Builder.IOperatorBuilder)
+  nameWithType: OperatorBuilderExtensions.AddController<TImplementation>(IOperatorBuilder)
+  nameWithType.vb: OperatorBuilderExtensions.AddController(Of TImplementation)(IOperatorBuilder)
+- uid: KubeOps.Operator.OperatorBuilderExtensions.AddFinalizer*
+  name: AddFinalizer
+  href: kube-ops/KubeOps.Operator.OperatorBuilderExtensions.html#KubeOps_Operator_OperatorBuilderExtensions_AddFinalizer_
+  commentId: Overload:KubeOps.Operator.OperatorBuilderExtensions.AddFinalizer
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorBuilderExtensions.AddFinalizer
+  nameWithType: OperatorBuilderExtensions.AddFinalizer
+- uid: KubeOps.Operator.OperatorBuilderExtensions.AddFinalizer``1(KubeOps.Operator.Builder.IOperatorBuilder)
+  name: AddFinalizer<TImplementation>(IOperatorBuilder)
+  href: kube-ops/KubeOps.Operator.OperatorBuilderExtensions.html#KubeOps_Operator_OperatorBuilderExtensions_AddFinalizer__1_KubeOps_Operator_Builder_IOperatorBuilder_
+  commentId: M:KubeOps.Operator.OperatorBuilderExtensions.AddFinalizer``1(KubeOps.Operator.Builder.IOperatorBuilder)
+  name.vb: AddFinalizer(Of TImplementation)(IOperatorBuilder)
+  fullName: KubeOps.Operator.OperatorBuilderExtensions.AddFinalizer<TImplementation>(KubeOps.Operator.Builder.IOperatorBuilder)
+  fullName.vb: KubeOps.Operator.OperatorBuilderExtensions.AddFinalizer(Of TImplementation)(KubeOps.Operator.Builder.IOperatorBuilder)
+  nameWithType: OperatorBuilderExtensions.AddFinalizer<TImplementation>(IOperatorBuilder)
+  nameWithType.vb: OperatorBuilderExtensions.AddFinalizer(Of TImplementation)(IOperatorBuilder)
+- uid: KubeOps.Operator.OperatorBuilderExtensions.AddMutationWebhook*
+  name: AddMutationWebhook
+  href: kube-ops/KubeOps.Operator.OperatorBuilderExtensions.html#KubeOps_Operator_OperatorBuilderExtensions_AddMutationWebhook_
+  commentId: Overload:KubeOps.Operator.OperatorBuilderExtensions.AddMutationWebhook
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorBuilderExtensions.AddMutationWebhook
+  nameWithType: OperatorBuilderExtensions.AddMutationWebhook
+- uid: KubeOps.Operator.OperatorBuilderExtensions.AddMutationWebhook``1(KubeOps.Operator.Builder.IOperatorBuilder)
+  name: AddMutationWebhook<TImplementation>(IOperatorBuilder)
+  href: kube-ops/KubeOps.Operator.OperatorBuilderExtensions.html#KubeOps_Operator_OperatorBuilderExtensions_AddMutationWebhook__1_KubeOps_Operator_Builder_IOperatorBuilder_
+  commentId: M:KubeOps.Operator.OperatorBuilderExtensions.AddMutationWebhook``1(KubeOps.Operator.Builder.IOperatorBuilder)
+  name.vb: AddMutationWebhook(Of TImplementation)(IOperatorBuilder)
+  fullName: KubeOps.Operator.OperatorBuilderExtensions.AddMutationWebhook<TImplementation>(KubeOps.Operator.Builder.IOperatorBuilder)
+  fullName.vb: KubeOps.Operator.OperatorBuilderExtensions.AddMutationWebhook(Of TImplementation)(KubeOps.Operator.Builder.IOperatorBuilder)
+  nameWithType: OperatorBuilderExtensions.AddMutationWebhook<TImplementation>(IOperatorBuilder)
+  nameWithType.vb: OperatorBuilderExtensions.AddMutationWebhook(Of TImplementation)(IOperatorBuilder)
+- uid: KubeOps.Operator.OperatorBuilderExtensions.AddValidationWebhook*
+  name: AddValidationWebhook
+  href: kube-ops/KubeOps.Operator.OperatorBuilderExtensions.html#KubeOps_Operator_OperatorBuilderExtensions_AddValidationWebhook_
+  commentId: Overload:KubeOps.Operator.OperatorBuilderExtensions.AddValidationWebhook
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorBuilderExtensions.AddValidationWebhook
+  nameWithType: OperatorBuilderExtensions.AddValidationWebhook
+- uid: KubeOps.Operator.OperatorBuilderExtensions.AddValidationWebhook``1(KubeOps.Operator.Builder.IOperatorBuilder)
+  name: AddValidationWebhook<TImplementation>(IOperatorBuilder)
+  href: kube-ops/KubeOps.Operator.OperatorBuilderExtensions.html#KubeOps_Operator_OperatorBuilderExtensions_AddValidationWebhook__1_KubeOps_Operator_Builder_IOperatorBuilder_
+  commentId: M:KubeOps.Operator.OperatorBuilderExtensions.AddValidationWebhook``1(KubeOps.Operator.Builder.IOperatorBuilder)
+  name.vb: AddValidationWebhook(Of TImplementation)(IOperatorBuilder)
+  fullName: KubeOps.Operator.OperatorBuilderExtensions.AddValidationWebhook<TImplementation>(KubeOps.Operator.Builder.IOperatorBuilder)
+  fullName.vb: KubeOps.Operator.OperatorBuilderExtensions.AddValidationWebhook(Of TImplementation)(KubeOps.Operator.Builder.IOperatorBuilder)
+  nameWithType: OperatorBuilderExtensions.AddValidationWebhook<TImplementation>(IOperatorBuilder)
+  nameWithType.vb: OperatorBuilderExtensions.AddValidationWebhook(Of TImplementation)(IOperatorBuilder)
 - uid: KubeOps.Operator.OperatorSettings
   name: OperatorSettings
   href: kube-ops/KubeOps.Operator.OperatorSettings.html
@@ -1427,6 +1594,19 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.OperatorSettings.DefaultRequeueAsSameType
   nameWithType: OperatorSettings.DefaultRequeueAsSameType
+- uid: KubeOps.Operator.OperatorSettings.EnableAssemblyScanning
+  name: EnableAssemblyScanning
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_EnableAssemblyScanning
+  commentId: P:KubeOps.Operator.OperatorSettings.EnableAssemblyScanning
+  fullName: KubeOps.Operator.OperatorSettings.EnableAssemblyScanning
+  nameWithType: OperatorSettings.EnableAssemblyScanning
+- uid: KubeOps.Operator.OperatorSettings.EnableAssemblyScanning*
+  name: EnableAssemblyScanning
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_EnableAssemblyScanning_
+  commentId: Overload:KubeOps.Operator.OperatorSettings.EnableAssemblyScanning
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorSettings.EnableAssemblyScanning
+  nameWithType: OperatorSettings.EnableAssemblyScanning
 - uid: KubeOps.Operator.OperatorSettings.LeaderElectionCheckInterval
   name: LeaderElectionCheckInterval
   href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_LeaderElectionCheckInterval

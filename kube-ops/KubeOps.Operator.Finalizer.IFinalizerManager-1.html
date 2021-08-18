@@ -99,6 +99,9 @@
                             <a href="KubeOps.Operator.HostExtensions.html" title="HostExtensions" class="">HostExtensions</a>
                           </li>
                           <li class="">
+                            <a href="KubeOps.Operator.OperatorBuilderExtensions.html" title="OperatorBuilderExtensions" class="">OperatorBuilderExtensions</a>
+                          </li>
+                          <li class="">
                             <a href="KubeOps.Operator.OperatorSettings.html" title="OperatorSettings" class="">OperatorSettings</a>
                           </li>
                           <li class="">
@@ -363,6 +366,56 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Finalizer_IFinalizerManager_1_RegisterAllFinalizersAsync__0_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Finalizer.IFinalizerManager%601.RegisterAllFinalizersAsync(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Finalizer/IFinalizerManager{TEntity}.cs/#L28">View Source</a>
+  </span>
+  <a id="KubeOps_Operator_Finalizer_IFinalizerManager_1_RegisterAllFinalizersAsync_" data-uid="KubeOps.Operator.Finalizer.IFinalizerManager`1.RegisterAllFinalizersAsync*"></a>
+  <h4 id="KubeOps_Operator_Finalizer_IFinalizerManager_1_RegisterAllFinalizersAsync__0_" data-uid="KubeOps.Operator.Finalizer.IFinalizerManager`1.RegisterAllFinalizersAsync(`0)">RegisterAllFinalizersAsync(TEntity)</h4>
+  <div class="markdown level1 summary"><p>Register all known finalizers for the entity type on the provided instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task RegisterAllFinalizersAsync(TEntity entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TEntity</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The entity that will receive the finalizers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td><p>A task when the operation is done.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Finalizer_IFinalizerManager_1_RegisterFinalizerAsync__1__0_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Finalizer.IFinalizerManager%601.RegisterFinalizerAsync%60%601(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -370,7 +423,7 @@
   </span>
   <a id="KubeOps_Operator_Finalizer_IFinalizerManager_1_RegisterFinalizerAsync_" data-uid="KubeOps.Operator.Finalizer.IFinalizerManager`1.RegisterFinalizerAsync*"></a>
   <h4 id="KubeOps_Operator_Finalizer_IFinalizerManager_1_RegisterFinalizerAsync__1__0_" data-uid="KubeOps.Operator.Finalizer.IFinalizerManager`1.RegisterFinalizerAsync``1(`0)">RegisterFinalizerAsync&lt;TFinalizer&gt;(TEntity)</h4>
-  <div class="markdown level1 summary"><p>Register a finalizer for the entity on the entity.</p>
+  <div class="markdown level1 summary"><p>Register a finalizer for the entity type on the provided instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

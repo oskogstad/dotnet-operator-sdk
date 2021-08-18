@@ -116,6 +116,9 @@
                       <a href="commands.html" title="CLI Commands" class="">CLI Commands</a>
                     </li>
                     <li class="">
+                      <a href="advanced.html" title="Advanced Topics" class="">Advanced Topics</a>
+                    </li>
+                    <li class="">
                       <a href="ms_build.html" title="MS Build extensions" class="">MS Build extensions</a>
                     </li>
                     <li class="">
@@ -181,6 +184,23 @@ method in the controller during reconciliation.</p>
     {
         // The type MyFinalizer must be an IResourceFinalizer&lt;V1TestEntity&gt;
         await _manager.RegisterFinalizerAsync&lt;MyFinalizer&gt;(resource);
+        return null;
+    }
+}
+</code></pre><p>Alternatively, the <a class="xref" href="../kube-ops/KubeOps.Operator.Finalizer.IFinalizerManager-1.html#KubeOps_Operator_Finalizer_IFinalizerManager_1_RegisterAllFinalizersAsync__0_">RegisterAllFinalizersAsync(TEntity)</a>
+method can be used to attach all finalizers known to the operator for that entity type.</p>
+<pre><code class="lang-csharp">public class TestController : IResourceController&lt;V1TestEntity&gt;
+{
+    private readonly IFinalizerManager&lt;V1TestEntity&gt; _manager;
+
+    public TestController(IFinalizerManager&lt;V1TestEntity&gt; manager)
+    {
+        _manager = manager;
+    }
+
+    public async Task&lt;ResourceControllerResult&gt; CreatedAsync(V1TestEntity resource)
+    {
+        await _manager.RegisterAllFinalizersAsync(resource);
         return null;
     }
 }

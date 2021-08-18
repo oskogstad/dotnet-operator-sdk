@@ -116,6 +116,9 @@
                       <a href="commands.html" title="CLI Commands" class="">CLI Commands</a>
                     </li>
                     <li class="">
+                      <a href="advanced.html" title="Advanced Topics" class="">Advanced Topics</a>
+                    </li>
+                    <li class="">
                       <a href="ms_build.html" title="MS Build extensions" class="">MS Build extensions</a>
                     </li>
                     <li class="active">
@@ -159,10 +162,11 @@ with other testing frameworks as well.</p>
 <p>This file is very similar to a &quot;normal&quot; <code>Startup.cs</code> file of an
 asp.net application. Either you subclass it and replace your test mocked
 services, or you create a new one.</p>
-<pre><code class="lang-csharp" name="TestStartup.cs">using System;
-using System.Reflection;
-using KubeOps.Operator;
+<pre><code class="lang-csharp" name="TestStartup.cs">using KubeOps.Operator;
+using KubeOps.TestOperator.Controller;
+using KubeOps.TestOperator.Finalizer;
 using KubeOps.TestOperator.TestManager;
+using KubeOps.TestOperator.Webhooks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Moq;
@@ -174,8 +178,16 @@ namespace KubeOps.TestOperator.Test
         public void ConfigureServices(IServiceCollection services)
         {
             services
-                .AddKubernetesOperator(s =&gt; s.Name = &quot;test-operator&quot;)
-                .AddResourceAssembly(Assembly.GetAssembly(typeof(Startup)) ?? throw new Exception(&quot;no assembly found&quot;));
+                .AddKubernetesOperator(s =&gt;
+                {
+                    s.Name = &quot;test-operator&quot;;
+                    s.EnableAssemblyScanning = false;
+                })
+                .AddController&lt;TestController&gt;()
+                .AddFinalizer&lt;TestEntityFinalizer&gt;()
+                .AddValidationWebhook&lt;TestValidator&gt;()
+                .AddMutationWebhook&lt;TestMutator&gt;();
+
             services.AddSingleton(new Mock&lt;IManager&gt;());
             services.AddSingleton(typeof(IManager), provider =&gt; provider.GetRequiredService&lt;Mock&lt;IManager&gt;&gt;().Object);
         }
