@@ -381,13 +381,13 @@ Describes results of an <a class="xref" href="KubeOps.Operator.Webhooks.IMutatio
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Webhooks_MutationResult_Modified_System_Object_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Webhooks.MutationResult.Modified(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Webhooks_MutationResult_Modified_System_Object_System_String___.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Webhooks.MutationResult.Modified(System.Object%2CSystem.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/MutationResult.cs/#L28">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/MutationResult.cs/#L30">View Source</a>
   </span>
   <a id="KubeOps_Operator_Webhooks_MutationResult_Modified_" data-uid="KubeOps.Operator.Webhooks.MutationResult.Modified*"></a>
-  <h4 id="KubeOps_Operator_Webhooks_MutationResult_Modified_System_Object_" data-uid="KubeOps.Operator.Webhooks.MutationResult.Modified(System.Object)">Modified(Object)</h4>
+  <h4 id="KubeOps_Operator_Webhooks_MutationResult_Modified_System_Object_System_String___" data-uid="KubeOps.Operator.Webhooks.MutationResult.Modified(System.Object,System.String[])">Modified(Object, String[])</h4>
   <div class="markdown level1 summary"><p>Utility method that creates a return value that indicates that changes were made
 to the object that must be patched.
 This creates a json patch (<a href="http://jsonpatch.com/">jsonpatch.com</a>)
@@ -396,7 +396,7 @@ that describes the diff from the original object to the modified object.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static MutationResult Modified(object modifiedEntity)</code></pre>
+    <pre><code class="lang-csharp hljs">public static MutationResult Modified(object modifiedEntity, params string[] warnings)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -412,6 +412,13 @@ that describes the diff from the original object to the modified object.</p>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
         <td><span class="parametername">modifiedEntity</span></td>
         <td><p>The modified object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="parametername">warnings</span></td>
+        <td><p>An optional list of warnings/messages given back to the user.
+This could contain a reason why an object was mutated.</p>
 </td>
       </tr>
     </tbody>
@@ -437,7 +444,7 @@ that describes the diff from the original object to the modified object.</p>
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Webhooks_MutationResult_NoChanges.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Webhooks.MutationResult.NoChanges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/MutationResult.cs/#L18">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/MutationResult.cs/#L16">View Source</a>
   </span>
   <a id="KubeOps_Operator_Webhooks_MutationResult_NoChanges_" data-uid="KubeOps.Operator.Webhooks.MutationResult.NoChanges*"></a>
   <h4 id="KubeOps_Operator_Webhooks_MutationResult_NoChanges" data-uid="KubeOps.Operator.Webhooks.MutationResult.NoChanges">NoChanges()</h4>
@@ -475,7 +482,7 @@ that describes the diff from the original object to the modified object.</p>
                     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Webhooks_MutationResult.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Webhooks.MutationResult%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/MutationResult.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Webhooks/MutationResult.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

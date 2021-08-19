@@ -179,6 +179,19 @@ references:
   fullName.vb: KubeOps.Operator.Builder.IOperatorBuilder.AddValidationWebhook(Of TImplementation, TEntity)()
   nameWithType: IOperatorBuilder.AddValidationWebhook<TImplementation, TEntity>()
   nameWithType.vb: IOperatorBuilder.AddValidationWebhook(Of TImplementation, TEntity)()
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddWebhookLocaltunnel(System.String,System.Int16,System.Boolean,System.Boolean)
+  name: AddWebhookLocaltunnel(String, Int16, Boolean, Boolean)
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddWebhookLocaltunnel_System_String_System_Int16_System_Boolean_System_Boolean_
+  commentId: M:KubeOps.Operator.Builder.IOperatorBuilder.AddWebhookLocaltunnel(System.String,System.Int16,System.Boolean,System.Boolean)
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddWebhookLocaltunnel(System.String, System.Int16, System.Boolean, System.Boolean)
+  nameWithType: IOperatorBuilder.AddWebhookLocaltunnel(String, Int16, Boolean, Boolean)
+- uid: KubeOps.Operator.Builder.IOperatorBuilder.AddWebhookLocaltunnel*
+  name: AddWebhookLocaltunnel
+  href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_AddWebhookLocaltunnel_
+  commentId: Overload:KubeOps.Operator.Builder.IOperatorBuilder.AddWebhookLocaltunnel
+  isSpec: "True"
+  fullName: KubeOps.Operator.Builder.IOperatorBuilder.AddWebhookLocaltunnel
+  nameWithType: IOperatorBuilder.AddWebhookLocaltunnel
 - uid: KubeOps.Operator.Builder.IOperatorBuilder.Services
   name: Services
   href: kube-ops/KubeOps.Operator.Builder.IOperatorBuilder.html#KubeOps_Operator_Builder_IOperatorBuilder_Services
@@ -1607,6 +1620,19 @@ references:
   isSpec: "True"
   fullName: KubeOps.Operator.OperatorSettings.EnableAssemblyScanning
   nameWithType: OperatorSettings.EnableAssemblyScanning
+- uid: KubeOps.Operator.OperatorSettings.EnableLeaderElection
+  name: EnableLeaderElection
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_EnableLeaderElection
+  commentId: P:KubeOps.Operator.OperatorSettings.EnableLeaderElection
+  fullName: KubeOps.Operator.OperatorSettings.EnableLeaderElection
+  nameWithType: OperatorSettings.EnableLeaderElection
+- uid: KubeOps.Operator.OperatorSettings.EnableLeaderElection*
+  name: EnableLeaderElection
+  href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_EnableLeaderElection_
+  commentId: Overload:KubeOps.Operator.OperatorSettings.EnableLeaderElection
+  isSpec: "True"
+  fullName: KubeOps.Operator.OperatorSettings.EnableLeaderElection
+  nameWithType: OperatorSettings.EnableLeaderElection
 - uid: KubeOps.Operator.OperatorSettings.LeaderElectionCheckInterval
   name: LeaderElectionCheckInterval
   href: kube-ops/KubeOps.Operator.OperatorSettings.html#KubeOps_Operator_OperatorSettings_LeaderElectionCheckInterval
@@ -2238,12 +2264,15 @@ references:
   commentId: T:KubeOps.Operator.Webhooks.MutationResult
   fullName: KubeOps.Operator.Webhooks.MutationResult
   nameWithType: MutationResult
-- uid: KubeOps.Operator.Webhooks.MutationResult.Modified(System.Object)
-  name: Modified(Object)
-  href: kube-ops/KubeOps.Operator.Webhooks.MutationResult.html#KubeOps_Operator_Webhooks_MutationResult_Modified_System_Object_
-  commentId: M:KubeOps.Operator.Webhooks.MutationResult.Modified(System.Object)
-  fullName: KubeOps.Operator.Webhooks.MutationResult.Modified(System.Object)
-  nameWithType: MutationResult.Modified(Object)
+- uid: KubeOps.Operator.Webhooks.MutationResult.Modified(System.Object,System.String[])
+  name: Modified(Object, String[])
+  href: kube-ops/KubeOps.Operator.Webhooks.MutationResult.html#KubeOps_Operator_Webhooks_MutationResult_Modified_System_Object_System_String___
+  commentId: M:KubeOps.Operator.Webhooks.MutationResult.Modified(System.Object,System.String[])
+  name.vb: Modified(Object, String())
+  fullName: KubeOps.Operator.Webhooks.MutationResult.Modified(System.Object, System.String[])
+  fullName.vb: KubeOps.Operator.Webhooks.MutationResult.Modified(System.Object, System.String())
+  nameWithType: MutationResult.Modified(Object, String[])
+  nameWithType.vb: MutationResult.Modified(Object, String())
 - uid: KubeOps.Operator.Webhooks.MutationResult.Modified*
   name: Modified
   href: kube-ops/KubeOps.Operator.Webhooks.MutationResult.html#KubeOps_Operator_Webhooks_MutationResult_Modified_

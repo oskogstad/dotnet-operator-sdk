@@ -138,7 +138,7 @@
 <h1 id="webhooks">Webhooks</h1>
 
 <p>Kubernetes supports various webhooks to extend the normal api behaviour
-of the master api. Those are documented on the 
+of the master api. Those are documented on the
 <a href="https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/">kubernetes website</a>.</p>
 <p><code>KubeOps</code> supports the following webhooks out of the box:</p>
 <ul>
@@ -189,9 +189,54 @@ Each pod / instance of the operator gets its own server
 certificate but the CA must be shared among them.</p>
 </div>
 <h2 id="local-development">Local development</h2>
-<p>It is possible to test webhooks locally. For this, you need
-to register the webhook via dependency injection with the corresponding
-method (in the builder) and then start your operator.</p>
+<p>It is possible to test / debug webhooks locally. For this, you need
+to implement the webhook and use assembly-scanning (or the
+operator builder if you disabled scanning) to register
+the webhook type.</p>
+<p>There are two possibilities to tell Kubernetes that it should
+call your local running operator for the webhooks. The url
+that Kubernetes addresses <em>must</em> be an HTTPS address.</p>
+<h3 id="using-addwebhooklocaltunnel">Using <code>AddWebhookLocaltunnel</code></h3>
+<p>In your <code>Startup.cs</code> you can use the <code>IOperatorBuilder</code>
+method <code>AddWebhookLocaltunnel</code> to add an automatic
+localtunnel instance to your operator.</p>
+<p>This will cause the operator to register a hosted service that
+creates a tunnel and then registers itself to Kubernetes
+with the created proxy-url. Now all calls are automatically
+forwarded via HTTPS to your operator.</p>
+<pre><code class="lang-csharp">namespace KubeOps.TestOperator
+{
+    public class Startup
+    {
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services
+               .AddKubernetesOperator()
+#if DEBUG
+               .AddWebhookLocaltunnel()
+#endif
+               ;
+            services.AddTransient&lt;IManager, TestManager.TestManager&gt;();
+        }
+
+        public void Configure(IApplicationBuilder app)
+        {
+            app.UseKubernetesOperator();
+        }
+    }
+}
+</code></pre><div class="WARNING"><h5>Warning</h5><p>It is <em>strongly</em> advices against using auto-webhooks
+with localtunnel in production. This feature
+is intended to improve the developer experience
+while coding operators.</p>
+</div>
+<div class="NOTE"><h5>Note</h5><p>Some IDEs (like Rider from JetBrains) do not correctly
+terminate debugged applications. Hence, the
+webhook registration remains in Kubernetes. If you remove
+webhooks from your operator, you need to remove the
+registration within Kubernetes as well.</p>
+</div>
+<h3 id="using-external-proxy">Using external proxy</h3>
 <p>The operator will run on a specific http address, depending on your
 configuration.
 Now, use <a href="https://ngrok.com/">ngrok</a> or
@@ -270,7 +315,7 @@ there has been a change in the model or not. If there is no
 change, return a result from <a class="xref" href="../kube-ops/KubeOps.Operator.Webhooks.MutationResult.html#KubeOps_Operator_Webhooks_MutationResult_NoChanges">NoChanges()</a>
 and if there are changes, modify the object that is passed to the
 method and return the changed object with
-<a class="xref" href="../kube-ops/KubeOps.Operator.Webhooks.MutationResult.html#KubeOps_Operator_Webhooks_MutationResult_Modified_System_Object_">Modified(Object)</a>.
+@&quot;KubeOps.Operator.Webhooks.MutationResult.Modified(System.Object)&quot;.
 The system then calculates the diff and creates a JSON patch for
 the object.</p>
 </article>

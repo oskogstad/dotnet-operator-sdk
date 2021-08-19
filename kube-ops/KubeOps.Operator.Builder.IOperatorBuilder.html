@@ -936,6 +936,90 @@ Only useful if the assembly containing the given type is not already automatical
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Builder_IOperatorBuilder_AddWebhookLocaltunnel_System_String_System_Int16_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Builder.IOperatorBuilder.AddWebhookLocaltunnel(System.String%2CSystem.Int16%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Builder/IOperatorBuilder.cs/#L170">View Source</a>
+  </span>
+  <a id="KubeOps_Operator_Builder_IOperatorBuilder_AddWebhookLocaltunnel_" data-uid="KubeOps.Operator.Builder.IOperatorBuilder.AddWebhookLocaltunnel*"></a>
+  <h4 id="KubeOps_Operator_Builder_IOperatorBuilder_AddWebhookLocaltunnel_System_String_System_Int16_System_Boolean_System_Boolean_" data-uid="KubeOps.Operator.Builder.IOperatorBuilder.AddWebhookLocaltunnel(System.String,System.Int16,System.Boolean,System.Boolean)">AddWebhookLocaltunnel(String, Int16, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>
+Adds a hosted service to the system that creates a &quot;localtunnel&quot;
+(<a href="http://localtunnel.github.io/www/">http://localtunnel.github.io/www/</a>) to the running application.
+The tunnel points to the configured host/port configuration and then
+registers itself as webhook target within Kubernetes. This
+enables developers to easily create webhooks without the requirement
+of registering ngrok / localtunnel urls themselves.
+</p>
+<p>
+This is a convenience method to improve the developer experience.
+Since some IDEs do not gracefully shutdown applications that
+have a debugger attached, the registration may not be removed.
+</p>
+<p>
+It is strongly recommended to use this method only while developing
+or debugging an operator. <em>Never</em> use this in production.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IOperatorBuilder AddWebhookLocaltunnel(string hostname = &quot;localhost&quot;, short port = 5000, bool isHttps = false, bool allowUntrustedCertificates = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">hostname</span></td>
+        <td><p>The hostname that the tunnel should target to proxy.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int16">Int16</a></td>
+        <td><span class="parametername">port</span></td>
+        <td><p>The target port to proxy.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isHttps</span></td>
+        <td><p>If set to true, the target uses HTTPS.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">allowUntrustedCertificates</span></td>
+        <td><p>If the target uses HTTPS, should self signed / untrusted certificates be allowed or not.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="KubeOps.Operator.Builder.IOperatorBuilder.html">IOperatorBuilder</a></td>
+        <td><p>The builder for chaining.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="KubeOps.Operator.OperatorBuilderExtensions.html#KubeOps_Operator_OperatorBuilderExtensions_AddController__1_KubeOps_Operator_Builder_IOperatorBuilder_">OperatorBuilderExtensions.AddController&lt;TImplementation&gt;(IOperatorBuilder)</a>
