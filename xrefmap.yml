@@ -1244,6 +1244,12 @@ references:
   commentId: T:KubeOps.Operator.Events.IEventManager
   fullName: KubeOps.Operator.Events.IEventManager
   nameWithType: IEventManager
+- uid: KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher
+  name: IEventManager.AsyncMessagePublisher
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher.html
+  commentId: T:KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher
+  fullName: KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher
+  nameWithType: IEventManager.AsyncMessagePublisher
 - uid: KubeOps.Operator.Events.IEventManager.AsyncPublisher
   name: IEventManager.AsyncPublisher
   href: kube-ops/KubeOps.Operator.Events.IEventManager.AsyncPublisher.html
@@ -1265,6 +1271,12 @@ references:
   fullName.vb: KubeOps.Operator.Events.IEventManager.CreatePublisher(k8s.IKubernetesObject(Of k8s.Models.V1ObjectMeta), System.String, System.String, KubeOps.Operator.Events.EventType)
   nameWithType: IEventManager.CreatePublisher(IKubernetesObject<V1ObjectMeta>, String, String, EventType)
   nameWithType.vb: IEventManager.CreatePublisher(IKubernetesObject(Of V1ObjectMeta), String, String, EventType)
+- uid: KubeOps.Operator.Events.IEventManager.CreatePublisher(System.String,KubeOps.Operator.Events.EventType)
+  name: CreatePublisher(String, EventType)
+  href: kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_CreatePublisher_System_String_KubeOps_Operator_Events_EventType_
+  commentId: M:KubeOps.Operator.Events.IEventManager.CreatePublisher(System.String,KubeOps.Operator.Events.EventType)
+  fullName: KubeOps.Operator.Events.IEventManager.CreatePublisher(System.String, KubeOps.Operator.Events.EventType)
+  nameWithType: IEventManager.CreatePublisher(String, EventType)
 - uid: KubeOps.Operator.Events.IEventManager.CreatePublisher(System.String,System.String,KubeOps.Operator.Events.EventType)
   name: CreatePublisher(String, String, EventType)
   href: kube-ops/KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_CreatePublisher_System_String_System_String_KubeOps_Operator_Events_EventType_

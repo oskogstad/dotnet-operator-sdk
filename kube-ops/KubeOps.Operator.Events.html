@@ -243,6 +243,9 @@
                             <a href="KubeOps.Operator.Events.IEventManager.html" title="IEventManager" class="">IEventManager</a>
                           </li>
                           <li class="">
+                            <a href="KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher.html" title="IEventManager.AsyncMessagePublisher" class="">IEventManager.AsyncMessagePublisher</a>
+                          </li>
+                          <li class="">
                             <a href="KubeOps.Operator.Events.IEventManager.AsyncPublisher.html" title="IEventManager.AsyncPublisher" class="">IEventManager.AsyncPublisher</a>
                           </li>
                           <li class="">
@@ -352,6 +355,12 @@ The event type will be stringified and used as <span class="xref">k8s.Models.Cor
 </section>
     <h3 id="delegates">Delegates
   </h3>
+      <h4><a class="xref" href="KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher.html">IEventManager.AsyncMessagePublisher</a></h4>
+      <section><p>Delegate that publishes a given message to a predefined reason/severity.
+This delegate should be created with <a class="xref" href="KubeOps.Operator.Events.IEventManager.html#KubeOps_Operator_Events_IEventManager_CreatePublisher_System_String_KubeOps_Operator_Events_EventType_">CreatePublisher(String, EventType)</a>
+When called with the resource and a message, the publisher creates or updates the event
+given by the params.</p>
+</section>
       <h4><a class="xref" href="KubeOps.Operator.Events.IEventManager.AsyncPublisher.html">IEventManager.AsyncPublisher</a></h4>
       <section><p>Delegate that publishes a predefined event for a resource that is passed.
 This delegate should be created with

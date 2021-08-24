@@ -243,6 +243,9 @@
                             <a href="KubeOps.Operator.Events.IEventManager.html" title="IEventManager" class="active">IEventManager</a>
                           </li>
                           <li class="">
+                            <a href="KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher.html" title="IEventManager.AsyncMessagePublisher" class="">IEventManager.AsyncMessagePublisher</a>
+                          </li>
+                          <li class="">
                             <a href="KubeOps.Operator.Events.IEventManager.AsyncPublisher.html" title="IEventManager.AsyncPublisher" class="">IEventManager.AsyncPublisher</a>
                           </li>
                           <li class="">
@@ -353,7 +356,7 @@ Contains various utility methods for emitting events on objects.</p>
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Events_IEventManager_CreatePublisher_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__System_String_System_String_KubeOps_Operator_Events_EventType_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Events.IEventManager.CreatePublisher(k8s.IKubernetesObject%7Bk8s.Models.V1ObjectMeta%7D%2CSystem.String%2CSystem.String%2CKubeOps.Operator.Events.EventType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Events/IEventManager.cs/#L78">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Events/IEventManager.cs/#L89">View Source</a>
   </span>
   <a id="KubeOps_Operator_Events_IEventManager_CreatePublisher_" data-uid="KubeOps.Operator.Events.IEventManager.CreatePublisher*"></a>
   <h4 id="KubeOps_Operator_Events_IEventManager_CreatePublisher_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__System_String_System_String_KubeOps_Operator_Events_EventType_" data-uid="KubeOps.Operator.Events.IEventManager.CreatePublisher(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta},System.String,System.String,KubeOps.Operator.Events.EventType)">CreatePublisher(IKubernetesObject&lt;V1ObjectMeta&gt;, String, String, EventType)</h4>
@@ -420,10 +423,68 @@ The predefined event is published with the initially given resource as the invol
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Events_IEventManager_CreatePublisher_System_String_KubeOps_Operator_Events_EventType_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Events.IEventManager.CreatePublisher(System.String%2CKubeOps.Operator.Events.EventType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Events/IEventManager.cs/#L103">View Source</a>
+  </span>
+  <a id="KubeOps_Operator_Events_IEventManager_CreatePublisher_" data-uid="KubeOps.Operator.Events.IEventManager.CreatePublisher*"></a>
+  <h4 id="KubeOps_Operator_Events_IEventManager_CreatePublisher_System_String_KubeOps_Operator_Events_EventType_" data-uid="KubeOps.Operator.Events.IEventManager.CreatePublisher(System.String,KubeOps.Operator.Events.EventType)">CreatePublisher(String, EventType)</h4>
+  <div class="markdown level1 summary"><p>Create a <a class="xref" href="KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher.html">IEventManager.AsyncMessagePublisher</a> for a predefined reason and severity.
+The <a class="xref" href="KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher.html">IEventManager.AsyncMessagePublisher</a> can then be called with a &quot;message&quot; and
+a resource to create/update the event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEventManager.AsyncMessagePublisher CreatePublisher(string reason, EventType type = EventType.Normal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>The predefined reason (machine readable reason) for the event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="KubeOps.Operator.Events.EventType.html">EventType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The type of the event.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher.html">IEventManager.AsyncMessagePublisher</a></td>
+        <td><p>A <a class="xref" href="KubeOps.Operator.Events.IEventManager.AsyncMessagePublisher.html">IEventManager.AsyncMessagePublisher</a> delegate that can be called to create or update events.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Events_IEventManager_CreatePublisher_System_String_System_String_KubeOps_Operator_Events_EventType_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Events.IEventManager.CreatePublisher(System.String%2CSystem.String%2CKubeOps.Operator.Events.EventType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Events/IEventManager.cs/#L63">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Events/IEventManager.cs/#L74">View Source</a>
   </span>
   <a id="KubeOps_Operator_Events_IEventManager_CreatePublisher_" data-uid="KubeOps.Operator.Events.IEventManager.CreatePublisher*"></a>
   <h4 id="KubeOps_Operator_Events_IEventManager_CreatePublisher_System_String_System_String_KubeOps_Operator_Events_EventType_" data-uid="KubeOps.Operator.Events.IEventManager.CreatePublisher(System.String,System.String,KubeOps.Operator.Events.EventType)">CreatePublisher(String, String, EventType)</h4>
@@ -487,7 +548,7 @@ The predefined event is published with this resource as the involved object.</p>
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Events_IEventManager_PublishAsync_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__System_String_System_String_KubeOps_Operator_Events_EventType_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Events.IEventManager.PublishAsync(k8s.IKubernetesObject%7Bk8s.Models.V1ObjectMeta%7D%2CSystem.String%2CSystem.String%2CKubeOps.Operator.Events.EventType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Events/IEventManager.cs/#L41">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Events/IEventManager.cs/#L52">View Source</a>
   </span>
   <a id="KubeOps_Operator_Events_IEventManager_PublishAsync_" data-uid="KubeOps.Operator.Events.IEventManager.PublishAsync*"></a>
   <h4 id="KubeOps_Operator_Events_IEventManager_PublishAsync_k8s_IKubernetesObject_k8s_Models_V1ObjectMeta__System_String_System_String_KubeOps_Operator_Events_EventType_" data-uid="KubeOps.Operator.Events.IEventManager.PublishAsync(k8s.IKubernetesObject{k8s.Models.V1ObjectMeta},System.String,System.String,KubeOps.Operator.Events.EventType)">PublishAsync(IKubernetesObject&lt;V1ObjectMeta&gt;, String, String, EventType)</h4>
@@ -556,7 +617,7 @@ The event is created or updated if it exists.</p>
     <a href="https://github.com/buehler/dotnet-operator-sdk/new/master/apiSpec/new?filename=KubeOps_Operator_Events_IEventManager_PublishAsync_k8s_Models_Corev1Event_.md&amp;value=---%0Auid%3A%20KubeOps.Operator.Events.IEventManager.PublishAsync(k8s.Models.Corev1Event)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Events/IEventManager.cs/#L52">View Source</a>
+    <a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Operator/Events/IEventManager.cs/#L63">View Source</a>
   </span>
   <a id="KubeOps_Operator_Events_IEventManager_PublishAsync_" data-uid="KubeOps.Operator.Events.IEventManager.PublishAsync*"></a>
   <h4 id="KubeOps_Operator_Events_IEventManager_PublishAsync_k8s_Models_Corev1Event_" data-uid="KubeOps.Operator.Events.IEventManager.PublishAsync(k8s.Models.Corev1Event)">PublishAsync(Corev1Event)</h4>
