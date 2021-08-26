@@ -1362,6 +1362,24 @@ references:
   fullName.vb: KubeOps.Operator.Finalizer.IFinalizerManager(Of TEntity).RegisterFinalizerAsync(Of TFinalizer)(TEntity)
   nameWithType: IFinalizerManager<TEntity>.RegisterFinalizerAsync<TFinalizer>(TEntity)
   nameWithType.vb: IFinalizerManager(Of TEntity).RegisterFinalizerAsync(Of TFinalizer)(TEntity)
+- uid: KubeOps.Operator.Finalizer.IFinalizerManager`1.RemoveFinalizerAsync*
+  name: RemoveFinalizerAsync
+  href: kube-ops/KubeOps.Operator.Finalizer.IFinalizerManager-1.html#KubeOps_Operator_Finalizer_IFinalizerManager_1_RemoveFinalizerAsync_
+  commentId: Overload:KubeOps.Operator.Finalizer.IFinalizerManager`1.RemoveFinalizerAsync
+  isSpec: "True"
+  fullName: KubeOps.Operator.Finalizer.IFinalizerManager<TEntity>.RemoveFinalizerAsync
+  fullName.vb: KubeOps.Operator.Finalizer.IFinalizerManager(Of TEntity).RemoveFinalizerAsync
+  nameWithType: IFinalizerManager<TEntity>.RemoveFinalizerAsync
+  nameWithType.vb: IFinalizerManager(Of TEntity).RemoveFinalizerAsync
+- uid: KubeOps.Operator.Finalizer.IFinalizerManager`1.RemoveFinalizerAsync``1(`0)
+  name: RemoveFinalizerAsync<TFinalizer>(TEntity)
+  href: kube-ops/KubeOps.Operator.Finalizer.IFinalizerManager-1.html#KubeOps_Operator_Finalizer_IFinalizerManager_1_RemoveFinalizerAsync__1__0_
+  commentId: M:KubeOps.Operator.Finalizer.IFinalizerManager`1.RemoveFinalizerAsync``1(`0)
+  name.vb: RemoveFinalizerAsync(Of TFinalizer)(TEntity)
+  fullName: KubeOps.Operator.Finalizer.IFinalizerManager<TEntity>.RemoveFinalizerAsync<TFinalizer>(TEntity)
+  fullName.vb: KubeOps.Operator.Finalizer.IFinalizerManager(Of TEntity).RemoveFinalizerAsync(Of TFinalizer)(TEntity)
+  nameWithType: IFinalizerManager<TEntity>.RemoveFinalizerAsync<TFinalizer>(TEntity)
+  nameWithType.vb: IFinalizerManager(Of TEntity).RemoveFinalizerAsync(Of TFinalizer)(TEntity)
 - uid: KubeOps.Operator.Finalizer.IResourceFinalizer`1
   name: IResourceFinalizer<TEntity>
   href: kube-ops/KubeOps.Operator.Finalizer.IResourceFinalizer-1.html

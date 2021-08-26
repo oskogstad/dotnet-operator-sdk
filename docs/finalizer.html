@@ -8,7 +8,7 @@
     <title>Finalizers | KubeOps Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Finalizers | KubeOps Documentation ">
-    <meta name="generator" content="docfx 2.58.0.0">
+    <meta name="generator" content="docfx 2.58.2.0">
     
     <link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -169,7 +169,7 @@ from the finalizers list of the entity. The finalizers are registered
 as scoped resources in DI.</p>
 <h2 id="register-a-finalizer">Register a finalizer</h2>
 <p>To attach a finalizer for a resource, call the
-<a class="xref" href="../kube-ops/KubeOps.Operator.Finalizer.IFinalizerManager-1.html#KubeOps_Operator_Finalizer_IFinalizerManager_1_RegisterFinalizerAsync__1__0_">RegisterFinalizerAsync&lt;TFinalizer&gt;(TEntity)</a>
+&lt;xref:KubeOps.Operator.Finalizer.IFinalizerManager<code>1.RegisterFinalizerAsync``1(</code>0)&gt;
 method in the controller during reconciliation.</p>
 <pre><code class="lang-csharp">public class TestController : IResourceController&lt;V1TestEntity&gt;
 {
@@ -201,6 +201,25 @@ method can be used to attach all finalizers known to the operator for that entit
     public async Task&lt;ResourceControllerResult&gt; CreatedAsync(V1TestEntity resource)
     {
         await _manager.RegisterAllFinalizersAsync(resource);
+        return null;
+    }
+}
+</code></pre><h2 id="unregistering-a-finalizer">Unregistering a finalizer</h2>
+<p>When a resource is finalized, the finalizer is removed automatically.
+However, if you want to remove a finalizer before a resource is deleted/finalized,
+you can use &lt;xref:KubeOps.Operator.Finalizer.IFinalizerManager<code>1.RemoveFinalizerAsync``1(</code>0)&gt;.</p>
+<pre><code class="lang-csharp">public class TestController : IResourceController&lt;V1TestEntity&gt;
+{
+    private readonly IFinalizerManager&lt;V1TestEntity&gt; _manager;
+
+    public TestController(IFinalizerManager&lt;V1TestEntity&gt; manager)
+    {
+        _manager = manager;
+    }
+
+    public async Task&lt;ResourceControllerResult&gt; CreatedAsync(V1TestEntity resource)
+    {
+        await _manager.RemoveFinalizerAsync&lt;MyFinalizer&gt;(resource);
         return null;
     }
 }

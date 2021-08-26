@@ -8,7 +8,7 @@
     <title>Custom Entities | KubeOps Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Custom Entities | KubeOps Documentation ">
-    <meta name="generator" content="docfx 2.58.0.0">
+    <meta name="generator" content="docfx 2.58.2.0">
     
     <link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -187,7 +187,26 @@ public class Mapping : CustomKubernetesEntity&lt;MappingSpec&gt;
 }
 </code></pre><p>You need it to be a <code>KubernetesEntity</code> and a <code>IKubernetesObject&lt;V1ObjectMeta&gt;</code>, but
 you don&#39;t want a CRD generated for it (thus the <code>IgnoreEntity</code> attribute).</p>
-<h2 id="validation">Validation</h2>
+<h2 id="rbac">RBAC</h2>
+<p>The operator (SDK) will generate the role config for your
+operator to be installed. When your operator needs access to
+Kubernetes objects, they must be mentioned with the
+RBAC attributes. During build, the SDK scans the configured
+types and generates the RBAC role that the operator needs
+to function.</p>
+<p>There exist two versions of the attribute:
+<a class="xref" href="../kube-ops/KubeOps.Operator.Rbac.EntityRbacAttribute.html">EntityRbacAttribute</a> and
+<a class="xref" href="../kube-ops/KubeOps.Operator.Rbac.GenericRbacAttribute.html">GenericRbacAttribute</a>.</p>
+<p>The generic RBAC attribute will be translated into a <code>V1PolicyRole</code>
+according to the properties set in the attribute.</p>
+<pre><code class="lang-csharp">[GenericRbac(Groups = new []{&quot;apps&quot;}, Resources = new[]{&quot;deployments&quot;}, Verbs = RbacVerb.All)]
+</code></pre><p>The entity RBAC attribute is the elegant option to use
+dotnet mechanisms. The CRD information is generated out of
+the given types and then grouped by type and used RBAC verbs.
+If you create multiple attributes with the same type, they are
+concatenated.</p>
+<pre><code class="lang-csharp">[EntityRbac(typeof(RbacTest1), Verbs = RbacVerb.Get | RbacVerb.Update)]
+</code></pre><h2 id="validation">Validation</h2>
 <p>During CRD generation, the generated json schema uses the types
 of the properties to create the openApi schema.</p>
 <p>You can use the various validator attributes to customize your crd:</p>
