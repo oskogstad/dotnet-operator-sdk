@@ -144,15 +144,15 @@ code generation targets after the build.</p>
 <li><a href="https://github.com/buehler/dotnet-operator-sdk/blob/master/src/KubeOps/Build/KubeOps.targets">KubeOps.targets</a>: defines the additional build targets</li>
 </ul>
 <p>An example of such a target is:</p>
-<pre><code class="lang-xml" name="KubeOps.targets" highlight-lines="2-7">&lt;Target Name=&quot;GenerateDockerfile&quot; DependsOnTargets=&quot;BaseConfig&quot;&gt;
-    &lt;Message Text=&quot;Generating Dockerfile&quot; Importance=&quot;high&quot; /&gt;
-    &lt;Message Text=&quot;Dockerfile path: $(KubeOpsDockerfilePath)&quot; Importance=&quot;normal&quot; /&gt;
-
-    &lt;Message Condition=&quot;Exists(&#39;$(KubeOpsDockerfilePath)&#39;)&quot; Text=&quot;Dockerfile already exists. Don&#39;t overwrite.&quot;
-             Importance=&quot;high&quot; /&gt;
-    &lt;Exec Condition=&quot;!Exists(&#39;$(KubeOpsDockerfilePath)&#39;)&quot;
-          Command=&quot;dotnet $(OutputPath)$(TargetFileName) generator docker --out $(KubeOpsDockerfilePath) --dotnet-tag $(KubeOpsDockerTag) --solution-dir $(SolutionDir) --target-file $(TargetFileName) --project-path $(ProjectPath)&quot; /&gt;
+<pre><code class="lang-xml" name="KubeOps.targets" highlight-lines="2-7">&lt;Target Name=&quot;GetAssemblyBeforeTimestamp&quot; AfterTargets=&quot;BeforeCompile&quot;&gt;
+    &lt;PropertyGroup&gt;
+        &lt;KubeOpsAssemblyTimestampBeforeCompile&gt;%(IntermediateAssembly.ModifiedTime)&lt;/KubeOpsAssemblyTimestampBeforeCompile&gt;
+    &lt;/PropertyGroup&gt;
 &lt;/Target&gt;
+
+&lt;Target Name=&quot;GetAssemblyAfterTimestamp&quot; AfterTargets=&quot;CoreCompile&quot;&gt;
+    &lt;PropertyGroup&gt;
+        &lt;KubeOpsAssemblyTimestampAfterCompile&gt;%(IntermediateAssembly.ModifiedTime)&lt;/KubeOpsAssemblyTimestampAfterCompile&gt;
 </code></pre><p>They can be configured with the prop settings described below.
 The props file just defines the defaults.</p>
 <h2 id="prop-settings">Prop Settings</h2>
