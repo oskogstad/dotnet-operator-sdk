@@ -47,7 +47,7 @@ That's it.
 
 ### Update Entrypoint
 
-In your `Program.cs` file, replace `Build().Run()` with `Build().RunOperator(args)`:
+In your `Program.cs` file, replace `Build().Run()` with `Build().RunOperatorAsync(args)`:
 
 ```csharp
 public static class Program
