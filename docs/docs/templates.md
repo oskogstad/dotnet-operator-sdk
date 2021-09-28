@@ -7,11 +7,16 @@ These templates enable developers to create Kubernetes operators.
 
 ## Installation
 
-To install the template package, use the `dotnet` cli
-(or you may use the exact version as provided in the link above):
+To install the latest version of the template package, use the `dotnet` cli
 
 ```bash
-dotnet new --install KubeOps.Templates::*
+dotnet new --install KubeOps.Templates
+```
+
+Or you may use a specific version as provided in the link above:
+
+```bash
+dotnet new --install KubeOps.Templates::5.4.7
 ```
 
 As soon as the templates are installed, you may use them with:
